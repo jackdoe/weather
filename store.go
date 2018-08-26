@@ -229,30 +229,33 @@ func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {
 }
 
 func (s *store) updateTheWorld() error {
-	client := metno.SimpleClient(10)
-	log := Log()
-	for i := 0; i < 180; i++ {
-		for j := 0; j < 360; j++ {
-			lat := float64(i - 90)
-			if lat == -90 {
-				lat = 0
+	for {
+		client := metno.SimpleClient(10)
+		log := Log()
+		for i := 0; i < 180; i++ {
+			for j := 0; j < 360; j++ {
+				lat := float64(i - 90)
+				if lat == -90 {
+					lat = 0
+				}
+				lng := float64(j - 180)
+				if lng == -180 {
+					lng = 0
+				}
+				out, err := metno.LocationForecast(client, lat, lng, 0)
+				if err != nil {
+					log.Infof("failed to get data for %.2f/%.2f %s", lat, lng, err.Error())
+					continue
+				}
+				err = s.storeMetNo(out)
+				if err != nil {
+					log.Infof("failed to store data for %.2f/%.2f %s", lat, lng, err.Error())
+					continue
+				}
+				time.Sleep(2 * time.Second)
 			}
-			lng := float64(j - 180)
-			if lng == -180 {
-				lng = 0
-			}
-			out, err := metno.LocationForecast(client, lat, lng, 0)
-			if err != nil {
-				log.Infof("failed to get data for %.2f/%.2f %s", lat, lng, err.Error())
-				continue
-			}
-			err = s.storeMetNo(out)
-			if err != nil {
-				log.Infof("failed to store data for %.2f/%.2f %s", lat, lng, err.Error())
-				return err
-			}
-			time.Sleep(2 * time.Second)
 		}
+		time.Sleep(3600 * time.Second)
 	}
 	return nil
 }
