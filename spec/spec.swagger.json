@@ -1,0 +1,234 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "spec.proto",
+    "version": "version not set"
+  },
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/v1/query": {
+      "post": {
+        "operationId": "RpcQuery",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/specQueryResponse"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/specQueryRequest"
+            }
+          }
+        ],
+        "tags": [
+          "Weather"
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "specDeg": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "deg": {
+          "type": "number",
+          "format": "double"
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "specPercent": {
+      "type": "object",
+      "properties": {
+        "percent": {
+          "type": "number",
+          "format": "double"
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "specQueryRequest": {
+      "type": "object",
+      "properties": {
+        "locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/specWeatherStoreKey"
+          }
+        }
+      }
+    },
+    "specQueryResponse": {
+      "type": "object",
+      "properties": {
+        "locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/specWeatherResponseItem"
+          }
+        },
+        "license": {
+          "type": "string"
+        }
+      }
+    },
+    "specSpeed": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "beaufort": {
+          "type": "string"
+        },
+        "mps": {
+          "type": "number",
+          "format": "double"
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "specUnit": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": "string"
+        },
+        "value": {
+          "type": "number",
+          "format": "double"
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "specWeatherResponseItem": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "$ref": "#/definitions/specWeatherStoreKey"
+        },
+        "weather": {
+          "$ref": "#/definitions/specWeatherStoreValue"
+        }
+      }
+    },
+    "specWeatherStoreKey": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number",
+          "format": "double"
+        },
+        "lng": {
+          "type": "number",
+          "format": "double"
+        },
+        "timestamp": {
+          "type": "integer",
+          "format": "int64"
+        }
+      }
+    },
+    "specWeatherStoreValue": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "to": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "lat": {
+          "type": "number",
+          "format": "double"
+        },
+        "lng": {
+          "type": "number",
+          "format": "double"
+        },
+        "altitude": {
+          "type": "number",
+          "format": "double"
+        },
+        "fog": {
+          "$ref": "#/definitions/specPercent"
+        },
+        "pressure": {
+          "$ref": "#/definitions/specUnit"
+        },
+        "cloudiness": {
+          "$ref": "#/definitions/specPercent"
+        },
+        "windDirection": {
+          "$ref": "#/definitions/specDeg"
+        },
+        "dewpointTemperature": {
+          "$ref": "#/definitions/specUnit"
+        },
+        "windGust": {
+          "$ref": "#/definitions/specSpeed"
+        },
+        "humidity": {
+          "$ref": "#/definitions/specUnit"
+        },
+        "areaMaxWindSpeed": {
+          "$ref": "#/definitions/specSpeed"
+        },
+        "windSpeed": {
+          "$ref": "#/definitions/specSpeed"
+        },
+        "temperature": {
+          "$ref": "#/definitions/specUnit"
+        },
+        "lowClouds": {
+          "$ref": "#/definitions/specPercent"
+        },
+        "mediumClouds": {
+          "$ref": "#/definitions/specPercent"
+        },
+        "highClouds": {
+          "$ref": "#/definitions/specPercent"
+        },
+        "temperatureProbability": {
+          "$ref": "#/definitions/specUnit"
+        },
+        "windProbability": {
+          "$ref": "#/definitions/specUnit"
+        },
+        "updatedTimestamp": {
+          "type": "integer",
+          "format": "int64"
+        }
+      }
+    }
+  }
+}

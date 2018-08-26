@@ -1,0 +1,85 @@
+syntax = "proto3";
+
+package spec;
+
+import "google/api/annotations.proto";
+
+message WeatherStoreKey {
+        double lat = 1;
+        double lng = 2;
+        uint32 timestamp = 3;
+}
+
+message Unit {
+        string unit = 1;
+        double value = 2;
+        string id = 3;
+}
+
+message Deg {
+        string name = 1;
+        double deg = 2;
+        string id = 3;
+}
+
+message Speed {
+        string name = 1;
+        string beaufort = 2;
+        double mps = 3;
+        string id = 4;
+}
+
+
+message Percent {
+        double percent = 1;
+        string id = 2;
+}
+
+message WeatherStoreValue {
+        uint32 from = 1;
+        uint32 to = 2;
+        double lat = 3;
+        double lng = 4;
+        double altitude = 5;
+        Percent fog = 6;
+        Unit pressure = 7;
+        Percent cloudiness = 8;
+        Deg windDirection = 9;
+        Unit dewpointTemperature = 10;
+        Speed windGust = 11;
+        Unit humidity = 12;
+        Speed areaMaxWindSpeed = 13;
+        Speed windSpeed = 14;
+        Unit temperature = 15;
+        Percent lowClouds = 16;
+        Percent mediumClouds = 17;
+        Percent highClouds = 18;
+        Unit temperatureProbability = 19;
+        Unit windProbability = 20;
+
+
+        uint32 updatedTimestamp = 22;
+}
+
+message WeatherResponseItem {
+        WeatherStoreKey location = 1;
+        WeatherStoreValue weather = 2;
+}
+
+message QueryRequest {
+        repeated WeatherStoreKey locations = 1;
+}
+
+message QueryResponse {
+        repeated WeatherResponseItem locations = 2;
+        string license = 1;
+}
+
+service Weather {
+        rpc RpcQuery (QueryRequest) returns (QueryResponse) {
+           option (google.api.http) = {
+             post: "/v1/query"
+             body: "*"
+           };
+        }
+}
