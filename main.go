@@ -88,9 +88,6 @@ func (s *server) RpcExtreme(ctx context.Context, in *pb.Empty) (*pb.ExtremeRespo
 	var coldest *pb.WeatherResponseItem
 	c := closestHour(time.Now())
 	s.store.scan(c, func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) {
-		if k.Timestamp != c {
-			return
-		}
 		if hottest == nil || v.Temperature.Value > hottest.Weather.Temperature.Value {
 			hottest = &pb.WeatherResponseItem{
 				Location: k,
