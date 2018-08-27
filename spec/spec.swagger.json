@@ -15,6 +15,32 @@
     "application/json"
   ],
   "paths": {
+    "/v1/extreme": {
+      "post": {
+        "operationId": "RpcExtreme",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/specExtremeResponse"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/specEmpty"
+            }
+          }
+        ],
+        "tags": [
+          "Weather"
+        ]
+      }
+    },
     "/v1/query": {
       "post": {
         "operationId": "RpcQuery",
@@ -55,6 +81,20 @@
         },
         "id": {
           "type": "string"
+        }
+      }
+    },
+    "specEmpty": {
+      "type": "object"
+    },
+    "specExtremeResponse": {
+      "type": "object",
+      "properties": {
+        "coldest": {
+          "$ref": "#/definitions/specWeatherResponseItem"
+        },
+        "hottest": {
+          "$ref": "#/definitions/specWeatherResponseItem"
         }
       }
     },
@@ -142,6 +182,10 @@
     "specWeatherStoreKey": {
       "type": "object",
       "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64"
+        },
         "lat": {
           "type": "number",
           "format": "double"
@@ -149,10 +193,6 @@
         "lng": {
           "type": "number",
           "format": "double"
-        },
-        "timestamp": {
-          "type": "integer",
-          "format": "int64"
         }
       }
     },

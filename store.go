@@ -9,6 +9,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"io/ioutil"
+	"math/rand"
 	"time"
 )
 
@@ -93,6 +94,35 @@ func (s *store) setStoredWeather(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue)
 
 	err = s.db.Put(dataK, dataV, nil)
 	return err
+}
+
+func (s *store) scan(ts uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreValue)) error {
+	iter := s.db.NewIterator(nil, nil)
+	key := &pb.WeatherStoreKey{
+		Timestamp: ts,
+	}
+	dataK, err := proto.Marshal(key)
+	if err != nil {
+		return err
+	}
+
+	for ok := iter.Seek(dataK); ok; ok = iter.Next() {
+		k := &pb.WeatherStoreKey{}
+		err := proto.Unmarshal(iter.Key(), k)
+		if err != nil {
+			return err
+		}
+
+		v := &pb.WeatherStoreValue{}
+		err = proto.Unmarshal(iter.Value(), v)
+		if err != nil {
+			return err
+		}
+
+		cb(k, v)
+	}
+	iter.Release()
+	return iter.Error()
 }
 
 func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {
@@ -242,6 +272,16 @@ type locationsLatLng struct {
 	Lng float64 `json:"lng,omitempty"`
 }
 
+func Shuffle(vals []*locationsLatLng) {
+	r := rand.New(rand.NewSource(time.Now().Unix()))
+	for len(vals) > 0 {
+		n := len(vals)
+		randIndex := r.Intn(n)
+		vals[n-1], vals[randIndex] = vals[randIndex], vals[n-1]
+		vals = vals[:n-1]
+	}
+}
+
 // list of cities taken from curl http://download.maxmind.com/download/worldcities/worldcitiespop.txt.gz \
 // | gzip -d - \
 // | awk -F "," '{print $6 "#" $7}' \
@@ -261,6 +301,7 @@ func (s *store) updateLocations(locationsFile string) error {
 	}
 
 	for {
+		Shuffle(locations)
 		for _, location := range locations {
 
 			lat := s.normalizeLatLng(location.Lat)

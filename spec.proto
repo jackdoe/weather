@@ -5,9 +5,9 @@ package spec;
 import "google/api/annotations.proto";
 
 message WeatherStoreKey {
-        double lat = 1;
-        double lng = 2;
-        uint32 timestamp = 3;
+        fixed32 timestamp = 1;
+        double lat = 2;
+        double lng = 3;
 }
 
 message Unit {
@@ -56,8 +56,6 @@ message WeatherStoreValue {
         Percent highClouds = 18;
         Unit temperatureProbability = 19;
         Unit windProbability = 20;
-
-
         uint32 updatedTimestamp = 22;
 }
 
@@ -75,6 +73,14 @@ message QueryResponse {
         string license = 1;
 }
 
+message ExtremeResponse {
+        WeatherResponseItem coldest = 1;
+        WeatherResponseItem hottest = 2;
+}
+
+message Empty {
+}
+
 service Weather {
         rpc RpcQuery (QueryRequest) returns (QueryResponse) {
            option (google.api.http) = {
@@ -82,4 +88,11 @@ service Weather {
              body: "*"
            };
         }
+        rpc RpcExtreme (Empty) returns (ExtremeResponse) {
+           option (google.api.http) = {
+             post: "/v1/extreme"
+             body: "*"
+           };
+        }
+
 }

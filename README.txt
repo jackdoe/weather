@@ -16,7 +16,7 @@ $ go run *.go -help # will give the command line options
 
 Example:
 
-curl -XPOST -s -d '{"locations":[{"lat":0,"lng":-176, "timestamp":1535284800}]}' https://freeweatherapi.com/v1/query | json_pp
+curl -XPOST -s -d '{"locations":[{"lat":-1,"lng":-45.5, "timestamp":1535551200}]}' https://freeweatherapi.com/v1/query | json_pp
 {
    "locations" : [
       {

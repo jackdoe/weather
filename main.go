@@ -83,6 +83,31 @@ func (s *server) RpcQuery(ctx context.Context, in *pb.QueryRequest) (*pb.QueryRe
 	}, nil
 }
 
+func (s *server) RpcExtreme(ctx context.Context, in *pb.Empty) (*pb.ExtremeResponse, error) {
+	var hottest *pb.WeatherResponseItem
+	var coldest *pb.WeatherResponseItem
+	s.store.scan(closestHour(time.Now()), func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) {
+		if hottest == nil || v.Temperature.Value > hottest.Weather.Temperature.Value {
+			hottest = &pb.WeatherResponseItem{
+				Location: k,
+				Weather:  v,
+			}
+		}
+
+		if coldest == nil || v.Temperature.Value < coldest.Weather.Temperature.Value {
+			coldest = &pb.WeatherResponseItem{
+				Location: k,
+				Weather:  v,
+			}
+		}
+
+	})
+	return &pb.ExtremeResponse{
+		Hottest: hottest,
+		Coldest: coldest,
+	}, nil
+}
+
 func (this *server) runProxy() error {
 	ctx := context.Background()
 	ctx, cancel := context.WithCancel(ctx)
