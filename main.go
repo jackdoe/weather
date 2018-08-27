@@ -86,7 +86,11 @@ func (s *server) RpcQuery(ctx context.Context, in *pb.QueryRequest) (*pb.QueryRe
 func (s *server) RpcExtreme(ctx context.Context, in *pb.Empty) (*pb.ExtremeResponse, error) {
 	var hottest *pb.WeatherResponseItem
 	var coldest *pb.WeatherResponseItem
-	s.store.scan(closestHour(time.Now()), func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) {
+	c := closestHour(time.Now())
+	s.store.scan(c, func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) {
+		if k.Timestamp != c {
+			return
+		}
 		if hottest == nil || v.Temperature.Value > hottest.Weather.Temperature.Value {
 			hottest = &pb.WeatherResponseItem{
 				Location: k,

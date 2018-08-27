@@ -199,7 +199,7 @@ var work = function() {
     res.innerHTML = s
 
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:8080/v1/extreme');
+    xhr.open('POST', /v1/extreme');
     xhr.send('{}');
     xhr.onreadystatechange = function () {
        if (xhr.readyState === 4) {
