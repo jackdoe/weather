@@ -108,6 +108,7 @@ func main() {
 	var proot = flag.String("root", "/tmp/weather", "weather storage root directory")
 	var phttpBind = flag.String("httpBind", ":8080", "bind for json endpoints (proxy for grpc)")
 	var pgrpcBind = flag.String("grpcBind", ":9090", "bind for grpc endpoints")
+	var plocations = flag.String("locations", "data/cities.json", "file filled with locations to update")
 	flag.Parse()
 	grpc_zap.SystemField = zap.String("gsystem", "grpc")
 	CreateLogger(*proot)
@@ -165,7 +166,7 @@ func main() {
 		signal.Notify(c, syscall.SIGINT, syscall.SIGTERM)
 		errc <- fmt.Errorf("Signal %v", <-c)
 	}()
-	go srv.store.updateTheWorld()
+	go srv.store.updateLocations(*plocations)
 
 	log.Infof("Exit: %v", <-errc)
 	log.Infof("closing %s", *proot)

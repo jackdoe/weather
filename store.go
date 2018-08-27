@@ -1,16 +1,25 @@
 package main
 
 import (
+	"encoding/json"
 	proto "github.com/golang/protobuf/proto"
 	"github.com/jackdoe/go-metno"
 	. "github.com/jackdoe/weather/log"
 	pb "github.com/jackdoe/weather/spec"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
+	"io/ioutil"
 	"time"
 )
 
 const precision = 3
+
+func Round(x, unit float64) float64 {
+	if x > 0 {
+		return float64(int64(x/unit+0.5)) * unit
+	}
+	return float64(int64(x/unit-0.5)) * unit
+}
 
 type store struct {
 	db *leveldb.DB
@@ -37,19 +46,21 @@ func NewStore(path string) *store {
 func (s *store) close() {
 	s.db.Close()
 }
-
+func (s *store) normalizeLatLng(x float64) float64 {
+	return Round(x, .5)
+}
 func (s *store) normalizeWeatherKey(k *pb.WeatherStoreKey) {
 	if k.Timestamp == 0 {
 		k.Timestamp = currentHour() + 3600
 	}
 
-	k.Lat = float64(int64(k.Lat + 0.5))
-	k.Lng = float64(int64(k.Lng + 0.5))
+	k.Lat = s.normalizeLatLng(k.Lat)
+	k.Lng = s.normalizeLatLng(k.Lng)
 }
 
 func (s *store) getStoredWeather(k *pb.WeatherStoreKey) (*pb.WeatherStoreValue, error) {
 	log := Log()
-	log.Infof("AAA %#v", k)
+	log.Infof("%#v", k)
 	dataK, err := proto.Marshal(k)
 	if err != nil {
 		return nil, err
@@ -222,40 +233,53 @@ func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {
 		if err != nil {
 			return err
 		}
-		log.Infof("%#v temp: %.2f", key, value.Temperature.Value)
+		log.Infof("%+v temp: %.2f", key, value.Temperature.Value)
 	}
 	return nil
 
 }
 
-func (s *store) updateTheWorld() error {
+type locationsLatLng struct {
+	Lat float64 `json:"lat,omitempty"`
+	Lng float64 `json:"lng,omitempty"`
+}
+
+// list of cities taken from curl http://download.maxmind.com/download/worldcities/worldcitiespop.txt.gz \
+// | gzip -d - \
+// | awk -F "," '{print $6 "#" $7}' \
+// | perl -e perl -e 'use Math::Round; while(<>) { my ($lat,$lng) = split /#/,$_; printf("{\"lat\": %.1f, \"lng\": %.1f},\n", nearest(0.5,$lat),nearest(0.5,$lng)); ;}; \
+// | sort | uniq | sed -e 's/^/[/g' | sed -e 's/$/]/g'
+func (s *store) updateLocations(locationsFile string) error {
+	log := Log()
+	client := metno.SimpleClient(10)
+	locations := []*locationsLatLng{}
+	content, err := ioutil.ReadFile(locationsFile)
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = json.Unmarshal(content, &locations)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	for {
-		client := metno.SimpleClient(10)
-		log := Log()
-		for i := 0; i < 180; i++ {
-			for j := 0; j < 360; j++ {
-				lat := float64(i - 90)
-				if lat == -90 {
-					lat = 0
-				}
-				lng := float64(j - 180)
-				if lng == -180 {
-					lng = 0
-				}
-				out, err := metno.LocationForecast(client, lat, lng, 0)
-				if err != nil {
-					log.Infof("failed to get data for %.2f/%.2f %s", lat, lng, err.Error())
-					continue
-				}
-				err = s.storeMetNo(out)
-				if err != nil {
-					log.Infof("failed to store data for %.2f/%.2f %s", lat, lng, err.Error())
-					continue
-				}
-				time.Sleep(2 * time.Second)
+		for _, location := range locations {
+
+			lat := s.normalizeLatLng(location.Lat)
+			lng := s.normalizeLatLng(location.Lng)
+
+			out, err := metno.LocationForecast(client, lat, lng, 0)
+			if err != nil {
+				log.Infof("failed to get data for %.2f/%.2f %s", lat, lng, err.Error())
+				continue
 			}
+			err = s.storeMetNo(out)
+			if err != nil {
+				log.Infof("failed to store data for %.2f/%.2f %s", lat, lng, err.Error())
+				continue
+			}
+			time.Sleep(2 * time.Second)
 		}
-		time.Sleep(3600 * time.Second)
 	}
 	return nil
 }
