@@ -44,10 +44,13 @@
         # costs me < 50€ per month, if you dont like that just run it locally
 
 
-        ## data is updated daily, and the lat/lng resolution is +-100km
-        ## predictions are up to 1 month in the future, but you can
-        ## also look at the past
+        ## data is updated every 7 hours, and the lat/lng resolution is +-50km
+        ## predictions are up to 1 month in the future,
+        ## but you can also look at the past
 
+        ## we are updating 14000 cities from <a href="https://www.maxmind.com/en/free-world-cities-database">free-world-cities-database</a>
+        ## rounded to closest 0.5 lat/lng
+n
         ## api - https://freeweatherapi.com/v1/query, method POST
 
         {
@@ -59,9 +62,12 @@
               }
            ]
         }
-        lat: latitude
-        lng: longituede
+
+        lat: latitude (x.678 gets normalized to x.5, x.123 -> x.0)
+        lng: longituede (x.678 gets normalized to x.5, x.123 -> x.0)
         timestamp: timestamp of the hour you are interested in
+                   x gets normalized to closest beginning of hour
+                   ((x / 3600) * 3600)
 
         swagger spec: <a href='https://github.com/jackdoe/weather/blob/master/spec/spec.swagger.json'>spec.swagger.json</a>
         grpc spec: <a href='https://github.com/jackdoe/weather/blob/master/spec.proto'>spec.proto</a>
