@@ -59,8 +59,6 @@ func (s *store) normalizeWeatherKey(k *pb.WeatherStoreKey) {
 }
 
 func (s *store) getStoredWeather(k *pb.WeatherStoreKey) (*pb.WeatherStoreValue, error) {
-	log := Log()
-	log.Infof("%#v", k)
 	dataK, err := proto.Marshal(k)
 	if err != nil {
 		return nil, err
