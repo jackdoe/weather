@@ -181,7 +181,7 @@ var curl = function(lat, lng, timestamp) {
     curlOut.innerHTML = ""
     var query = {locations: [{lat: lat, lng: lng, timestamp: timestamp}]}
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', /v1/query');
+    xhr.open('POST', '/v1/query');
     xhr.send(JSON.stringify(query));
     xhr.onreadystatechange = function () {
        if (xhr.readyState === 4) {
