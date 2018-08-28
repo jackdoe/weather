@@ -62,9 +62,6 @@ func (s *store) normalizeWeatherKey(k *pb.WeatherStoreKey) {
 
 func (s *store) getStoredWeather(k *pb.WeatherStoreKey) (*pb.WeatherStoreValue, error) {
 	dataK := s.encodeKeyFixedSize(k.Lat, k.Lng, k.Timestamp)
-	log := Log()
-	log.Infof("%#v %#v", k, s.decodeKeyFixedSize(dataK))
-
 	dataV, err := s.db.Get(dataK, nil)
 	if err != nil {
 		return nil, err
