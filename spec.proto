@@ -11,8 +11,8 @@ message WeatherStoreKey {
 }
 
 message WeatherStoreValue {
-        uint32 from = 1;
-        uint32 to = 2;
+        fixed32 from = 1;
+        fixed32 to = 2;
         float altitude = 5;
         float fogPercent = 6;
         float pressureHPA = 7;
@@ -29,7 +29,7 @@ message WeatherStoreValue {
         float highCloudsPercent = 18;
         float temperatureProbability = 19;
         float windProbability = 20;
-        uint32 updatedTimestamp = 22;
+        fixed32 updatedTimestamp = 22;
 }
 
 message WeatherResponseItem {

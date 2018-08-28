@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/binary"
 	"encoding/json"
 	proto "github.com/golang/protobuf/proto"
 	"github.com/jackdoe/go-metno"
@@ -8,6 +9,7 @@ import (
 	pb "github.com/jackdoe/weather/spec"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
+	"github.com/syndtr/goleveldb/leveldb/util"
 	"io/ioutil"
 	"math/rand"
 	"time"
@@ -27,10 +29,9 @@ type store struct {
 }
 
 func NewStore(path string) *store {
-
 	db, err := leveldb.OpenFile(path, &opt.Options{
 		BlockSize:           512 * opt.KiB,
-		CompactionTableSize: 10 * opt.MiB,
+		CompactionTableSize: 1 * opt.MiB,
 		Compression:         opt.SnappyCompression,
 		NoSync:              true,
 	})
@@ -60,16 +61,15 @@ func (s *store) normalizeWeatherKey(k *pb.WeatherStoreKey) {
 }
 
 func (s *store) getStoredWeather(k *pb.WeatherStoreKey) (*pb.WeatherStoreValue, error) {
-	dataK, err := proto.Marshal(k)
-	if err != nil {
-		return nil, err
-	}
+	dataK := s.encodeKeyFixedSize(k.Lat, k.Lng, k.Timestamp)
+	log := Log()
+	log.Infof("%#v %#v", k, s.decodeKeyFixedSize(dataK))
 
 	dataV, err := s.db.Get(dataK, nil)
 	if err != nil {
 		return nil, err
 	}
-	if dataK == nil {
+	if dataV == nil {
 		return nil, nil
 	}
 
@@ -81,12 +81,29 @@ func (s *store) getStoredWeather(k *pb.WeatherStoreKey) (*pb.WeatherStoreValue, 
 	return out, nil
 }
 
-func (s *store) setStoredWeather(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
-	dataK, err := proto.Marshal(k)
-	if err != nil {
-		return err
-	}
+func (s *store) encodeKeyFixedSize(lat, lng float32, ts uint32) []byte {
+	b := make([]byte, 12)
+	binary.BigEndian.PutUint32(b[0:], ts)
+	binary.BigEndian.PutUint32(b[4:], uint32(lat*10000))
+	binary.BigEndian.PutUint32(b[8:], uint32(lng*10000))
 
+	return b
+}
+
+func (s *store) decodeKeyFixedSize(b []byte) *pb.WeatherStoreKey {
+	ts := binary.BigEndian.Uint32(b[0:])
+	lat := int32(binary.BigEndian.Uint32(b[4:]))
+	lng := int32(binary.BigEndian.Uint32(b[8:]))
+
+	return &pb.WeatherStoreKey{
+		Lat:       float32(lat) / 10000,
+		Lng:       float32(lng) / 10000,
+		Timestamp: ts,
+	}
+}
+
+func (s *store) setStoredWeather(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
+	dataK := s.encodeKeyFixedSize(k.Lat, k.Lng, k.Timestamp)
 	dataV, err := proto.Marshal(v)
 	if err != nil {
 		return err
@@ -97,26 +114,13 @@ func (s *store) setStoredWeather(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue)
 }
 
 func (s *store) scan(from, to uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreValue)) error {
-	iter := s.db.NewIterator(nil, nil)
-	key := &pb.WeatherStoreKey{
-		Timestamp: from,
-	}
-	dataK, err := proto.Marshal(key)
-	if err != nil {
-		return err
-	}
+	iter := s.db.NewIterator(&util.Range{Start: s.encodeKeyFixedSize(0, 0, from), Limit: s.encodeKeyFixedSize(0, 0, to)}, nil)
 
-	for ok := iter.Seek(dataK); ok; ok = iter.Next() {
-		k := &pb.WeatherStoreKey{}
-		err := proto.Unmarshal(iter.Key(), k)
-		if err != nil {
-			return err
-		}
-		if k.Timestamp > to {
-			break
-		}
+	for iter.Next() {
+		k := s.decodeKeyFixedSize(iter.Key())
+
 		v := &pb.WeatherStoreValue{}
-		err = proto.Unmarshal(iter.Value(), v)
+		err := proto.Unmarshal(iter.Value(), v)
 		if err != nil {
 			return err
 		}
@@ -202,9 +206,9 @@ func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {
 		value.TemperatureC = float32(v.Location.Temperature.Value)
 
 		key := &pb.WeatherStoreKey{
+			Timestamp: closestHour(v.From),
 			Lat:       float32(v.Location.Latitude),
 			Lng:       float32(v.Location.Longitude),
-			Timestamp: closestHour(v.From),
 		}
 
 		err := s.setStoredWeather(key, value)
