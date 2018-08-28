@@ -6,56 +6,29 @@ import "google/api/annotations.proto";
 
 message WeatherStoreKey {
         fixed32 timestamp = 1;
-        double lat = 2;
-        double lng = 3;
-}
-
-message Unit {
-        string unit = 1;
-        double value = 2;
-        string id = 3;
-}
-
-message Deg {
-        string name = 1;
-        double deg = 2;
-        string id = 3;
-}
-
-message Speed {
-        string name = 1;
-        string beaufort = 2;
-        double mps = 3;
-        string id = 4;
-}
-
-
-message Percent {
-        double percent = 1;
-        string id = 2;
+        float lat = 2;
+        float lng = 3;
 }
 
 message WeatherStoreValue {
         uint32 from = 1;
         uint32 to = 2;
-        double lat = 3;
-        double lng = 4;
-        double altitude = 5;
-        Percent fog = 6;
-        Unit pressure = 7;
-        Percent cloudiness = 8;
-        Deg windDirection = 9;
-        Unit dewpointTemperature = 10;
-        Speed windGust = 11;
-        Unit humidity = 12;
-        Speed areaMaxWindSpeed = 13;
-        Speed windSpeed = 14;
-        Unit temperature = 15;
-        Percent lowClouds = 16;
-        Percent mediumClouds = 17;
-        Percent highClouds = 18;
-        Unit temperatureProbability = 19;
-        Unit windProbability = 20;
+        float altitude = 5;
+        float fogPercent = 6;
+        float pressureHPA = 7;
+        float cloudinessPercent = 8;
+        float windDirectionDeg = 9;
+        float dewpointTemperatureC = 10;
+        float windGustMps = 11;
+        float humidityPercent = 12;
+        float areaMaxWindSpeedMps = 13;
+        float windSpeedMps = 14;
+        float temperatureC = 15;
+        float lowCloudsPercent = 16;
+        float mediumCloudsPercent = 17;
+        float highCloudsPercent = 18;
+        float temperatureProbability = 19;
+        float windProbability = 20;
         uint32 updatedTimestamp = 22;
 }
 

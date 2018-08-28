@@ -69,21 +69,6 @@
     }
   },
   "definitions": {
-    "specDeg": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "deg": {
-          "type": "number",
-          "format": "double"
-        },
-        "id": {
-          "type": "string"
-        }
-      }
-    },
     "specEmpty": {
       "type": "object"
     },
@@ -95,18 +80,6 @@
         },
         "hottest": {
           "$ref": "#/definitions/specWeatherResponseItem"
-        }
-      }
-    },
-    "specPercent": {
-      "type": "object",
-      "properties": {
-        "percent": {
-          "type": "number",
-          "format": "double"
-        },
-        "id": {
-          "type": "string"
         }
       }
     },
@@ -135,39 +108,6 @@
         }
       }
     },
-    "specSpeed": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "beaufort": {
-          "type": "string"
-        },
-        "mps": {
-          "type": "number",
-          "format": "double"
-        },
-        "id": {
-          "type": "string"
-        }
-      }
-    },
-    "specUnit": {
-      "type": "object",
-      "properties": {
-        "unit": {
-          "type": "string"
-        },
-        "value": {
-          "type": "number",
-          "format": "double"
-        },
-        "id": {
-          "type": "string"
-        }
-      }
-    },
     "specWeatherResponseItem": {
       "type": "object",
       "properties": {
@@ -188,11 +128,11 @@
         },
         "lat": {
           "type": "number",
-          "format": "double"
+          "format": "float"
         },
         "lng": {
           "type": "number",
-          "format": "double"
+          "format": "float"
         }
       }
     },
@@ -207,62 +147,69 @@
           "type": "integer",
           "format": "int64"
         },
-        "lat": {
-          "type": "number",
-          "format": "double"
-        },
-        "lng": {
-          "type": "number",
-          "format": "double"
-        },
         "altitude": {
           "type": "number",
-          "format": "double"
+          "format": "float"
         },
-        "fog": {
-          "$ref": "#/definitions/specPercent"
+        "fogPercent": {
+          "type": "number",
+          "format": "float"
         },
-        "pressure": {
-          "$ref": "#/definitions/specUnit"
+        "pressureHPA": {
+          "type": "number",
+          "format": "float"
         },
-        "cloudiness": {
-          "$ref": "#/definitions/specPercent"
+        "cloudinessPercent": {
+          "type": "number",
+          "format": "float"
         },
-        "windDirection": {
-          "$ref": "#/definitions/specDeg"
+        "windDirectionDeg": {
+          "type": "number",
+          "format": "float"
         },
-        "dewpointTemperature": {
-          "$ref": "#/definitions/specUnit"
+        "dewpointTemperatureC": {
+          "type": "number",
+          "format": "float"
         },
-        "windGust": {
-          "$ref": "#/definitions/specSpeed"
+        "windGustMps": {
+          "type": "number",
+          "format": "float"
         },
-        "humidity": {
-          "$ref": "#/definitions/specUnit"
+        "humidityPercent": {
+          "type": "number",
+          "format": "float"
         },
-        "areaMaxWindSpeed": {
-          "$ref": "#/definitions/specSpeed"
+        "areaMaxWindSpeedMps": {
+          "type": "number",
+          "format": "float"
         },
-        "windSpeed": {
-          "$ref": "#/definitions/specSpeed"
+        "windSpeedMps": {
+          "type": "number",
+          "format": "float"
         },
-        "temperature": {
-          "$ref": "#/definitions/specUnit"
+        "temperatureC": {
+          "type": "number",
+          "format": "float"
         },
-        "lowClouds": {
-          "$ref": "#/definitions/specPercent"
+        "lowCloudsPercent": {
+          "type": "number",
+          "format": "float"
         },
-        "mediumClouds": {
-          "$ref": "#/definitions/specPercent"
+        "mediumCloudsPercent": {
+          "type": "number",
+          "format": "float"
         },
-        "highClouds": {
-          "$ref": "#/definitions/specPercent"
+        "highCloudsPercent": {
+          "type": "number",
+          "format": "float"
         },
         "temperatureProbability": {
-          "$ref": "#/definitions/specUnit"
+          "type": "number",
+          "format": "float"
         },
         "windProbability": {
-          "$ref": "#/definitions/specUnit"
+          "type": "number",
+          "format": "float"
         },
         "updatedTimestamp": {
           "type": "integer",

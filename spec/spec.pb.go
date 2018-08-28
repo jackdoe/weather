@@ -9,10 +9,6 @@
 
 	It has these top-level messages:
 		WeatherStoreKey
-		Unit
-		Deg
-		Speed
-		Percent
 		WeatherStoreValue
 		WeatherResponseItem
 		QueryRequest
@@ -47,8 +43,8 @@ const _ = proto.ProtoPackageIsVersion2 // please upgrade the proto package
 
 type WeatherStoreKey struct {
 	Timestamp uint32  `protobuf:"fixed32,1,opt,name=timestamp,proto3" json:"timestamp,omitempty"`
-	Lat       float64 `protobuf:"fixed64,2,opt,name=lat,proto3" json:"lat,omitempty"`
-	Lng       float64 `protobuf:"fixed64,3,opt,name=lng,proto3" json:"lng,omitempty"`
+	Lat       float32 `protobuf:"fixed32,2,opt,name=lat,proto3" json:"lat,omitempty"`
+	Lng       float32 `protobuf:"fixed32,3,opt,name=lng,proto3" json:"lng,omitempty"`
 }
 
 func (m *WeatherStoreKey) Reset()                    { *m = WeatherStoreKey{} }
@@ -63,176 +59,46 @@ func (m *WeatherStoreKey) GetTimestamp() uint32 {
 	return 0
 }
 
-func (m *WeatherStoreKey) GetLat() float64 {
+func (m *WeatherStoreKey) GetLat() float32 {
 	if m != nil {
 		return m.Lat
 	}
 	return 0
 }
 
-func (m *WeatherStoreKey) GetLng() float64 {
+func (m *WeatherStoreKey) GetLng() float32 {
 	if m != nil {
 		return m.Lng
 	}
 	return 0
 }
 
-type Unit struct {
-	Unit  string  `protobuf:"bytes,1,opt,name=unit,proto3" json:"unit,omitempty"`
-	Value float64 `protobuf:"fixed64,2,opt,name=value,proto3" json:"value,omitempty"`
-	Id    string  `protobuf:"bytes,3,opt,name=id,proto3" json:"id,omitempty"`
-}
-
-func (m *Unit) Reset()                    { *m = Unit{} }
-func (m *Unit) String() string            { return proto.CompactTextString(m) }
-func (*Unit) ProtoMessage()               {}
-func (*Unit) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{1} }
-
-func (m *Unit) GetUnit() string {
-	if m != nil {
-		return m.Unit
-	}
-	return ""
-}
-
-func (m *Unit) GetValue() float64 {
-	if m != nil {
-		return m.Value
-	}
-	return 0
-}
-
-func (m *Unit) GetId() string {
-	if m != nil {
-		return m.Id
-	}
-	return ""
-}
-
-type Deg struct {
-	Name string  `protobuf:"bytes,1,opt,name=name,proto3" json:"name,omitempty"`
-	Deg  float64 `protobuf:"fixed64,2,opt,name=deg,proto3" json:"deg,omitempty"`
-	Id   string  `protobuf:"bytes,3,opt,name=id,proto3" json:"id,omitempty"`
-}
-
-func (m *Deg) Reset()                    { *m = Deg{} }
-func (m *Deg) String() string            { return proto.CompactTextString(m) }
-func (*Deg) ProtoMessage()               {}
-func (*Deg) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{2} }
-
-func (m *Deg) GetName() string {
-	if m != nil {
-		return m.Name
-	}
-	return ""
-}
-
-func (m *Deg) GetDeg() float64 {
-	if m != nil {
-		return m.Deg
-	}
-	return 0
-}
-
-func (m *Deg) GetId() string {
-	if m != nil {
-		return m.Id
-	}
-	return ""
-}
-
-type Speed struct {
-	Name     string  `protobuf:"bytes,1,opt,name=name,proto3" json:"name,omitempty"`
-	Beaufort string  `protobuf:"bytes,2,opt,name=beaufort,proto3" json:"beaufort,omitempty"`
-	Mps      float64 `protobuf:"fixed64,3,opt,name=mps,proto3" json:"mps,omitempty"`
-	Id       string  `protobuf:"bytes,4,opt,name=id,proto3" json:"id,omitempty"`
-}
-
-func (m *Speed) Reset()                    { *m = Speed{} }
-func (m *Speed) String() string            { return proto.CompactTextString(m) }
-func (*Speed) ProtoMessage()               {}
-func (*Speed) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{3} }
-
-func (m *Speed) GetName() string {
-	if m != nil {
-		return m.Name
-	}
-	return ""
-}
-
-func (m *Speed) GetBeaufort() string {
-	if m != nil {
-		return m.Beaufort
-	}
-	return ""
-}
-
-func (m *Speed) GetMps() float64 {
-	if m != nil {
-		return m.Mps
-	}
-	return 0
-}
-
-func (m *Speed) GetId() string {
-	if m != nil {
-		return m.Id
-	}
-	return ""
-}
-
-type Percent struct {
-	Percent float64 `protobuf:"fixed64,1,opt,name=percent,proto3" json:"percent,omitempty"`
-	Id      string  `protobuf:"bytes,2,opt,name=id,proto3" json:"id,omitempty"`
-}
-
-func (m *Percent) Reset()                    { *m = Percent{} }
-func (m *Percent) String() string            { return proto.CompactTextString(m) }
-func (*Percent) ProtoMessage()               {}
-func (*Percent) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{4} }
-
-func (m *Percent) GetPercent() float64 {
-	if m != nil {
-		return m.Percent
-	}
-	return 0
-}
-
-func (m *Percent) GetId() string {
-	if m != nil {
-		return m.Id
-	}
-	return ""
-}
-
 type WeatherStoreValue struct {
-	From                   uint32   `protobuf:"varint,1,opt,name=from,proto3" json:"from,omitempty"`
-	To                     uint32   `protobuf:"varint,2,opt,name=to,proto3" json:"to,omitempty"`
-	Lat                    float64  `protobuf:"fixed64,3,opt,name=lat,proto3" json:"lat,omitempty"`
-	Lng                    float64  `protobuf:"fixed64,4,opt,name=lng,proto3" json:"lng,omitempty"`
-	Altitude               float64  `protobuf:"fixed64,5,opt,name=altitude,proto3" json:"altitude,omitempty"`
-	Fog                    *Percent `protobuf:"bytes,6,opt,name=fog" json:"fog,omitempty"`
-	Pressure               *Unit    `protobuf:"bytes,7,opt,name=pressure" json:"pressure,omitempty"`
-	Cloudiness             *Percent `protobuf:"bytes,8,opt,name=cloudiness" json:"cloudiness,omitempty"`
-	WindDirection          *Deg     `protobuf:"bytes,9,opt,name=windDirection" json:"windDirection,omitempty"`
-	DewpointTemperature    *Unit    `protobuf:"bytes,10,opt,name=dewpointTemperature" json:"dewpointTemperature,omitempty"`
-	WindGust               *Speed   `protobuf:"bytes,11,opt,name=windGust" json:"windGust,omitempty"`
-	Humidity               *Unit    `protobuf:"bytes,12,opt,name=humidity" json:"humidity,omitempty"`
-	AreaMaxWindSpeed       *Speed   `protobuf:"bytes,13,opt,name=areaMaxWindSpeed" json:"areaMaxWindSpeed,omitempty"`
-	WindSpeed              *Speed   `protobuf:"bytes,14,opt,name=windSpeed" json:"windSpeed,omitempty"`
-	Temperature            *Unit    `protobuf:"bytes,15,opt,name=temperature" json:"temperature,omitempty"`
-	LowClouds              *Percent `protobuf:"bytes,16,opt,name=lowClouds" json:"lowClouds,omitempty"`
-	MediumClouds           *Percent `protobuf:"bytes,17,opt,name=mediumClouds" json:"mediumClouds,omitempty"`
-	HighClouds             *Percent `protobuf:"bytes,18,opt,name=highClouds" json:"highClouds,omitempty"`
-	TemperatureProbability *Unit    `protobuf:"bytes,19,opt,name=temperatureProbability" json:"temperatureProbability,omitempty"`
-	WindProbability        *Unit    `protobuf:"bytes,20,opt,name=windProbability" json:"windProbability,omitempty"`
-	UpdatedTimestamp       uint32   `protobuf:"varint,22,opt,name=updatedTimestamp,proto3" json:"updatedTimestamp,omitempty"`
+	From                   uint32  `protobuf:"varint,1,opt,name=from,proto3" json:"from,omitempty"`
+	To                     uint32  `protobuf:"varint,2,opt,name=to,proto3" json:"to,omitempty"`
+	Altitude               float32 `protobuf:"fixed32,5,opt,name=altitude,proto3" json:"altitude,omitempty"`
+	FogPercent             float32 `protobuf:"fixed32,6,opt,name=fogPercent,proto3" json:"fogPercent,omitempty"`
+	PressureHPA            float32 `protobuf:"fixed32,7,opt,name=pressureHPA,proto3" json:"pressureHPA,omitempty"`
+	CloudinessPercent      float32 `protobuf:"fixed32,8,opt,name=cloudinessPercent,proto3" json:"cloudinessPercent,omitempty"`
+	WindDirectionDeg       float32 `protobuf:"fixed32,9,opt,name=windDirectionDeg,proto3" json:"windDirectionDeg,omitempty"`
+	DewpointTemperatureC   float32 `protobuf:"fixed32,10,opt,name=dewpointTemperatureC,proto3" json:"dewpointTemperatureC,omitempty"`
+	WindGustMps            float32 `protobuf:"fixed32,11,opt,name=windGustMps,proto3" json:"windGustMps,omitempty"`
+	HumidityPercent        float32 `protobuf:"fixed32,12,opt,name=humidityPercent,proto3" json:"humidityPercent,omitempty"`
+	AreaMaxWindSpeedMps    float32 `protobuf:"fixed32,13,opt,name=areaMaxWindSpeedMps,proto3" json:"areaMaxWindSpeedMps,omitempty"`
+	WindSpeedMps           float32 `protobuf:"fixed32,14,opt,name=windSpeedMps,proto3" json:"windSpeedMps,omitempty"`
+	TemperatureC           float32 `protobuf:"fixed32,15,opt,name=temperatureC,proto3" json:"temperatureC,omitempty"`
+	LowCloudsPercent       float32 `protobuf:"fixed32,16,opt,name=lowCloudsPercent,proto3" json:"lowCloudsPercent,omitempty"`
+	MediumCloudsPercent    float32 `protobuf:"fixed32,17,opt,name=mediumCloudsPercent,proto3" json:"mediumCloudsPercent,omitempty"`
+	HighCloudsPercent      float32 `protobuf:"fixed32,18,opt,name=highCloudsPercent,proto3" json:"highCloudsPercent,omitempty"`
+	TemperatureProbability float32 `protobuf:"fixed32,19,opt,name=temperatureProbability,proto3" json:"temperatureProbability,omitempty"`
+	WindProbability        float32 `protobuf:"fixed32,20,opt,name=windProbability,proto3" json:"windProbability,omitempty"`
+	UpdatedTimestamp       uint32  `protobuf:"varint,22,opt,name=updatedTimestamp,proto3" json:"updatedTimestamp,omitempty"`
 }
 
 func (m *WeatherStoreValue) Reset()                    { *m = WeatherStoreValue{} }
 func (m *WeatherStoreValue) String() string            { return proto.CompactTextString(m) }
 func (*WeatherStoreValue) ProtoMessage()               {}
-func (*WeatherStoreValue) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{5} }
+func (*WeatherStoreValue) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{1} }
 
 func (m *WeatherStoreValue) GetFrom() uint32 {
 	if m != nil {
@@ -248,130 +114,116 @@ func (m *WeatherStoreValue) GetTo() uint32 {
 	return 0
 }
 
-func (m *WeatherStoreValue) GetLat() float64 {
-	if m != nil {
-		return m.Lat
-	}
-	return 0
-}
-
-func (m *WeatherStoreValue) GetLng() float64 {
-	if m != nil {
-		return m.Lng
-	}
-	return 0
-}
-
-func (m *WeatherStoreValue) GetAltitude() float64 {
+func (m *WeatherStoreValue) GetAltitude() float32 {
 	if m != nil {
 		return m.Altitude
 	}
 	return 0
 }
 
-func (m *WeatherStoreValue) GetFog() *Percent {
+func (m *WeatherStoreValue) GetFogPercent() float32 {
 	if m != nil {
-		return m.Fog
+		return m.FogPercent
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetPressure() *Unit {
+func (m *WeatherStoreValue) GetPressureHPA() float32 {
 	if m != nil {
-		return m.Pressure
+		return m.PressureHPA
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetCloudiness() *Percent {
+func (m *WeatherStoreValue) GetCloudinessPercent() float32 {
 	if m != nil {
-		return m.Cloudiness
+		return m.CloudinessPercent
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetWindDirection() *Deg {
+func (m *WeatherStoreValue) GetWindDirectionDeg() float32 {
 	if m != nil {
-		return m.WindDirection
+		return m.WindDirectionDeg
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetDewpointTemperature() *Unit {
+func (m *WeatherStoreValue) GetDewpointTemperatureC() float32 {
 	if m != nil {
-		return m.DewpointTemperature
+		return m.DewpointTemperatureC
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetWindGust() *Speed {
+func (m *WeatherStoreValue) GetWindGustMps() float32 {
 	if m != nil {
-		return m.WindGust
+		return m.WindGustMps
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetHumidity() *Unit {
+func (m *WeatherStoreValue) GetHumidityPercent() float32 {
 	if m != nil {
-		return m.Humidity
+		return m.HumidityPercent
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetAreaMaxWindSpeed() *Speed {
+func (m *WeatherStoreValue) GetAreaMaxWindSpeedMps() float32 {
 	if m != nil {
-		return m.AreaMaxWindSpeed
+		return m.AreaMaxWindSpeedMps
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetWindSpeed() *Speed {
+func (m *WeatherStoreValue) GetWindSpeedMps() float32 {
 	if m != nil {
-		return m.WindSpeed
+		return m.WindSpeedMps
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetTemperature() *Unit {
+func (m *WeatherStoreValue) GetTemperatureC() float32 {
 	if m != nil {
-		return m.Temperature
+		return m.TemperatureC
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetLowClouds() *Percent {
+func (m *WeatherStoreValue) GetLowCloudsPercent() float32 {
 	if m != nil {
-		return m.LowClouds
+		return m.LowCloudsPercent
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetMediumClouds() *Percent {
+func (m *WeatherStoreValue) GetMediumCloudsPercent() float32 {
 	if m != nil {
-		return m.MediumClouds
+		return m.MediumCloudsPercent
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetHighClouds() *Percent {
+func (m *WeatherStoreValue) GetHighCloudsPercent() float32 {
 	if m != nil {
-		return m.HighClouds
+		return m.HighCloudsPercent
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetTemperatureProbability() *Unit {
+func (m *WeatherStoreValue) GetTemperatureProbability() float32 {
 	if m != nil {
 		return m.TemperatureProbability
 	}
-	return nil
+	return 0
 }
 
-func (m *WeatherStoreValue) GetWindProbability() *Unit {
+func (m *WeatherStoreValue) GetWindProbability() float32 {
 	if m != nil {
 		return m.WindProbability
 	}
-	return nil
+	return 0
 }
 
 func (m *WeatherStoreValue) GetUpdatedTimestamp() uint32 {
@@ -389,7 +241,7 @@ type WeatherResponseItem struct {
 func (m *WeatherResponseItem) Reset()                    { *m = WeatherResponseItem{} }
 func (m *WeatherResponseItem) String() string            { return proto.CompactTextString(m) }
 func (*WeatherResponseItem) ProtoMessage()               {}
-func (*WeatherResponseItem) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{6} }
+func (*WeatherResponseItem) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{2} }
 
 func (m *WeatherResponseItem) GetLocation() *WeatherStoreKey {
 	if m != nil {
@@ -412,7 +264,7 @@ type QueryRequest struct {
 func (m *QueryRequest) Reset()                    { *m = QueryRequest{} }
 func (m *QueryRequest) String() string            { return proto.CompactTextString(m) }
 func (*QueryRequest) ProtoMessage()               {}
-func (*QueryRequest) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{7} }
+func (*QueryRequest) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{3} }
 
 func (m *QueryRequest) GetLocations() []*WeatherStoreKey {
 	if m != nil {
@@ -429,7 +281,7 @@ type QueryResponse struct {
 func (m *QueryResponse) Reset()                    { *m = QueryResponse{} }
 func (m *QueryResponse) String() string            { return proto.CompactTextString(m) }
 func (*QueryResponse) ProtoMessage()               {}
-func (*QueryResponse) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{8} }
+func (*QueryResponse) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{4} }
 
 func (m *QueryResponse) GetLocations() []*WeatherResponseItem {
 	if m != nil {
@@ -453,7 +305,7 @@ type ExtremeResponse struct {
 func (m *ExtremeResponse) Reset()                    { *m = ExtremeResponse{} }
 func (m *ExtremeResponse) String() string            { return proto.CompactTextString(m) }
 func (*ExtremeResponse) ProtoMessage()               {}
-func (*ExtremeResponse) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{9} }
+func (*ExtremeResponse) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{5} }
 
 func (m *ExtremeResponse) GetColdest() *WeatherResponseItem {
 	if m != nil {
@@ -475,14 +327,10 @@ type Empty struct {
 func (m *Empty) Reset()                    { *m = Empty{} }
 func (m *Empty) String() string            { return proto.CompactTextString(m) }
 func (*Empty) ProtoMessage()               {}
-func (*Empty) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{10} }
+func (*Empty) Descriptor() ([]byte, []int) { return fileDescriptorSpec, []int{6} }
 
 func init() {
 	proto.RegisterType((*WeatherStoreKey)(nil), "spec.WeatherStoreKey")
-	proto.RegisterType((*Unit)(nil), "spec.Unit")
-	proto.RegisterType((*Deg)(nil), "spec.Deg")
-	proto.RegisterType((*Speed)(nil), "spec.Speed")
-	proto.RegisterType((*Percent)(nil), "spec.Percent")
 	proto.RegisterType((*WeatherStoreValue)(nil), "spec.WeatherStoreValue")
 	proto.RegisterType((*WeatherResponseItem)(nil), "spec.WeatherResponseItem")
 	proto.RegisterType((*QueryRequest)(nil), "spec.QueryRequest")
@@ -618,160 +466,16 @@ func (m *WeatherStoreKey) MarshalTo(dAtA []byte) (int, error) {
 		i += 4
 	}
 	if m.Lat != 0 {
-		dAtA[i] = 0x11
+		dAtA[i] = 0x15
 		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Lat))))
-		i += 8
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.Lat))))
+		i += 4
 	}
 	if m.Lng != 0 {
-		dAtA[i] = 0x19
+		dAtA[i] = 0x1d
 		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Lng))))
-		i += 8
-	}
-	return i, nil
-}
-
-func (m *Unit) Marshal() (dAtA []byte, err error) {
-	size := m.Size()
-	dAtA = make([]byte, size)
-	n, err := m.MarshalTo(dAtA)
-	if err != nil {
-		return nil, err
-	}
-	return dAtA[:n], nil
-}
-
-func (m *Unit) MarshalTo(dAtA []byte) (int, error) {
-	var i int
-	_ = i
-	var l int
-	_ = l
-	if len(m.Unit) > 0 {
-		dAtA[i] = 0xa
-		i++
-		i = encodeVarintSpec(dAtA, i, uint64(len(m.Unit)))
-		i += copy(dAtA[i:], m.Unit)
-	}
-	if m.Value != 0 {
-		dAtA[i] = 0x11
-		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Value))))
-		i += 8
-	}
-	if len(m.Id) > 0 {
-		dAtA[i] = 0x1a
-		i++
-		i = encodeVarintSpec(dAtA, i, uint64(len(m.Id)))
-		i += copy(dAtA[i:], m.Id)
-	}
-	return i, nil
-}
-
-func (m *Deg) Marshal() (dAtA []byte, err error) {
-	size := m.Size()
-	dAtA = make([]byte, size)
-	n, err := m.MarshalTo(dAtA)
-	if err != nil {
-		return nil, err
-	}
-	return dAtA[:n], nil
-}
-
-func (m *Deg) MarshalTo(dAtA []byte) (int, error) {
-	var i int
-	_ = i
-	var l int
-	_ = l
-	if len(m.Name) > 0 {
-		dAtA[i] = 0xa
-		i++
-		i = encodeVarintSpec(dAtA, i, uint64(len(m.Name)))
-		i += copy(dAtA[i:], m.Name)
-	}
-	if m.Deg != 0 {
-		dAtA[i] = 0x11
-		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Deg))))
-		i += 8
-	}
-	if len(m.Id) > 0 {
-		dAtA[i] = 0x1a
-		i++
-		i = encodeVarintSpec(dAtA, i, uint64(len(m.Id)))
-		i += copy(dAtA[i:], m.Id)
-	}
-	return i, nil
-}
-
-func (m *Speed) Marshal() (dAtA []byte, err error) {
-	size := m.Size()
-	dAtA = make([]byte, size)
-	n, err := m.MarshalTo(dAtA)
-	if err != nil {
-		return nil, err
-	}
-	return dAtA[:n], nil
-}
-
-func (m *Speed) MarshalTo(dAtA []byte) (int, error) {
-	var i int
-	_ = i
-	var l int
-	_ = l
-	if len(m.Name) > 0 {
-		dAtA[i] = 0xa
-		i++
-		i = encodeVarintSpec(dAtA, i, uint64(len(m.Name)))
-		i += copy(dAtA[i:], m.Name)
-	}
-	if len(m.Beaufort) > 0 {
-		dAtA[i] = 0x12
-		i++
-		i = encodeVarintSpec(dAtA, i, uint64(len(m.Beaufort)))
-		i += copy(dAtA[i:], m.Beaufort)
-	}
-	if m.Mps != 0 {
-		dAtA[i] = 0x19
-		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Mps))))
-		i += 8
-	}
-	if len(m.Id) > 0 {
-		dAtA[i] = 0x22
-		i++
-		i = encodeVarintSpec(dAtA, i, uint64(len(m.Id)))
-		i += copy(dAtA[i:], m.Id)
-	}
-	return i, nil
-}
-
-func (m *Percent) Marshal() (dAtA []byte, err error) {
-	size := m.Size()
-	dAtA = make([]byte, size)
-	n, err := m.MarshalTo(dAtA)
-	if err != nil {
-		return nil, err
-	}
-	return dAtA[:n], nil
-}
-
-func (m *Percent) MarshalTo(dAtA []byte) (int, error) {
-	var i int
-	_ = i
-	var l int
-	_ = l
-	if m.Percent != 0 {
-		dAtA[i] = 0x9
-		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Percent))))
-		i += 8
-	}
-	if len(m.Id) > 0 {
-		dAtA[i] = 0x12
-		i++
-		i = encodeVarintSpec(dAtA, i, uint64(len(m.Id)))
-		i += copy(dAtA[i:], m.Id)
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.Lng))))
+		i += 4
 	}
 	return i, nil
 }
@@ -801,183 +505,111 @@ func (m *WeatherStoreValue) MarshalTo(dAtA []byte) (int, error) {
 		i++
 		i = encodeVarintSpec(dAtA, i, uint64(m.To))
 	}
-	if m.Lat != 0 {
-		dAtA[i] = 0x19
-		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Lat))))
-		i += 8
-	}
-	if m.Lng != 0 {
-		dAtA[i] = 0x21
-		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Lng))))
-		i += 8
-	}
 	if m.Altitude != 0 {
-		dAtA[i] = 0x29
+		dAtA[i] = 0x2d
 		i++
-		binary.LittleEndian.PutUint64(dAtA[i:], uint64(math.Float64bits(float64(m.Altitude))))
-		i += 8
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.Altitude))))
+		i += 4
 	}
-	if m.Fog != nil {
-		dAtA[i] = 0x32
+	if m.FogPercent != 0 {
+		dAtA[i] = 0x35
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.Fog.Size()))
-		n1, err := m.Fog.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n1
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.FogPercent))))
+		i += 4
 	}
-	if m.Pressure != nil {
-		dAtA[i] = 0x3a
+	if m.PressureHPA != 0 {
+		dAtA[i] = 0x3d
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.Pressure.Size()))
-		n2, err := m.Pressure.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n2
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.PressureHPA))))
+		i += 4
 	}
-	if m.Cloudiness != nil {
-		dAtA[i] = 0x42
+	if m.CloudinessPercent != 0 {
+		dAtA[i] = 0x45
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.Cloudiness.Size()))
-		n3, err := m.Cloudiness.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n3
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.CloudinessPercent))))
+		i += 4
 	}
-	if m.WindDirection != nil {
-		dAtA[i] = 0x4a
+	if m.WindDirectionDeg != 0 {
+		dAtA[i] = 0x4d
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.WindDirection.Size()))
-		n4, err := m.WindDirection.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n4
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.WindDirectionDeg))))
+		i += 4
 	}
-	if m.DewpointTemperature != nil {
-		dAtA[i] = 0x52
+	if m.DewpointTemperatureC != 0 {
+		dAtA[i] = 0x55
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.DewpointTemperature.Size()))
-		n5, err := m.DewpointTemperature.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n5
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.DewpointTemperatureC))))
+		i += 4
 	}
-	if m.WindGust != nil {
-		dAtA[i] = 0x5a
+	if m.WindGustMps != 0 {
+		dAtA[i] = 0x5d
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.WindGust.Size()))
-		n6, err := m.WindGust.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n6
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.WindGustMps))))
+		i += 4
 	}
-	if m.Humidity != nil {
-		dAtA[i] = 0x62
+	if m.HumidityPercent != 0 {
+		dAtA[i] = 0x65
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.Humidity.Size()))
-		n7, err := m.Humidity.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n7
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.HumidityPercent))))
+		i += 4
 	}
-	if m.AreaMaxWindSpeed != nil {
-		dAtA[i] = 0x6a
+	if m.AreaMaxWindSpeedMps != 0 {
+		dAtA[i] = 0x6d
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.AreaMaxWindSpeed.Size()))
-		n8, err := m.AreaMaxWindSpeed.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n8
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.AreaMaxWindSpeedMps))))
+		i += 4
 	}
-	if m.WindSpeed != nil {
-		dAtA[i] = 0x72
+	if m.WindSpeedMps != 0 {
+		dAtA[i] = 0x75
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.WindSpeed.Size()))
-		n9, err := m.WindSpeed.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n9
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.WindSpeedMps))))
+		i += 4
 	}
-	if m.Temperature != nil {
-		dAtA[i] = 0x7a
+	if m.TemperatureC != 0 {
+		dAtA[i] = 0x7d
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.Temperature.Size()))
-		n10, err := m.Temperature.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n10
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.TemperatureC))))
+		i += 4
 	}
-	if m.LowClouds != nil {
-		dAtA[i] = 0x82
+	if m.LowCloudsPercent != 0 {
+		dAtA[i] = 0x85
 		i++
 		dAtA[i] = 0x1
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.LowClouds.Size()))
-		n11, err := m.LowClouds.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n11
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.LowCloudsPercent))))
+		i += 4
 	}
-	if m.MediumClouds != nil {
-		dAtA[i] = 0x8a
+	if m.MediumCloudsPercent != 0 {
+		dAtA[i] = 0x8d
 		i++
 		dAtA[i] = 0x1
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.MediumClouds.Size()))
-		n12, err := m.MediumClouds.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n12
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.MediumCloudsPercent))))
+		i += 4
 	}
-	if m.HighClouds != nil {
-		dAtA[i] = 0x92
+	if m.HighCloudsPercent != 0 {
+		dAtA[i] = 0x95
 		i++
 		dAtA[i] = 0x1
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.HighClouds.Size()))
-		n13, err := m.HighClouds.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n13
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.HighCloudsPercent))))
+		i += 4
 	}
-	if m.TemperatureProbability != nil {
-		dAtA[i] = 0x9a
+	if m.TemperatureProbability != 0 {
+		dAtA[i] = 0x9d
 		i++
 		dAtA[i] = 0x1
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.TemperatureProbability.Size()))
-		n14, err := m.TemperatureProbability.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n14
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.TemperatureProbability))))
+		i += 4
 	}
-	if m.WindProbability != nil {
-		dAtA[i] = 0xa2
+	if m.WindProbability != 0 {
+		dAtA[i] = 0xa5
 		i++
 		dAtA[i] = 0x1
 		i++
-		i = encodeVarintSpec(dAtA, i, uint64(m.WindProbability.Size()))
-		n15, err := m.WindProbability.MarshalTo(dAtA[i:])
-		if err != nil {
-			return 0, err
-		}
-		i += n15
+		binary.LittleEndian.PutUint32(dAtA[i:], uint32(math.Float32bits(float32(m.WindProbability))))
+		i += 4
 	}
 	if m.UpdatedTimestamp != 0 {
 		dAtA[i] = 0xb0
@@ -1008,21 +640,21 @@ func (m *WeatherResponseItem) MarshalTo(dAtA []byte) (int, error) {
 		dAtA[i] = 0xa
 		i++
 		i = encodeVarintSpec(dAtA, i, uint64(m.Location.Size()))
-		n16, err := m.Location.MarshalTo(dAtA[i:])
+		n1, err := m.Location.MarshalTo(dAtA[i:])
 		if err != nil {
 			return 0, err
 		}
-		i += n16
+		i += n1
 	}
 	if m.Weather != nil {
 		dAtA[i] = 0x12
 		i++
 		i = encodeVarintSpec(dAtA, i, uint64(m.Weather.Size()))
-		n17, err := m.Weather.MarshalTo(dAtA[i:])
+		n2, err := m.Weather.MarshalTo(dAtA[i:])
 		if err != nil {
 			return 0, err
 		}
-		i += n17
+		i += n2
 	}
 	return i, nil
 }
@@ -1112,21 +744,21 @@ func (m *ExtremeResponse) MarshalTo(dAtA []byte) (int, error) {
 		dAtA[i] = 0xa
 		i++
 		i = encodeVarintSpec(dAtA, i, uint64(m.Coldest.Size()))
-		n18, err := m.Coldest.MarshalTo(dAtA[i:])
+		n3, err := m.Coldest.MarshalTo(dAtA[i:])
 		if err != nil {
 			return 0, err
 		}
-		i += n18
+		i += n3
 	}
 	if m.Hottest != nil {
 		dAtA[i] = 0x12
 		i++
 		i = encodeVarintSpec(dAtA, i, uint64(m.Hottest.Size()))
-		n19, err := m.Hottest.MarshalTo(dAtA[i:])
+		n4, err := m.Hottest.MarshalTo(dAtA[i:])
 		if err != nil {
 			return 0, err
 		}
-		i += n19
+		i += n4
 	}
 	return i, nil
 }
@@ -1165,78 +797,10 @@ func (m *WeatherStoreKey) Size() (n int) {
 		n += 5
 	}
 	if m.Lat != 0 {
-		n += 9
+		n += 5
 	}
 	if m.Lng != 0 {
-		n += 9
-	}
-	return n
-}
-
-func (m *Unit) Size() (n int) {
-	var l int
-	_ = l
-	l = len(m.Unit)
-	if l > 0 {
-		n += 1 + l + sovSpec(uint64(l))
-	}
-	if m.Value != 0 {
-		n += 9
-	}
-	l = len(m.Id)
-	if l > 0 {
-		n += 1 + l + sovSpec(uint64(l))
-	}
-	return n
-}
-
-func (m *Deg) Size() (n int) {
-	var l int
-	_ = l
-	l = len(m.Name)
-	if l > 0 {
-		n += 1 + l + sovSpec(uint64(l))
-	}
-	if m.Deg != 0 {
-		n += 9
-	}
-	l = len(m.Id)
-	if l > 0 {
-		n += 1 + l + sovSpec(uint64(l))
-	}
-	return n
-}
-
-func (m *Speed) Size() (n int) {
-	var l int
-	_ = l
-	l = len(m.Name)
-	if l > 0 {
-		n += 1 + l + sovSpec(uint64(l))
-	}
-	l = len(m.Beaufort)
-	if l > 0 {
-		n += 1 + l + sovSpec(uint64(l))
-	}
-	if m.Mps != 0 {
-		n += 9
-	}
-	l = len(m.Id)
-	if l > 0 {
-		n += 1 + l + sovSpec(uint64(l))
-	}
-	return n
-}
-
-func (m *Percent) Size() (n int) {
-	var l int
-	_ = l
-	if m.Percent != 0 {
-		n += 9
-	}
-	l = len(m.Id)
-	if l > 0 {
-		n += 1 + l + sovSpec(uint64(l))
+		n += 5
 	}
 	return n
 }
@@ -1250,74 +814,53 @@ func (m *WeatherStoreValue) Size() (n int) {
 	if m.To != 0 {
 		n += 1 + sovSpec(uint64(m.To))
 	}
-	if m.Lat != 0 {
-		n += 9
-	}
-	if m.Lng != 0 {
-		n += 9
-	}
 	if m.Altitude != 0 {
-		n += 9
+		n += 5
 	}
-	if m.Fog != nil {
-		l = m.Fog.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.FogPercent != 0 {
+		n += 5
 	}
-	if m.Pressure != nil {
-		l = m.Pressure.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.PressureHPA != 0 {
+		n += 5
 	}
-	if m.Cloudiness != nil {
-		l = m.Cloudiness.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.CloudinessPercent != 0 {
+		n += 5
 	}
-	if m.WindDirection != nil {
-		l = m.WindDirection.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.WindDirectionDeg != 0 {
+		n += 5
 	}
-	if m.DewpointTemperature != nil {
-		l = m.DewpointTemperature.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.DewpointTemperatureC != 0 {
+		n += 5
 	}
-	if m.WindGust != nil {
-		l = m.WindGust.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.WindGustMps != 0 {
+		n += 5
 	}
-	if m.Humidity != nil {
-		l = m.Humidity.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.HumidityPercent != 0 {
+		n += 5
 	}
-	if m.AreaMaxWindSpeed != nil {
-		l = m.AreaMaxWindSpeed.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.AreaMaxWindSpeedMps != 0 {
+		n += 5
 	}
-	if m.WindSpeed != nil {
-		l = m.WindSpeed.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.WindSpeedMps != 0 {
+		n += 5
 	}
-	if m.Temperature != nil {
-		l = m.Temperature.Size()
-		n += 1 + l + sovSpec(uint64(l))
+	if m.TemperatureC != 0 {
+		n += 5
 	}
-	if m.LowClouds != nil {
-		l = m.LowClouds.Size()
-		n += 2 + l + sovSpec(uint64(l))
+	if m.LowCloudsPercent != 0 {
+		n += 6
 	}
-	if m.MediumClouds != nil {
-		l = m.MediumClouds.Size()
-		n += 2 + l + sovSpec(uint64(l))
+	if m.MediumCloudsPercent != 0 {
+		n += 6
 	}
-	if m.HighClouds != nil {
-		l = m.HighClouds.Size()
-		n += 2 + l + sovSpec(uint64(l))
+	if m.HighCloudsPercent != 0 {
+		n += 6
 	}
-	if m.TemperatureProbability != nil {
-		l = m.TemperatureProbability.Size()
-		n += 2 + l + sovSpec(uint64(l))
+	if m.TemperatureProbability != 0 {
+		n += 6
 	}
-	if m.WindProbability != nil {
-		l = m.WindProbability.Size()
-		n += 2 + l + sovSpec(uint64(l))
+	if m.WindProbability != 0 {
+		n += 6
 	}
 	if m.UpdatedTimestamp != 0 {
 		n += 2 + sovSpec(uint64(m.UpdatedTimestamp))
@@ -1440,503 +983,27 @@ func (m *WeatherStoreKey) Unmarshal(dAtA []byte) error {
 			m.Timestamp = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
 			iNdEx += 4
 		case 2:
-			if wireType != 1 {
+			if wireType != 5 {
 				return fmt.Errorf("proto: wrong wireType = %d for field Lat", wireType)
 			}
-			var v uint64
-			if (iNdEx + 8) > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Lat = float64(math.Float64frombits(v))
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.Lat = float32(math.Float32frombits(v))
 		case 3:
-			if wireType != 1 {
+			if wireType != 5 {
 				return fmt.Errorf("proto: wrong wireType = %d for field Lng", wireType)
 			}
-			var v uint64
-			if (iNdEx + 8) > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Lng = float64(math.Float64frombits(v))
-		default:
-			iNdEx = preIndex
-			skippy, err := skipSpec(dAtA[iNdEx:])
-			if err != nil {
-				return err
-			}
-			if skippy < 0 {
-				return ErrInvalidLengthSpec
-			}
-			if (iNdEx + skippy) > l {
-				return io.ErrUnexpectedEOF
-			}
-			iNdEx += skippy
-		}
-	}
-
-	if iNdEx > l {
-		return io.ErrUnexpectedEOF
-	}
-	return nil
-}
-func (m *Unit) Unmarshal(dAtA []byte) error {
-	l := len(dAtA)
-	iNdEx := 0
-	for iNdEx < l {
-		preIndex := iNdEx
-		var wire uint64
-		for shift := uint(0); ; shift += 7 {
-			if shift >= 64 {
-				return ErrIntOverflowSpec
-			}
-			if iNdEx >= l {
-				return io.ErrUnexpectedEOF
-			}
-			b := dAtA[iNdEx]
-			iNdEx++
-			wire |= (uint64(b) & 0x7F) << shift
-			if b < 0x80 {
-				break
-			}
-		}
-		fieldNum := int32(wire >> 3)
-		wireType := int(wire & 0x7)
-		if wireType == 4 {
-			return fmt.Errorf("proto: Unit: wiretype end group for non-group")
-		}
-		if fieldNum <= 0 {
-			return fmt.Errorf("proto: Unit: illegal tag %d (wire type %d)", fieldNum, wire)
-		}
-		switch fieldNum {
-		case 1:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Unit", wireType)
-			}
-			var stringLen uint64
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				stringLen |= (uint64(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			intStringLen := int(stringLen)
-			if intStringLen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + intStringLen
-			if postIndex > l {
-				return io.ErrUnexpectedEOF
-			}
-			m.Unit = string(dAtA[iNdEx:postIndex])
-			iNdEx = postIndex
-		case 2:
-			if wireType != 1 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Value", wireType)
-			}
-			var v uint64
-			if (iNdEx + 8) > l {
-				return io.ErrUnexpectedEOF
-			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Value = float64(math.Float64frombits(v))
-		case 3:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Id", wireType)
-			}
-			var stringLen uint64
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				stringLen |= (uint64(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			intStringLen := int(stringLen)
-			if intStringLen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + intStringLen
-			if postIndex > l {
-				return io.ErrUnexpectedEOF
-			}
-			m.Id = string(dAtA[iNdEx:postIndex])
-			iNdEx = postIndex
-		default:
-			iNdEx = preIndex
-			skippy, err := skipSpec(dAtA[iNdEx:])
-			if err != nil {
-				return err
-			}
-			if skippy < 0 {
-				return ErrInvalidLengthSpec
-			}
-			if (iNdEx + skippy) > l {
-				return io.ErrUnexpectedEOF
-			}
-			iNdEx += skippy
-		}
-	}
-
-	if iNdEx > l {
-		return io.ErrUnexpectedEOF
-	}
-	return nil
-}
-func (m *Deg) Unmarshal(dAtA []byte) error {
-	l := len(dAtA)
-	iNdEx := 0
-	for iNdEx < l {
-		preIndex := iNdEx
-		var wire uint64
-		for shift := uint(0); ; shift += 7 {
-			if shift >= 64 {
-				return ErrIntOverflowSpec
-			}
-			if iNdEx >= l {
-				return io.ErrUnexpectedEOF
-			}
-			b := dAtA[iNdEx]
-			iNdEx++
-			wire |= (uint64(b) & 0x7F) << shift
-			if b < 0x80 {
-				break
-			}
-		}
-		fieldNum := int32(wire >> 3)
-		wireType := int(wire & 0x7)
-		if wireType == 4 {
-			return fmt.Errorf("proto: Deg: wiretype end group for non-group")
-		}
-		if fieldNum <= 0 {
-			return fmt.Errorf("proto: Deg: illegal tag %d (wire type %d)", fieldNum, wire)
-		}
-		switch fieldNum {
-		case 1:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Name", wireType)
-			}
-			var stringLen uint64
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				stringLen |= (uint64(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			intStringLen := int(stringLen)
-			if intStringLen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + intStringLen
-			if postIndex > l {
-				return io.ErrUnexpectedEOF
-			}
-			m.Name = string(dAtA[iNdEx:postIndex])
-			iNdEx = postIndex
-		case 2:
-			if wireType != 1 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Deg", wireType)
-			}
-			var v uint64
-			if (iNdEx + 8) > l {
-				return io.ErrUnexpectedEOF
-			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Deg = float64(math.Float64frombits(v))
-		case 3:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Id", wireType)
-			}
-			var stringLen uint64
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				stringLen |= (uint64(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			intStringLen := int(stringLen)
-			if intStringLen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + intStringLen
-			if postIndex > l {
-				return io.ErrUnexpectedEOF
-			}
-			m.Id = string(dAtA[iNdEx:postIndex])
-			iNdEx = postIndex
-		default:
-			iNdEx = preIndex
-			skippy, err := skipSpec(dAtA[iNdEx:])
-			if err != nil {
-				return err
-			}
-			if skippy < 0 {
-				return ErrInvalidLengthSpec
-			}
-			if (iNdEx + skippy) > l {
-				return io.ErrUnexpectedEOF
-			}
-			iNdEx += skippy
-		}
-	}
-
-	if iNdEx > l {
-		return io.ErrUnexpectedEOF
-	}
-	return nil
-}
-func (m *Speed) Unmarshal(dAtA []byte) error {
-	l := len(dAtA)
-	iNdEx := 0
-	for iNdEx < l {
-		preIndex := iNdEx
-		var wire uint64
-		for shift := uint(0); ; shift += 7 {
-			if shift >= 64 {
-				return ErrIntOverflowSpec
-			}
-			if iNdEx >= l {
-				return io.ErrUnexpectedEOF
-			}
-			b := dAtA[iNdEx]
-			iNdEx++
-			wire |= (uint64(b) & 0x7F) << shift
-			if b < 0x80 {
-				break
-			}
-		}
-		fieldNum := int32(wire >> 3)
-		wireType := int(wire & 0x7)
-		if wireType == 4 {
-			return fmt.Errorf("proto: Speed: wiretype end group for non-group")
-		}
-		if fieldNum <= 0 {
-			return fmt.Errorf("proto: Speed: illegal tag %d (wire type %d)", fieldNum, wire)
-		}
-		switch fieldNum {
-		case 1:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Name", wireType)
-			}
-			var stringLen uint64
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				stringLen |= (uint64(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			intStringLen := int(stringLen)
-			if intStringLen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + intStringLen
-			if postIndex > l {
-				return io.ErrUnexpectedEOF
-			}
-			m.Name = string(dAtA[iNdEx:postIndex])
-			iNdEx = postIndex
-		case 2:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Beaufort", wireType)
-			}
-			var stringLen uint64
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				stringLen |= (uint64(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			intStringLen := int(stringLen)
-			if intStringLen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + intStringLen
-			if postIndex > l {
-				return io.ErrUnexpectedEOF
-			}
-			m.Beaufort = string(dAtA[iNdEx:postIndex])
-			iNdEx = postIndex
-		case 3:
-			if wireType != 1 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Mps", wireType)
-			}
-			var v uint64
-			if (iNdEx + 8) > l {
-				return io.ErrUnexpectedEOF
-			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Mps = float64(math.Float64frombits(v))
-		case 4:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Id", wireType)
-			}
-			var stringLen uint64
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				stringLen |= (uint64(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			intStringLen := int(stringLen)
-			if intStringLen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + intStringLen
-			if postIndex > l {
-				return io.ErrUnexpectedEOF
-			}
-			m.Id = string(dAtA[iNdEx:postIndex])
-			iNdEx = postIndex
-		default:
-			iNdEx = preIndex
-			skippy, err := skipSpec(dAtA[iNdEx:])
-			if err != nil {
-				return err
-			}
-			if skippy < 0 {
-				return ErrInvalidLengthSpec
-			}
-			if (iNdEx + skippy) > l {
-				return io.ErrUnexpectedEOF
-			}
-			iNdEx += skippy
-		}
-	}
-
-	if iNdEx > l {
-		return io.ErrUnexpectedEOF
-	}
-	return nil
-}
-func (m *Percent) Unmarshal(dAtA []byte) error {
-	l := len(dAtA)
-	iNdEx := 0
-	for iNdEx < l {
-		preIndex := iNdEx
-		var wire uint64
-		for shift := uint(0); ; shift += 7 {
-			if shift >= 64 {
-				return ErrIntOverflowSpec
-			}
-			if iNdEx >= l {
-				return io.ErrUnexpectedEOF
-			}
-			b := dAtA[iNdEx]
-			iNdEx++
-			wire |= (uint64(b) & 0x7F) << shift
-			if b < 0x80 {
-				break
-			}
-		}
-		fieldNum := int32(wire >> 3)
-		wireType := int(wire & 0x7)
-		if wireType == 4 {
-			return fmt.Errorf("proto: Percent: wiretype end group for non-group")
-		}
-		if fieldNum <= 0 {
-			return fmt.Errorf("proto: Percent: illegal tag %d (wire type %d)", fieldNum, wire)
-		}
-		switch fieldNum {
-		case 1:
-			if wireType != 1 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Percent", wireType)
-			}
-			var v uint64
-			if (iNdEx + 8) > l {
-				return io.ErrUnexpectedEOF
-			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Percent = float64(math.Float64frombits(v))
-		case 2:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Id", wireType)
-			}
-			var stringLen uint64
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				stringLen |= (uint64(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			intStringLen := int(stringLen)
-			if intStringLen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + intStringLen
-			if postIndex > l {
-				return io.ErrUnexpectedEOF
-			}
-			m.Id = string(dAtA[iNdEx:postIndex])
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.Lng = float32(math.Float32frombits(v))
 		default:
 			iNdEx = preIndex
 			skippy, err := skipSpec(dAtA[iNdEx:])
@@ -2025,534 +1092,182 @@ func (m *WeatherStoreValue) Unmarshal(dAtA []byte) error {
 					break
 				}
 			}
-		case 3:
-			if wireType != 1 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Lat", wireType)
-			}
-			var v uint64
-			if (iNdEx + 8) > l {
-				return io.ErrUnexpectedEOF
-			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Lat = float64(math.Float64frombits(v))
-		case 4:
-			if wireType != 1 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Lng", wireType)
-			}
-			var v uint64
-			if (iNdEx + 8) > l {
-				return io.ErrUnexpectedEOF
-			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Lng = float64(math.Float64frombits(v))
 		case 5:
-			if wireType != 1 {
+			if wireType != 5 {
 				return fmt.Errorf("proto: wrong wireType = %d for field Altitude", wireType)
 			}
-			var v uint64
-			if (iNdEx + 8) > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			v = uint64(binary.LittleEndian.Uint64(dAtA[iNdEx:]))
-			iNdEx += 8
-			m.Altitude = float64(math.Float64frombits(v))
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.Altitude = float32(math.Float32frombits(v))
 		case 6:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Fog", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field FogPercent", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.Fog == nil {
-				m.Fog = &Percent{}
-			}
-			if err := m.Fog.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.FogPercent = float32(math.Float32frombits(v))
 		case 7:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Pressure", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field PressureHPA", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.Pressure == nil {
-				m.Pressure = &Unit{}
-			}
-			if err := m.Pressure.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.PressureHPA = float32(math.Float32frombits(v))
 		case 8:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Cloudiness", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field CloudinessPercent", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.Cloudiness == nil {
-				m.Cloudiness = &Percent{}
-			}
-			if err := m.Cloudiness.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.CloudinessPercent = float32(math.Float32frombits(v))
 		case 9:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field WindDirection", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field WindDirectionDeg", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.WindDirection == nil {
-				m.WindDirection = &Deg{}
-			}
-			if err := m.WindDirection.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.WindDirectionDeg = float32(math.Float32frombits(v))
 		case 10:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field DewpointTemperature", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field DewpointTemperatureC", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.DewpointTemperature == nil {
-				m.DewpointTemperature = &Unit{}
-			}
-			if err := m.DewpointTemperature.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.DewpointTemperatureC = float32(math.Float32frombits(v))
 		case 11:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field WindGust", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field WindGustMps", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.WindGust == nil {
-				m.WindGust = &Speed{}
-			}
-			if err := m.WindGust.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.WindGustMps = float32(math.Float32frombits(v))
 		case 12:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Humidity", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field HumidityPercent", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.Humidity == nil {
-				m.Humidity = &Unit{}
-			}
-			if err := m.Humidity.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.HumidityPercent = float32(math.Float32frombits(v))
 		case 13:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field AreaMaxWindSpeed", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field AreaMaxWindSpeedMps", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.AreaMaxWindSpeed == nil {
-				m.AreaMaxWindSpeed = &Speed{}
-			}
-			if err := m.AreaMaxWindSpeed.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.AreaMaxWindSpeedMps = float32(math.Float32frombits(v))
 		case 14:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field WindSpeed", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field WindSpeedMps", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.WindSpeed == nil {
-				m.WindSpeed = &Speed{}
-			}
-			if err := m.WindSpeed.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.WindSpeedMps = float32(math.Float32frombits(v))
 		case 15:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field Temperature", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field TemperatureC", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.Temperature == nil {
-				m.Temperature = &Unit{}
-			}
-			if err := m.Temperature.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.TemperatureC = float32(math.Float32frombits(v))
 		case 16:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field LowClouds", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field LowCloudsPercent", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.LowClouds == nil {
-				m.LowClouds = &Percent{}
-			}
-			if err := m.LowClouds.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.LowCloudsPercent = float32(math.Float32frombits(v))
 		case 17:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field MediumClouds", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field MediumCloudsPercent", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.MediumClouds == nil {
-				m.MediumClouds = &Percent{}
-			}
-			if err := m.MediumClouds.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.MediumCloudsPercent = float32(math.Float32frombits(v))
 		case 18:
-			if wireType != 2 {
-				return fmt.Errorf("proto: wrong wireType = %d for field HighClouds", wireType)
+			if wireType != 5 {
+				return fmt.Errorf("proto: wrong wireType = %d for field HighCloudsPercent", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.HighClouds == nil {
-				m.HighClouds = &Percent{}
-			}
-			if err := m.HighClouds.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.HighCloudsPercent = float32(math.Float32frombits(v))
 		case 19:
-			if wireType != 2 {
+			if wireType != 5 {
 				return fmt.Errorf("proto: wrong wireType = %d for field TemperatureProbability", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.TemperatureProbability == nil {
-				m.TemperatureProbability = &Unit{}
-			}
-			if err := m.TemperatureProbability.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.TemperatureProbability = float32(math.Float32frombits(v))
 		case 20:
-			if wireType != 2 {
+			if wireType != 5 {
 				return fmt.Errorf("proto: wrong wireType = %d for field WindProbability", wireType)
 			}
-			var msglen int
-			for shift := uint(0); ; shift += 7 {
-				if shift >= 64 {
-					return ErrIntOverflowSpec
-				}
-				if iNdEx >= l {
-					return io.ErrUnexpectedEOF
-				}
-				b := dAtA[iNdEx]
-				iNdEx++
-				msglen |= (int(b) & 0x7F) << shift
-				if b < 0x80 {
-					break
-				}
-			}
-			if msglen < 0 {
-				return ErrInvalidLengthSpec
-			}
-			postIndex := iNdEx + msglen
-			if postIndex > l {
+			var v uint32
+			if (iNdEx + 4) > l {
 				return io.ErrUnexpectedEOF
 			}
-			if m.WindProbability == nil {
-				m.WindProbability = &Unit{}
-			}
-			if err := m.WindProbability.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
-				return err
-			}
-			iNdEx = postIndex
+			v = uint32(binary.LittleEndian.Uint32(dAtA[iNdEx:]))
+			iNdEx += 4
+			m.WindProbability = float32(math.Float32frombits(v))
 		case 22:
 			if wireType != 0 {
 				return fmt.Errorf("proto: wrong wireType = %d for field UpdatedTimestamp", wireType)
@@ -3174,58 +1889,50 @@ var (
 func init() { proto.RegisterFile("spec.proto", fileDescriptorSpec) }
 
 var fileDescriptorSpec = []byte{
-	// 847 bytes of a gzipped FileDescriptorProto
-	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x55, 0x4f, 0x6f, 0xdc, 0x44,
-	0x14, 0xc7, 0xbb, 0x9b, 0x78, 0xfd, 0x36, 0x9b, 0x6c, 0x5f, 0x42, 0x30, 0x51, 0x15, 0x22, 0x1f,
-	0x20, 0x04, 0xe8, 0x2a, 0x09, 0x52, 0xa5, 0xc2, 0x01, 0xb5, 0xa9, 0xa0, 0x42, 0x48, 0x65, 0x52,
-	0xa8, 0x38, 0x7a, 0xed, 0x17, 0xef, 0x48, 0xb6, 0xc7, 0xf5, 0x8c, 0xbb, 0x8d, 0x7a, 0xe3, 0x2b,
-	0x70, 0xe1, 0xc4, 0xe7, 0xe1, 0x88, 0xc4, 0x17, 0x40, 0x81, 0xcf, 0xc0, 0x19, 0xcd, 0xf8, 0xcf,
-	0x7a, 0xe3, 0x2d, 0xbd, 0xcd, 0xcc, 0xfb, 0xfd, 0x7e, 0xef, 0xbd, 0xdf, 0xf8, 0x8d, 0x01, 0x64,
-	0x46, 0xc1, 0xbd, 0x2c, 0x17, 0x4a, 0xe0, 0x40, 0xaf, 0x0f, 0xee, 0x46, 0x42, 0x44, 0x31, 0x4d,
-	0xfd, 0x8c, 0x4f, 0xfd, 0x34, 0x15, 0xca, 0x57, 0x5c, 0xa4, 0xb2, 0xc4, 0x78, 0x97, 0xb0, 0xf3,
-	0x9c, 0x7c, 0x35, 0xa7, 0xfc, 0x52, 0x89, 0x9c, 0xbe, 0xa5, 0x6b, 0xbc, 0x0b, 0x8e, 0xe2, 0x09,
-	0x49, 0xe5, 0x27, 0x99, 0x6b, 0x1d, 0x59, 0xc7, 0x36, 0x5b, 0x1e, 0xe0, 0x04, 0xfa, 0xb1, 0xaf,
-	0xdc, 0xde, 0x91, 0x75, 0x6c, 0x31, 0xbd, 0x34, 0x27, 0x69, 0xe4, 0xf6, 0xab, 0x93, 0x34, 0xf2,
-	0xbe, 0x82, 0xc1, 0x0f, 0x29, 0x57, 0x88, 0x30, 0x28, 0x52, 0xae, 0x8c, 0x88, 0xc3, 0xcc, 0x1a,
-	0xf7, 0x60, 0xe3, 0xa5, 0x1f, 0x17, 0x54, 0x29, 0x94, 0x1b, 0xdc, 0x86, 0x1e, 0x0f, 0x8d, 0x84,
-	0xc3, 0x7a, 0x3c, 0xf4, 0xbe, 0x80, 0xfe, 0x05, 0x45, 0x5a, 0x20, 0xf5, 0x13, 0xaa, 0x05, 0xf4,
-	0x5a, 0xa7, 0x0b, 0x29, 0xaa, 0x0b, 0x08, 0x29, 0xea, 0x90, 0x7f, 0x82, 0x8d, 0xcb, 0x8c, 0x28,
-	0x5c, 0x4b, 0x3f, 0x80, 0xe1, 0x8c, 0xfc, 0xe2, 0x4a, 0xe4, 0x65, 0x13, 0x0e, 0x6b, 0xf6, 0x5a,
-	0x3a, 0xc9, 0x64, 0xdd, 0x49, 0x92, 0xc9, 0x4a, 0x7a, 0xd0, 0x48, 0x9f, 0x83, 0xfd, 0x94, 0xf2,
-	0x80, 0x52, 0x85, 0x2e, 0xd8, 0x59, 0xb9, 0x34, 0xfa, 0x16, 0xab, 0xb7, 0x15, 0xa9, 0xd7, 0x90,
-	0xfe, 0xdd, 0x84, 0x3b, 0x6d, 0x93, 0x7f, 0x34, 0x2d, 0x23, 0x0c, 0xae, 0x72, 0x91, 0x18, 0xf2,
-	0x98, 0x99, 0xb5, 0x66, 0x2a, 0x61, 0x98, 0x63, 0xd6, 0x53, 0xa2, 0x36, 0xbb, 0xdf, 0x31, 0x7b,
-	0xd0, 0x98, 0xad, 0x1b, 0xf2, 0x63, 0xc5, 0x55, 0x11, 0x92, 0xbb, 0x61, 0x8e, 0x9b, 0x3d, 0x7e,
-	0x00, 0xfd, 0x2b, 0x11, 0xb9, 0x9b, 0x47, 0xd6, 0xf1, 0xe8, 0x6c, 0x7c, 0xcf, 0x7c, 0x1b, 0x55,
-	0xfd, 0x4c, 0x47, 0xf0, 0x43, 0x18, 0x66, 0x39, 0x49, 0x59, 0xe4, 0xe4, 0xda, 0x06, 0x05, 0x25,
-	0x4a, 0xdf, 0x1f, 0x6b, 0x62, 0xf8, 0x19, 0x40, 0x10, 0x8b, 0x22, 0xe4, 0x29, 0x49, 0xe9, 0x0e,
-	0xd7, 0xe9, 0xb5, 0x00, 0x38, 0x85, 0xf1, 0x82, 0xa7, 0xe1, 0x05, 0xcf, 0x29, 0xd0, 0x5f, 0x9b,
-	0xeb, 0x18, 0x86, 0x53, 0x32, 0x2e, 0x28, 0x62, 0xab, 0x71, 0xfc, 0x12, 0x76, 0x43, 0x5a, 0x64,
-	0x82, 0xa7, 0xea, 0x19, 0x25, 0x19, 0xe5, 0xbe, 0xd2, 0x25, 0x41, 0xa7, 0xa4, 0x75, 0x30, 0xfc,
-	0x08, 0x86, 0x5a, 0xee, 0xeb, 0x42, 0x2a, 0x77, 0x64, 0x28, 0xa3, 0x92, 0x62, 0x3e, 0x03, 0xd6,
-	0x04, 0x75, 0xbb, 0xf3, 0x22, 0xe1, 0x21, 0x57, 0xd7, 0xee, 0x56, 0xb7, 0xdd, 0x3a, 0x86, 0xf7,
-	0x61, 0xe2, 0xe7, 0xe4, 0x7f, 0xe7, 0xbf, 0x7a, 0xce, 0xd3, 0xd0, 0xa8, 0xb8, 0xe3, 0xae, 0x70,
-	0x07, 0x84, 0x1f, 0x83, 0xb3, 0x68, 0x18, 0xdb, 0x5d, 0xc6, 0x32, 0x8a, 0x9f, 0xc2, 0x48, 0xb5,
-	0x5a, 0xdd, 0xe9, 0x94, 0xd3, 0x0e, 0xe3, 0x27, 0xe0, 0xc4, 0x62, 0xf1, 0x48, 0x5b, 0x2c, 0xdd,
-	0xc9, 0x3a, 0xff, 0x97, 0x71, 0x3c, 0x85, 0xad, 0x84, 0x42, 0x5e, 0x24, 0x15, 0xfe, 0xce, 0x3a,
-	0xfc, 0x0a, 0x44, 0x5f, 0xf0, 0x9c, 0x47, 0xf3, 0x8a, 0x80, 0x6b, 0x2f, 0x78, 0x09, 0xc0, 0x87,
-	0xb0, 0xdf, 0xaa, 0xee, 0x69, 0x2e, 0x66, 0xfe, 0x8c, 0xc7, 0xda, 0xd6, 0xdd, 0x4e, 0x1f, 0x6f,
-	0x40, 0xe2, 0xe7, 0xb0, 0xa3, 0xdd, 0x68, 0x93, 0xf7, 0x3a, 0xe4, 0xdb, 0x10, 0x3c, 0x81, 0x49,
-	0x91, 0x85, 0xbe, 0xa2, 0xf0, 0x59, 0xf3, 0x48, 0xed, 0x9b, 0x81, 0xe9, 0x9c, 0x7b, 0xaf, 0x61,
-	0xb7, 0x9a, 0x3b, 0x46, 0x32, 0x13, 0xa9, 0xa4, 0x27, 0x8a, 0x12, 0x3c, 0x85, 0x61, 0x2c, 0x02,
-	0xf3, 0x0c, 0x9a, 0xe9, 0x1b, 0x9d, 0xbd, 0x5b, 0x66, 0xbc, 0xf5, 0x12, 0xb2, 0x06, 0x86, 0xa7,
-	0x60, 0x2f, 0xca, 0xa0, 0x99, 0xce, 0xd1, 0xd9, 0x7b, 0x5d, 0x86, 0x19, 0x6b, 0x56, 0xe3, 0xbc,
-	0x47, 0xb0, 0xf5, 0x7d, 0x41, 0xf9, 0x35, 0xa3, 0x17, 0x05, 0x49, 0x85, 0xe7, 0xfa, 0x06, 0x4b,
-	0x39, 0xe9, 0x5a, 0x47, 0xfd, 0x37, 0xa7, 0x5d, 0xe2, 0xbc, 0x19, 0x8c, 0x2b, 0x91, 0xb2, 0x7e,
-	0xfd, 0xea, 0xc4, 0x3c, 0xa0, 0x54, 0xd6, 0xaf, 0x5a, 0xbd, 0xc5, 0xfb, 0x6d, 0xfd, 0x9e, 0xd1,
-	0x7f, 0x7f, 0x45, 0xbf, 0xed, 0x41, 0x3b, 0xc7, 0x6b, 0xd8, 0x79, 0xfc, 0x4a, 0xe5, 0x94, 0x50,
-	0x93, 0xe5, 0x1c, 0xec, 0x40, 0xc4, 0x21, 0x49, 0x55, 0x19, 0xf4, 0x3f, 0x4a, 0x35, 0x52, 0x93,
-	0xe6, 0x42, 0x29, 0x4d, 0xea, 0xbd, 0x95, 0x54, 0x21, 0x3d, 0x1b, 0x36, 0x1e, 0x27, 0x99, 0xba,
-	0x3e, 0xfb, 0xcd, 0x02, 0xbb, 0x42, 0xe2, 0x13, 0x18, 0xb2, 0x2c, 0x30, 0x8d, 0x23, 0x96, 0x22,
-	0x6d, 0x2b, 0x0f, 0x76, 0x57, 0xce, 0x4a, 0x59, 0x6f, 0xef, 0xe7, 0x3f, 0xff, 0xf9, 0xa5, 0xb7,
-	0xed, 0x39, 0xd3, 0x97, 0xa7, 0xd3, 0x17, 0x3a, 0xf4, 0xc0, 0x3a, 0xc1, 0x6f, 0x00, 0x58, 0x16,
-	0x54, 0xfd, 0x61, 0x35, 0x8b, 0x26, 0xe3, 0x41, 0xe5, 0xfe, 0xad, 0xde, 0xbd, 0x7d, 0xa3, 0x33,
-	0xf1, 0x46, 0x5a, 0x87, 0xca, 0xe0, 0x03, 0xeb, 0xe4, 0xe1, 0xe4, 0xf7, 0x9b, 0x43, 0xeb, 0x8f,
-	0x9b, 0x43, 0xeb, 0xaf, 0x9b, 0x43, 0xeb, 0xd7, 0xbf, 0x0f, 0xdf, 0x99, 0x6d, 0x9a, 0x5f, 0xe8,
-	0xf9, 0x7f, 0x01, 0x00, 0x00, 0xff, 0xff, 0xa4, 0xbf, 0x2a, 0x1c, 0x74, 0x07, 0x00, 0x00,
+	// 707 bytes of a gzipped FileDescriptorProto
+	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x54, 0xcd, 0x4e, 0xdb, 0x4c,
+	0x14, 0xfd, 0x1c, 0x7e, 0x92, 0xdc, 0x10, 0x12, 0x26, 0x7c, 0xd4, 0x8d, 0x50, 0x14, 0x79, 0x85,
+	0x50, 0x45, 0x4a, 0x90, 0x5a, 0x89, 0x5d, 0x0b, 0xa8, 0xa0, 0x0a, 0x89, 0x1a, 0x54, 0xd6, 0x8e,
+	0x7d, 0x49, 0x46, 0xb2, 0x3d, 0xc3, 0xcc, 0xb8, 0x21, 0x62, 0xd7, 0x3e, 0x42, 0x37, 0x5d, 0xf5,
+	0x79, 0xba, 0xac, 0xd4, 0x17, 0xa8, 0x68, 0x1f, 0xa4, 0x9a, 0xb1, 0x13, 0x9c, 0x04, 0xda, 0xdd,
+	0xf8, 0x9c, 0x73, 0xcf, 0xdc, 0x7b, 0x26, 0x37, 0x00, 0x92, 0xa3, 0xbf, 0xc3, 0x05, 0x53, 0x8c,
+	0x2c, 0xea, 0x73, 0x73, 0xb3, 0xcf, 0x58, 0x3f, 0xc4, 0x8e, 0xc7, 0x69, 0xc7, 0x8b, 0x63, 0xa6,
+	0x3c, 0x45, 0x59, 0x2c, 0x53, 0x8d, 0x73, 0x0e, 0xb5, 0x4b, 0xf4, 0xd4, 0x00, 0xc5, 0xb9, 0x62,
+	0x02, 0xdf, 0xe2, 0x88, 0x6c, 0x42, 0x59, 0xd1, 0x08, 0xa5, 0xf2, 0x22, 0x6e, 0x5b, 0x6d, 0x6b,
+	0xab, 0xe8, 0xde, 0x03, 0xa4, 0x0e, 0x0b, 0xa1, 0xa7, 0xec, 0x42, 0xdb, 0xda, 0x2a, 0xb8, 0xfa,
+	0x68, 0x90, 0xb8, 0x6f, 0x2f, 0x64, 0x48, 0xdc, 0x77, 0x3e, 0x2d, 0xc3, 0x5a, 0xde, 0xf5, 0xbd,
+	0x17, 0x26, 0x48, 0x08, 0x2c, 0x5e, 0x09, 0x16, 0x19, 0xcb, 0xaa, 0x6b, 0xce, 0x64, 0x15, 0x0a,
+	0x8a, 0x19, 0xb3, 0xaa, 0x5b, 0x50, 0x8c, 0x34, 0xa1, 0xe4, 0x85, 0x8a, 0xaa, 0x24, 0x40, 0x7b,
+	0xc9, 0x18, 0x4e, 0xbe, 0x49, 0x0b, 0xe0, 0x8a, 0xf5, 0xcf, 0x50, 0xf8, 0x18, 0x2b, 0x7b, 0xd9,
+	0xb0, 0x39, 0x84, 0xb4, 0xa1, 0xc2, 0x05, 0x4a, 0x99, 0x08, 0x3c, 0x3e, 0x7b, 0x65, 0x17, 0x8d,
+	0x20, 0x0f, 0x91, 0x67, 0xb0, 0xe6, 0x87, 0x2c, 0x09, 0x68, 0x8c, 0x52, 0x8e, 0x8d, 0x4a, 0x46,
+	0x37, 0x4f, 0x90, 0x6d, 0xa8, 0x0f, 0x69, 0x1c, 0x1c, 0x52, 0x81, 0xbe, 0x8e, 0xec, 0x10, 0xfb,
+	0x76, 0xd9, 0x88, 0xe7, 0x70, 0xd2, 0x85, 0xf5, 0x00, 0x87, 0x9c, 0xd1, 0x58, 0x5d, 0x60, 0xc4,
+	0x51, 0x78, 0x2a, 0x11, 0x78, 0x60, 0x83, 0xd1, 0x3f, 0xc8, 0xe9, 0x7e, 0xb5, 0xcf, 0x9b, 0x44,
+	0xaa, 0x53, 0x2e, 0xed, 0x4a, 0xda, 0x6f, 0x0e, 0x22, 0x5b, 0x50, 0x1b, 0x24, 0x11, 0x0d, 0xa8,
+	0x1a, 0x8d, 0xbb, 0x5d, 0x31, 0xaa, 0x59, 0x98, 0x3c, 0x87, 0x86, 0x27, 0xd0, 0x3b, 0xf5, 0x6e,
+	0x2e, 0x69, 0x1c, 0x9c, 0x73, 0xc4, 0x40, 0x7b, 0x56, 0x8d, 0xfa, 0x21, 0x8a, 0x38, 0xb0, 0x32,
+	0xcc, 0x4b, 0x57, 0x8d, 0x74, 0x0a, 0xd3, 0x1a, 0x95, 0x9f, 0xa6, 0x96, 0x6a, 0xf2, 0x98, 0x4e,
+	0x29, 0x64, 0xc3, 0x03, 0x9d, 0xde, 0x24, 0xd2, 0x7a, 0x9a, 0xd2, 0x2c, 0xae, 0xbb, 0x8c, 0x30,
+	0xa0, 0x49, 0x34, 0x2d, 0x5f, 0x4b, 0xbb, 0x7c, 0x80, 0xd2, 0x2f, 0x36, 0xa0, 0xfd, 0xc1, 0xb4,
+	0x9e, 0xa4, 0x2f, 0x36, 0x47, 0x90, 0x17, 0xb0, 0x91, 0xeb, 0xed, 0x4c, 0xb0, 0x9e, 0xd7, 0xa3,
+	0x21, 0x55, 0x23, 0xbb, 0x61, 0x4a, 0x1e, 0x61, 0x75, 0xce, 0x7a, 0xee, 0x7c, 0xc1, 0x7a, 0x9a,
+	0xf3, 0x0c, 0xac, 0xa7, 0x4d, 0x78, 0xe0, 0x29, 0x0c, 0x2e, 0x26, 0x2b, 0xb2, 0x61, 0x7e, 0xbd,
+	0x73, 0xb8, 0x73, 0x0b, 0x8d, 0x6c, 0x09, 0x5c, 0x94, 0x9c, 0xc5, 0x12, 0x4f, 0x14, 0x46, 0x64,
+	0x17, 0x4a, 0x21, 0xf3, 0xcd, 0x12, 0x9a, 0x55, 0xa8, 0x74, 0xff, 0xdf, 0x31, 0x4b, 0x3b, 0xb3,
+	0x87, 0xee, 0x44, 0x46, 0x76, 0xa1, 0x38, 0x4c, 0x49, 0xb3, 0x2a, 0x95, 0xee, 0x93, 0xf9, 0x0a,
+	0xb3, 0x63, 0xee, 0x58, 0xe7, 0x1c, 0xc0, 0xca, 0xbb, 0x04, 0xc5, 0xc8, 0xc5, 0xeb, 0x04, 0xa5,
+	0x22, 0x7b, 0x50, 0x1e, 0xdb, 0x49, 0xdb, 0x6a, 0x2f, 0x3c, 0x7e, 0xed, 0xbd, 0xce, 0xe9, 0x41,
+	0x35, 0x33, 0x49, 0xfb, 0x27, 0x36, 0x14, 0x43, 0xea, 0x63, 0x2c, 0xd1, 0xb4, 0x5e, 0x76, 0xc7,
+	0x9f, 0xe4, 0x65, 0xde, 0xbf, 0x60, 0xfc, 0x9f, 0x4e, 0xf9, 0xe7, 0x33, 0xc8, 0xdf, 0x71, 0x0b,
+	0xb5, 0xa3, 0x1b, 0x25, 0x30, 0xc2, 0xc9, 0x2d, 0x7b, 0x50, 0xf4, 0x59, 0x18, 0xa0, 0x54, 0x59,
+	0x40, 0x7f, 0x71, 0x1a, 0x2b, 0x75, 0xd1, 0x80, 0x29, 0xa5, 0x8b, 0x0a, 0xff, 0x2c, 0xca, 0x94,
+	0x4e, 0x11, 0x96, 0x8e, 0x22, 0xae, 0x46, 0xdd, 0xaf, 0x16, 0x14, 0x33, 0x25, 0x39, 0x81, 0x92,
+	0xcb, 0x7d, 0x33, 0x38, 0x21, 0xa9, 0x49, 0x3e, 0xca, 0x66, 0x63, 0x0a, 0x4b, 0x6d, 0x9d, 0xf5,
+	0x8f, 0x3f, 0x7e, 0x7f, 0x2e, 0xac, 0x3a, 0xe5, 0xce, 0x87, 0xdd, 0xce, 0xb5, 0xa6, 0xf6, 0xad,
+	0x6d, 0x72, 0x0c, 0xe0, 0x72, 0x3f, 0x9b, 0x8f, 0x54, 0xd2, 0x42, 0x73, 0x63, 0x33, 0x4b, 0x7f,
+	0x66, 0x76, 0x67, 0xc3, 0xf8, 0xd4, 0x9d, 0x8a, 0xf6, 0xc1, 0x94, 0xdc, 0xb7, 0xb6, 0x5f, 0xd7,
+	0xbf, 0xdd, 0xb5, 0xac, 0xef, 0x77, 0x2d, 0xeb, 0xe7, 0x5d, 0xcb, 0xfa, 0xf2, 0xab, 0xf5, 0x5f,
+	0x6f, 0xd9, 0xfc, 0x81, 0xef, 0xfd, 0x09, 0x00, 0x00, 0xff, 0xff, 0x5f, 0xd9, 0x8e, 0x4e, 0xf2,
+	0x05, 0x00, 0x00,
 }

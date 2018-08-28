@@ -16,71 +16,29 @@ $ go run *.go -help # will give the command line options
 
 Example:
 
-curl -XPOST -s -d '{"locations":[{"lat":-1,"lng":-45.5, "timestamp":1535551200}]}' https://freeweatherapi.com/v1/query | json_pp
+curl -XPOST -s -d '{"locations":[{"lat":2,"lng":-53}]}' https://freeweatherapi.com/v1/query | json_pp
 {
    "locations" : [
       {
          "weather" : {
-            "windSpeed" : {
-               "id" : "ff",
-               "beaufort" : "4",
-               "name" : "Laber bris",
-               "mps" : 6.4
-            },
-            "fog" : {
-               "id" : "FOG"
-            },
-            "windDirection" : {
-               "id" : "dd",
-               "deg" : 114.7,
-               "name" : "SE"
-            },
-            "cloudiness" : {
-               "percent" : 78.9,
-               "id" : "NN"
-            },
-            "lng" : -175,
-            "mediumClouds" : {
-               "percent" : 11.7,
-               "id" : "MEDIUM"
-            },
-            "to" : 1535284800,
-            "highClouds" : {
-               "percent" : 75,
-               "id" : "HIGH"
-            },
-            "updatedTimestamp" : 1535281470,
-            "lowClouds" : {
-               "percent" : 32,
-               "id" : "LOW"
-            },
-            "dewpointTemperature" : {
-               "id" : "TD",
-               "unit" : "celsius",
-               "value" : 23.6
-            },
-            "pressure" : {
-               "unit" : "hPa",
-               "value" : 1011.2,
-               "id" : "pr"
-            },
-            "from" : 1535284800,
-            "humidity" : {
-               "unit" : "percent",
-               "value" : 80.7
-            },
-            "temperature" : {
-               "value" : 26.9,
-               "unit" : "celsius",
-               "id" : "TTT"
-            }
+            "dewpointTemperatureC" : 24.2,
+            "cloudinessPercent" : 50.8,
+            "lowCloudsPercent" : 50.8,
+            "windSpeedMps" : 3.6,
+            "pressureHPA" : 1013.9,
+            "from" : 1535889600,
+            "humidityPercent" : 76.1,
+            "to" : 1535889600,
+            "updatedTimestamp" : 1535436757,
+            "windDirectionDeg" : 91.4,
+            "temperatureC" : 28.4
          },
          "location" : {
-            "timestamp" : 1535284800,
-            "lng" : -175
+            "timestamp" : 1535889600,
+            "lng" : -53,
+            "lat" : 2
          }
       }
    ],
    "license" : "Based on data from MET Norway, License: https://api.met.no/license_data.html"
 }
-
