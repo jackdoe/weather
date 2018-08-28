@@ -39,6 +39,7 @@
   <div class=container>
     <h2>free weather api based on <a href="https://api.met.no">api.met.no</a></h2>
     <p id="extremes"></p>
+    <pre id="curl"></pre>
     <pre>
         # I(<a href="mailto:jack@sofialondonmoskva.com">Borislav Nikolov</a>) got upset how people are selling free
         # data at some ludicrous prices, so I made freeweatherapi.com
@@ -145,6 +146,7 @@
 </body>
 <script>
 var res = document.getElementById("extremes")
+var curlOut = document.getElementById("curl")
 var work = function() {
     var s = ""
     res.innerHTML = s
@@ -156,10 +158,14 @@ var work = function() {
        if (xhr.readyState === 4) {
                if (xhr.status === 200) {
                var data = JSON.parse(xhr.responseText);
-
-               var link = function(x) {
+                 var link = function(x) {
+                 var lat = x.location.lat
+                 var lng = x.location.lng
+                 var ts = x.location.timestamp
                  var t = new Date(x.weather.from * 1000)
-                 return x.weather.temperatureC + 'C, at ' + t.toLocaleDateString() + ' ' + t.toLocaleTimeString() + ' <a href="https://www.google.com/maps/search/?api=1&query='+x.location.lat+','+x.location.lng+'">google maps</a>'
+                 var curlLink = ' <a href="#" onClick="javascript: curl(' + lat + ',' + lng + ',' + ts + ')">curl</a>'
+                 var gmapsLink = ' <a href="https://www.google.com/maps/search/?api=1&query='+lng+','+lng+'">google maps</a> '
+                 return x.weather.temperatureC + 'C, at ' + t.toLocaleDateString() + ' ' + t.toLocaleTimeString() + gmapsLink + curlLink;
                }
                s += 'hottest place ' + link(data.hottest) + '<br>'
                s += 'coldest place ' + link(data.coldest)
@@ -170,6 +176,25 @@ var work = function() {
        }
    }
 }
+
+var curl = function(lat, lng, timestamp) {
+    curlOut.innerHTML = ""
+    var query = {locations: [{lat: lat, lng: lng, timestamp: timestamp}]}
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', /v1/query');
+    xhr.send(JSON.stringify(query));
+    xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4) {
+               if (xhr.status === 200) {
+               var data = JSON.parse(xhr.responseText);
+               curlOut.innerHTML = "curl -XPOST -d '" + JSON.stringify(query) + "' https://freeweatherapi.com/v1/query<br><br>" + JSON.stringify(data,null,2)
+           } else {
+               curlOut.innerHTML = "error fetching results, status:" + xhr.status + ", text: " + xhr.responseText
+           }
+       }
+   }
+}
+
 work()
 </script>
 </html>
