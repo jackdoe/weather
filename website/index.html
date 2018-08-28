@@ -159,7 +159,7 @@ var work = function() {
 
                var link = function(x) {
                  var t = new Date(x.weather.from * 1000)
-                 return x.weather.temperatureC + ' celsius, at ' + t.toLocaleDateString("en-US") + ' ' + t.toLocaleTimeString('en-US') + ' <a href="https://www.google.com/maps/search/?api=1&query='+x.location.lat+','+x.location.lng+'">google maps</a>'
+                 return x.weather.temperatureC + '℃, at ' + t.toLocaleDateString("en-US") + ' ' + t.toLocaleTimeString('en-US') + ' <a href="https://www.google.com/maps/search/?api=1&query='+x.location.lat+','+x.location.lng+'">google maps</a>'
                }
                s += 'hottest place ' + link(data.hottest) + '<br>'
                s += 'coldest place ' + link(data.coldest)
