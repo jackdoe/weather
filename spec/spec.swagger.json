@@ -15,6 +15,32 @@
     "application/json"
   ],
   "paths": {
+    "/v1/batch": {
+      "post": {
+        "operationId": "RpcBatch",
+        "responses": {
+          "200": {
+            "description": "(streaming responses)",
+            "schema": {
+              "$ref": "#/definitions/specWeatherResponseItem"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/specBatchRequest"
+            }
+          }
+        ],
+        "tags": [
+          "Weather"
+        ]
+      }
+    },
     "/v1/extreme": {
       "post": {
         "operationId": "RpcExtreme",
@@ -69,6 +95,15 @@
     }
   },
   "definitions": {
+    "specBatchRequest": {
+      "type": "object",
+      "properties": {
+        "timestamp": {
+          "type": "integer",
+          "format": "int64"
+        }
+      }
+    },
     "specEmpty": {
       "type": "object"
     },

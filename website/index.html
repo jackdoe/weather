@@ -136,6 +136,13 @@
               }
            }
         }
+
+        ## api - https://freeweatherapi.com/v1/batch, method POST
+        ## strem of all data for specific day (one location per row)
+        curl -X POST -d '{"timestamp":...}' https://freeweatherapi.com/v1/batch
+        {"result":{"location":{"timestamp":...,"lat":44.5,"lng":132},"weather":{...}
+        {"result":{"location":{"timestamp":...,"lat":44.5,"lng":132},"weather":{...}
+        ...
         ```
 
         use it as much as you want, just make sure you credit MET Norway,

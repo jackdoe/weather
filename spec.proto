@@ -54,6 +54,10 @@ message ExtremeResponse {
 message Empty {
 }
 
+message BatchRequest {
+        fixed32 timestamp = 1;
+}
+
 service Weather {
         rpc RpcQuery (QueryRequest) returns (QueryResponse) {
            option (google.api.http) = {
@@ -68,4 +72,10 @@ service Weather {
            };
         }
 
+        rpc RpcBatch (BatchRequest) returns (stream WeatherResponseItem) {
+           option (google.api.http) = {
+             post: "/v1/batch"
+             body: "*"
+           };
+        }
 }

@@ -110,8 +110,8 @@ func (s *store) setStoredWeather(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue)
 	return err
 }
 
-func (s *store) scan(from, to uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreValue)) error {
-	iter := s.db.NewIterator(&util.Range{Start: s.encodeKeyFixedSize(0, 0, from), Limit: s.encodeKeyFixedSize(0, 0, to)}, nil)
+func (s *store) scan(from, to uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreValue) error) error {
+	iter := s.db.NewIterator(&util.Range{Start: s.encodeKeyFixedSize(0, 0, closestHourInt(from)), Limit: s.encodeKeyFixedSize(0, 0, closestHourInt(to))}, nil)
 
 	for iter.Next() {
 		k := s.decodeKeyFixedSize(iter.Key())
@@ -122,7 +122,10 @@ func (s *store) scan(from, to uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherSt
 			return err
 		}
 
-		cb(k, v)
+		err = cb(k, v)
+		if err != nil {
+			return err
+		}
 	}
 	iter.Release()
 	return iter.Error()

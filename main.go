@@ -38,6 +38,10 @@ func closestHour(t time.Time) uint32 {
 	return uint32((t.Unix() / 3600) * 3600)
 }
 
+func closestHourInt(t uint32) uint32 {
+	return uint32((t / 3600) * 3600)
+}
+
 func currentHour() uint32 {
 	return closestHour(time.Now())
 }
@@ -46,10 +50,16 @@ func now() uint32 {
 	return uint32(time.Now().Unix())
 }
 
+type cached struct {
+	hottest *pb.WeatherResponseItem
+	coldest *pb.WeatherResponseItem
+}
+
 type server struct {
 	store    *store
 	httpBind string
 	grpcBind string
+	cached   cached
 	sync.RWMutex
 }
 
@@ -84,30 +94,27 @@ func (s *server) RpcQuery(ctx context.Context, in *pb.QueryRequest) (*pb.QueryRe
 }
 
 func (s *server) RpcExtreme(ctx context.Context, in *pb.Empty) (*pb.ExtremeResponse, error) {
-	var hottest *pb.WeatherResponseItem
-	var coldest *pb.WeatherResponseItem
-	c := closestHour(time.Now())
-
-	s.store.scan(c, c+(3600*24), func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) {
-		if hottest == nil || v.TemperatureC > hottest.Weather.TemperatureC {
-			hottest = &pb.WeatherResponseItem{
-				Location: k,
-				Weather:  v,
-			}
-		}
-
-		if coldest == nil || v.TemperatureC < coldest.Weather.TemperatureC {
-			coldest = &pb.WeatherResponseItem{
-				Location: k,
-				Weather:  v,
-			}
-		}
-
-	})
 	return &pb.ExtremeResponse{
-		Hottest: hottest,
-		Coldest: coldest,
+		Hottest: s.cached.hottest,
+		Coldest: s.cached.coldest,
 	}, nil
+}
+
+func (s *server) RpcBatch(in *pb.BatchRequest, stream pb.Weather_RpcBatchServer) error {
+	if in.Timestamp == 0 {
+		in.Timestamp = currentHour()
+	}
+	return s.store.scan(in.Timestamp, in.Timestamp+(3600*24), func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
+		item := &pb.WeatherResponseItem{
+			Location: k,
+			Weather:  v,
+		}
+
+		if err := stream.Send(item); err != nil {
+			return err
+		}
+		return nil
+	})
 }
 
 func (this *server) runProxy() error {
@@ -144,6 +151,36 @@ func main() {
 	zapLogger := Zap()
 
 	srv := newServer(*proot, *phttpBind, *pgrpcBind)
+
+	go func() {
+		for {
+			var hottest *pb.WeatherResponseItem
+			var coldest *pb.WeatherResponseItem
+			c := closestHour(time.Now())
+
+			srv.store.scan(c, c+(3600*24), func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
+				if hottest == nil || v.TemperatureC > hottest.Weather.TemperatureC {
+					hottest = &pb.WeatherResponseItem{
+						Location: k,
+						Weather:  v,
+					}
+				}
+
+				if coldest == nil || v.TemperatureC < coldest.Weather.TemperatureC {
+					coldest = &pb.WeatherResponseItem{
+						Location: k,
+						Weather:  v,
+					}
+				}
+				return nil
+			})
+
+			srv.cached.hottest = hottest
+			srv.cached.coldest = coldest
+			time.Sleep(3600)
+		}
+	}()
+
 	go func() {
 		if err := srv.runProxy(); err != nil {
 			log.Fatal(err)
