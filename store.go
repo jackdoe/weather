@@ -3,13 +3,12 @@ package main
 import (
 	"encoding/binary"
 	"encoding/json"
+	"github.com/dgraph-io/badger"
 	proto "github.com/golang/protobuf/proto"
 	"github.com/jackdoe/go-metno"
 	. "github.com/jackdoe/weather/log"
 	pb "github.com/jackdoe/weather/spec"
-	"github.com/syndtr/goleveldb/leveldb"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/util"
+
 	"io/ioutil"
 	"math/rand"
 	"time"
@@ -25,18 +24,30 @@ func Round(x, unit float32) float32 {
 }
 
 type store struct {
-	db *leveldb.DB
+	db *badger.DB
 }
 
 func NewStore(path string) *store {
-	db, err := leveldb.OpenFile(path, &opt.Options{
-		Compression: opt.NoCompression,
-		NoSync:      true,
-	})
+	opts := badger.DefaultOptions
+	opts.Dir = path
+	opts.ValueDir = path
+	db, err := badger.Open(opts)
 
 	if err != nil {
 		panic(err)
 	}
+
+	go func() {
+		ticker := time.NewTicker(5 * time.Minute)
+		defer ticker.Stop()
+		for range ticker.C {
+		again:
+			err := db.RunValueLogGC(0.7)
+			if err == nil {
+				goto again
+			}
+		}
+	}()
 
 	return &store{
 		db: db,
@@ -59,13 +70,21 @@ func (s *store) normalizeWeatherKey(k *pb.WeatherStoreKey) {
 }
 
 func (s *store) getStoredWeather(k *pb.WeatherStoreKey) (*pb.WeatherStoreValue, error) {
+	txn := s.db.NewTransaction(false)
+
+	defer txn.Discard()
+
 	dataK := s.encodeKeyFixedSize(k.Lat, k.Lng, k.Timestamp)
-	dataV, err := s.db.Get(dataK, nil)
+	found, err := txn.Get(dataK)
 	if err != nil {
 		return nil, err
 	}
-	if dataV == nil {
+	if found == nil {
 		return nil, nil
+	}
+	dataV, err := found.Value()
+	if err != nil {
+		return nil, err
 	}
 
 	out := &pb.WeatherStoreValue{}
@@ -104,18 +123,31 @@ func (s *store) setStoredWeather(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue)
 		return err
 	}
 
-	err = s.db.Put(dataK, dataV, nil)
-	return err
+	return s.db.Update(func(txn *badger.Txn) error {
+		err := txn.Set(dataK, dataV)
+		return err
+	})
 }
 
-func (s *store) scan(from, to uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreValue) error) error {
-	iter := s.db.NewIterator(&util.Range{Start: s.encodeKeyFixedSize(0, 0, closestHourInt(from)), Limit: s.encodeKeyFixedSize(0, 0, closestHourInt(to))}, nil)
+func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreValue) error) error {
+	txn := s.db.NewTransaction(false)
+	defer txn.Discard()
 
-	for iter.Next() {
-		k := s.decodeKeyFixedSize(iter.Key())
+	it := txn.NewIterator(badger.DefaultIteratorOptions)
+	defer it.Close()
 
+	prefix := s.encodeKeyFixedSize(0, 0, closestHourInt(from-3600))
+	for it.Seek(prefix); it.Valid(); it.Next() {
+		item := it.Item()
+		ik := item.Key()
+		iv, err := item.Value()
+		if err != nil {
+			return err
+		}
+
+		k := s.decodeKeyFixedSize(ik)
 		v := &pb.WeatherStoreValue{}
-		err := proto.Unmarshal(iter.Value(), v)
+		err = proto.Unmarshal(iv, v)
 		if err != nil {
 			return err
 		}
@@ -125,8 +157,7 @@ func (s *store) scan(from, to uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherSt
 			return err
 		}
 	}
-	iter.Release()
-	return iter.Error()
+	return nil
 }
 
 func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {

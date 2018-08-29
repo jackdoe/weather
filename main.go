@@ -104,7 +104,7 @@ func (s *server) RpcBatch(in *pb.BatchRequest, stream pb.Weather_RpcBatchServer)
 	if in.Timestamp == 0 {
 		in.Timestamp = currentHour()
 	}
-	return s.store.scan(in.Timestamp, in.Timestamp+(3600*24), func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
+	return s.store.scan(in.Timestamp, func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
 		item := &pb.WeatherResponseItem{
 			Location: k,
 			Weather:  v,
@@ -158,7 +158,7 @@ func main() {
 			var coldest *pb.WeatherResponseItem
 			c := closestHour(time.Now())
 
-			srv.store.scan(c, c+(3600*24), func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
+			srv.store.scan(c, func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
 				if hottest == nil || v.TemperatureC > hottest.Weather.TemperatureC {
 					hottest = &pb.WeatherResponseItem{
 						Location: k,
