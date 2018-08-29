@@ -8,9 +8,9 @@ import (
 	"github.com/jackdoe/go-metno"
 	. "github.com/jackdoe/weather/log"
 	pb "github.com/jackdoe/weather/spec"
-
 	"io/ioutil"
 	"math/rand"
+	"os"
 	"time"
 )
 
@@ -32,6 +32,8 @@ func NewStore(path string) *store {
 	opts.Dir = path
 	opts.ValueDir = path
 	db, err := badger.Open(opts)
+
+	os.MkdirAll(path, 0755)
 
 	if err != nil {
 		panic(err)
