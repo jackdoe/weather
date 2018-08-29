@@ -30,10 +30,8 @@ type store struct {
 
 func NewStore(path string) *store {
 	db, err := leveldb.OpenFile(path, &opt.Options{
-		BlockSize:           512 * opt.KiB,
-		CompactionTableSize: 1 * opt.MiB,
-		Compression:         opt.SnappyCompression,
-		NoSync:              true,
+		Compression: opt.NoCompression,
+		NoSync:      true,
 	})
 
 	if err != nil {
