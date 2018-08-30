@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/binary"
 	"encoding/json"
+
 	"github.com/dgraph-io/badger"
 	"github.com/dgraph-io/badger/options"
 	proto "github.com/golang/protobuf/proto"
@@ -30,7 +31,7 @@ type store struct {
 
 func NewStore(path string) *store {
 	opts := badger.DefaultOptions
-	opts.ValueLogLoadingMode = options.FileIO
+	opts.ValueLogLoadingMode = options.MemoryMap
 	opts.Dir = path
 	opts.ValueDir = path
 	db, err := badger.Open(opts)

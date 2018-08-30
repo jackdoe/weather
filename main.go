@@ -2,10 +2,10 @@ package main
 
 import (
 	"errors"
+	_ "expvar"
 	"flag"
 	"fmt"
 	ew "github.com/go-errors/errors"
-
 	"github.com/grpc-ecosystem/go-grpc-middleware"
 	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"
 	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap/ctxzap"
@@ -222,6 +222,9 @@ func main() {
 		}
 	}()
 
+	go func() {
+		log.Infof("%v", http.ListenAndServe("localhost:6060", nil))
+	}()
 	errc := make(chan error)
 
 	go func() {
