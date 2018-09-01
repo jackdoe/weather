@@ -4,7 +4,6 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
 	"github.com/jackdoe/go-metno"
 	. "github.com/jackdoe/weather/log"
 	pb "github.com/jackdoe/weather/spec"
