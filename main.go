@@ -14,6 +14,7 @@ import (
 	. "github.com/jackdoe/weather/log"
 	pb "github.com/jackdoe/weather/spec"
 	"go.uber.org/zap"
+	"path"
 
 	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
@@ -62,8 +63,8 @@ type server struct {
 	sync.RWMutex
 }
 
-func newServer(dburl, httpBind, grpcBind string) *server {
-	s := NewStore(dburl)
+func newServer(root, httpBind, grpcBind string) *server {
+	s := NewStore(path.Join(root, "database"))
 	srv := &server{
 		store:    s,
 		grpcBind: grpcBind,
@@ -138,20 +139,18 @@ func (this *server) runProxy() error {
 
 func main() {
 	grpc.EnableTracing = false
-	var plogRoot = flag.String("logdir", "/tmp/weather_log", "weather log directory")
-
-	var pdburl = flag.String("db", "sqlite:/tmp/weather.sqlite3", "weather database url, for example mysql://user:pass@localhost/dbname")
+	var proot = flag.String("root", "/tmp/weather", "weather storage root directory")
 	var phttpBind = flag.String("httpBind", ":8080", "bind for json endpoints (proxy for grpc)")
 	var pgrpcBind = flag.String("grpcBind", ":9090", "bind for grpc endpoints")
 	var plocations = flag.String("locations", "data/cities.json", "file filled with locations to update")
 	flag.Parse()
 	grpc_zap.SystemField = zap.String("gsystem", "grpc")
-	CreateLogger(*plogRoot)
+	CreateLogger(*proot)
 	defer Zap().Sync()
 	log := Log()
 	zapLogger := Zap()
 
-	srv := newServer(*pdburl, *phttpBind, *pgrpcBind)
+	srv := newServer(*proot, *phttpBind, *pgrpcBind)
 
 	go func() {
 		for {
@@ -236,6 +235,6 @@ func main() {
 	go srv.store.updateLocations(*plocations)
 
 	log.Infof("Exit: %v", <-errc)
-	log.Infof("closing %s", *pdburl)
+	log.Infof("closing %s", *proot)
 	srv.store.close()
 }
