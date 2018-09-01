@@ -31,7 +31,7 @@ type store struct {
 
 func NewStore(path string) *store {
 	opts := badger.DefaultOptions
-	opts.ValueLogLoadingMode = options.MemoryMap
+	opts.ValueLogLoadingMode = options.FileIO
 	opts.Dir = path
 	opts.ValueDir = path
 	db, err := badger.Open(opts)
@@ -121,27 +121,17 @@ func (s *store) decodeKeyFixedSize(b []byte) *pb.WeatherStoreKey {
 	}
 }
 
-func (s *store) setStoredWeather(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
-	dataK := s.encodeKeyFixedSize(k.Lat, k.Lng, k.Timestamp)
-	dataV, err := proto.Marshal(v)
-	if err != nil {
-		return err
-	}
-
-	return s.db.Update(func(txn *badger.Txn) error {
-		err := txn.Set(dataK, dataV)
-		return err
-	})
-}
-
 func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreValue) error) error {
 	txn := s.db.NewTransaction(false)
 	defer txn.Discard()
+	opts := badger.DefaultIteratorOptions
+	opts.PrefetchValues = false
+	it := txn.NewIterator(opts)
 
-	it := txn.NewIterator(badger.DefaultIteratorOptions)
 	defer it.Close()
-
+	to := closestHourInt(from + 3600)
 	prefix := s.encodeKeyFixedSize(0, 0, closestHourInt(from-3600))
+
 	for it.Seek(prefix); it.Valid(); it.Next() {
 		item := it.Item()
 		ik := item.Key()
@@ -151,6 +141,9 @@ func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreV
 		}
 
 		k := s.decodeKeyFixedSize(ik)
+		if k.Timestamp > to {
+			return nil
+		}
 		v := &pb.WeatherStoreValue{}
 		err = proto.Unmarshal(iv, v)
 		if err != nil {
@@ -166,92 +159,101 @@ func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreV
 }
 
 func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {
-	if input.Product == nil || input.Product.Time == nil {
+	return s.db.Update(func(txn *badger.Txn) error {
+		if input.Product == nil || input.Product.Time == nil {
+			return nil
+		}
+		log := Log()
+		for _, v := range input.Product.Time {
+			if v.Location == nil || v.Location.Temperature == nil {
+				continue
+
+			}
+			value := &pb.WeatherStoreValue{
+				UpdatedTimestamp: now(),
+				From:             uint32(v.From.Unix()),
+				To:               uint32(v.To.Unix()),
+			}
+
+			if v.Location.Humidity != nil {
+				value.HumidityPercent = float32(v.Location.Humidity.Value)
+			}
+
+			if v.Location.Fog != nil {
+				value.FogPercent = float32(v.Location.Fog.Percent)
+			}
+
+			if v.Location.Cloudiness != nil {
+				value.CloudinessPercent = float32(v.Location.Cloudiness.Percent)
+			}
+
+			if v.Location.LowClouds != nil {
+				value.LowCloudsPercent = float32(v.Location.LowClouds.Percent)
+			}
+
+			if v.Location.HighClouds != nil {
+				value.HighCloudsPercent = float32(v.Location.HighClouds.Percent)
+			}
+
+			if v.Location.MediumClouds != nil {
+				value.MediumCloudsPercent = float32(v.Location.MediumClouds.Percent)
+			}
+
+			if v.Location.WindSpeed != nil {
+				value.WindSpeedMps = float32(v.Location.WindSpeed.Mps)
+			}
+
+			if v.Location.WindGust != nil {
+				value.WindGustMps = float32(v.Location.WindGust.Mps)
+			}
+
+			if v.Location.AreaMaxWindSpeed != nil {
+				value.AreaMaxWindSpeedMps = float32(v.Location.AreaMaxWindSpeed.Mps)
+			}
+
+			if v.Location.WindDirection != nil {
+				value.WindDirectionDeg = float32(v.Location.WindDirection.Deg)
+			}
+
+			if v.Location.Pressure != nil {
+				value.PressureHPA = float32(v.Location.Pressure.Value)
+			}
+
+			if v.Location.TemperatureProbability != nil {
+				value.TemperatureProbability = float32(v.Location.TemperatureProbability.Value)
+			}
+
+			if v.Location.WindProbability != nil {
+				value.WindProbability = float32(v.Location.WindProbability.Value)
+			}
+
+			if v.Location.DewpointTemperature != nil {
+				value.DewpointTemperatureC = float32(v.Location.DewpointTemperature.Value)
+			}
+
+			value.TemperatureC = float32(v.Location.Temperature.Value)
+
+			key := &pb.WeatherStoreKey{
+				Timestamp: closestHour(v.From),
+				Lat:       float32(v.Location.Latitude),
+				Lng:       float32(v.Location.Longitude),
+			}
+
+			dataK := s.encodeKeyFixedSize(key.Lat, key.Lng, key.Timestamp)
+			dataV, err := proto.Marshal(value)
+			if err != nil {
+				return err
+			}
+
+			err = txn.Set(dataK, dataV)
+
+			if err != nil {
+				return err
+			}
+			log.Infof("%+v temp: %.2f", key, value.TemperatureC)
+		}
 		return nil
-	}
-	log := Log()
-	for _, v := range input.Product.Time {
-		if v.Location == nil || v.Location.Temperature == nil {
-			continue
-
-		}
-		value := &pb.WeatherStoreValue{
-			UpdatedTimestamp: now(),
-			From:             uint32(v.From.Unix()),
-			To:               uint32(v.To.Unix()),
-		}
-
-		if v.Location.Humidity != nil {
-			value.HumidityPercent = float32(v.Location.Humidity.Value)
-		}
-
-		if v.Location.Fog != nil {
-			value.FogPercent = float32(v.Location.Fog.Percent)
-		}
-
-		if v.Location.Cloudiness != nil {
-			value.CloudinessPercent = float32(v.Location.Cloudiness.Percent)
-		}
-
-		if v.Location.LowClouds != nil {
-			value.LowCloudsPercent = float32(v.Location.LowClouds.Percent)
-		}
-
-		if v.Location.HighClouds != nil {
-			value.HighCloudsPercent = float32(v.Location.HighClouds.Percent)
-		}
-
-		if v.Location.MediumClouds != nil {
-			value.MediumCloudsPercent = float32(v.Location.MediumClouds.Percent)
-		}
-
-		if v.Location.WindSpeed != nil {
-			value.WindSpeedMps = float32(v.Location.WindSpeed.Mps)
-		}
-
-		if v.Location.WindGust != nil {
-			value.WindGustMps = float32(v.Location.WindGust.Mps)
-		}
-
-		if v.Location.AreaMaxWindSpeed != nil {
-			value.AreaMaxWindSpeedMps = float32(v.Location.AreaMaxWindSpeed.Mps)
-		}
-
-		if v.Location.WindDirection != nil {
-			value.WindDirectionDeg = float32(v.Location.WindDirection.Deg)
-		}
-
-		if v.Location.Pressure != nil {
-			value.PressureHPA = float32(v.Location.Pressure.Value)
-		}
-
-		if v.Location.TemperatureProbability != nil {
-			value.TemperatureProbability = float32(v.Location.TemperatureProbability.Value)
-		}
-
-		if v.Location.WindProbability != nil {
-			value.WindProbability = float32(v.Location.WindProbability.Value)
-		}
-
-		if v.Location.DewpointTemperature != nil {
-			value.DewpointTemperatureC = float32(v.Location.DewpointTemperature.Value)
-		}
-
-		value.TemperatureC = float32(v.Location.Temperature.Value)
-
-		key := &pb.WeatherStoreKey{
-			Timestamp: closestHour(v.From),
-			Lat:       float32(v.Location.Latitude),
-			Lng:       float32(v.Location.Longitude),
-		}
-
-		err := s.setStoredWeather(key, value)
-		if err != nil {
-			return err
-		}
-		log.Infof("%+v temp: %.2f", key, value.TemperatureC)
-	}
-	return nil
+	})
 
 }
 

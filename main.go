@@ -157,7 +157,6 @@ func main() {
 			var hottest *pb.WeatherResponseItem
 			var coldest *pb.WeatherResponseItem
 			c := closestHour(time.Now())
-
 			srv.store.scan(c, func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
 				if hottest == nil || v.TemperatureC > hottest.Weather.TemperatureC {
 					hottest = &pb.WeatherResponseItem{
@@ -177,7 +176,7 @@ func main() {
 
 			srv.cached.hottest = hottest
 			srv.cached.coldest = coldest
-			time.Sleep(3600)
+			time.Sleep(3600 * time.Second)
 		}
 	}()
 
