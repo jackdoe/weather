@@ -5,9 +5,20 @@
   <meta charset="utf-8">
   <title>free weather api</title>
   <style>
+    @media (min-width: 1024px) {
     body {
-        font-family: "Lucida Console", Monaco, monospace;
+    font-family: "Lucida Console", Monaco, monospace;
+    max-width: 800px;
+    margin: auto;
     }
+    }
+    @media (max-width: 1023px) {
+    body {
+    font-family: "Lucida Console", Monaco, monospace;
+    margin: 20px;
+    }
+    }
+
     .link {
       height: 60px;
     }
@@ -16,9 +27,6 @@
       height: 200px;
     }
 
-    .container {
-      text-align: center;
-    }
 
     .container pre {
       display: inline-block;
@@ -31,130 +39,136 @@
 </head>
 
 <body>
-  <center>
     <img src="favicon.png" height=128>
     <a href="https://github.com/jackdoe/weather"><img style="position: absolute; top: 0; right: 0; border: 0;" src=github.png alt="Fork me on GitHub"></a>
-  </center>
   <br>
   <div class=container>
     <h2>free weather api based on <a href="https://api.met.no">api.met.no</a></h2>
     <p id="extremes"></p>
     <pre id="curl"></pre>
     <br>
-    <pre>
-        # I(<a href="mailto:jack@sofialondonmoskva.com">Borislav Nikolov</a>) got upset how people are selling free
-        # data at some ludicrous prices, so I made freeweatherapi.com
-        # using cached data from api.met.no
+    <p>
+      I(<a href="mailto:jack@sofialondonmoskva.com">Borislav Nikolov</a>) got upset how people are selling free
+      data at some ludicrous prices, so I made freeweatherapi.com
+      using cached data from api.met.no
+    </p>
+    <p>
+         at the moment this is costing me 8€/y for the domain and about
+         10€ per month for digital ocean, I promise to run it until it
+         costs me < 50€ per month, if you dont like that just run it locally
+    </p>
+    <p>
+        updating about 40_000 locations, key size is 12 bytes, value size is 80b<br>
+        40_000 * (12 + 80)bytes * 24 hours * 365 days is about 300gb per year<br>
+        since protobuf does not write the zero values, average value size
+        is smaller, so it is about 1gb for 1 week or about 50gb per year
+    </p>
+    <p>
+        data is updated every 7 hours, and the lat/lng resolution is +-50km<br>
+        predictions are up to 1 month in the future, but you can also look at the past
+    </p>
 
-        # at the moment this is costing me 8€/y for the domain and about
-        # 10€ per month for digital ocean, I promise to run it until it
-        # costs me < 50€ per month, if you dont like that just run it locally
+    <p>we are updating 42000 cities from <a href="https://www.maxmind.com/en/free-world-cities-database">free-world-cities-database</a>, rounded to closest 0.5 lat/lng</p>
+    <h2>api</h2>
+    <ul>
+      <li>swagger spec: <a href='https://github.com/jackdoe/weather/blob/master/spec/spec.swagger.json'>spec.swagger.json</a></li>
+      <li>grpc spec: <a href='https://github.com/jackdoe/weather/blob/master/spec.proto'>spec.proto</a></li>
+      <li>grpc host: freeweatherapi.com, port: 9090</li>
+    </ul>
 
-        # updating about 40_000 locations, key size is 12 bytes, value size is 80b
-        # 40_000 * (12 + 80)bytes * 24 hours * 365 days is about 300gb per year
-        # since protobuf does not write the zero values, average value size
-        # is smaller, so it is about 1gb for 1 week or about 50gb per year
+    <h3>query api - https://freeweatherapi.com/v1/query, method POST</h3>
+<pre>    
+{
+    "locations" : [
+       {
+          "lat" : 0,
+          "lng" : -176,
+          "timestamp" : 1535284800
+       }
+    ]
+ }
+</pre>
+<ul>
+<li>lat: latitude (x.678 gets normalized to x.5, x.123 -> x.0)</li>
+<li>lng: longituede (x.678 gets normalized to x.5, x.123 -> x.0)</li>
+<li>timestamp: timestamp of the hour you are interested in, x gets normalized to closest beginning of hour((x / 3600) * 3600)</li>
+</ul>
+<pre>
+curl -XPOST -s -d '{"locations":[{"lat":2,"lng":-53}]}' \
+     https://freeweatherapi.com/v1/query | json_pp
+{
+   "locations" : [
+      {
+         "weather" : {
+            "dewpointTemperatureC" : 24.2,
+            "cloudinessPercent" : 50.8,
+            "lowCloudsPercent" : 50.8,
+            "windSpeedMps" : 3.6,
+            "pressureHPA" : 1013.9,
+            "from" : 1535889600,
+            "humidityPercent" : 76.1,
+            "to" : 1535889600,
+            "updatedTimestamp" : 1535436757,
+            "windDirectionDeg" : 91.4,
+            "temperatureC" : 28.4
+         },
+         "location" : {
+            "timestamp" : 1535889600,
+            "lng" : -53,
+            "lat" : 2
+         }
+      }
+   ],
+   "license" : "Based on data from MET Norway, License: https://api.met.no/license_data.html"
+}
+</pre>
 
-        ## data is updated every 7 hours, and the lat/lng resolution is +-50km
-        ## predictions are up to 1 month in the future,
-        ## but you can also look at the past
+<h2>extreme api - https://freeweatherapi.com/v1/extreme, method POST</h2>
+<p>get hottest and coldest point in the world for current hour<p>
+<pre>
+curl -X POST -d '{}' http://localhost:8080/v1/extreme | json_pp
+{
+   "hottest" : {
+        "weather" : {
+         ...
+         "temperatureC": 47.9,
+      },
+      "location" : {
+         "lng" : 35,
+         "timestamp" : 1535889600,
+         "lat" : 28.5
+      }
+   },
+   "coldest" : {
+      "location" : {
+         "timestamp" : 1536127200,
+         "lng" : -86,
+         "lat" : 80
+      },
+      "weather" : {
+         ...
+         "temperatureC": -4.9,
+      }
+   }
+}
+</pre>
 
-        ## we are updating 14000 cities from <a href="https://www.maxmind.com/en/free-world-cities-database">free-world-cities-database</a>
-        ## rounded to closest 0.5 lat/lng
-
-        ## api - https://freeweatherapi.com/v1/query, method POST
-
-        {
-           "locations" : [
-              {
-                 "lat" : 0,
-                 "lng" : -176,
-                 "timestamp" : 1535284800
-              }
-           ]
-        }
-
-        lat: latitude (x.678 gets normalized to x.5, x.123 -> x.0)
-        lng: longituede (x.678 gets normalized to x.5, x.123 -> x.0)
-        timestamp: timestamp of the hour you are interested in
-                   x gets normalized to closest beginning of hour
-                   ((x / 3600) * 3600)
-
-        swagger spec: <a href='https://github.com/jackdoe/weather/blob/master/spec/spec.swagger.json'>spec.swagger.json</a>
-        grpc spec: <a href='https://github.com/jackdoe/weather/blob/master/spec.proto'>spec.proto</a>
-        grpc host: freeweatherapi.com, port: 9090
-
-        ## example
-
-        ```
-        curl -XPOST -s -d '{"locations":[{"lat":2,"lng":-53}]}' \
-             https://freeweatherapi.com/v1/query | json_pp
-        {
-           "locations" : [
-              {
-                 "weather" : {
-                    "dewpointTemperatureC" : 24.2,
-                    "cloudinessPercent" : 50.8,
-                    "lowCloudsPercent" : 50.8,
-                    "windSpeedMps" : 3.6,
-                    "pressureHPA" : 1013.9,
-                    "from" : 1535889600,
-                    "humidityPercent" : 76.1,
-                    "to" : 1535889600,
-                    "updatedTimestamp" : 1535436757,
-                    "windDirectionDeg" : 91.4,
-                    "temperatureC" : 28.4
-                 },
-                 "location" : {
-                    "timestamp" : 1535889600,
-                    "lng" : -53,
-                    "lat" : 2
-                 }
-              }
-           ],
-           "license" : "Based on data from MET Norway, License: https://api.met.no/license_data.html"
-        }
-
-        ## api - https://freeweatherapi.com/v1/extreme, method POST
-        curl -X POST -d '{}' http://localhost:8080/v1/extreme | json_pp
-        {
-           "hottest" : {
-                "weather" : {
-                 ...
-                 "temperatureC": 47.9,
-              },
-              "location" : {
-                 "lng" : 35,
-                 "timestamp" : 1535889600,
-                 "lat" : 28.5
-              }
-           },
-           "coldest" : {
-              "location" : {
-                 "timestamp" : 1536127200,
-                 "lng" : -86,
-                 "lat" : 80
-              },
-              "weather" : {
-                 ...
-                 "temperatureC": -4.9,
-              }
-           }
-        }
-
-        ## api - https://freeweatherapi.com/v1/batch, method POST
-        ## stream of all data for specific hour (one location per row)
-        curl -X POST -d '{"timestamp":...}' https://freeweatherapi.com/v1/batch
-        {"result":{"location":{"timestamp":...,"lat":44.5,"lng":132},"weather":{...}
-        {"result":{"location":{"timestamp":...,"lat":44.5,"lng":132},"weather":{...}
-        ...
-        ```
-
-        use it as much as you want, just make sure you credit MET Norway,
-        if you want to contribute fork <a href="https://github.com/jackdoe/weather">https://github.com/jackdoe/weather</a>
-      </pre>
-        <div>Icon made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-  </div>
+<h2>batch api- https://freeweatherapi.com/v1/batch, method POST</h2>
+<p>stream of all data for specific hour (one location per row)</p>
+<pre>
+curl -X POST -d '{"timestamp":...}' https://freeweatherapi.com/v1/batch
+{"result":{"location":{"timestamp":...,"lat":44.5,"lng":132},"weather":{...}
+{"result":{"location":{"timestamp":...,"lat":44.5,"lng":132},"weather":{...}
+</pre>
+<p>use it as much as you want, just make sure you credit MET Norway</p>
+<p>if you want to contribute fork <a href="https://github.com/jackdoe/weather">https://github.com/jackdoe/weather</a></p>
+<ul>
+  Todo
+  <li>get more providers besides met.no</li>
+  <li>add dump api</li>
+</ul>
+<div>Icon made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+</div>
 </body>
 <script>
 var res = document.getElementById("extremes")
