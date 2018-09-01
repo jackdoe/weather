@@ -31,9 +31,8 @@ type store struct {
 }
 
 func NewStore(path string) *store {
-	opts := badger.LSMOnlyOptions
+	opts := badger.DefaultOptions
 	opts.ValueLogLoadingMode = options.FileIO
-	opts.TableLoadingMode = options.FileIO
 	opts.NumCompactors = 1
 	opts.Dir = path
 	opts.ValueDir = path
