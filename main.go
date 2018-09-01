@@ -140,7 +140,7 @@ func main() {
 	grpc.EnableTracing = false
 	var plogRoot = flag.String("logdir", "/tmp/weather_log", "weather log directory")
 
-	var pdburl = flag.String("db", "sqlite:/tmp/weather.sqlite3", "weather database url, for example mysql://user:pass@localhost/dbname")
+	var pdburl = flag.String("db", "sqlite:/tmp/weather.sqlite3", "weather database url, for mysql: mysql://user:pass@localhost/dbname, for sqlite: sqlite:/tmp/weather.sqlite3")
 	var phttpBind = flag.String("httpBind", ":8080", "bind for json endpoints (proxy for grpc)")
 	var pgrpcBind = flag.String("grpcBind", ":9090", "bind for grpc endpoints")
 	var plocations = flag.String("locations", "data/cities.json", "file filled with locations to update")
