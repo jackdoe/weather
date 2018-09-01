@@ -43,7 +43,7 @@ func NewStore(path string) *store {
 	}
 
 	go func() {
-		ticker := time.NewTicker(5 * time.Minute)
+		ticker := time.NewTicker(1 * time.Hour)
 		defer ticker.Stop()
 		for range ticker.C {
 		again:
@@ -129,8 +129,9 @@ func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreV
 	it := txn.NewIterator(opts)
 
 	defer it.Close()
-	to := closestHourInt(from + 3600)
-	prefix := s.encodeKeyFixedSize(0, 0, closestHourInt(from-3600))
+	from = closestHourInt(from - 3600)
+	to := closestHourInt(from)
+	prefix := s.encodeKeyFixedSize(0, 0, from)
 
 	for it.Seek(prefix); it.Valid(); it.Next() {
 		item := it.Item()
