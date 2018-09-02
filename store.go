@@ -179,8 +179,6 @@ func (s *store) deleteOld() error {
 			k := s.decodeKeyFixedSize(ik)
 
 			if k.Timestamp < past {
-				//
-				//
 				err := txn.Delete(item.Key())
 				if err != nil {
 					it.Close()
@@ -189,6 +187,7 @@ func (s *store) deleteOld() error {
 				}
 				n++
 				if n > 100000 {
+					log.Infof("%#v", k)
 					log.Infof("deleted %d", n)
 					n = 0
 					it.Close()
