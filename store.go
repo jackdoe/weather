@@ -163,12 +163,15 @@ func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreV
 
 func (s *store) deleteOld() error {
 	txn := s.db.NewTransaction(true)
+	defer txn.Commit()
+
 	opts := badger.DefaultIteratorOptions
 	opts.PrefetchValues = false
 	it := txn.NewIterator(opts)
 	defer it.Close()
 	log := Log()
 	past := currentHour() - (3600 * 24)
+	n := 0
 	for it.Rewind(); it.Valid(); it.Next() {
 		item := it.Item()
 		ik := item.Key()
@@ -179,6 +182,10 @@ func (s *store) deleteOld() error {
 			err := txn.Delete(item.Key())
 			if err != nil {
 				return err
+			}
+			n++
+			if n > 100000 {
+				return nil
 			}
 		}
 	}
