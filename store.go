@@ -89,13 +89,16 @@ func NewStore(url string) *store {
 	if strings.Contains(url, "sqlite") {
 		db.SetMaxOpenConns(1)
 	}
-
+	statement.Close()
 	statement, _ = db.Prepare(`CREATE INDEX idx_geohash3 ON weather(geohash3)`)
 	statement.Exec()
+	statement.Close()
 	statement, _ = db.Prepare(`CREATE INDEX idx_geohash4 ON weather(geohash4)`)
 	statement.Exec()
+	statement.Close()
 	statement, _ = db.Prepare(`CREATE INDEX idx_geohash5 ON weather(geohash5)`)
 	statement.Exec()
+	statement.Close()
 
 	return &store{
 		db: db,
@@ -316,6 +319,7 @@ REPLACE INTO weather (
 		value.TemperatureProbability,
 		value.WindProbability,
 		value.UpdatedTimestamp)
+	statement.Close()
 	return err
 }
 
