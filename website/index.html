@@ -158,7 +158,7 @@ var work = function() {
                  var link = function(x) {
                  var lat = x.lat
                  var lng = x.lng
-                 var ts = x.location.timestamp
+                 var ts = x.from
                  var t = new Date(x.weather.from * 1000)
                  var curlLink = ' <a href="javascript: void(0);" onClick="javascript: curl(' + lat + ',' + lng + ',' + ts + ')">curl</a>'
                  var gmapsLink = ' <a href="https://www.google.com/maps/search/?api=1&query='+lat+','+lng+'">google maps</a> '
