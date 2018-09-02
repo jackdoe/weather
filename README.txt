@@ -1,7 +1,8 @@
 
 * hosted at https://freeweatherapi.com
 * free weather api based on https://api.met.no, uses embedded leveldb to store 
-* data is updated daily, and the lat/lng resolution is +-100km (rounded lat/lng)
+* we do 1 query per 2 seconds to met.no, so 45_000 locations in cities.json
+  take 90_000 seconds to complete, or about 25 hours
 
 * how to run locally:
 $ go run *.go -help # will give the command line options
