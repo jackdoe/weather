@@ -64,11 +64,12 @@
         since protobuf does not write the zero values, average value size is smaller, so it is about 1.5gb
     </p>
     <p>
-        data is updated every 7 hours, and the lat/lng resolution is +-50km<br>
-        predictions are up to 1 month in the future, but you can also look 1 day in the past
+      data is updated every 7 hours, and the lat/lng resolution is +-50km, but quite good for
+      predictions are up to 1 month in the future, but you can also look 1 day in the past
     </p>
 
     <p>we are updating 42000 cities from <a href="https://www.maxmind.com/en/free-world-cities-database">free-world-cities-database</a>, rounded to closest 0.5 lat/lng</p>
+    <p>and all top1000 cities from <a href="https://gist.github.com/randymeech/e9398d4f6fb827e2294a#file-top-1000-cities-json">file-top-1000-cities-json</a></p>
     <h2>api</h2>
     <ul>
       <li>swagger spec: <a href='https://github.com/jackdoe/weather/blob/master/spec/spec.swagger.json'>spec.swagger.json</a></li>
@@ -123,42 +124,12 @@ curl -XPOST -s -d '{"locations":[{"lat":2,"lng":-53}]}' \
 }
 </pre>
 
-<h2>extreme api - https://freeweatherapi.com/v1/extreme, method POST</h2>
-<p>get hottest and coldest point in the world for current hour<p>
-<pre>
-curl -X POST -d https://freeweatherapi.com/v1/extreme | json_pp
-{
-   "hottest" : {
-        "weather" : {
-         ...
-         "temperatureC": 47.9,
-      },
-      "location" : {
-         "lng" : 35,
-         "timestamp" : 1535889600,
-         "lat" : 28.5
-      }
-   },
-   "coldest" : {
-      "location" : {
-         "timestamp" : 1536127200,
-         "lng" : -86,
-         "lat" : 80
-      },
-      "weather" : {
-         ...
-         "temperatureC": -4.9,
-      }
-   }
-}
-</pre>
-
 <h2>batch api - https://freeweatherapi.com/v1/batch, method POST</h2>
 <p>stream of all data for specific hour (one location per row)</p>
 <pre>
 curl -X POST -d '{"timestamp":...}' https://freeweatherapi.com/v1/batch
-{"result":{"location":{"timestamp":...,"lat":44.5,"lng":132},"weather":{...}
-{"result":{"location":{"timestamp":...,"lat":44.5,"lng":132},"weather":{...}
+{"result":{"from":1535900400,..."temperatureC":41,"lat":37,"lng":38.5}}
+{"result":{"from":1535900400,..."temperatureC":29.c,"lat":34.5,"lng":68}}
 </pre>
 <p>use it as much as you want, just make sure you credit MET Norway</p>
 <p>if you want to contribute fork <a href="https://github.com/jackdoe/weather">https://github.com/jackdoe/weather</a></p>

@@ -42,7 +42,7 @@ func closestHourInt(t uint32) uint32 {
 }
 
 func currentHour() uint32 {
-	return closestHour(time.Now())
+	return closestHour(time.Now()) + 3600
 }
 
 func now() uint32 {
@@ -50,8 +50,8 @@ func now() uint32 {
 }
 
 type cached struct {
-	hottest *pb.WeatherResponseItem
-	coldest *pb.WeatherResponseItem
+	hottest *pb.WeatherStoreValue
+	coldest *pb.WeatherStoreValue
 }
 
 type server struct {
@@ -76,8 +76,10 @@ func newServer(dburl, httpBind, grpcBind string) *server {
 func (s *server) RpcQuery(ctx context.Context, in *pb.QueryRequest) (*pb.QueryResponse, error) {
 	out := make([]*pb.WeatherResponseItem, len(in.Locations))
 	for i, l := range in.Locations {
-		s.store.normalizeWeatherKey(l)
-		data, _ := s.store.getStoredWeather(l)
+		if l.Timestamp == 0 {
+			l.Timestamp = currentHour()
+		}
+		data, _ := s.store.getStoredWeather(l.Lat, l.Lng, l.Timestamp)
 		out[i] = &pb.WeatherResponseItem{
 			Location: l,
 			Weather:  data,
@@ -103,13 +105,8 @@ func (s *server) RpcBatch(in *pb.BatchRequest, stream pb.Weather_RpcBatchServer)
 	if in.Timestamp == 0 {
 		in.Timestamp = currentHour()
 	}
-	return s.store.scan(in.Timestamp, func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
-		item := &pb.WeatherResponseItem{
-			Location: k,
-			Weather:  v,
-		}
-
-		if err := stream.Send(item); err != nil {
+	return s.store.scan(in.Timestamp, func(v *pb.WeatherStoreValue) error {
+		if err := stream.Send(v); err != nil {
 			return err
 		}
 		return nil
@@ -155,22 +152,16 @@ func main() {
 
 	go func() {
 		for {
-			var hottest *pb.WeatherResponseItem
-			var coldest *pb.WeatherResponseItem
+			var hottest *pb.WeatherStoreValue
+			var coldest *pb.WeatherStoreValue
 			c := closestHour(time.Now())
-			srv.store.scan(c, func(k *pb.WeatherStoreKey, v *pb.WeatherStoreValue) error {
-				if hottest == nil || v.TemperatureC > hottest.Weather.TemperatureC {
-					hottest = &pb.WeatherResponseItem{
-						Location: k,
-						Weather:  v,
-					}
+			srv.store.scan(c, func(v *pb.WeatherStoreValue) error {
+				if hottest == nil || v.TemperatureC > hottest.TemperatureC {
+					hottest = v
 				}
 
-				if coldest == nil || v.TemperatureC < coldest.Weather.TemperatureC {
-					coldest = &pb.WeatherResponseItem{
-						Location: k,
-						Weather:  v,
-					}
+				if coldest == nil || v.TemperatureC < coldest.TemperatureC {
+					coldest = v
 				}
 				return nil
 			})

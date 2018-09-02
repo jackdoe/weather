@@ -22,7 +22,7 @@
           "200": {
             "description": "(streaming responses)",
             "schema": {
-              "$ref": "#/definitions/specWeatherResponseItem"
+              "$ref": "#/definitions/specWeatherStoreValue"
             }
           }
         },
@@ -111,10 +111,10 @@
       "type": "object",
       "properties": {
         "coldest": {
-          "$ref": "#/definitions/specWeatherResponseItem"
+          "$ref": "#/definitions/specWeatherStoreValue"
         },
         "hottest": {
-          "$ref": "#/definitions/specWeatherResponseItem"
+          "$ref": "#/definitions/specWeatherStoreValue"
         }
       }
     },
@@ -249,6 +249,14 @@
         "updatedTimestamp": {
           "type": "integer",
           "format": "int64"
+        },
+        "lat": {
+          "type": "number",
+          "format": "float"
+        },
+        "lng": {
+          "type": "number",
+          "format": "float"
         }
       }
     }

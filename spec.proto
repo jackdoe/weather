@@ -6,8 +6,8 @@ import "google/api/annotations.proto";
 
 message WeatherStoreKey {
         fixed32 timestamp = 1;
-        float lat = 2;
-        float lng = 3;
+        float lat = 23;
+        float lng = 24;
 }
 
 message WeatherStoreValue {
@@ -30,25 +30,27 @@ message WeatherStoreValue {
         float temperatureProbability = 19;
         float windProbability = 20;
         fixed32 updatedTimestamp = 22;
-}
-
-message WeatherResponseItem {
-        WeatherStoreKey location = 1;
-        WeatherStoreValue weather = 2;
+        float lat = 23;
+        float lng = 24;
 }
 
 message QueryRequest {
         repeated WeatherStoreKey locations = 1;
 }
 
+
+message WeatherResponseItem {
+        WeatherStoreKey location = 1;
+        WeatherStoreValue weather = 2;
+}
 message QueryResponse {
         repeated WeatherResponseItem locations = 2;
         string license = 1;
 }
 
 message ExtremeResponse {
-        WeatherResponseItem coldest = 1;
-        WeatherResponseItem hottest = 2;
+        WeatherStoreValue coldest = 1;
+        WeatherStoreValue hottest = 2;
 }
 
 message Empty {
@@ -65,6 +67,7 @@ service Weather {
              body: "*"
            };
         }
+
         rpc RpcExtreme (Empty) returns (ExtremeResponse) {
            option (google.api.http) = {
              post: "/v1/extreme"
@@ -72,7 +75,7 @@ service Weather {
            };
         }
 
-        rpc RpcBatch (BatchRequest) returns (stream WeatherResponseItem) {
+        rpc RpcBatch (BatchRequest) returns (stream WeatherStoreValue) {
            option (google.api.http) = {
              post: "/v1/batch"
              body: "*"

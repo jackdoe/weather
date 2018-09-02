@@ -9,9 +9,11 @@ import (
 	. "github.com/jackdoe/weather/log"
 	pb "github.com/jackdoe/weather/spec"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/mmcloughlin/geohash"
 	"github.com/xo/dburl"
 	"io/ioutil"
 	"math/rand"
+	"strings"
 	"time"
 )
 
@@ -33,11 +35,28 @@ func NewStore(url string) *store {
 	if err != nil {
 		panic(err)
 	}
+	/*
 
-	db.SetMaxOpenConns(1)
+	   #   km
+	   1   ± 2500
+	   2   ± 630
+	   3   ± 78
+	   4   ± 20
+	   5   ± 2.4
+	   6   ± 0.61
+	   7   ± 0.076
+	   8   ± 0.019
+	   9   ± 0.0024
+	   10  ± 0.00060
+	   11  ± 0.000074
+	*/
 	statement, err := db.Prepare(`
         CREATE TABLE IF NOT EXISTS weather (
-             id bigint PRIMARY KEY,
+             geohash5 bigint not null,
+             lat float not null,
+             lng float not null,
+             geohash3 bigint not null,
+             geohash4 bigint not null,
              _from int unsigned not null,
              _to int unsigned not null,
              altitude float not null,
@@ -56,16 +75,27 @@ func NewStore(url string) *store {
              highCloudsPercent  float not null,
              temperatureProbability  float not null,
              windProbability  float not null,
-             updatedTimestamp int unsigned not null)
+             updatedTimestamp int unsigned not null,
+             primary key (_from,geohash5))
         `)
 	if err != nil {
 		panic(err)
 	}
-
 	_, err = statement.Exec()
 	if err != nil {
 		panic(err)
 	}
+
+	if strings.Contains(url, "sqlite") {
+		db.SetMaxOpenConns(1)
+	}
+
+	statement, _ = db.Prepare(`CREATE INDEX idx_geohash3 ON weather(geohash3)`)
+	statement.Exec()
+	statement, _ = db.Prepare(`CREATE INDEX idx_geohash4 ON weather(geohash4)`)
+	statement.Exec()
+	statement, _ = db.Prepare(`CREATE INDEX idx_geohash5 ON weather(geohash5)`)
+	statement.Exec()
 
 	return &store{
 		db: db,
@@ -75,23 +105,29 @@ func NewStore(url string) *store {
 func (s *store) close() {
 	s.db.Close()
 }
-func (s *store) normalizeLatLng(x float32) float32 {
-	return Round(x, .5)
-}
-func (s *store) normalizeWeatherKey(k *pb.WeatherStoreKey) {
-	if k.Timestamp == 0 {
-		k.Timestamp = currentHour() + 3600
+
+func (s *store) getStoredWeather(lat, lng float32, from uint32) (*pb.WeatherStoreValue, error) {
+	v, err := s.getStoredWeatherForGeohash(from, geohash.EncodeIntWithPrecision(float64(lat), float64(lng), 5*5), 5)
+	if v != nil || err != nil {
+		return v, err
+	}
+	v, err = s.getStoredWeatherForGeohash(from, geohash.EncodeIntWithPrecision(float64(lat), float64(lng), 4*5), 4)
+	if v != nil || err != nil {
+		return v, err
 	}
 
-	k.Lat = s.normalizeLatLng(k.Lat)
-	k.Lng = s.normalizeLatLng(k.Lng)
+	v, err = s.getStoredWeatherForGeohash(from, geohash.EncodeIntWithPrecision(float64(lat), float64(lng), 3*5), 3)
+	if v != nil || err != nil {
+		return v, err
+	}
+	return nil, nil
 }
 
-func (s *store) getStoredWeather(k *pb.WeatherStoreKey) (*pb.WeatherStoreValue, error) {
-	dataK := s.encodeKeyFixedSize(k.Lat, k.Lng, k.Timestamp)
-
-	rows, err := s.db.Query(fmt.Sprintf(`
-SELECT 
+func (s *store) getStoredWeatherForGeohash(from uint32, geohash, precision uint64) (*pb.WeatherStoreValue, error) {
+	query := fmt.Sprintf(`
+SELECT
+    lat,
+    lng,
     _from,
     _to,
     altitude,
@@ -114,15 +150,20 @@ SELECT
 FROM 
   weather
 WHERE
-  id=%d
-`, dataK))
+   geohash%d=%d AND _from = %d
+`, precision, geohash, from)
+	Log().Infof("%s", query)
+	rows, err := s.db.Query(query)
 	if err != nil {
 		return nil, err
 	}
 
 	v := &pb.WeatherStoreValue{}
 	for rows.Next() {
-		err = rows.Scan(&v.From,
+		err = rows.Scan(
+			&v.Lat,
+			&v.Lng,
+			&v.From,
 			&v.To,
 			&v.Altitude,
 			&v.FogPercent,
@@ -148,26 +189,12 @@ WHERE
 	return nil, nil
 }
 
-func (s *store) encodeKeyFixedSize(lat, lng float32, ts uint32) uint64 {
-	return uint64(ts)<<31 | uint64(uint16(lat*10))<<16 | uint64((uint16(lng) * 10))
-}
-func (s *store) decodeKeyFixedSize(b uint64) *pb.WeatherStoreKey {
-	ts := uint32(b >> 31)
-	lat := (b >> 16) & 0xFFFF
-	lng := b & 0xFFFF
-
-	return &pb.WeatherStoreKey{
-		Lat:       float32(lat) / 10,
-		Lng:       float32(lng) / 10,
-		Timestamp: ts,
-	}
-}
-func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreValue) error) error {
-	fromKey := s.encodeKeyFixedSize(0, 0, closestHourInt(from))
-	toKey := s.encodeKeyFixedSize(0, 0, closestHourInt(from+3600))
-	rows, err := s.db.Query(fmt.Sprintf(`
+func (s *store) scan(from uint32, cb func(*pb.WeatherStoreValue) error) error {
+	from = closestHourInt(from + 3600)
+	query := fmt.Sprintf(`
 SELECT 
-    id,
+    lat,
+    lng,
     _from,
     _to,
     altitude,
@@ -190,15 +217,17 @@ SELECT
 FROM 
   weather
 WHERE
-  id >= %d AND id < %d
-`, fromKey, toKey))
+  _from = %d
+`, from)
+	Log().Infof("query: %s", query)
+	rows, err := s.db.Query(query)
 	if err != nil {
 		return err
 	}
 	for rows.Next() {
 		v := &pb.WeatherStoreValue{}
-		var id uint64
-		err = rows.Scan(&id,
+		err = rows.Scan(&v.Lat,
+			&v.Lng,
 			&v.From,
 			&v.To,
 			&v.Altitude,
@@ -219,18 +248,22 @@ WHERE
 			&v.WindProbability,
 			&v.UpdatedTimestamp,
 		)
-		k := s.decodeKeyFixedSize(id)
-		err = cb(k, v)
+		err = cb(v)
 		if err != nil {
 			return err
 		}
 	}
 	return nil
 }
-func (s *store) storeKeyValue(key *pb.WeatherStoreKey, value *pb.WeatherStoreValue) error {
+
+func (s *store) storeKeyValue(value *pb.WeatherStoreValue) error {
 	statement, err := s.db.Prepare(`
 REPLACE INTO weather (
-    id,
+    lat,
+    lng,
+    geohash3,
+    geohash4,
+    geohash5,
     _from,
     _to,
     altitude,
@@ -250,12 +283,20 @@ REPLACE INTO weather (
     temperatureProbability,
     windProbability,
     updatedTimestamp
-) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
 	if err != nil {
 		return err
 	}
-	dataK := s.encodeKeyFixedSize(key.Lat, key.Lng, key.Timestamp)
-	_, err = statement.Exec(dataK,
+
+	geohash3 := geohash.EncodeIntWithPrecision(float64(value.Lat), float64(value.Lng), 3*5)
+	geohash4 := geohash.EncodeIntWithPrecision(float64(value.Lat), float64(value.Lng), 4*5)
+	geohash5 := geohash.EncodeIntWithPrecision(float64(value.Lat), float64(value.Lng), 5*5)
+
+	_, err = statement.Exec(value.Lat,
+		value.Lng,
+		geohash3,
+		geohash4,
+		geohash5,
 		value.From,
 		value.To,
 		value.Altitude,
@@ -290,9 +331,11 @@ func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {
 
 		}
 		value := &pb.WeatherStoreValue{
+			Lat:              float32(v.Location.Latitude),
+			Lng:              float32(v.Location.Longitude),
 			UpdatedTimestamp: now(),
-			From:             uint32(v.From.Unix()),
-			To:               uint32(v.To.Unix()),
+			From:             closestHour(v.From),
+			To:               closestHour(v.To),
 		}
 
 		if v.Location.Humidity != nil {
@@ -353,17 +396,12 @@ func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {
 
 		value.TemperatureC = float32(v.Location.Temperature.Value)
 
-		key := &pb.WeatherStoreKey{
-			Timestamp: closestHour(v.From),
-			Lat:       float32(v.Location.Latitude),
-			Lng:       float32(v.Location.Longitude),
-		}
-		err := s.storeKeyValue(key, value)
+		err := s.storeKeyValue(value)
 		if err != nil {
 			return err
 		}
 
-		log.Infof("%+v temp: %.2f", key, value.TemperatureC)
+		log.Infof("%q", value)
 	}
 	return nil
 }
@@ -404,8 +442,8 @@ func (s *store) updateLocations(locationsFile string) error {
 	for {
 		Shuffle(locations)
 		for _, location := range locations {
-			lat := s.normalizeLatLng(float32(location.Lat))
-			lng := s.normalizeLatLng(float32(location.Lng))
+			lat := float32(location.Lat)
+			lng := float32(location.Lng)
 
 			out, err := metno.LocationForecast(client, float64(lat), float64(lng), 0)
 			if err != nil {
