@@ -154,6 +154,8 @@ func main() {
 
 	go func() {
 		for {
+			srv.store.deleteOld()
+
 			var hottest *pb.WeatherResponseItem
 			var coldest *pb.WeatherResponseItem
 			c := closestHour(time.Now())

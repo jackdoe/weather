@@ -128,7 +128,6 @@ func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreV
 	txn := s.db.NewTransaction(false)
 	defer txn.Discard()
 	opts := badger.DefaultIteratorOptions
-	opts.PrefetchValues = false
 	it := txn.NewIterator(opts)
 
 	defer it.Close()
@@ -160,6 +159,31 @@ func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreV
 		}
 	}
 	return nil
+}
+
+func (s *store) deleteOld() error {
+	txn := s.db.NewTransaction(true)
+	opts := badger.DefaultIteratorOptions
+	opts.PrefetchValues = false
+	it := txn.NewIterator(opts)
+	defer it.Close()
+	log := Log()
+	past := currentHour() - (3600 * 48)
+	for it.Rewind(); it.Valid(); it.Next() {
+		item := it.Item()
+		ik := item.Key()
+		k := s.decodeKeyFixedSize(ik)
+
+		if k.Timestamp < past {
+			log.Infof("delete %+v past: %d", k, past)
+			err := txn.Delete(item.Key())
+			if err != nil {
+				return err
+			}
+		}
+	}
+
+	return s.db.RunValueLogGC(0.7)
 }
 
 func (s *store) storeMetNo(input *metno.MetNoWeatherOutput) error {
