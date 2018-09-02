@@ -154,7 +154,10 @@ func main() {
 
 	go func() {
 		for {
-			srv.store.deleteOld()
+			err := srv.store.deleteOld()
+			if err != nil {
+				log.Infof("failed to delete old: %s", err.Error())
+			}
 
 			var hottest *pb.WeatherResponseItem
 			var coldest *pb.WeatherResponseItem
