@@ -5,14 +5,16 @@
 
 * how to run locally:
 $ go run *.go -help # will give the command line options
-    -grpcBind string
-      	bind for grpc endpoints (default ":9090")
-    -httpBind string
-      	bind for json endpoints (proxy for grpc) (default ":8080")
-    -locations string
-      	file filled with locations to update (default "data/cities.json")
-    -root string
-      	weather storage root directory (default "/tmp/weather")
+  -db string
+    	weather database url, for example mysql://user:pass@localhost/dbname (default "sqlite:/tmp/weather.sqlite3")
+  -grpcBind string
+    	bind for grpc endpoints (default ":9090")
+  -httpBind string
+    	bind for json endpoints (proxy for grpc) (default ":8080")
+  -locations string
+    	file filled with locations to update (default "data/cities.json")
+  -logdir string
+    	weather log directory (default "/tmp/weather_log")
 
 Example:
 
@@ -31,7 +33,9 @@ curl -XPOST -s -d '{"locations":[{"lat":2,"lng":-53}]}' https://freeweatherapi.c
             "to" : 1535889600,
             "updatedTimestamp" : 1535436757,
             "windDirectionDeg" : 91.4,
-            "temperatureC" : 28.4
+            "temperatureC" : 28.4,
+            "lng" : -53,
+            "lat" : 2,            
          },
          "location" : {
             "timestamp" : 1535889600,
