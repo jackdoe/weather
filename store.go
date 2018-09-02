@@ -188,7 +188,7 @@ func (s *store) deleteOld() error {
 					return err
 				}
 				n++
-				if n > 10000 {
+				if n > 100000 {
 					log.Infof("deleted %d", n)
 					n = 0
 					it.Close()
