@@ -162,33 +162,41 @@ func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreV
 }
 
 func (s *store) deleteOld() error {
+	for {
+	again:
+		txn := s.db.NewTransaction(true)
+		opts := badger.DefaultIteratorOptions
+		opts.PrefetchValues = false
+		it := txn.NewIterator(opts)
+		log := Log()
+		past := currentHour() - (3600 * 24)
+		n := 0
+		for it.Rewind(); it.Valid(); it.Next() {
+			item := it.Item()
+			ik := item.Key()
+			k := s.decodeKeyFixedSize(ik)
 
-	txn := s.db.NewTransaction(true)
-	opts := badger.DefaultIteratorOptions
-	opts.PrefetchValues = false
-	it := txn.NewIterator(opts)
-	defer it.Close()
-	log := Log()
-	past := currentHour() - (3600 * 24)
-	n := 0
-	for it.Rewind(); it.Valid(); it.Next() {
-		item := it.Item()
-		ik := item.Key()
-		k := s.decodeKeyFixedSize(ik)
-
-		if k.Timestamp < past {
-			log.Infof("delete %+v past: %d", k, past)
-			err := txn.Delete(item.Key())
-			if err != nil {
-				return err
-			}
-			n++
-			if n > 10000 {
-				return txn.Commit(nil)
+			if k.Timestamp < past {
+				log.Infof("delete %+v past: %d", k, past)
+				err := txn.Delete(item.Key())
+				if err != nil {
+					it.Close()
+					txn.Discard()
+					return err
+				}
+				n++
+				if n > 10000 {
+					n = 0
+					it.Close()
+					txn.Commit(nil)
+					goto again
+				}
 			}
 		}
+		it.Close()
+		txn.Commit(nil)
+		break
 	}
-
 	return s.db.RunValueLogGC(0.7)
 }
 
