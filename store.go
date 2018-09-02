@@ -163,6 +163,7 @@ func (s *store) scan(from uint32, cb func(*pb.WeatherStoreKey, *pb.WeatherStoreV
 
 func (s *store) deleteOld() error {
 	log := Log()
+	s.db.RunValueLogGC(0.7)
 	for {
 	again:
 		txn := s.db.NewTransaction(true)
