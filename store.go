@@ -184,6 +184,7 @@ func (s *store) deleteOld() error {
 			}
 			n++
 			if n > 10000 {
+				n = 0
 				err = txn.Commit(nil)
 				if err != nil {
 					return err
