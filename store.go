@@ -168,7 +168,7 @@ func (s *store) deleteOld() error {
 	it := txn.NewIterator(opts)
 	defer it.Close()
 	log := Log()
-	past := currentHour() - (3600 * 48)
+	past := currentHour() - (3600 * 24)
 	for it.Rewind(); it.Valid(); it.Next() {
 		item := it.Item()
 		ik := item.Key()
