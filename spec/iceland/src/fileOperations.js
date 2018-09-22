@@ -11,8 +11,8 @@ function readJSONFile(path) {
     .then(JSON.parse)
 }
 
-function writeJSONFile(path, toDos) {
-  return writeWithPromise(path, JSON.stringify(toDos, null, 2))
+function writeJSONFile(path, data) {
+  return writeWithPromise(path, JSON.stringify(data, null, 2))
 }
 
 module.exports = {

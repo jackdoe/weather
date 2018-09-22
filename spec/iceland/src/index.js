@@ -1,8 +1,10 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
-const { readJSONFile } = require('./fileOperations');
+const { readJSONFile, writeJSONFile } = require('./fileOperations');
 
 const ICELAND_URL = 'https://icelandmonitor.mbl.is/weather/forecasts/';
+const CITIES_LOCATION_FILE = './data/icelandCities.json';
+const CITIES_WEATHER_FILE = './data/icelandWeather.json'
 
 async function main() {
 
@@ -19,11 +21,10 @@ async function main() {
     const tempCArray = getData(cheerioObject, 'temp');
     const windMpsArray = getData(cheerioObject, 'wind');
     const rainMmArray = getData(cheerioObject, 'precipitation');
-    // temps, winds and rain arrays have 10 cities * 6 days = 60 weather value 
 
-    const citiesLocation = await readJSONFile('./data/icelandCities.json');
+    const citiesLocation = await readJSONFile(CITIES_LOCATION_FILE);
 
-    let JSONObj = cities.map(city => {
+    const citiesObj = cities.map(city => {
       cityLocation = citiesLocation.find(elem => elem.name === city);
       return {
         location:
@@ -34,10 +35,11 @@ async function main() {
       };
     });
 
-    JSONObj.forEach((city, index) => {
-      let weatherArray = [];
-      let start = index * dayPerCity;
-      //every city has weather array which has weather information for six days
+    citiesObj.forEach((city, index) => {
+
+      const weatherArray = [];
+      const start = index * dayPerCity;
+
       for (let i = start; i < start + dayPerCity; i++) {
         weatherArray.push({
           timeStamp: timeStamp(i % dayPerCity),
@@ -46,14 +48,17 @@ async function main() {
           rainPrecipitationMm: rainMmArray[i]
         });
       }
+
       city.weather = weatherArray;
+
     });
 
-    console.log(JSON.stringify(JSONObj, null, 2));
+    await writeJSONFile(CITIES_WEATHER_FILE, citiesObj);
+    console.log(JSON.stringify(citiesObj, null, 2));
 
   } catch (error) {
 
-    console.log(error);
+    console.log(error.message);
 
   }
 
@@ -62,7 +67,7 @@ async function main() {
 function getData(html, className) {
 
   const data = html("div[class^='d--maincol'] span[class^=" + className + "] > span[class=value]")
-    .toArray().map(elem => elem.children[0].data);
+    .toArray().map(elem => Number(elem.children[0].data));
   return data;
 
 }
@@ -75,6 +80,5 @@ function timeStamp(addedDays) {
   return timestamp
 
 }
-
 
 main();
