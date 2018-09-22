@@ -1,0 +1,474 @@
+[
+  {
+    "location": {
+      "name": "Melbourne (Olympic Park)",
+      "lat": -37.814,
+      "lng": 144.96332
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 11.4,
+        "AppTempC": 7.7,
+        "DewPointC": 6.5,
+        "Relative_humidity": 72,
+        "WetBulbDepression": 2.3,
+        "WindDir": "SSE",
+        "WindSpeedMps": 4.16666667,
+        "WindGustMps": 4.7222222259999995,
+        "WindSpeedKnotsKts": 8,
+        "WindGustKts": 9,
+        "PressureHPa": 1031.3,
+        "RainSince9AM": 0.2,
+        "LowTempC": 10.4,
+        "HighTempC": 11.5,
+        "DirWindComeFrom": "SSE",
+        "HighestWindGustFrom10Mps": 9.166666674,
+        "HighestWindGustFrom10MKts": 18
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Melbourne Airport",
+      "lat": -37.814,
+      "lng": 144.96332
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 9.4,
+        "AppTempC": 4.9,
+        "DewPointC": 8.4,
+        "Relative_humidity": 93,
+        "WetBulbDepression": 0.5,
+        "WindDir": "S",
+        "WindSpeedMps": 6.111111115999999,
+        "WindGustMps": 7.7777777839999995,
+        "WindSpeedKnotsKts": 12,
+        "WindGustKts": 15,
+        "PressureHPa": 1030.5,
+        "RainSince9AM": 1,
+        "LowTempC": 8.8,
+        "HighTempC": 9.7,
+        "DirWindComeFrom": "SSE",
+        "HighestWindGustFrom10Mps": 10.833333342,
+        "HighestWindGustFrom10MKts": 21
+      }
+    ]
+  }
+]',
+  '[
+  {
+    "location": {
+      "name": "Sydney - Observatory Hill",
+      "lat": -33.86785,
+      "lng": 151.20732
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 15.6,
+        "AppTempC": 13.6,
+        "DewPointC": 10.2,
+        "Relative_humidity": 70,
+        "WetBulbDepression": 2.8,
+        "WindDir": "WSW",
+        "WindSpeedMps": 3.0555555579999996,
+        "WindGustMps": null,
+        "WindSpeedKnotsKts": 6,
+        "WindGustKts": null,
+        "PressureHPa": 1025.8,
+        "RainSince9AM": 0,
+        "LowTempC": 14.1,
+        "HighTempC": 15.9,
+        "DirWindComeFrom": "-",
+        "HighestWindGustFrom10Mps": null,
+        "HighestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sydney Airport",
+      "lat": -33.86785,
+      "lng": 151.20732
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 15.8,
+        "AppTempC": 10.9,
+        "DewPointC": 12.5,
+        "Relative_humidity": 81,
+        "WetBulbDepression": 1.8,
+        "WindDir": "SSW",
+        "WindSpeedMps": 8.33333334,
+        "WindGustMps": 8.888888896,
+        "WindSpeedKnotsKts": 16,
+        "WindGustKts": 17,
+        "PressureHPa": 1025.7,
+        "RainSince9AM": 0,
+        "LowTempC": 14.2,
+        "HighTempC": 16,
+        "DirWindComeFrom": "SSW",
+        "HighestWindGustFrom10Mps": 12.777777787999998,
+        "HighestWindGustFrom10MKts": 25
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sydney Harbour",
+      "lat": -33.86785,
+      "lng": 151.20732
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 15.6,
+        "AppTempC": null,
+        "DewPointC": null,
+        "Relative_humidity": null,
+        "WetBulbDepression": null,
+        "WindDir": "SW",
+        "WindSpeedMps": 7.7777777839999995,
+        "WindGustMps": 8.33333334,
+        "WindSpeedKnotsKts": 15,
+        "WindGustKts": 16,
+        "PressureHPa": null,
+        "RainSince9AM": null,
+        "LowTempC": 14.9,
+        "HighTempC": 15.8,
+        "DirWindComeFrom": "SSW",
+        "HighestWindGustFrom10Mps": 11.944444454,
+        "HighestWindGustFrom10MKts": 23
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sydney Olympic Park",
+      "lat": -33.86785,
+      "lng": 151.20732
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 15.5,
+        "AppTempC": 13.6,
+        "DewPointC": 9.2,
+        "Relative_humidity": 66,
+        "WetBulbDepression": 3.2,
+        "WindDir": "W",
+        "WindSpeedMps": 2.5000000019999997,
+        "WindGustMps": 4.16666667,
+        "WindSpeedKnotsKts": 5,
+        "WindGustKts": 8,
+        "PressureHPa": null,
+        "RainSince9AM": 0,
+        "LowTempC": 9.6,
+        "HighTempC": 15.7,
+        "DirWindComeFrom": "SE",
+        "HighestWindGustFrom10Mps": 5.277777781999999,
+        "HighestWindGustFrom10MKts": 10
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Newcastle Nobbys",
+      "lat": -27.75796,
+      "lng": 29.9318
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 16.5,
+        "AppTempC": 13.5,
+        "DewPointC": 12.6,
+        "Relative_humidity": 78,
+        "WetBulbDepression": 2.2,
+        "WindDir": "SW",
+        "WindSpeedMps": 5.555555559999999,
+        "WindGustMps": 7.222222228,
+        "WindSpeedKnotsKts": 11,
+        "WindGustKts": 14,
+        "PressureHPa": null,
+        "RainSince9AM": 0,
+        "LowTempC": 12.9,
+        "HighTempC": 16.6,
+        "DirWindComeFrom": "SW",
+        "HighestWindGustFrom10Mps": 9.72222223,
+        "HighestWindGustFrom10MKts": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Newcastle University",
+      "lat": -27.75796,
+      "lng": 29.9318
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "22/09:00am",
+        "TempC": 15.8,
+        "AppTempC": 16.3,
+        "DewPointC": 11.6,
+        "Relative_humidity": 76,
+        "WetBulbDepression": 2.3,
+        "WindDir": "CALM",
+        "WindSpeedMps": 0,
+        "WindGustMps": null,
+        "WindSpeedKnotsKts": 0,
+        "WindGustKts": null,
+        "PressureHPa": null,
+        "RainSince9AM": 0,
+        "LowTempC": null,
+        "HighTempC": null,
+        "DirWindComeFrom": "-",
+        "HighestWindGustFrom10Mps": null,
+        "HighestWindGustFrom10MKts": null
+      }
+    ]
+  }
+]',
+  '[
+  {
+    "location": {
+      "name": "Brisbane",
+      "lat": -27.46794,
+      "lng": 153.02809
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 18.8,
+        "AppTempC": 18.2,
+        "DewPointC": 11.8,
+        "Relative_humidity": 64,
+        "WetBulbDepression": 3.8,
+        "WindDir": "WSW",
+        "WindSpeedMps": 1.666666668,
+        "WindGustMps": 1.9444444459999999,
+        "WindSpeedKnotsKts": 3,
+        "WindGustKts": 4,
+        "PressureHPa": null,
+        "RainSince9AM": 0,
+        "LowTempC": 13.1,
+        "HighTempC": 18.9,
+        "DirWindComeFrom": "WSW",
+        "HighestWindGustFrom10Mps": 3.0555555579999996,
+        "HighestWindGustFrom10MKts": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Brisbane Airport",
+      "lat": -27.46794,
+      "lng": 153.02809
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 19.1,
+        "AppTempC": 16.5,
+        "DewPointC": 12,
+        "Relative_humidity": 63,
+        "WetBulbDepression": 3.9,
+        "WindDir": "SSW",
+        "WindSpeedMps": 4.7222222259999995,
+        "WindGustMps": 5.277777781999999,
+        "WindSpeedKnotsKts": 9,
+        "WindGustKts": 10,
+        "PressureHPa": 1025,
+        "RainSince9AM": 0,
+        "LowTempC": 12,
+        "HighTempC": 19.3,
+        "DirWindComeFrom": "SW",
+        "HighestWindGustFrom10Mps": 6.111111115999999,
+        "HighestWindGustFrom10MKts": 12
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Gold Coast Seaway",
+      "lat": -28.00029,
+      "lng": 153.43088
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/08:10am",
+        "TempC": 19.6,
+        "AppTempC": 18.4,
+        "DewPointC": 11.6,
+        "Relative_humidity": 60,
+        "WetBulbDepression": 4.4,
+        "WindDir": "NW",
+        "WindSpeedMps": 2.5000000019999997,
+        "WindGustMps": 2.5000000019999997,
+        "WindSpeedKnotsKts": 5,
+        "WindGustKts": 5,
+        "PressureHPa": 1024.5,
+        "RainSince9AM": 0,
+        "LowTempC": 14.1,
+        "HighTempC": 19.7,
+        "DirWindComeFrom": "SW",
+        "HighestWindGustFrom10Mps": 5.277777781999999,
+        "HighestWindGustFrom10MKts": 10
+      }
+    ]
+  }
+]',
+  '[
+  {
+    "location": {
+      "name": "Perth",
+      "lat": -31.95224,
+      "lng": 115.8614
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/06:10am",
+        "TempC": 14.1,
+        "AppTempC": 12.6,
+        "DewPointC": 10.5,
+        "Relative_humidity": 79,
+        "WetBulbDepression": 1.9,
+        "WindDir": "E",
+        "WindSpeedMps": 2.5000000019999997,
+        "WindGustMps": 4.16666667,
+        "WindSpeedKnotsKts": 5,
+        "WindGustKts": 8,
+        "PressureHPa": 1018.9,
+        "RainSince9AM": 0,
+        "LowTempC": 11,
+        "HighTempC": 14.1,
+        "DirWindComeFrom": "NE",
+        "HighestWindGustFrom10Mps": 5.277777781999999,
+        "HighestWindGustFrom10MKts": 10
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Perth Airport",
+      "lat": -31.95224,
+      "lng": 115.8614
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/06:10am",
+        "TempC": 14.5,
+        "AppTempC": 12.1,
+        "DewPointC": 10.1,
+        "Relative_humidity": 75,
+        "WetBulbDepression": 2.3,
+        "WindDir": "ENE",
+        "WindSpeedMps": 3.611111114,
+        "WindGustMps": 4.16666667,
+        "WindSpeedKnotsKts": 7,
+        "WindGustKts": 8,
+        "PressureHPa": 1018.8,
+        "RainSince9AM": 0,
+        "LowTempC": 10.1,
+        "HighTempC": 14.5,
+        "DirWindComeFrom": "E",
+        "HighestWindGustFrom10Mps": 7.7777777839999995,
+        "HighestWindGustFrom10MKts": 15
+      }
+    ]
+  }
+]',
+  '[
+  {
+    "location": {
+      "name": "Adelaide (West Terrace /  ngayirdapira)",
+      "lat": -34.92866,
+      "lng": 138.59863
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/07:40am",
+        "TempC": 11.3,
+        "AppTempC": 11.1,
+        "DewPointC": 9.2,
+        "Relative_humidity": 87,
+        "WetBulbDepression": 1,
+        "WindDir": "CALM",
+        "WindSpeedMps": 0,
+        "WindGustMps": 0,
+        "WindSpeedKnotsKts": 0,
+        "WindGustKts": 0,
+        "PressureHPa": 1031.9,
+        "RainSince9AM": 0,
+        "LowTempC": 7.4,
+        "HighTempC": 11.4,
+        "DirWindComeFrom": "NNE",
+        "HighestWindGustFrom10Mps": 2.5000000019999997,
+        "HighestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Adelaide (Kent Town)",
+      "lat": -34.92866,
+      "lng": 138.59863
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/07:40am",
+        "TempC": 11.6,
+        "AppTempC": 11.3,
+        "DewPointC": 8.5,
+        "Relative_humidity": 81,
+        "WetBulbDepression": 1.5,
+        "WindDir": "CALM",
+        "WindSpeedMps": 0,
+        "WindGustMps": 0,
+        "WindSpeedKnotsKts": 0,
+        "WindGustKts": 0,
+        "PressureHPa": 1032.1,
+        "RainSince9AM": 0,
+        "LowTempC": 8.2,
+        "HighTempC": 11.7,
+        "DirWindComeFrom": "WSW",
+        "HighestWindGustFrom10Mps": 1.9444444459999999,
+        "HighestWindGustFrom10MKts": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Adelaide Airport",
+      "lat": -34.92866,
+      "lng": 138.59863
+    },
+    "weather": [
+      {
+        "Date_TimeEST": "23/07:40am",
+        "TempC": 13.7,
+        "AppTempC": 12.3,
+        "DewPointC": 9.6,
+        "Relative_humidity": 76,
+        "WetBulbDepression": 2.1,
+        "WindDir": "SSE",
+        "WindSpeedMps": 1.9444444459999999,
+        "WindGustMps": 2.5000000019999997,
+        "WindSpeedKnotsKts": 4,
+        "WindGustKts": 5,
+        "PressureHPa": 1031.9,
+        "RainSince9AM": 0,
+        "LowTempC": 7.6,
+        "HighTempC": 13.7,
+        "DirWindComeFrom": "NE",
+        "HighestWindGustFrom10Mps": 3.611111114,
+        "HighestWindGustFrom10MKts": 7
+      }
+    ]
+  }
+]
