@@ -1,0 +1,102 @@
+[
+  {
+    "location": {
+      "lat": 35.68,
+      "lng": 139.76
+    },
+    "weather": [
+      {
+        "currentTime": "September 22nd 2018, 6:25:34 pm",
+        "cityName": "Tokyo",
+        "tempratureC": 22,
+        "temp_minC": 21,
+        "temp_maxC": 24,
+        "humidityPercent": 88,
+        "pressureHPA": 1013,
+        "weatherDescription": "broken clouds",
+        "cloudsPercent": 75,
+        "windSpeedMPS": 2.6
+      }
+    ]
+  },
+  {
+    "location": {
+      "lat": 35.16,
+      "lng": 136.9
+    },
+    "weather": [
+      {
+        "currentTime": "September 22nd 2018, 6:25:36 pm",
+        "cityName": "Nagoya",
+        "tempratureC": 23,
+        "temp_minC": 23,
+        "temp_maxC": 23,
+        "humidityPercent": 78,
+        "pressureHPA": 1014,
+        "weatherDescription": "scattered clouds",
+        "cloudsPercent": 40,
+        "windSpeedMPS": 9.8
+      }
+    ]
+  },
+  {
+    "location": {
+      "lat": 34.7,
+      "lng": 135.5
+    },
+    "weather": [
+      {
+        "currentTime": "September 22nd 2018, 6:25:38 pm",
+        "cityName": "Osaka",
+        "tempratureC": 23,
+        "temp_minC": 23,
+        "temp_maxC": 23,
+        "humidityPercent": 78,
+        "pressureHPA": 1015,
+        "weatherDescription": "clear sky",
+        "cloudsPercent": 0,
+        "windSpeedMPS": 4.6
+      }
+    ]
+  },
+  {
+    "location": {
+      "lat": 33.59,
+      "lng": 130.39
+    },
+    "weather": [
+      {
+        "currentTime": "September 22nd 2018, 6:25:40 pm",
+        "cityName": "Fukuoka",
+        "tempratureC": 23,
+        "temp_minC": 22,
+        "temp_maxC": 23,
+        "humidityPercent": 73,
+        "pressureHPA": 1016,
+        "weatherDescription": "broken clouds",
+        "cloudsPercent": 80,
+        "windSpeedMPS": 1
+      }
+    ]
+  },
+  {
+    "location": {
+      "lat": 35.45,
+      "lng": 139.64
+    },
+    "weather": [
+      {
+        "currentTime": "September 22nd 2018, 6:25:42 pm",
+        "cityName": "Yokohama",
+        "tempratureC": 24,
+        "temp_minC": 24,
+        "temp_maxC": 24,
+        "humidityPercent": 88,
+        "pressureHPA": 1013,
+        "weatherDescription": "broken clouds",
+        "cloudsPercent": 75,
+        "windSpeedMPS": 2.6
+      }
+    ]
+  }
+]
