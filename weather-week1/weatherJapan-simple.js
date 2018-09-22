@@ -15,7 +15,6 @@ let fiveCityNames = japanCities.filter((obj, i) => i < 5 && obj.city); // sample
     const city = entity.city;
     const url = "https://api.openweathermap.org";
     const token = "600576fe99a5d3a29804568961f1a8ee";
-
     const weatherAPI = `${url}/data/2.5/weather?q=${city},jp&units=metric&appid=${token}`;
 
     try {
