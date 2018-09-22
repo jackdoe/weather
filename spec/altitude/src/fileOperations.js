@@ -8,13 +8,11 @@ const writeWithPromise = promisify(writeFile);
 
 function readCities(path) {
   return readWithPromise(path, 'utf8')
-    .then(JSON.parse)
-    .catch(() => ([]));
+    .then(JSON.parse);
 }
 
 function writeCities(path, data) {
-  return writeWithPromise(path, JSON.stringify(data, null, 2))
-    .catch(() => 'File writing error');
+  return writeWithPromise(path, JSON.stringify(data, null, 2));
 }
 
 module.exports = {
