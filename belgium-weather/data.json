@@ -1,0 +1,58 @@
+[
+    {
+        "name" : "Bierset",
+        "lat" : 50.655130,
+        "lng" : 5.451310
+    },
+    {
+        "name" : "Buzenol",
+        "lat" : 49.647310,
+        "lng" : 5.595640
+    },
+    {
+        "name" : "Chièvres",
+        "lat" : 50.588010,
+        "lng" : 3.806540
+    },
+    {
+        "name" : "Deurne",
+        "lat" : 50.655130,
+        "lng" : 5.451310
+    },
+    {
+        "name" : "Diepenbeek",
+        "lat" : 50.907780,
+        "lng" : 5.419690
+    },
+    {
+        "name" : "Florennes",
+        "lat" : 50.251010,
+        "lng" : 4.603610
+    },    
+    {
+        "name" : "Kleine-Brogelj",
+        "lat" : 51.171940,
+        "lng" : 5.450380
+    },
+
+    {
+        "name" : "Melle",
+        "lat" : 51.004810,
+        "lng" : 3.802420
+    },
+    {
+        "name" : "Middelkerke",
+        "lat" : 51.185140,
+        "lng" : 2.820850
+    },
+    {
+        "name" : "Saint-Hubert",
+        "lat" : 50.026060,
+        "lng" : 5.374100
+    },
+    {
+        "name" : "Uccle",
+        "lat" : 50.811460,
+        "lng" : 4.353600
+    }
+]
