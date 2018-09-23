@@ -31,9 +31,17 @@ async function main() {
         data.forEach(arr => {
             arr[4] = (arr[4] * 0.277777778).toFixed(2);
         });
+        var currentDate = new Date();
+        var dateTime = currentDate.getDate() + "/" +
+            (currentDate.getMonth() + 1) + "/" +
+            currentDate.getFullYear() + " at " +
+            currentDate.getHours() + ":" +
+            currentDate.getMinutes() + ":" +
+            currentDate.getSeconds();
 
         const objects = data.map(arr => {
             return {
+                Time: dateTime,
                 Temperature: parseFloat(arr[0]),
                 Humidity: parseFloat(arr[1]),
                 Pressure: parseFloat(arr[2]),
