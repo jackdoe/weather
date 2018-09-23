@@ -3,22 +3,22 @@ const axios = require('axios');
 const coords = require('./data.json');
 const url = 'http://www.meteo.be/meteo/view/en/123386-Observations.html';
 async function main() {
-     try{
+    try {
         const res = await axios.get(url);
         const object = cheerio.load(res.data);
-        
+
         const cities = object('table city')
-            .toArray()            
+            .toArray()
             .map(city => city.children[0].data)
             .map(city => {
                 const getCities = coords.find(elem => elem.name === city);
                 if (!getCities) return;
                 return {
-                  name: city,
-                  lat: getCities.lat,
-                  lng: getCities.lng
+                    name: city,
+                    lat: getCities.lat,
+                    lng: getCities.lng
                 };
-              })        
+            })
 
         const data = object('tbody > tr')
             .toArray()
@@ -26,25 +26,25 @@ async function main() {
                 .filter(cell => cell.name === 'td' && cell.type === 'tag')
                 .map(td => td.children[0] && td.children[0].data));
 
-        data.splice(0,2);
+        data.splice(0, 2);
         data.forEach(elem => elem.shift());
         data.forEach(arr => {
-            arr[4] = (arr[4]*0.277777778).toFixed(2);
+            arr[4] = (arr[4] * 0.277777778).toFixed(2);
         });
 
-        const objects = data.map(arr => { 
-            return { 
-                Temperature : parseFloat(arr[0]),
-                Humidity : parseFloat(arr[1]),
-                Pressure : parseFloat(arr[2]),
-                WindDirection : arr[3],
-                WindSpeed : parseFloat(arr[4]),
-                WeatherType : arr[5]
-            }; 
+        const objects = data.map(arr => {
+            return {
+                Temperature: parseFloat(arr[0]),
+                Humidity: parseFloat(arr[1]),
+                Pressure: parseFloat(arr[2]),
+                WindDirection: arr[3],
+                WindSpeed: parseFloat(arr[4]),
+                WeatherType: arr[5]
+            };
         });
 
-        const array=[];         
-        for (i = 0; i < data.length; i++) { 
+        const array = [];
+        for (i = 0; i < data.length; i++) {
             const obj = {
                 location: cities[i],
                 weather: [objects[i]]
@@ -53,9 +53,7 @@ async function main() {
         }
 
         console.log(JSON.stringify(array, null, 2));
-    }
-
-    catch (error){
+    } catch (error) {
         console.log(error)
     }
 }
