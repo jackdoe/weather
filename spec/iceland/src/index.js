@@ -1,4 +1,5 @@
 const cheerio = require('cheerio');
+const $ = require('cheerio');
 const axios = require('axios');
 const { readJSONFile, writeJSONFile } = require('./fileOperations');
 
@@ -17,7 +18,10 @@ async function main() {
       .toArray().map(th => th.children[0].data);
 
     const dayPerCity = cheerioObject("div[class^= 'd--maincol'] ul").find('li').length / cities.length;
+    if (dayPerCity === 0 || dayPerCity === Infinity)
+      throw new Error('error fetching cities or days count');
 
+    const conditionArray = getData(cheerioObject, 'condition');
     const tempCArray = getData(cheerioObject, 'temp');
     const windMpsArray = getData(cheerioObject, 'wind');
     const rainMmArray = getData(cheerioObject, 'precipitation');
@@ -43,6 +47,7 @@ async function main() {
       for (let i = start; i < start + dayPerCity; i++) {
         weatherArray.push({
           timeStamp: timeStamp(i % dayPerCity),
+          condition: conditionArray[i],
           tempC: tempCArray[i],
           windSpeedMps: windMpsArray[i],
           rainPrecipitationMm: rainMmArray[i]
@@ -66,9 +71,27 @@ async function main() {
 
 function getData(html, className) {
 
-  const data = html("div[class^='d--maincol'] span[class^=" + className + "] > span[class=value]")
+  let values = [];
+
+  if (className === 'condition') {
+
+    html("div[class^='d--maincol'] p[class^=fc-" + className + "] img").each((index, elem) =>
+      values.push(cheerio(elem).attr('alt')));
+
+    if (values.length === 0)
+      throw new Error('error fetching condition values');
+
+    return values;
+
+  }
+
+  values = html("div[class^='d--maincol'] span[class^=" + className + "] > span[class=value]")
     .toArray().map(elem => Number(elem.children[0].data));
-  return data;
+
+  if (values.length === 0 || values.some(isNaN))
+    throw new Error('error fetching ' + className + ' values');
+
+  return values;
 
 }
 
