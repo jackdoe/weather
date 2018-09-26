@@ -118,7 +118,7 @@ handleWeatherData = data => {
   const latitude = data.SiteRep.DV.Location.lat;
   const elevation = data.SiteRep.DV.Location.elevation;
 
-  const weatherObject = data.SiteRep.DV.Location.Period.map(period => {
+  const weatherArray = data.SiteRep.DV.Location.Period.map(period => {
     const day = period.value;
     const detailsObj = {
       day,
@@ -157,7 +157,7 @@ handleWeatherData = data => {
         latitude,
         elevation
       },
-      weather: weatherObject
+      weather: weatherArray
     }
   ];
   console.log(JSON.stringify(fullWeatherDetails, null, 2));
