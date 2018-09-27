@@ -84,12 +84,17 @@ writeFile = (path, data) => {
   });
 };
 
-// Request all UK locations' names and IDs
 curl.getJSON(UK_LOCATIONS_API, null, (err, response, data) => {
+  console.log(
+    `Line 87: Requesting all UK locations data. Request statusCode ->${
+      response.statusCode
+    }`
+  );
   if (response.statusCode === 200) {
     const locations = data.Locations.Location.map(location => location.name);
     writeFile("UK-6001-LocationNames.json", locations);
     writeFile("UK-LocationDetails.json", data);
+    console.log("Line 105: Requesting weather data based on locations' id");
     data.Locations.Location.map(location => requestWeatherData(location.id));
   } else if (err) {
     console.log(err);
@@ -101,6 +106,9 @@ requestWeatherData = locations_id => {
     requestKey.key
   }`;
   curl.getJSON(WEATHER_REQUEST_URL, null, (err, response, data) => {
+    console.log(
+      `Line 107:Weather data request statusCode ->${response.statusCode}`
+    );
     if (response.statusCode === 200) {
       handleWeatherData(data);
     } else if (err) {
@@ -160,6 +168,9 @@ handleWeatherData = data => {
       weather: weatherArray
     }
   ];
-  console.log(JSON.stringify(fullWeatherDetails, null, 2));
+  //console.log(JSON.stringify(fullWeatherDetails, null, 2));
   writeFile("UK-weatherOutput.json", fullWeatherDetails);
+  console.log(
+    "Line 170: Saved an example of Weather output in 'UK-weatherOutput.json' file. "
+  );
 };
