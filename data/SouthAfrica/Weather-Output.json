@@ -1,0 +1,211 @@
+[
+  {
+    "location": {
+      "City": "Bloemfontein",
+      "Longitude": "-29.087217",
+      "Latitude": "26.154898"
+    },
+    "weather": [
+      {
+        "city": "Bloemfontein",
+        "dateTime": "2018-9-29 21:32:34",
+        "temperatureC": 16,
+        "feelsLikeC": 16,
+        "description": "Refreshingly cool.",
+        "pressureMBAR": 1028,
+        "humidityPercent": 20,
+        "windKmh": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Port-Elizabeth",
+      "Longitude": "-33.958252",
+      "Latitude": "25.619022"
+    },
+    "weather": [
+      {
+        "city": "Port-Elizabeth",
+        "dateTime": "2018-9-29 21:32:36",
+        "temperatureC": 16,
+        "feelsLikeC": 16,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1029,
+        "humidityPercent": 68,
+        "windKmh": 28
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "George",
+      "Longitude": "-33.977074",
+      "Latitude": "22.457581"
+    },
+    "weather": [
+      {
+        "city": "George",
+        "dateTime": "2018-9-29 21:32:40",
+        "temperatureC": 13,
+        "feelsLikeC": 12,
+        "description": "Clear.",
+        "pressureMBAR": 1024,
+        "humidityPercent": 82,
+        "windKmh": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Hermanus",
+      "Longitude": "-34.414272",
+      "Latitude": "19.248734"
+    },
+    "weather": [
+      {
+        "city": "Hermanus",
+        "dateTime": "2018-9-29 21:32:52",
+        "temperatureC": 16,
+        "feelsLikeC": 16,
+        "description": "Clear.",
+        "pressureMBAR": 1020,
+        "humidityPercent": 77,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Stellenbosch",
+      "Longitude": "-33.932106",
+      "Latitude": "18.860151"
+    },
+    "weather": [
+      {
+        "city": "Stellenbosch",
+        "dateTime": "2018-9-29 21:33:18",
+        "temperatureC": 16,
+        "feelsLikeC": 16,
+        "description": "Clear.",
+        "pressureMBAR": 1020,
+        "humidityPercent": 77,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Rustenburg",
+      "Longitude": "-25.654448",
+      "Latitude": "27.255854"
+    },
+    "weather": [
+      {
+        "city": "Rustenburg",
+        "dateTime": "2018-9-29 21:33:20",
+        "temperatureC": 17,
+        "feelsLikeC": 17,
+        "description": "Clear.",
+        "pressureMBAR": 1032,
+        "humidityPercent": 56,
+        "windKmh": 37
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Vereeniging",
+      "Longitude": "-26.673611",
+      "Latitude": "27.931944"
+    },
+    "weather": [
+      {
+        "city": "Vereeniging",
+        "dateTime": "2018-9-29 21:33:22",
+        "temperatureC": 17,
+        "feelsLikeC": 17,
+        "description": "Clear.",
+        "pressureMBAR": 1032,
+        "humidityPercent": 56,
+        "windKmh": 37
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Pretoria",
+      "Longitude": "-25.731340",
+      "Latitude": "28.218370"
+    },
+    "weather": [
+      {
+        "city": "Pretoria",
+        "dateTime": "2018-9-29 21:33:30",
+        "temperatureC": 18,
+        "feelsLikeC": 18,
+        "description": "Mild.",
+        "pressureMBAR": null,
+        "humidityPercent": 58,
+        "windKmh": 35
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Knysna",
+      "Longitude": "-34.035088",
+      "Latitude": "23.046469"
+    },
+    "weather": [
+      {
+        "city": "Knysna",
+        "dateTime": "2018-9-29 21:33:36",
+        "temperatureC": 13,
+        "feelsLikeC": 12,
+        "description": "Clear.",
+        "pressureMBAR": 1024,
+        "humidityPercent": 82,
+        "windKmh": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Johannesburg",
+      "Longitude": "-26.195246",
+      "Latitude": "28.034088"
+    },
+    "weather": [
+      {
+        "city": "Johannesburg",
+        "dateTime": "2018-9-29 21:33:40",
+        "temperatureC": 16,
+        "feelsLikeC": 14,
+        "description": "Haze.",
+        "pressureMBAR": null,
+        "humidityPercent": 60,
+        "windKmh": 32
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Cape-Town",
+      "Longitude": "-33.918861",
+      "Latitude": "18.423300"
+    },
+    "weather": [
+      {
+        "city": "Cape-Town",
+        "dateTime": "2018-9-29 21:33:42",
+        "temperatureC": 16,
+        "feelsLikeC": 16,
+        "description": "Clear.",
+        "pressureMBAR": 1020,
+        "humidityPercent": 77,
+        "windKmh": 13
+      }
+    ]
+  }
+]
