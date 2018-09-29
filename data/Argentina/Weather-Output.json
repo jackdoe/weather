@@ -1,0 +1,154 @@
+[
+  {
+    "location": {
+      "City": "Mendoza",
+      "Longitude": "-32.888355",
+      "Latitude": "-68.838844"
+    },
+    "weather": [
+      {
+        "city": "Mendoza",
+        "dateTime": "2018-9-29 22:08:26",
+        "temperatureC": 24,
+        "feelsLikeC": 25,
+        "description": "Scattered clouds.",
+        "pressureMBAR": 1003,
+        "humidityPercent": 44,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Jujuy",
+      "Longitude": "-24.184340",
+      "Latitude": "-65.302177"
+    },
+    "weather": [
+      {
+        "city": "Jujuy",
+        "dateTime": "2018-9-29 22:08:28",
+        "temperatureC": 35,
+        "feelsLikeC": 33,
+        "description": "Scattered clouds.",
+        "pressureMBAR": 1000,
+        "humidityPercent": 22,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Tandil",
+      "Longitude": "-37.320480",
+      "Latitude": "-59.132904"
+    },
+    "weather": [
+      {
+        "city": "Tandil",
+        "dateTime": "2018-9-29 22:08:30",
+        "temperatureC": 19,
+        "feelsLikeC": 19,
+        "description": "Partly sunny.",
+        "pressureMBAR": 1003,
+        "humidityPercent": 63,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Bragado",
+      "Longitude": "-35.101933",
+      "Latitude": "-60.438538"
+    },
+    "weather": [
+      {
+        "city": "Bragado",
+        "dateTime": "2018-9-29 22:08:32",
+        "temperatureC": 22,
+        "feelsLikeC": 25,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1004,
+        "humidityPercent": 44,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Salta",
+      "Longitude": "-24.782932",
+      "Latitude": "-65.412155"
+    },
+    "weather": [
+      {
+        "city": "Salta",
+        "dateTime": "2018-9-29 22:08:40",
+        "temperatureC": 34,
+        "feelsLikeC": 32,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1003,
+        "humidityPercent": 24,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Mar-del-Plata",
+      "Longitude": "-37.979858",
+      "Latitude": "-57.589794"
+    },
+    "weather": [
+      {
+        "city": "Mar-del-Plata",
+        "dateTime": "2018-9-29 22:08:44",
+        "temperatureC": 19,
+        "feelsLikeC": 19,
+        "description": "Overcast.",
+        "pressureMBAR": 1002,
+        "humidityPercent": 84,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Corrientes",
+      "Longitude": "-27.471226",
+      "Latitude": "-58.839584"
+    },
+    "weather": [
+      {
+        "city": "Corrientes",
+        "dateTime": "2018-9-29 22:08:46",
+        "temperatureC": 35,
+        "feelsLikeC": 38,
+        "description": "Sunny.",
+        "pressureMBAR": 999,
+        "humidityPercent": 41,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Buenos-Aires",
+      "Longitude": "-34.603722",
+      "Latitude": "-58.381592"
+    },
+    "weather": [
+      {
+        "city": "Buenos-Aires",
+        "dateTime": "2018-9-29 22:08:48",
+        "temperatureC": 19,
+        "feelsLikeC": 19,
+        "description": "Overcast.",
+        "pressureMBAR": 1003,
+        "humidityPercent": 88,
+        "windKmh": null
+      }
+    ]
+  }
+]
