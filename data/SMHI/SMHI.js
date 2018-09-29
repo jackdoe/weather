@@ -186,28 +186,15 @@ const extractParameter = (result, param) => {
   return "undefined";
 };
 
-async function saveResults(path, results, message) {
+function saveResults(path, results, message) {
   //creating an empty file to save data in
-  try{
-  await fs.readFile(path, "utf8", async (err, data) => {
-    try {
-      if (err) throw new Error(`Failed to read file ${path}`);
-      const json = await JSON.parse(data);
-      results.forEach(result => {
-        json.push(result);
-      });
-      await fs.writeFile(path, JSON.stringify(json, null, 2), (err) => {
-        if (err)
-          throw err;
-        console.log(`The file ${path} has been saved ${message}!`);
-      });
-    } catch (error) {
-      console.log(`${error} savingResults`)
-    }
+  const data = fs.readFileSync(path, "utf8");
+  const json = JSON.parse(data);
+  results.forEach(result => {
+    json.push(result);
   });
-  } catch (error) {
-    console.log(`${error} savingResults`)
-  }
+  fs.writeFileSync(path, JSON.stringify(json, null, 2));
+  console.log(`The file ${path} has been saved ${message}!`);
 }
 
 getWeatherData(coordinatesURL, 5, 2);
