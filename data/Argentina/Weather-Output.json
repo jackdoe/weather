@@ -8,13 +8,13 @@
     "weather": [
       {
         "city": "Mendoza",
-        "dateTime": "2018-9-29 22:08:26",
-        "temperatureC": 24,
+        "dateTime": "2018-9-29 23:28:55",
+        "temperatureC": 23,
         "feelsLikeC": 25,
-        "description": "Scattered clouds.",
+        "description": "Passing clouds.",
         "pressureMBAR": 1003,
         "humidityPercent": 44,
-        "windKmh": null
+        "windKmh": 19
       }
     ]
   },
@@ -27,13 +27,13 @@
     "weather": [
       {
         "city": "Jujuy",
-        "dateTime": "2018-9-29 22:08:28",
-        "temperatureC": 35,
-        "feelsLikeC": 33,
+        "dateTime": "2018-9-29 23:28:57",
+        "temperatureC": 32,
+        "feelsLikeC": 32,
         "description": "Scattered clouds.",
-        "pressureMBAR": 1000,
-        "humidityPercent": 22,
-        "windKmh": null
+        "pressureMBAR": 1001,
+        "humidityPercent": 38,
+        "windKmh": 7
       }
     ]
   },
@@ -46,12 +46,12 @@
     "weather": [
       {
         "city": "Tandil",
-        "dateTime": "2018-9-29 22:08:30",
-        "temperatureC": 19,
-        "feelsLikeC": 19,
-        "description": "Partly sunny.",
+        "dateTime": "2018-9-29 23:28:59",
+        "temperatureC": 18,
+        "feelsLikeC": 18,
+        "description": "Passing clouds.",
         "pressureMBAR": 1003,
-        "humidityPercent": 63,
+        "humidityPercent": 62,
         "windKmh": null
       }
     ]
@@ -65,13 +65,13 @@
     "weather": [
       {
         "city": "Bragado",
-        "dateTime": "2018-9-29 22:08:32",
-        "temperatureC": 22,
-        "feelsLikeC": 25,
-        "description": "Passing clouds.",
+        "dateTime": "2018-9-29 23:29:01",
+        "temperatureC": 21,
+        "feelsLikeC": 21,
+        "description": "Scattered clouds.",
         "pressureMBAR": 1004,
-        "humidityPercent": 44,
-        "windKmh": null
+        "humidityPercent": 40,
+        "windKmh": 24
       }
     ]
   },
@@ -84,13 +84,13 @@
     "weather": [
       {
         "city": "Salta",
-        "dateTime": "2018-9-29 22:08:40",
-        "temperatureC": 34,
-        "feelsLikeC": 32,
-        "description": "Passing clouds.",
+        "dateTime": "2018-9-29 23:29:09",
+        "temperatureC": 30,
+        "feelsLikeC": 28,
+        "description": "Scattered clouds.",
         "pressureMBAR": 1003,
         "humidityPercent": 24,
-        "windKmh": null
+        "windKmh": 13
       }
     ]
   },
@@ -103,13 +103,13 @@
     "weather": [
       {
         "city": "Mar-del-Plata",
-        "dateTime": "2018-9-29 22:08:44",
-        "temperatureC": 19,
-        "feelsLikeC": 19,
+        "dateTime": "2018-9-29 23:29:13",
+        "temperatureC": 17,
+        "feelsLikeC": 17,
         "description": "Overcast.",
-        "pressureMBAR": 1002,
-        "humidityPercent": 84,
-        "windKmh": null
+        "pressureMBAR": 1004,
+        "humidityPercent": 73,
+        "windKmh": 7
       }
     ]
   },
@@ -122,13 +122,13 @@
     "weather": [
       {
         "city": "Corrientes",
-        "dateTime": "2018-9-29 22:08:46",
-        "temperatureC": 35,
-        "feelsLikeC": 38,
-        "description": "Sunny.",
+        "dateTime": "2018-9-29 23:29:15",
+        "temperatureC": 32,
+        "feelsLikeC": 35,
+        "description": "Clear.",
         "pressureMBAR": 999,
-        "humidityPercent": 41,
-        "windKmh": null
+        "humidityPercent": 52,
+        "windKmh": 20
       }
     ]
   },
@@ -141,13 +141,13 @@
     "weather": [
       {
         "city": "Buenos-Aires",
-        "dateTime": "2018-9-29 22:08:48",
-        "temperatureC": 19,
-        "feelsLikeC": 19,
-        "description": "Overcast.",
-        "pressureMBAR": 1003,
-        "humidityPercent": 88,
-        "windKmh": null
+        "dateTime": "2018-9-29 23:29:17",
+        "temperatureC": 20,
+        "feelsLikeC": 20,
+        "description": "Mostly cloudy.",
+        "pressureMBAR": 1005,
+        "humidityPercent": 83,
+        "windKmh": 11
       }
     ]
   }

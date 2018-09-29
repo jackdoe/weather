@@ -93,7 +93,7 @@ parseData = html => {
 
           const feelsLikeData = $($(tempDetails))[2].slice(0, 2);
           const feelsLike = parseInt(feelsLikeData);
-          const windData = $($(tempDetails))[6];
+          const windData = $($(tempDetails))[4];
           const wind = parseInt(windData);
 
           // Full data object
