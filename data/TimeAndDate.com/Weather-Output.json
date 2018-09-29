@@ -8,13 +8,13 @@
     "weather": [
       {
         "city": "Kaliningrad",
-        "dateTime": "2018-9-29 20:08:58",
-        "temperatureC": 8,
+        "dateTime": "2018-9-29 22:22:17",
+        "temperatureC": 9,
         "feelsLikeC": 7,
-        "description": "Passing clouds.",
-        "pressureMBAR": 1023,
+        "description": "Clear.",
+        "pressureMBAR": 1022,
         "humidityPercent": 71,
-        "windKmh": 6
+        "windKmh": 13
       }
     ]
   },
@@ -27,7 +27,7 @@
     "weather": [
       {
         "city": "Yaroslavl",
-        "dateTime": "2018-9-29 20:09:00",
+        "dateTime": "2018-9-29 22:22:19",
         "temperatureC": 3,
         "feelsLikeC": 3,
         "description": "Overcast.",
@@ -46,7 +46,7 @@
     "weather": [
       {
         "city": "Blagoveshchensk",
-        "dateTime": "2018-9-29 20:09:02",
+        "dateTime": "2018-9-29 22:22:21",
         "temperatureC": 7,
         "feelsLikeC": 6,
         "description": "Haze.",
@@ -65,12 +65,12 @@
     "weather": [
       {
         "city": "Astrakhan",
-        "dateTime": "2018-9-29 20:09:04",
-        "temperatureC": 11,
-        "feelsLikeC": 11,
+        "dateTime": "2018-9-29 22:22:24",
+        "temperatureC": 9,
+        "feelsLikeC": 9,
         "description": "Clear.",
         "pressureMBAR": 1018,
-        "humidityPercent": 72,
+        "humidityPercent": 82,
         "windKmh": null
       }
     ]
@@ -84,7 +84,7 @@
     "weather": [
       {
         "city": "Vorkuta",
-        "dateTime": "2018-9-29 20:09:06",
+        "dateTime": "2018-9-29 22:22:25",
         "temperatureC": 2,
         "feelsLikeC": -1,
         "description": "Light rain. Low clouds.",
@@ -103,13 +103,13 @@
     "weather": [
       {
         "city": "Krasnodar",
-        "dateTime": "2018-9-29 20:09:08",
-        "temperatureC": 18,
-        "feelsLikeC": 18,
+        "dateTime": "2018-9-29 22:22:27",
+        "temperatureC": 16,
+        "feelsLikeC": 16,
         "description": "Clear.",
-        "pressureMBAR": 1015,
-        "humidityPercent": 83,
-        "windKmh": 2
+        "pressureMBAR": 1016,
+        "humidityPercent": 77,
+        "windKmh": 6
       }
     ]
   },
@@ -122,12 +122,12 @@
     "weather": [
       {
         "city": "Orenburg",
-        "dateTime": "2018-9-29 20:09:10",
-        "temperatureC": 10,
-        "feelsLikeC": 10,
+        "dateTime": "2018-9-29 22:22:29",
+        "temperatureC": 9,
+        "feelsLikeC": 8,
         "description": "Clear.",
         "pressureMBAR": 1017,
-        "humidityPercent": 71,
+        "humidityPercent": 76,
         "windKmh": 6
       }
     ]
@@ -141,7 +141,7 @@
     "weather": [
       {
         "city": "Makhachkala",
-        "dateTime": "2018-9-29 20:09:12",
+        "dateTime": "2018-9-29 22:22:31",
         "temperatureC": 16,
         "feelsLikeC": 16,
         "description": "Clear.",
@@ -160,13 +160,13 @@
     "weather": [
       {
         "city": "Samara",
-        "dateTime": "2018-9-29 20:09:16",
-        "temperatureC": 10,
-        "feelsLikeC": 9,
-        "description": "Passing clouds.",
+        "dateTime": "2018-9-29 22:22:35",
+        "temperatureC": 9,
+        "feelsLikeC": 7,
+        "description": "Light rain. Low clouds.",
         "pressureMBAR": 1014,
         "humidityPercent": 94,
-        "windKmh": 9
+        "windKmh": 13
       }
     ]
   },
@@ -179,11 +179,11 @@
     "weather": [
       {
         "city": "Saratov",
-        "dateTime": "2018-9-29 20:09:18",
-        "temperatureC": 15,
-        "feelsLikeC": 15,
-        "description": "Overcast.",
-        "pressureMBAR": 1014,
+        "dateTime": "2018-9-29 22:22:37",
+        "temperatureC": 14,
+        "feelsLikeC": 14,
+        "description": "Partly cloudy.",
+        "pressureMBAR": 1013,
         "humidityPercent": 72,
         "windKmh": 9
       }
@@ -198,7 +198,7 @@
     "weather": [
       {
         "city": "Tyumen",
-        "dateTime": "2018-9-29 20:09:20",
+        "dateTime": "2018-9-29 22:22:39",
         "temperatureC": 12,
         "feelsLikeC": 12,
         "description": "Overcast.",
@@ -217,13 +217,13 @@
     "weather": [
       {
         "city": "Chelyabinsk",
-        "dateTime": "2018-9-29 20:09:22",
+        "dateTime": "2018-9-29 22:22:41",
         "temperatureC": 9,
-        "feelsLikeC": 8,
+        "feelsLikeC": 7,
         "description": "Passing clouds.",
-        "pressureMBAR": 1014,
-        "humidityPercent": 87,
-        "windKmh": 9
+        "pressureMBAR": 1015,
+        "humidityPercent": 94,
+        "windKmh": 13
       }
     ]
   },
@@ -236,12 +236,12 @@
     "weather": [
       {
         "city": "Yakutsk",
-        "dateTime": "2018-9-29 20:09:24",
-        "temperatureC": 0,
-        "feelsLikeC": -3,
+        "dateTime": "2018-9-29 22:22:43",
+        "temperatureC": -1,
+        "feelsLikeC": -4,
         "description": "Passing clouds.",
         "pressureMBAR": 1013,
-        "humidityPercent": 87,
+        "humidityPercent": 93,
         "windKmh": 9
       }
     ]
@@ -255,13 +255,13 @@
     "weather": [
       {
         "city": "Salekhard",
-        "dateTime": "2018-9-29 20:09:30",
+        "dateTime": "2018-9-29 22:22:49",
         "temperatureC": 5,
-        "feelsLikeC": 4,
-        "description": "Overcast.",
+        "feelsLikeC": 5,
+        "description": "Sprinkles. Overcast.",
         "pressureMBAR": 992,
-        "humidityPercent": 87,
-        "windKmh": 6
+        "humidityPercent": 92,
+        "windKmh": 4
       }
     ]
   },
@@ -274,7 +274,7 @@
     "weather": [
       {
         "city": "Vladimir",
-        "dateTime": "2018-9-29 20:09:32",
+        "dateTime": "2018-9-29 22:22:51",
         "temperatureC": 2,
         "feelsLikeC": 2,
         "description": "Overcast.",
@@ -293,12 +293,12 @@
     "weather": [
       {
         "city": "Sochi",
-        "dateTime": "2018-9-29 20:09:34",
-        "temperatureC": 19,
-        "feelsLikeC": 19,
+        "dateTime": "2018-9-29 22:22:53",
+        "temperatureC": 17,
+        "feelsLikeC": 17,
         "description": "Passing clouds.",
         "pressureMBAR": 1015,
-        "humidityPercent": 83,
+        "humidityPercent": 94,
         "windKmh": 9
       }
     ]
@@ -312,7 +312,7 @@
     "weather": [
       {
         "city": "Magadan",
-        "dateTime": "2018-9-29 20:09:36",
+        "dateTime": "2018-9-29 22:22:55",
         "temperatureC": 1,
         "feelsLikeC": 1,
         "description": "Passing clouds.",
@@ -331,7 +331,7 @@
     "weather": [
       {
         "city": "Arkhangelsk",
-        "dateTime": "2018-9-29 20:09:38",
+        "dateTime": "2018-9-29 22:22:57",
         "temperatureC": 3,
         "feelsLikeC": 2,
         "description": "Overcast.",
@@ -350,7 +350,7 @@
     "weather": [
       {
         "city": "Kostroma",
-        "dateTime": "2018-9-29 20:09:40",
+        "dateTime": "2018-9-29 22:22:59",
         "temperatureC": 4,
         "feelsLikeC": 4,
         "description": "Overcast.",
@@ -369,12 +369,12 @@
     "weather": [
       {
         "city": "Volgograd",
-        "dateTime": "2018-9-29 20:09:42",
-        "temperatureC": 14,
-        "feelsLikeC": 14,
+        "dateTime": "2018-9-29 22:23:01",
+        "temperatureC": 12,
+        "feelsLikeC": 11,
         "description": "Clear.",
         "pressureMBAR": 1016,
-        "humidityPercent": 63,
+        "humidityPercent": 72,
         "windKmh": 9
       }
     ]
@@ -388,13 +388,13 @@
     "weather": [
       {
         "city": "Syktyvkar",
-        "dateTime": "2018-9-29 20:09:44",
-        "temperatureC": 6,
-        "feelsLikeC": 4,
-        "description": "Mostly cloudy.",
-        "pressureMBAR": 1005,
+        "dateTime": "2018-9-29 22:23:03",
+        "temperatureC": 5,
+        "feelsLikeC": 2,
+        "description": "Sprinkles. Mostly cloudy.",
+        "pressureMBAR": 1007,
         "humidityPercent": 93,
-        "windKmh": 9
+        "windKmh": 13
       }
     ]
   },
@@ -407,7 +407,7 @@
     "weather": [
       {
         "city": "Yoshkar-Ola",
-        "dateTime": "2018-9-29 20:09:46",
+        "dateTime": "2018-9-29 22:23:05",
         "temperatureC": 5,
         "feelsLikeC": 5,
         "description": "Passing clouds.",
@@ -426,7 +426,7 @@
     "weather": [
       {
         "city": "Magadan",
-        "dateTime": "2018-9-29 20:09:48",
+        "dateTime": "2018-9-29 22:23:07",
         "temperatureC": 1,
         "feelsLikeC": 1,
         "description": "Passing clouds.",
@@ -445,7 +445,7 @@
     "weather": [
       {
         "city": "Moscow",
-        "dateTime": "2018-9-29 20:09:54",
+        "dateTime": "2018-9-29 22:23:13",
         "temperatureC": 5,
         "feelsLikeC": 5,
         "description": "Passing clouds.",
@@ -464,7 +464,7 @@
     "weather": [
       {
         "city": "Novosibirsk",
-        "dateTime": "2018-9-29 20:09:56",
+        "dateTime": "2018-9-29 22:23:15",
         "temperatureC": 8,
         "feelsLikeC": 7,
         "description": "Passing clouds.",

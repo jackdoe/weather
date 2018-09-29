@@ -24,6 +24,7 @@ curl.get(url, null, (err, resp, body) => {
 
 const locationAndWeather = [];
 const RussianCities = [];
+const long_lat_cityName = [];
 
 parseData = html => {
   const dom = new JSDOM(html);
@@ -37,6 +38,15 @@ parseData = html => {
       .split(" ")[0];
     const longitude = $($(td)[1]).html();
     const latitude = $($(td)[2]).html();
+    
+    const long_lat_city_obj = {
+      cityName,
+      longitude,
+      latitude
+    };
+
+    long_lat_cityName.push(long_lat_city_obj);
+    writeFile("RussianCities.json", long_lat_cityName);
 
     //requesting weather information of each city
     curl.get(
@@ -107,7 +117,7 @@ parseData = html => {
           //saving full information in JSON file
           writeFile("Weather-Output.json", locationAndWeather);
           //saving Russian cities in JSON file
-          writeFile("RussianCities.json", RussianCities);
+          writeFile("This-cities-have-weather-information.json", RussianCities);
         } else if (err) {
           console.log("Error while fetching");
         }
