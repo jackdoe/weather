@@ -1,0 +1,237 @@
+[
+  {
+    "cityName": "Campo-Grande",
+    "longitude": "-22.900925",
+    "latitude": "-43.556404"
+  },
+  {
+    "cityName": "Valença",
+    "longitude": "-13.369044",
+    "latitude": "-39.071644"
+  },
+  {
+    "cityName": "Uberlândia",
+    "longitude": "-18.913664",
+    "latitude": "-48.266560"
+  },
+  {
+    "cityName": "Corumbá",
+    "longitude": "-19.014837",
+    "latitude": "-57.658024"
+  },
+  {
+    "cityName": "Gravatá",
+    "longitude": "-8.211601",
+    "latitude": "-35.567780"
+  },
+  {
+    "cityName": "Joinville",
+    "longitude": "-26.304516",
+    "latitude": "-48.843380"
+  },
+  {
+    "cityName": "Miguel-Pereira",
+    "longitude": "-22.457737",
+    "latitude": "-43.480690"
+  },
+  {
+    "cityName": "Palhoça",
+    "longitude": "-27.646620",
+    "latitude": "-48.670361"
+  },
+  {
+    "cityName": "Assis",
+    "longitude": "-22.660435",
+    "latitude": "-50.418781"
+  },
+  {
+    "cityName": "Duque-de-Caxias",
+    "longitude": "-22.783146",
+    "latitude": "-43.307419"
+  },
+  {
+    "cityName": "City-of-Cruzeiro",
+    "longitude": "-22.574295",
+    "latitude": "-44.968571"
+  },
+  {
+    "cityName": "Curitiba",
+    "longitude": "-25.441105",
+    "latitude": "-49.276855"
+  },
+  {
+    "cityName": "Glicério",
+    "longitude": "-22.240088",
+    "latitude": "-42.054329"
+  },
+  {
+    "cityName": "Pindamonhangaba",
+    "longitude": "-22.927824",
+    "latitude": "-45.459572"
+  },
+  {
+    "cityName": "Indaiatuba",
+    "longitude": "-23.092602",
+    "latitude": "-47.213982"
+  },
+  {
+    "cityName": "Santana-de-Parnaíba",
+    "longitude": "-23.443935",
+    "latitude": "-46.923111"
+  },
+  {
+    "cityName": "Jandira",
+    "longitude": "-23.528028",
+    "latitude": "-46.902763"
+  },
+  {
+    "cityName": "Saquarema",
+    "longitude": "-22.932398",
+    "latitude": "-42.486675"
+  },
+  {
+    "cityName": "Ipatinga",
+    "longitude": "-19.467613",
+    "latitude": "-42.548409"
+  },
+  {
+    "cityName": "Itabuna",
+    "longitude": "-14.788033",
+    "latitude": "-39.278419"
+  },
+  {
+    "cityName": "Ilhéus",
+    "longitude": "-14.793505",
+    "latitude": "-39.046379"
+  },
+  {
+    "cityName": "Guarulhos",
+    "longitude": "-23.454163",
+    "latitude": "-46.534096"
+  },
+  {
+    "cityName": "Vinhedo",
+    "longitude": "-23.030672",
+    "latitude": "-46.983761"
+  },
+  {
+    "cityName": "Maceió",
+    "longitude": "-9.648139",
+    "latitude": "-35.717239"
+  },
+  {
+    "cityName": "São-José-dos-Pinhais",
+    "longitude": "-25.531836",
+    "latitude": "-49.203571"
+  },
+  {
+    "cityName": "Divinópolis",
+    "longitude": "-20.145126",
+    "latitude": "-44.891644"
+  },
+  {
+    "cityName": "Goiânia",
+    "longitude": "-16.665136",
+    "latitude": "-49.286041"
+  },
+  {
+    "cityName": "Itapema",
+    "longitude": "-27.094585",
+    "latitude": "-48.613472"
+  },
+  {
+    "cityName": "Itapevi",
+    "longitude": "-23.549265",
+    "latitude": "-46.933197"
+  },
+  {
+    "cityName": "Cianorte",
+    "longitude": "-23.662388",
+    "latitude": "-52.593613"
+  },
+  {
+    "cityName": "Taubaté",
+    "longitude": "-23.020456",
+    "latitude": "-45.556355"
+  },
+  {
+    "cityName": "Belo-Horizonte",
+    "longitude": "-19.841644",
+    "latitude": "-43.986511"
+  },
+  {
+    "cityName": "Botucatu",
+    "longitude": "-22.884180",
+    "latitude": "-48.444164"
+  },
+  {
+    "cityName": "Natal",
+    "longitude": "-5.812757",
+    "latitude": "-35.255127"
+  },
+  {
+    "cityName": "Macapá",
+    "longitude": "0.035574",
+    "latitude": "-51.070534"
+  },
+  {
+    "cityName": "Osasco",
+    "longitude": "-23.532881",
+    "latitude": "-46.792004"
+  },
+  {
+    "cityName": "Pouso-Alegre",
+    "longitude": "-22.227077",
+    "latitude": "-45.939373"
+  },
+  {
+    "cityName": "Itaboraí",
+    "longitude": "-22.752754",
+    "latitude": "-42.864876"
+  },
+  {
+    "cityName": "Sao-Paulo",
+    "longitude": "-23.533773",
+    "latitude": "-46.625290"
+  },
+  {
+    "cityName": "Anápolis",
+    "longitude": "-16.328547",
+    "latitude": "-48.953403"
+  },
+  {
+    "cityName": "Bauru",
+    "longitude": "-22.303074",
+    "latitude": "-49.065628"
+  },
+  {
+    "cityName": "Campinas",
+    "longitude": "-22.907104",
+    "latitude": "-47.063240"
+  },
+  {
+    "cityName": "Belo-Horizonte",
+    "longitude": "-19.912998",
+    "latitude": "-43.940933"
+  },
+  {
+    "cityName": "Americana",
+    "longitude": "-22.729958",
+    "latitude": "-47.334938"
+  },
+  {
+    "cityName": "Presidente-Prudente",
+    "longitude": "-22.121265",
+    "latitude": "-51.383400"
+  },
+  {
+    "cityName": "Florianópolis",
+    "longitude": "-27.593500",
+    "latitude": "-48.558540"
+  },
+  {
+    "cityName": "Manaus",
+    "longitude": "-3.117034",
+    "latitude": "-60.025780"
+  }
+]
