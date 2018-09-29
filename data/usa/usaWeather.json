@@ -1,0 +1,122 @@
+[
+  {
+    "location": {
+      "lat": 40.7127837,
+      "lng": -74.0059413
+    },
+    "weather": [
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538247600,
+        "to": 1538258400,
+        "forecast": "Sunny",
+        "tempC": 22.78,
+        "windMps": 2.68
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538258400,
+        "to": 1538301600,
+        "forecast": "Mostly Clear",
+        "tempC": 13.89,
+        "windMps": 2.68
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538301600,
+        "to": 1538344800,
+        "forecast": "Sunny",
+        "tempC": 21.67,
+        "windMps": 3.13
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538344800,
+        "to": 1538388000,
+        "forecast": "Partly Cloudy",
+        "tempC": 16.11,
+        "windMps": 2.24
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538388000,
+        "to": 1538431200,
+        "forecast": "Mostly Sunny",
+        "tempC": 24.44,
+        "windMps": 1.34
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538431200,
+        "to": 1538474400,
+        "forecast": "Mostly Cloudy",
+        "tempC": 18.89,
+        "windMps": 2.68
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538474400,
+        "to": 1538517600,
+        "forecast": "Partly Sunny then Slight Chance Showers And Thunderstorms",
+        "tempC": 26.67,
+        "windMps": 2.68
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538517600,
+        "to": 1538560800,
+        "forecast": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
+        "tempC": 19.44,
+        "windMps": 2.68
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538560800,
+        "to": 1538604000,
+        "forecast": "Chance Rain Showers then Mostly Sunny",
+        "tempC": 25.56,
+        "windMps": 2.68
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538604000,
+        "to": 1538647200,
+        "forecast": "Partly Cloudy",
+        "tempC": 18.33,
+        "windMps": 1.34
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538647200,
+        "to": 1538690400,
+        "forecast": "Mostly Sunny",
+        "tempC": 26.11,
+        "windMps": 1.34
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538690400,
+        "to": 1538733600,
+        "forecast": "Partly Cloudy",
+        "tempC": 18.89,
+        "windMps": 3.13
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538733600,
+        "to": 1538776800,
+        "forecast": "Partly Sunny then Chance Rain Showers",
+        "tempC": 23.89,
+        "windMps": 2.68
+      },
+      {
+        "updatedTimestamp": 1538248252,
+        "from": 1538776800,
+        "to": 1538820000,
+        "forecast": "Chance Showers And Thunderstorms",
+        "tempC": 17.78,
+        "windMps": 2.68
+      }
+    ]
+  }
+]
