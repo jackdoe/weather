@@ -1,17 +1,18 @@
 const cheerio = require('cheerio');
 const axios = require('axios');
+const Promise = require('bluebird');
+const australiaLocations = require("./australiaLocations");
 
-const endPoints = [MELBOURNE_URL = "http://www.bom.gov.au/vic/observations/melbourne.shtml?ref=dropdown",
-SYDNEY_URL = "http://www.bom.gov.au/nsw/observations/sydney.shtml?ref=dropdown",
-BRISBANE_URL = "http://www.bom.gov.au/qld/observations/brisbane.shtml?ref=dropdown",
-PERTH_URL = "http://www.bom.gov.au/wa/observations/perth.shtml?ref=dropdown",
-ADELAIDE_URL = "http://www.bom.gov.au/sa/observations/adelaide.shtml?ref=dropdown",
-HOBART_URL = "http://www.bom.gov.au/tas/observations/hobart.shtml?ref=dropdown",
-CANBERRA_URL = "http://www.bom.gov.au/act/observations/canberra.shtml?ref=dropdown",
-DARWIN_URL = "http://www.bom.gov.au/nt/observations/darwin.shtml?ref=dropdown"
+const endPoints = [ "http://www.bom.gov.au/vic/observations/melbourne.shtml?ref=dropdown",
+ "http://www.bom.gov.au/nsw/observations/sydney.shtml?ref=dropdown",
+"http://www.bom.gov.au/qld/observations/brisbane.shtml?ref=dropdown",
+"http://www.bom.gov.au/wa/observations/perth.shtml?ref=dropdown",
+"http://www.bom.gov.au/sa/observations/adelaide.shtml?ref=dropdown",
+"http://www.bom.gov.au/tas/observations/hobart.shtml?ref=dropdown",
+"http://www.bom.gov.au/act/observations/canberra.shtml?ref=dropdown",
+"http://www.bom.gov.au/nt/observations/darwin.shtml?ref=dropdown"
 ]
 
-const top1000Cities = require('./1000_cities.json');
 
 function getCityData(areaUrl) {
   return new Promise(async (resolve, reject) => {
@@ -23,12 +24,15 @@ function getCityData(areaUrl) {
         .toArray()
         .map(elem => elem.children[0].data)
         .map(city => {
-          const cityCoords = top1000Cities.find(c => new RegExp(`(${c.name})\\b.*$`).test(city));
+          const cityCoords = australiaLocations.find(c =>
+            new RegExp(`${c.name}\\b.*`, "i").test(city)
+          );
           if (!cityCoords) return;
           return {
             name: city,
             lat: cityCoords.lat,
-            lng: cityCoords.lng
+            lng: cityCoords.lng,
+            altM : cityCoords.altM
           };
         })
 
@@ -44,7 +48,7 @@ function getCityData(areaUrl) {
           "TempC": Number(arr[1]),
           "AppTempC": Number(arr[2]),
           "DewPointC": Number(arr[3]),
-          "Relative_humidity": Number(arr[4]),
+          "Relative_humidity%": Number(arr[4]),
           "WetBulbDepression": Number(arr[5]),
           "WindDir": arr[6],
           "WindSpeedMps": (arr[7] * 0.277777778),
@@ -63,7 +67,7 @@ function getCityData(areaUrl) {
 
       const array = [];
 
-      for (i = 0; i < data.length; i++) {
+      for (let i = 0; i < cities.length; i++) {
         if (!cities[i])
           continue;
         const obj = {
@@ -81,8 +85,8 @@ function getCityData(areaUrl) {
   });
 }
 
-Promise.all(endPoints.map(url => getCityData(url)))
+Promise.mapSeries(endPoints,  getCityData)
   .then((citiesWeather) => {
-    const finalResult = [].concat.apply([], citiesWeather);
+    const finalResult = [].concat.apply([],citiesWeather);
     console.log(finalResult)
   });
