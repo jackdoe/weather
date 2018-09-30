@@ -1,36 +1,70 @@
 const axios = require("axios");
+const { merge } = require("lodash");
+const Promise = require("bluebird");
 
-const egyptForecastBaseUrl = "http://nwp.gov.eg/images/gallery/AgroMet/Data/";
+const dataUrl = "http://nwp.gov.eg/images/gallery/AgroMet/Data";
 
-function parseWeatherElement(weatherElementfileName, weatherElementName) {
-  const reqUrl = egyptForecastBaseUrl + weatherElementfileName;
-  axios(reqUrl)
-    .then(resp => {
-      const lines = resp.data.replace(/\n+$/gi, "").split("\n");
-      const headers = lines[1].trim().split(/\s+/gi);
-      lines.slice(3).forEach(line => {
-        const cells = line.split(/\s+/gi);
-        const locWeather = {
-          location: { name: cells[0], lat: cells[1], lng: cells[2] },
-          weather: cells.slice(3).reduce(
-            (acc, c, i) => ({
-              ...acc,
-              [headers[i + 3]]: { [weatherElementName]: c }
+function weatherPerElem(weatherElemName, weatherElemFile) {
+  return axios(`${dataUrl}/${weatherElemFile}`).then(res => {
+    const weatherElemData = res.data;
+    const lines = weatherElemData
+      .trim()
+      .split("\n")
+      .map(l => l.trim());
+    const timeStamps = lines[1].split(/\s+/gi).slice(3);
+
+    const stationsWeather = lines.slice(3).reduce((all, st) => {
+      const station = st.split(/\s+/gi);
+      return {
+        ...all,
+        [station[0]]: {
+          location: {
+            lat: station[1],
+            lng: station[2]
+          },
+          weather: station.slice(3).reduce(
+            (w, weatherDaily, i) => ({
+              ...w,
+              [timeStamps[i]]: {
+                [weatherElemName]: weatherDaily
+              }
             }),
             {}
           )
-        };
-        console.log(locWeather);
-      });
-    })
-    .then(console.log);
+        }
+      };
+    }, {});
+
+    return stationsWeather;
+  });
 }
 
-parseWeatherElement("forecast_evapotranspiration.txt", "evapotranspiration");
-parseWeatherElement("forecast_maximumtemperature.txt", "tempMax");
-parseWeatherElement("forecast_meantemperature.txt", "tempC");
-parseWeatherElement("forecast_minimumtemperature.txt", "tempMin");
-parseWeatherElement("forecast_precipitation.txt", "precipitation");
-parseWeatherElement("forecast_relativehumidity.txt", "humidity");
-parseWeatherElement("forecast_wind_direction.txt", "windDirection");
-parseWeatherElement("forecast_wind_speed.txt", "windSpeed");
+weatherElems = [
+  { name: "evapotranspiration", filename: "forecast_evapotranspiration.txt" },
+  { name: "tempMax", filename: "forecast_maximumtemperature.txt" },
+  { name: "tempC", filename: "forecast_meantemperature.txt" },
+  { name: "tempMin", filename: "forecast_minimumtemperature.txt" },
+  { name: "precipitation", filename: "forecast_precipitation.txt" },
+  { name: "humidity", filename: "forecast_relativehumidity.txt" },
+  { name: "windDirection", filename: "forecast_wind_direction.txt" },
+  { name: "windSpeed", filename: "forecast_wind_speed.txt" }
+];
+
+Promise.mapSeries(weatherElems, el =>
+  weatherPerElem(el.name, el.filename)
+).then(stationsWeather => {
+  const allMerged = merge({}, ...stationsWeather);
+
+  const egy = Object.keys(allMerged).map(station => {
+    const stationWeather = allMerged[station];
+    return {
+      location: { ...stationWeather.location, name: station },
+      weather: Object.keys(stationWeather.weather).map(ts => ({
+        ...stationWeather.weather[ts],
+        timeStamp: ts
+      }))
+    };
+  });
+
+  console.log(JSON.stringify(egy));
+});
