@@ -5183,5 +5183,110 @@
         "name" : "Uccle",
         "lat" : 50.811460,
         "lng" : 4.353600
+    },
+    {
+        "name" : "Celje",
+        "lat" : 46.239750,
+        "lng" : 15.267706
+    },
+    {
+        "name" : "Cerklje Airport (at Krka river)",
+        "lat" : 45.884290,
+        "lng" : 15.519950
+    },
+    {
+        "name" : "Crnomelj",
+        "lat" : 45.574650,
+        "lng" : 15.190180
+    },
+    {
+        "name" : "Kredarica",
+        "lat" : 46.380571,
+        "lng" : 13.922479
+    },
+    {
+        "name" : "Lesce",
+        "lat" : 51.352520,
+        "lng" : 22.400940
+    },
+    {
+        "name" : "Lisca",
+        "lat" : 43.778300,
+        "lng" : 11.071740
+    },
+    {
+        "name" : "Ljubljana",
+        "lat" : 46.051430,
+        "lng" : 14.505970
+    },
+    {
+        "name" : "Ljubljana Jože Pučnik Airport",
+        "lat" : 46.223454,
+        "lng" : 14.460072
+    },
+    {
+        "name" : "Maribor Edvard Rusjan Airport",
+        "lat" : 46.331699,
+        "lng" : 15.384801
+    },
+    {
+        "name" : "Murska Sobota",
+        "lat" : 46.661362,
+        "lng" : 16.166201
+    },
+    {
+        "name" : "Nova Gorica",
+        "lat" : 45.957241,
+        "lng" : 13.648220
+    },
+    {
+        "name" : "Novo Mesto",
+        "lat" : 45.804210,
+        "lng" : 15.169690
+    },
+    {
+        "name" : "Portorož Airport",
+        "lat" : 45.282407,
+        "lng" : 13.365392
+    },
+    {
+        "name" : "Ogulin",
+        "lat" : 1,
+        "lng" : 2
+    },
+    {
+        "name" : "Postojna",
+        "lat" : 45.775028,
+        "lng" : 14.213410
+    },
+    {
+        "name" : "Ratece",
+        "lat" : 46.497284,
+        "lng" : 13.715841
+    },
+    {
+        "name" : "Slovenj Gradec",
+        "lat" : 46.511131,
+        "lng" : 15.080320
+    },
+    {
+        "name" : "Vogel",
+        "lat" : 46.141813,
+        "lng" : 13.484939
+    },
+    {
+        "name" : "Vojsko",
+        "lat" : 46.12509,
+        "lng" : 13.541225
+    },
+    {
+        "name" : "Katarina",
+        "lat" : 46.072083,
+        "lng" : 14.409853
+    },
+    {
+        "name" : "Kocevje",
+        "lat" : 45.642961,
+        "lng" : 14.859383
     }
  ]
