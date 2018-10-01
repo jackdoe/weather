@@ -38,6 +38,7 @@ async function main() {
                 ), []);
                 cityObj.weather = cityWeather;
                 usaWeather.push(cityObj);
+                console.log('Location (' + cityObj.location.lat + ',' + cityObj.location.lng + ') updated');
                 if (i % 25 === 0)
                     await writeJSONFile(USA_WEATHER_FILE, usaWeather);
             }
@@ -45,7 +46,6 @@ async function main() {
 
         }
         await writeJSONFile(USA_WEATHER_FILE, usaWeather);
-        console.log(JSON.stringify(usaWeather, null, 2));
 
     } catch (error) {
         console.log(error);
@@ -53,16 +53,15 @@ async function main() {
 
 }
 
-async function getData(alt, lng) {
+async function getData(lat, lng) {
     try {
-        const url = USA_WEATHER_API + alt + ',' + lng + '/forecast';
+        const url = USA_WEATHER_API + lat + ',' + lng + '/forecast';
         const response = await axios.get(url,
             {
                 headers: {
                     "user-agent": API_USER_AGENT
                 }
             });
-        console.log('Location (' + alt + ',' + lng + ') updated');
         return response.data;
     } catch (error) {
         if (error.response) { // The request was made and the server responded with a status code
