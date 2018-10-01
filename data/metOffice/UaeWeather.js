@@ -23,23 +23,34 @@ const locationsWeather = locationId.map(locWeatherUrl => {
     lng: locWeatherJson.PLACE.COORDINATES[0]
   };
 
-  const weather = locWeatherJson.HOURLY_FORECAST.map(hourWeather => {
+  const weatherDaily = locWeatherJson.DAILY_FORECAST.map(dayWeather => {
     return {
-      tempC: hourWeather.TEMPERATURE_AVG,
-      tempMax: hourWeather.TEMPERATURE_MAX,
-      tempMin: hourWeather.TEMPERATURE_MIN,
+      time: dayWeather.TIME_UTC,
+      tempC: dayWeather.TEMPERATURE_AVG,
+      tempMax: dayWeather.TEMPERATURE_MAX,
+      tempMin: dayWeather.TEMPERATURE_MIN,
+      tempFeel: dayWeather.TEMPERATURE_FEELSLIKE,
+      windSpeed: dayWeather.WIND_SPEED,
+    };
+  });
+
+  const weatherHourly = locWeatherJson.HOURLY_FORECAST.map(hourWeather => {
+    return {
+      localTime: hourWeather.TIME_TIME,
+      tempC: hourWeather.TEMPERATURE,
       tempFeel: hourWeather.TEMPERATURE_FEELSLIKE,
       pressure: hourWeather.PRESSURE,
       humidity: hourWeather.HUMIDITY,
       windSpeed: hourWeather.WIND_SPEED,
       lowCloud: hourWeather.LOW_CLOUD,
+      medCloud: hourWeather.MED_CLOUD,
       highCloud: hourWeather.HIGH_CLOUD,
-      dewPointTemp: hourWeather.DEWPOINT_TEMPERATURE,
-      time: hourWeather.TIME_UTC
+      precipitation: hourWeather.TOTAL_PRECIPITATION,
+      dewPointTemp: hourWeather.DEWPOINT_TEMPERATURE
     };
   });
 
-  return { location, weather };
+  return { location, weatherDaily, weatherHourly };
 
   sleep(2000);
 });
