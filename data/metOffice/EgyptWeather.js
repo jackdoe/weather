@@ -13,7 +13,7 @@ function weatherPerElem(weatherElemName, weatherElemFile) {
       .map(l => l.trim());
     const timeStamps = lines[1].split(/\s+/gi).slice(3);
 
-    const stationsWeather = lines.slice(3).reduce((all, st) => {
+    const stations = lines.slice(3).reduce((all, st) => {
       const station = st.split(/\s+/gi);
       return {
         ...all,
@@ -35,7 +35,7 @@ function weatherPerElem(weatherElemName, weatherElemFile) {
       };
     }, {});
 
-    return stationsWeather;
+    return stations;
   });
 }
 
@@ -52,8 +52,8 @@ weatherElems = [
 
 Promise.mapSeries(weatherElems, el =>
   weatherPerElem(el.name, el.filename)
-).then(stationsWeather => {
-  const allMerged = merge({}, ...stationsWeather);
+).then(stations => {
+  const allMerged = merge({}, ...stations);
 
   const egy = Object.keys(allMerged).map(station => {
     const stationWeather = allMerged[station];
@@ -61,7 +61,7 @@ Promise.mapSeries(weatherElems, el =>
       location: { ...stationWeather.location, name: station },
       weather: Object.keys(stationWeather.weather).map(ts => ({
         ...stationWeather.weather[ts],
-        timeStamp: ts
+        date: ts
       }))
     };
   });
