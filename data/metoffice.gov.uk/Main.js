@@ -135,16 +135,16 @@ handleWeatherData = data => {
 
     period.Rep.filter(weather => {
       const obj = {
-        temperatureC: weather.T,
-        feelsLikeC: weather.F,
+        temperatureC: parseInt(weather.T),
+        feelsLikeC: parseInt(weather.F),
         weather_description: weather_type_code_description[weather.W],
         UV_index: ChooseUVDescription(weather.U),
         visibility: visibility_acronyms[weather.V],
-        humidityPercent: weather.H,
-        windSpeedMph: weather.S,
-        windGustMph: weather.G,
+        humidityPercent: parseInt(weather.H),
+        windSpeedMph: parseInt(weather.S),
+        windGustMph: parseInt(weather.G),
         windDirectionCompass: weather.D,
-        precipitation_probabilityPercent: weather.Pp
+        precipitation_probabilityPercent: parseInt(weather.Pp)
       };
       detailsObj.weather_details.push(obj);
     });
