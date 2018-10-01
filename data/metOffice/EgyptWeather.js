@@ -40,7 +40,7 @@ function weatherPerElem(weatherElemName, weatherElemFile) {
 }
 
 weatherElems = [
-  { name: "evapoTranspiration", filename: "forecast_evapotranspiration.txt" },
+  { name: "evapotranspiration", filename: "forecast_evapotranspiration.txt" },
   { name: "tempMax", filename: "forecast_maximumtemperature.txt" },
   { name: "tempC", filename: "forecast_meantemperature.txt" },
   { name: "tempMin", filename: "forecast_minimumtemperature.txt" },
