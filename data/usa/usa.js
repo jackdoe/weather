@@ -17,7 +17,7 @@ async function main() {
         const usaCitiesList = await readJSONFile(USA_CITIES_FILE);
         const usaWeather = [];
 
-        for (let i = 0; i < usaCitiesList.length; i++) {
+        for (let i = 0; i < 10; i++) {
             const response = await getData(usaCitiesList[i].lat, usaCitiesList[i].lng);
             if (response) {
                 const cityObj = {
