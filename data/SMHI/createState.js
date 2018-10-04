@@ -2,7 +2,7 @@ const fs = require('fs');
 const moment = require('moment');
 const countriesList = ['Åland', 'Belarus', 'Denmark', 'Estonia', 'Finland', 'Germany', 'Lithuania', 'Latvia', 'Norway', 'Netherlands', 'Poland', 'Russia', 'Svalbard and Jan Mayen', 'United Kingdom'];
 const statsPATH = `${moment().format("YYYYMMDDHHmm")}.stats.json`;
-const listStatsPATH = `listStats.json`;
+const listStatsPATH = `../monitor-smhi/src/sources/listStats.json`;
 let stats = {
     timestamprun: new Date().getTime(),
     nameofapi: "SMHI",
