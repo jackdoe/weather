@@ -1,88 +1,116 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import './App.css';
-import Chart from 'react-google-charts';
-import stateArray from './states/state.json';
+import WeatherChart from './components/WeatherChart.js';
 
 class App extends Component {
 
   state = {
     dataLoadingStatus: 'loading',
-    ChartData: [],
-    itemsCountChart: []
+    tempChart: [],
+    itemsCountChart: [],
+    windChart: [],
+    lastUpdateChart: [],
+    tempDiffWithMetnoChart: []
   };
 
-  componentWillMount() {
-    const columns = [
+  updateState = (stateArray) => {
+
+    const tempColumns = [
       { type: 'date', label: 'Time' },
-      { type: 'number', label: 'TempC sum' },
-      { type: 'number', label: 'WindMps sum' },
+      { type: 'number', label: 'Temp sum' },
+    ];
+    const windColumns = [
+      { type: 'date', label: 'Time' },
+      { type: 'number', label: 'Wind sum' },
     ];
     const itemsCountColumns = [
       { type: 'date', label: 'Time' },
       { type: 'number', label: 'Item count' }
     ];
-    let rows = [];
+    const lastUpdateColumns = [
+      { type: 'date', label: 'Time' },
+      { type: 'number', label: 'Last Update' },
+    ];
+    const tempDiffWithMetnoColumns = [
+      { type: 'date', label: 'Time' },
+      { type: 'number', label: 'Met.no diff' },
+    ];
+
+    let tempRows = [];
     let itemsCountRows = [];
-    for (let item of stateArray) {
-      const { timeStampRun, sumOfTempC, sumOfWind, countOfItems } = item;
-      rows.push([new Date(timeStampRun * 1000), sumOfTempC, sumOfWind]);
-      itemsCountRows.push([new Date(timeStampRun * 1000), countOfItems]);
+    let windRows = [];
+    let lastUpdateRows = [];
+    let tempDiffWithMetnoRows = [];
+
+    for (let item in stateArray) {
+
+      const { timeStampRun,
+        sumOfTempC,
+        sumOfWind,
+        countOfItems,
+        lastUpdate,
+        sumOfTempCDiffWithMetno } = stateArray[item];
+      const rowDate = new Date(timeStampRun * 1000);
+      tempRows.push([rowDate, sumOfTempC]);
+      itemsCountRows.push([rowDate, countOfItems]);
+      windRows.push([rowDate, sumOfWind]);
+      lastUpdateRows.push([rowDate, (timeStampRun - lastUpdate) / 60]);
+      tempDiffWithMetnoRows.push([rowDate, sumOfTempCDiffWithMetno]);
+
     }
+
     this.setState({
-      chartData: [columns, ...rows],
+      tempChart: [tempColumns, ...tempRows],
+      windChart: [windColumns, ...windRows],
       itemsCountChart: [itemsCountColumns, ...itemsCountRows],
+      lastUpdateChart: [lastUpdateColumns, ...lastUpdateRows],
+      tempDiffWithMetnoChart: [tempDiffWithMetnoColumns, ...tempDiffWithMetnoRows],
       dataLoadingStatus: 'ready',
-      title: stateArray[0].nameOfApi,
+      title: stateArray[Object.keys(stateArray)[0]].nameOfApi,
     })
+
   }
 
+  componentDidMount() {
+    this.callApi()
+      .then((data) => this.updateState(data))
+      .catch(err => console.log(err));
+    this.interval = setInterval(() => {
+      this.callApi()
+        .then((data) => this.updateState(data))
+        .catch(err => console.log(err));
+    }, 60000);
+
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
+  callApi = async () => {
+    const response = await fetch('/api/state');
+    const body = await response.json();
+
+    if (response.status !== 200) throw Error(body.message);
+
+    return body;
+  };
+
   render() {
-    console.log(this.state.chartData);
-    return (
+    return (this.state.dataLoadingStatus === 'ready') ?
       <div className="App">
-        <div style={{ display: 'flex', maxWidth: 900 }}>
-          <Chart
-            width={'500px'}
-            height={'300px'}
-            chartType="LineChart"
-            loader={<div>Loading Chart</div>}
-            data={this.state.chartData}
-            options={{
-              title: this.state.title,
-              // isStacked: relative,
-              //hAxis: { title: 'Year', titleTextStyle: { color: '#333' } },
-              //vAxis: { minValue: -100 },
-              // For the legend to fit, we make the chart area smaller
-              //chartArea: { width: '60%', height: '70%' },
-              // lineWidth: 25,
-              // series: {
-              //   2: { curveType: 'function' },
-              // },
-            }}
-          />
-          <Chart
-            width={'500px'}
-            height={'300px'}
-            chartType="LineChart"
-            loader={<div>Loading Chart</div>}
-            data={this.state.itemsCountChart}
-            options={{
-              title: this.state.title,
-              // isStacked: relative,
-              //hAxis: { title: 'Year', titleTextStyle: { color: '#333' } },
-              //vAxis: { minValue: -100 },
-              // For the legend to fit, we make the chart area smaller
-              //chartArea: { width: '60%', height: '70%' },
-              // lineWidth: 25,
-              // series: {
-              //   2: { curveType: 'function' },
-              // },
-            }}
-          />
+        <h2> {this.state.title} </h2>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <WeatherChart
+            chartData={this.state.tempDiffWithMetnoChart} title='Sum of temp diff with Met.no' />
+          <WeatherChart chartData={this.state.tempChart} title='Sum of temp C' />
+          <WeatherChart chartData={this.state.windChart} title='Sum of wind mps' />
+          <WeatherChart chartData={this.state.lastUpdateChart} title='Last update in minutes' />
+          <WeatherChart chartData={this.state.itemsCountChart} title='Number of cities * days' />
         </div>
       </div>
-    );
+      : <div> loading data </div>
+      ;
   }
 }
 

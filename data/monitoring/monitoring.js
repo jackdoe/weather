@@ -1,14 +1,16 @@
+'usa strict';
+
 const { readJSONFile, writeJSONFile } = require('./fileOperations');
+const { getTempDiffWithMetno } = require('./metno.js');
 
 const WEATHER_FILE = '../usa/usaWeather.json';
-const STATE_FILE = './charts/src/states/state.json'
-
+const STATES_DIR = './states/';
 
 async function main() {
   try {
 
     const weatherData = await readJSONFile(WEATHER_FILE);
-    const stateArray = await readJSONFile(STATE_FILE);
+
     const countOfItems = weatherData.reduce((acc, city) => acc + city.weather.length, 0);
     let sumOfTempC = 0;
     let sumOfWind = 0;
@@ -18,20 +20,20 @@ async function main() {
     });
     const latLng = weatherData.map(city => [city.location.lat, city.location.lng]);
 
+    const sumOfTempCDiffWithMetno = await getTempDiffWithMetno();
+
     const state = {
       timeStampRun: Math.floor(Date.now() / 1000),
       nameOfApi: 'usaWeather',
       countOfItems,
-      sumOfTempC,
-      sumOfWind,
+      sumOfTempC: +sumOfTempC.toFixed(2),
+      sumOfWind: +sumOfWind.toFixed(2),
       lastUpdate: weatherData[0].weather[0].updatedTimestamp,
-      latLng
+      latLng,
+      sumOfTempCDiffWithMetno: +sumOfTempCDiffWithMetno.toFixed(2)
     }
-    stateArray.push(state);
 
-    console.log(JSON.stringify(stateArray, null, 2))
-    await writeJSONFile(`./charts/src/states/state${state.timeStampRun}.json`, state);
-    await writeJSONFile(STATE_FILE, stateArray);
+    await writeJSONFile(`${STATES_DIR}state${state.timeStampRun}.json`, state);
 
   } catch (error) {
     console.log(error)

@@ -12,10 +12,10 @@ const USA_CITIES_FILE = './usaCities.json';
 const USA_WEATHER_FILE = './usaWeather.json';
 
 async function main() {
+    const usaWeather = [];
     try {
 
         const usaCitiesList = await readJSONFile(USA_CITIES_FILE);
-        const usaWeather = [];
 
         for (let i = 0; i < 10; i++) {
             const response = await getData(usaCitiesList[i].lat, usaCitiesList[i].lng);
@@ -39,16 +39,18 @@ async function main() {
                 cityObj.weather = cityWeather;
                 usaWeather.push(cityObj);
                 console.log('Location (' + cityObj.location.lat + ',' + cityObj.location.lng + ') updated');
-                if (i % 25 === 0)
-                    await writeJSONFile(USA_WEATHER_FILE, usaWeather);
+                // if (i % 25 === 0)
+                //     await writeJSONFile(USA_WEATHER_FILE, usaWeather);
             }
             sleep.sleep(SLEEP_SECOND);
 
         }
-        await writeJSONFile(USA_WEATHER_FILE, usaWeather);
+
 
     } catch (error) {
         console.log(error);
+    } finally {
+        await writeJSONFile(USA_WEATHER_FILE, usaWeather);
     }
 
 }
@@ -75,12 +77,14 @@ async function getData(lat, lng) {
 
 function convertToC(tempF) {
     let tempC = (tempF - 32) / 1.8;
-    return Math.round(tempC * 100) / 100;
+    return +tempC.toFixed(2);
+    // The plus sign that drops any "extra" zeroes at the end.
+    // It changes the result (which is a string) into a number again 
 }
 
 function toMps(mph) {
     let mps = 0.4470389 * Number(mph.replace(/(^\d+)(.+$)/i, '$1'))
-    return Math.round(mps * 100) / 100;
+    return +mps.toFixed(2);
 }
 
 function getTimeStamp(dateStr) {
