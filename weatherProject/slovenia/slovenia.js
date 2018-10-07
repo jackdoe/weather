@@ -1,63 +1,75 @@
-const cheerio = require('cheerio');
-const axios = require('axios');
-const coords = require('../data.json');
-const slovenia = 'http://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/en/observation_si_latest.html';
+const slovenia = 'http://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/en/observation_si_latest.xml';
+const http = require('http');
+const parseString = require('xml2js').parseString;
 
 async function main() {
     try {
-        const res = await axios.get(slovenia);
-        const object = cheerio.load(res.data);
+        let xml = '';
+        //http://antrikshy.com/blog/fetch-xml-url-convert-to-json-nodejs
+        function xmlToJson(url, callback) {
+            let req = http.get(url, function (res) {
+                let xml = '';
 
-        const cities = object('table .meteoSI-th')
-            .toArray()
-            .map(city => city.children[0].data)
-            .map(city => {
-                const getCities = coords.find(elem => elem.name === city);
-                if (!getCities) return;
-                return {
-                    name: city,
-                    lat: getCities.lat,
-                    lng: getCities.lng
-                };
-            })
+                res.on('data', function (chunk) {
+                    xml += chunk;
+                });
+                console.log(xml)
 
-        const data = object('tbody > tr')
-            .toArray()
-            .map(row => row.children
-                .filter(cell => cell.name === 'td' && cell.type === 'tag')
-                .map(td => td.children[0] && td.children[0].data));
-        data.forEach(elem => elem.splice(0, 2));
-        data.forEach(elem => elem.splice(7, 1));
-        data.forEach(elem => elem.splice(2, 1));
-        data.forEach(elem => elem.splice(5, 1));
+                res.on('error', function (e) {
+                    callback(e, null);
+                });
 
-        data.forEach(arr => {
-            arr[2] = (arr[2] * 0.277777778).toFixed(2);
-        });
-        data.forEach(arr => {
-            arr[4] = arr[4].replace('*\n\t\t', '')
-        });
-        const objects = data.map(arr => {
-            return {
-                Time: object('.meteoSI-header').text(),
-                Temperature: parseFloat(arr[1]),
-                Pressure: parseFloat(arr[4]),
-                WindSpeed: parseFloat(arr[2]),
-                WindGust: arr[3],
-                WeatherType: arr[0]
-            };
-        });
+                res.on('timeout', function (e) {
+                    callback(e, null);
+                });
 
-        const array = [];
-        for (i = 0; i < data.length; i++) {
-            const obj = {
-                location: cities[i],
-                weather: [objects[i]]
-            }
-            array.push(obj)
+                res.on('end', function () {
+                    parseString(xml, function (err, result) {
+                        callback(null, result);
+                    });
+                });
+            });
         }
 
-        console.log(JSON.stringify(array, null, 2));
+        xmlToJson(slovenia, function (err, data) {
+            if (err) {
+                return console.err(err);
+            }
+
+            xmlData = data.data.metData
+            const cities = xmlData.map(arr => {
+                return {
+                    StationName: (arr.domain_longTitle).toString(),
+                    lat: parseFloat((arr.domain_lat).toString()),
+                    long: parseFloat((arr.domain_lon).toString()),
+                    altitude: parseFloat((arr.domain_altitude).toString())
+                };
+            });
+            console.log(cities)
+            const objects = xmlData.map(arr => {
+                return {
+                    TimeCEST: (arr.tsUpdated).toString(),
+                    TimeUTC: (arr.tsUpdated_UTC).toString(),
+                    Temperature: parseFloat((arr.t).toString()),
+                    Pressure: parseFloat((arr.p).toString()),
+                    WindSpeed: parseFloat((arr.ff_val).toString()),
+                    WindDirection: (arr.dd_shortText).toString(),
+                    WeatherType: (arr.wwsyn_shortText).toString(),
+                    Humidity: parseFloat((arr.rh).toString())
+                };
+            });
+
+            const array = [];
+            for (i = 0; i < xmlData.length; i++) {
+                const obj = {
+                    location: cities[i],
+                    weather: [objects[i]]
+                }
+                array.push(obj)
+            }
+            console.log(JSON.stringify(array, null, 2));
+        });
+
     } catch (error) {
         console.log(error)
     }

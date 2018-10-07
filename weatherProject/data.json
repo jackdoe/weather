@@ -5220,7 +5220,7 @@
         "lng" : 14.505970
     },
     {
-        "name" : "Ljubljana Jože Pučnik Airport",
+        "name" : " Ljubljana Jože Pučnik Airport",
         "lat" : 46.223454,
         "lng" : 14.460072
     },
@@ -5251,8 +5251,8 @@
     },
     {
         "name" : "Ogulin",
-        "lat" : 1,
-        "lng" : 2
+        "lat" : 45.266270,
+        "lng" : 15.225500
     },
     {
         "name" : "Postojna",

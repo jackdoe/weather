@@ -1,0 +1,1496 @@
+<metData>
+<domain_meteosiId>CELJE_</domain_meteosiId>
+<domain_id>64768320</domain_id>
+<domain_parentId>SI_SAVINJSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.2447</domain_lat>
+<domain_lon>15.2525</domain_lon>
+<domain_altitude>244.0</domain_altitude>
+<domain_title>CELJE</domain_title>
+<domain_shortTitle>CELJE</domain_shortTitle>
+<domain_longTitle>Celje</domain_longTitle>
+<title>AAXXauto</title>
+<sunrise>06.10.2018 7:04 CEST</sunrise>
+<sunset>06.10.2018 18:30 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon/>
+<nn_shortText/>
+<nn_decodeText/>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText/>
+<nn_icon-wwsyn_icon/>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t/>
+<t_degreesC/>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value/>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh/>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td/>
+<td_degreesC/>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val/>
+<dd_icon/>
+<dd_shortText/>
+<dd_longText/>
+<dd_decodeText/>
+<ddff_icon/>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val/>
+<ff_val_kmh/>
+<ff_value/>
+<ff_value_kmh/>
+<ff_minimum/>
+<ff_minimum_kmh/>
+<ff_maximum/>
+<ff_maximum_kmh/>
+<ff_icon/>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p/>
+<p_mb/>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>CERKLJE_LETAL-SCE_</domain_meteosiId>
+<domain_id>65358572</domain_id>
+<domain_parentId>SI_SPODNJEPOSAVSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>45.8936</domain_lat>
+<domain_lon>15.525</domain_lon>
+<domain_altitude>154.0</domain_altitude>
+<domain_title>CERKLJE - LETALISCE</domain_title>
+<domain_shortTitle>CERKLJE - AIRPORT</domain_shortTitle>
+<domain_longTitle>Cerklje Airport (at Krka river)</domain_longTitle>
+<title>AAXX</title>
+<sunrise>06.10.2018 7:02 CEST</sunrise>
+<sunset>06.10.2018 18:29 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>prevCloudy</nn_icon>
+<nn_shortText>prevailingly cloudy</nn_shortText>
+<nn_decodeText>6/8 .. 7/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>prevailingly cloudy</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>prevCloudy</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t/>
+<t_degreesC/>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>30</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh/>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td/>
+<td_degreesC/>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val/>
+<dd_icon/>
+<dd_shortText/>
+<dd_longText/>
+<dd_decodeText/>
+<ddff_icon/>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val/>
+<ff_val_kmh/>
+<ff_value/>
+<ff_value_kmh/>
+<ff_minimum/>
+<ff_minimum_kmh/>
+<ff_maximum/>
+<ff_maximum_kmh/>
+<ff_icon/>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p/>
+<p_mb/>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>KREDA-ICA_</domain_meteosiId>
+<domain_id>64777659</domain_id>
+<domain_parentId>SI_ZGORNJESAVSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.3794</domain_lat>
+<domain_lon>13.8539</domain_lon>
+<domain_altitude>2514.0</domain_altitude>
+<domain_title>KREDARICA</domain_title>
+<domain_shortTitle>KREDARICA</domain_shortTitle>
+<domain_longTitle>Kredarica</domain_longTitle>
+<title>AAXX</title>
+<sunrise>06.10.2018 7:09 CEST</sunrise>
+<sunset>06.10.2018 18:35 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>FG</nn_icon>
+<nn_shortText>in clouds</nn_shortText>
+<nn_decodeText>v9/8</nn_decodeText>
+<wwsyn_icon>FG</wwsyn_icon>
+<wwsyn_shortText>Fog</wwsyn_shortText>
+<wwsyn_longText>Fog</wwsyn_longText>
+<nn_shortText-wwsyn_longText>in clouds</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>FG_FG</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>4</t>
+<t_degreesC>4</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>0</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>98</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td>4</td>
+<td_degreesC>4</td_degreesC>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>124</dd_val>
+<dd_icon>SE</dd_icon>
+<dd_shortText>SE</dd_shortText>
+<dd_longText>south-easterly wind</dd_longText>
+<dd_decodeText>SE</dd_decodeText>
+<ddff_icon>modSE</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>7.2</ff_val>
+<ff_val_kmh>26</ff_val_kmh>
+<ff_value>8</ff_value>
+<ff_value_kmh>29</ff_value_kmh>
+<ff_minimum>5</ff_minimum>
+<ff_minimum_kmh>18</ff_minimum_kmh>
+<ff_maximum>10</ff_maximum>
+<ff_maximum_kmh>36</ff_maximum_kmh>
+<ff_icon>mod</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val>13</ffmax_val>
+<ffmax_val_kmh>47</ffmax_val_kmh>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p>753</p>
+<p_mb>753</p_mb>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>mountain</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>LISCA_</domain_meteosiId>
+<domain_id>64782292</domain_id>
+<domain_parentId>SI_SPODNJEPOSAVSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.0681</domain_lat>
+<domain_lon>15.2897</domain_lon>
+<domain_altitude>943.0</domain_altitude>
+<domain_title>LISCA</domain_title>
+<domain_shortTitle>LISCA</domain_shortTitle>
+<domain_longTitle>Lisca</domain_longTitle>
+<title>AAXXauto</title>
+<sunrise>06.10.2018 7:03 CEST</sunrise>
+<sunset>06.10.2018 18:30 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>prevCloudy</nn_icon>
+<nn_shortText>prevailingly cloudy</nn_shortText>
+<nn_decodeText>6/8 .. 7/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>prevailingly cloudy</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>prevCloudy</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>16</t>
+<t_degreesC>16</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>20</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>75</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td>12</td>
+<td_degreesC>12</td_degreesC>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>160</dd_val>
+<dd_icon>S</dd_icon>
+<dd_shortText>S</dd_shortText>
+<dd_longText>southerly wind</dd_longText>
+<dd_decodeText>S</dd_decodeText>
+<ddff_icon>lightS</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>2.4</ff_val>
+<ff_val_kmh>9</ff_val_kmh>
+<ff_value>3</ff_value>
+<ff_value_kmh>11</ff_value_kmh>
+<ff_minimum>0</ff_minimum>
+<ff_minimum_kmh>0</ff_minimum_kmh>
+<ff_maximum>5</ff_maximum>
+<ff_maximum_kmh>18</ff_maximum_kmh>
+<ff_icon>light</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p>911</p>
+<p_mb>911</p_mb>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>mountain</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>LJUBL-ANA_BEZIGRAD_</domain_meteosiId>
+<domain_id>65142878</domain_id>
+<domain_parentId>SI_OSREDNJESLOVENSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.0658</domain_lat>
+<domain_lon>14.5172</domain_lon>
+<domain_altitude>299.0</domain_altitude>
+<domain_title>LJUBLJANA/BEZIGRAD</domain_title>
+<domain_shortTitle>LJUBLJANA/BEZIGRAD</domain_shortTitle>
+<domain_longTitle>Ljubljana</domain_longTitle>
+<title>AAXX</title>
+<sunrise>06.10.2018 7:07 CEST</sunrise>
+<sunset>06.10.2018 18:33 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>overcast</nn_icon>
+<nn_shortText>cloudy</nn_shortText>
+<nn_decodeText>7/8 .. 8/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>cloudy</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>19</t>
+<t_degreesC>19</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>25</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>58</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td>10</td>
+<td_degreesC>10</td_degreesC>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val/>
+<dd_icon/>
+<dd_shortText/>
+<dd_longText/>
+<dd_decodeText/>
+<ddff_icon/>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val/>
+<ff_val_kmh/>
+<ff_value/>
+<ff_value_kmh/>
+<ff_minimum/>
+<ff_minimum_kmh/>
+<ff_maximum/>
+<ff_maximum_kmh/>
+<ff_icon/>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl>1018</msl>
+<msl_mb>1018</msl_mb>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p>983</p>
+<p_mb>983</p_mb>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>LJUBL-ANA_BRNIK_</domain_meteosiId>
+<domain_id>64771022</domain_id>
+<domain_parentId>SI_GORENJSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.2178</domain_lat>
+<domain_lon>14.4775</domain_lon>
+<domain_altitude>364.0</domain_altitude>
+<domain_title>LJUBLJANA/BRNIK</domain_title>
+<domain_shortTitle>LJUBLJANA - AIRPORT</domain_shortTitle>
+<domain_longTitle> Ljubljana Jože Pučnik Airport</domain_longTitle>
+<title>AAXX</title>
+<sunrise>06.10.2018 7:07 CEST</sunrise>
+<sunset>06.10.2018 18:33 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>overcast</nn_icon>
+<nn_shortText>cloudy</nn_shortText>
+<nn_decodeText>7/8 .. 8/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>cloudy</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>18</t>
+<t_degreesC>18</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>30</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>63</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td>11</td>
+<td_degreesC>11</td_degreesC>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>239</dd_val>
+<dd_icon>SW</dd_icon>
+<dd_shortText>SW</dd_shortText>
+<dd_longText>south-westerly wind</dd_longText>
+<dd_decodeText>SW</dd_decodeText>
+<ddff_icon>lightSW</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>1.8</ff_val>
+<ff_val_kmh>6</ff_val_kmh>
+<ff_value>3</ff_value>
+<ff_value_kmh>11</ff_value_kmh>
+<ff_minimum>0</ff_minimum>
+<ff_minimum_kmh>0</ff_minimum_kmh>
+<ff_maximum>5</ff_maximum>
+<ff_maximum_kmh>18</ff_maximum_kmh>
+<ff_icon>light</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl>1017</msl>
+<msl_mb>1017</msl_mb>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p>973</p>
+<p_mb>973</p_mb>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>MARIBOR_SLIVNICA_</domain_meteosiId>
+<domain_id>64771898</domain_id>
+<domain_parentId>SI_PODRAVSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.48</domain_lat>
+<domain_lon>15.6869</domain_lon>
+<domain_altitude>264.0</domain_altitude>
+<domain_title>MARIBOR/SLIVNICA</domain_title>
+<domain_shortTitle>MARIBOR AIRPORT</domain_shortTitle>
+<domain_longTitle>Maribor Edvard Rusjan Airport</domain_longTitle>
+<title>AAXX</title>
+<sunrise>06.10.2018 7:02 CEST</sunrise>
+<sunset>06.10.2018 18:28 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>mostClear</nn_icon>
+<nn_shortText>mostly clear</nn_shortText>
+<nn_decodeText>1/8 .. 2/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>mostly clear</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>mostClear</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t/>
+<t_degreesC/>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>20</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh/>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td/>
+<td_degreesC/>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>170</dd_val>
+<dd_icon>S</dd_icon>
+<dd_shortText>S</dd_shortText>
+<dd_longText>southerly wind</dd_longText>
+<dd_decodeText>S</dd_decodeText>
+<ddff_icon>lightS</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>4.3</ff_val>
+<ff_val_kmh>15</ff_val_kmh>
+<ff_value>3</ff_value>
+<ff_value_kmh>11</ff_value_kmh>
+<ff_minimum>0</ff_minimum>
+<ff_minimum_kmh>0</ff_minimum_kmh>
+<ff_maximum>5</ff_maximum>
+<ff_maximum_kmh>18</ff_maximum_kmh>
+<ff_icon>light</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p/>
+<p_mb/>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>MURSK-SOB_</domain_meteosiId>
+<domain_id>64772156</domain_id>
+<domain_parentId>SI_POMURSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.6525</domain_lat>
+<domain_lon>16.1961</domain_lon>
+<domain_altitude>188.0</domain_altitude>
+<domain_title>MURSKA SOBOTA</domain_title>
+<domain_shortTitle>MURSKA SOBOTA</domain_shortTitle>
+<domain_longTitle>Murska Sobota</domain_longTitle>
+<title>AAXXauto</title>
+<sunrise>06.10.2018 7:00 CEST</sunrise>
+<sunset>06.10.2018 18:26 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>mostClear</nn_icon>
+<nn_shortText>mostly clear</nn_shortText>
+<nn_decodeText>1/8 .. 2/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>mostly clear</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>mostClear</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>22</t>
+<t_degreesC>22</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>20</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>53</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td/>
+<td_degreesC/>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>158</dd_val>
+<dd_icon>S</dd_icon>
+<dd_shortText>S</dd_shortText>
+<dd_longText>southerly wind</dd_longText>
+<dd_decodeText>S</dd_decodeText>
+<ddff_icon>lightS</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>2.5</ff_val>
+<ff_val_kmh>9</ff_val_kmh>
+<ff_value>3</ff_value>
+<ff_value_kmh>11</ff_value_kmh>
+<ff_minimum>0</ff_minimum>
+<ff_minimum_kmh>0</ff_minimum_kmh>
+<ff_maximum>5</ff_maximum>
+<ff_maximum_kmh>18</ff_maximum_kmh>
+<ff_icon>light</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p>995</p>
+<p_mb>995</p_mb>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>NOVA-GOR_</domain_meteosiId>
+<domain_id>64795637</domain_id>
+<domain_parentId>SI_GORISKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>45.8958</domain_lat>
+<domain_lon>13.6289</domain_lon>
+<domain_altitude>55.0</domain_altitude>
+<domain_title>NOVA GORICA</domain_title>
+<domain_shortTitle>NOVA GORICA</domain_shortTitle>
+<domain_longTitle>Nova Gorica</domain_longTitle>
+<title>AAXXauto</title>
+<sunrise>06.10.2018 7:10 CEST</sunrise>
+<sunset>06.10.2018 18:37 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>prevCloudy</nn_icon>
+<nn_shortText>prevailingly cloudy</nn_shortText>
+<nn_decodeText>6/8 .. 7/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>prevailingly cloudy</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>prevCloudy</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>19</t>
+<t_degreesC>19</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>20</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>73</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td>14</td>
+<td_degreesC>14</td_degreesC>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>226</dd_val>
+<dd_icon>SW</dd_icon>
+<dd_shortText>SW</dd_shortText>
+<dd_longText>south-westerly wind</dd_longText>
+<dd_decodeText>SW</dd_decodeText>
+<ddff_icon>lightSW</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>1.3</ff_val>
+<ff_val_kmh>5</ff_val_kmh>
+<ff_value>3</ff_value>
+<ff_value_kmh>11</ff_value_kmh>
+<ff_minimum>0</ff_minimum>
+<ff_minimum_kmh>0</ff_minimum_kmh>
+<ff_maximum>5</ff_maximum>
+<ff_maximum_kmh>18</ff_maximum_kmh>
+<ff_icon>light</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl>1017</msl>
+<msl_mb>1017</msl_mb>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p>1010</p>
+<p_mb>1010</p_mb>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>NOVO-MES_</domain_meteosiId>
+<domain_id>64783785</domain_id>
+<domain_parentId>SI_DOLENJSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>45.8019</domain_lat>
+<domain_lon>15.1822</domain_lon>
+<domain_altitude>220.0</domain_altitude>
+<domain_title>NOVO MESTO</domain_title>
+<domain_shortTitle>NOVO MESTO</domain_shortTitle>
+<domain_longTitle>Novo Mesto</domain_longTitle>
+<title>AAXXauto</title>
+<sunrise>06.10.2018 7:04 CEST</sunrise>
+<sunset>06.10.2018 18:30 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>modCloudy</nn_icon>
+<nn_shortText>moderately cloudy</nn_shortText>
+<nn_decodeText>5/8 .. 6/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>moderately cloudy</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>modCloudy</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>19</t>
+<t_degreesC>19</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>20</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>64</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td>12</td>
+<td_degreesC>12</td_degreesC>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>54</dd_val>
+<dd_icon>NE</dd_icon>
+<dd_shortText>NE</dd_shortText>
+<dd_longText>north-easterly wind</dd_longText>
+<dd_decodeText>NE</dd_decodeText>
+<ddff_icon>lightNE</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>2</ff_val>
+<ff_val_kmh>7</ff_val_kmh>
+<ff_value>3</ff_value>
+<ff_value_kmh>11</ff_value_kmh>
+<ff_minimum>0</ff_minimum>
+<ff_minimum_kmh>0</ff_minimum_kmh>
+<ff_maximum>5</ff_maximum>
+<ff_maximum_kmh>18</ff_maximum_kmh>
+<ff_icon>light</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl>1018</msl>
+<msl_mb>1018</msl_mb>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p>993</p>
+<p_mb>993</p_mb>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>PORTOROZ_SECOVLJE_</domain_meteosiId>
+<domain_id>64791667</domain_id>
+<domain_parentId>SI_OBALNO-KRASKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>45.4756</domain_lat>
+<domain_lon>13.6206</domain_lon>
+<domain_altitude>2.0</domain_altitude>
+<domain_title>PORTOROZ/SECOVLJE</domain_title>
+<domain_shortTitle>PORTOROŽ - AIRPORT </domain_shortTitle>
+<domain_longTitle>Portorož Airport</domain_longTitle>
+<title>AAXX</title>
+<sunrise>06.10.2018 7:10 CEST</sunrise>
+<sunset>06.10.2018 18:37 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>overcast</nn_icon>
+<nn_shortText>cloudy</nn_shortText>
+<nn_decodeText>7/8 .. 8/8</nn_decodeText>
+<wwsyn_icon>modRA</wwsyn_icon>
+<wwsyn_shortText>Rain</wwsyn_shortText>
+<wwsyn_longText>Rain</wwsyn_longText>
+<nn_shortText-wwsyn_longText>Rain</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>overcast_modRA</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>19</t>
+<t_degreesC>19</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>4</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>88</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td>17</td>
+<td_degreesC>17</td_degreesC>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>150</dd_val>
+<dd_icon>SE</dd_icon>
+<dd_shortText>SE</dd_shortText>
+<dd_longText>south-easterly wind</dd_longText>
+<dd_decodeText>SE</dd_decodeText>
+<ddff_icon>lightSE</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>0.9</ff_val>
+<ff_val_kmh>3</ff_val_kmh>
+<ff_value>3</ff_value>
+<ff_value_kmh>11</ff_value_kmh>
+<ff_minimum>0</ff_minimum>
+<ff_minimum_kmh>0</ff_minimum_kmh>
+<ff_maximum>5</ff_maximum>
+<ff_maximum_kmh>18</ff_maximum_kmh>
+<ff_icon>light</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl>1017</msl>
+<msl_mb>1017</msl_mb>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p>1016</p>
+<p_mb>1016</p_mb>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText>decreasing</pa_shortText>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>sea-coast</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>POSTOJNA_</domain_meteosiId>
+<domain_id>64770646</domain_id>
+<domain_parentId>SI_NOTRANJSKO-KRASKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>45.7664</domain_lat>
+<domain_lon>14.1975</domain_lon>
+<domain_altitude>533.0</domain_altitude>
+<domain_title>POSTOJNA</domain_title>
+<domain_shortTitle>POSTOJNA</domain_shortTitle>
+<domain_longTitle>Postojna</domain_longTitle>
+<title>AAXXauto</title>
+<sunrise>06.10.2018 7:08 CEST</sunrise>
+<sunset>06.10.2018 18:34 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>overcast</nn_icon>
+<nn_shortText>cloudy</nn_shortText>
+<nn_decodeText>7/8 .. 8/8</nn_decodeText>
+<wwsyn_icon>modRA</wwsyn_icon>
+<wwsyn_shortText>Rain</wwsyn_shortText>
+<wwsyn_longText>Rain</wwsyn_longText>
+<nn_shortText-wwsyn_longText>Rain</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>overcast_modRA</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>16</t>
+<t_degreesC>16</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>5</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>83</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td/>
+<td_degreesC/>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val/>
+<dd_icon/>
+<dd_shortText/>
+<dd_longText/>
+<dd_decodeText/>
+<ddff_icon/>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val/>
+<ff_val_kmh/>
+<ff_value/>
+<ff_value_kmh/>
+<ff_minimum/>
+<ff_minimum_kmh/>
+<ff_maximum/>
+<ff_maximum_kmh/>
+<ff_icon/>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p/>
+<p_mb/>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>RATECE_</domain_meteosiId>
+<domain_id>64765312</domain_id>
+<domain_parentId>SI_ZGORNJESAVSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.4975</domain_lat>
+<domain_lon>13.7175</domain_lon>
+<domain_altitude>864.0</domain_altitude>
+<domain_title>RATECE</domain_title>
+<domain_shortTitle>RATECE</domain_shortTitle>
+<domain_longTitle>Ratece</domain_longTitle>
+<title>AAXXauto</title>
+<sunrise>06.10.2018 7:10 CEST</sunrise>
+<sunset>06.10.2018 18:36 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon/>
+<nn_shortText/>
+<nn_decodeText/>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText/>
+<nn_icon-wwsyn_icon/>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t/>
+<t_degreesC/>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value/>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh/>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td/>
+<td_degreesC/>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val/>
+<dd_icon/>
+<dd_shortText/>
+<dd_longText/>
+<dd_decodeText/>
+<ddff_icon/>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val/>
+<ff_val_kmh/>
+<ff_value/>
+<ff_value_kmh/>
+<ff_minimum/>
+<ff_minimum_kmh/>
+<ff_maximum/>
+<ff_maximum_kmh/>
+<ff_icon/>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p/>
+<p_mb/>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>mountain-valley</domain_geoType>
+<note/>
+</metData>
+
+
+<metData>
+<domain_meteosiId>SLOVE-GRA_</domain_meteosiId>
+<domain_id>64783196</domain_id>
+<domain_parentId>SI_KOROSKA_</domain_parentId>
+<domain_countryIsoCode2>SI</domain_countryIsoCode2>
+<domain_lat>46.49</domain_lat>
+<domain_lon>15.1161</domain_lon>
+<domain_altitude>455.0</domain_altitude>
+<domain_title>SLOVENJ GRADEC</domain_title>
+<domain_shortTitle>SLOVENJ GRADEC</domain_shortTitle>
+<domain_longTitle>Slovenj Gradec</domain_longTitle>
+<title>AAXXauto</title>
+<sunrise>06.10.2018 7:04 CEST</sunrise>
+<sunset>06.10.2018 18:30 CEST</sunset>
+<tsValid_issued>06.10.2018 15:00 CEST</tsValid_issued>
+<tsValid_issued_day>Saturday CEST</tsValid_issued_day>
+<tsValid_issued_UTC>06.10.2018 13:00 UTC</tsValid_issued_UTC>
+<tsValid_issued_RFC822>06 Oct 2018 13:00:00 +0000</tsValid_issued_RFC822>
+<tsUpdated>06.10.2018 15:30 CEST</tsUpdated>
+<tsUpdated_day>Saturday CEST</tsUpdated_day>
+<tsUpdated_UTC>06.10.2018 13:30 UTC</tsUpdated_UTC>
+<tsUpdated_RFC822>06 Oct 2018 13:30:00 +0000</tsUpdated_RFC822>
+<valid_day>Saturday CEST</valid_day>
+<valid>06.10.2018 15:00 CEST</valid>
+<valid_UTC>06.10.2018 13:00 UTC</valid_UTC>
+<nn_icon>clear</nn_icon>
+<nn_shortText>clear</nn_shortText>
+<nn_decodeText>0/8</nn_decodeText>
+<wwsyn_icon/>
+<wwsyn_shortText/>
+<wwsyn_longText/>
+<nn_shortText-wwsyn_longText>clear</nn_shortText-wwsyn_longText>
+<nn_icon-wwsyn_icon>clear</nn_icon-wwsyn_icon>
+<t_var_desc>Temperature</t_var_desc>
+<t_var_unit>°C</t_var_unit>
+<t>20</t>
+<t_degreesC>20</t_degreesC>
+<tw_var_desc>Sea temperature</tw_var_desc>
+<tw_var_unit>°C</tw_var_unit>
+<tw/>
+<tnsyn_var_desc>Min sinoptic temperature</tnsyn_var_desc>
+<tnsyn_var_unit>°C</tnsyn_var_unit>
+<tnsyn/>
+<txsyn_var_desc>Max sinoptic temperature</txsyn_var_desc>
+<txsyn_var_unit>°C</txsyn_var_unit>
+<txsyn/>
+<windchill/>
+<vis_value>50</vis_value>
+<vis_unit>km</vis_unit>
+<rh_var_desc>Humidity</rh_var_desc>
+<rh_var_unit>%</rh_var_unit>
+<rh>62</rh>
+<td_var_desc>Dew point temperature</td_var_desc>
+<td_var_unit>°C</td_var_unit>
+<td>12</td>
+<td_degreesC>12</td_degreesC>
+<dd_var_desc>Wind direction</dd_var_desc>
+<dd_var_unit>°</dd_var_unit>
+<dd_val>175</dd_val>
+<dd_icon>S</dd_icon>
+<dd_shortText>S</dd_shortText>
+<dd_longText>southerly wind</dd_longText>
+<dd_decodeText>S</dd_decodeText>
+<ddff_icon>lightS</ddff_icon>
+<ff_var_desc>Wind speed</ff_var_desc>
+<ff_var_unit>m/s</ff_var_unit>
+<ff_val>3.2</ff_val>
+<ff_val_kmh>12</ff_val_kmh>
+<ff_value>3</ff_value>
+<ff_value_kmh>11</ff_value_kmh>
+<ff_minimum>0</ff_minimum>
+<ff_minimum_kmh>0</ff_minimum_kmh>
+<ff_maximum>5</ff_maximum>
+<ff_maximum_kmh>18</ff_maximum_kmh>
+<ff_icon>light</ff_icon>
+<ffmax_var_desc>Wind gust</ffmax_var_desc>
+<ffmax_var_unit>m/s</ffmax_var_unit>
+<ffmax_val/>
+<ffmax_val_kmh/>
+<msl_var_desc>Pressure</msl_var_desc>
+<msl_var_unit>hPa</msl_var_unit>
+<msl/>
+<msl_mb/>
+<p_var_desc>Pressure</p_var_desc>
+<p_var_unit>hPa</p_var_unit>
+<p/>
+<p_mb/>
+<pa_var_desc>Pressure tendency</pa_var_desc>
+<pa_var_unit> </pa_var_unit>
+<pa_shortText/>
+<rr24h_var_desc>24h rain rate</rr24h_var_desc>
+<rr24h_var_unit>mm</rr24h_var_unit>
+<rr24h_val/>
+<snow_var_desc>Total height of snow</snow_var_desc>
+<snow_var_unit>cm</snow_var_unit>
+<snow/>
+<rrHh_var_desc>Precipitation interval</rrHh_var_desc>
+<rrHh_var_unit>h</rrHh_var_unit>
+<rrHh>24</rrHh>
+<snowNew_var_desc>New snow</snowNew_var_desc>
+<snowNew_var_unit>cm</snowNew_var_unit>
+<snowNew_val/>
+<domain_geoType>general</domain_geoType>
+<note/>
+</metData>

@@ -1,3 +1,19 @@
+"use strict";
+
+const { writeFile, readFile } = require("fs");
+const { promisify } = require("util");
+
+const readWithPromise = promisify(readFile);
+const writeWithPromise = promisify(writeFile);
+
+function writeJSONFile(path, data) {
+    return writeWithPromise(path, JSON.stringify(data, null, 2));
+}
+
+function readJSONFile(path) {
+    return readWithPromise(path, "utf8").then(JSON.parse);
+}
+
 const cheerio = require('cheerio');
 const axios = require('axios');
 const coords = require('../data.json');
@@ -21,11 +37,13 @@ async function main() {
                 };
             })
 
-        const data = object('tbody > tr')
+        const data = object("tbody > tr")
             .toArray()
-            .map(row => row.children
-                .filter(cell => cell.name === 'td' && cell.type === 'tag')
-                .map(td => td.children[0] && td.children[0].data));
+            .map(row =>
+                row.children
+                    .filter(cell => cell.name === "td" && cell.type === "tag")
+                    .map(td => td.children[0] && td.children[0].data)
+            );
 
         data.splice(0, 2);
         data.forEach(elem => elem.shift());
@@ -33,30 +51,46 @@ async function main() {
             arr[4] = (arr[4] * 0.277777778).toFixed(2);
         });
 
-        const objects = data.map(arr => {
-            return {
-                Time: object('.table').children('h3').text(),
-                Temperature: parseFloat(arr[0]),
-                Humidity: parseFloat(arr[1]),
-                Pressure: parseFloat(arr[2]),
-                WindDirection: arr[3],
-                WindSpeed: parseFloat(arr[4]),
-                WeatherType: arr[5]
-            };
+        let tempSum = 0;
+        data.forEach(arr => {
+            if (arr[0] !== '-') {
+                tempSum += parseFloat(arr[0])
+            }
         });
 
-        const array = [];
-        for (i = 0; i < data.length; i++) {
-            const obj = {
-                location: cities[i],
-                weather: [objects[i]]
+        let pressureSum = 0;
+        data.forEach(arr => {
+            if (arr[2] !== '-') {
+                pressureSum += parseFloat(arr[2])
             }
-            array.push(obj)
-        }
+        });
 
-        console.log(JSON.stringify(array, null, 2));
+        let humiditySum = 0;
+        data.forEach(arr => {
+            if (arr[1] !== '-') {
+                humiditySum += parseFloat(arr[1])
+            }
+        });
+
+        const array = []
+        const obj = {
+            timeStampRun: Math.round((new Date()).getTime() / 1000),
+            source: 'RMI observations Belgium',
+            countOfItems: cities.length,
+            sumOfTemp: tempSum,
+            sumOfHumidity: humiditySum,
+            sumOfPressure: pressureSum,
+            timeLastUpdate: object('.table').children('h3').text(),
+            latsLongs: cities
+        };
+        array.push(obj)
+
+        const addData = await readJSONFile("./belgium-app/src/stats/stats.json");
+        addData.push(obj);
+        await writeJSONFile("./belgium-app/src/stats/stats.json", addData);
+
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
 }
-main()
+main();

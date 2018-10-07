@@ -1,264 +1,322 @@
 [
     {
-       "location":{
-          "name":"Celje",
-          "lat":46.23975,
-          "lng":15.267706
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":10,
-             "Pressure":1027,
-             "WindSpeed":1.94,
-             "WindGust":" ",
-             "WeatherType":" "
-          }
-       ]
+        "location": {
+            "StationName": "Celje",
+            "lat": 46.2447,
+            "long": 15.2525,
+            "altitude": 244
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 16,
+                "Pressure": 986,
+                "WindSpeed": 0.8,
+                "WindDirection": "NW",
+                "WeatherType": "",
+                "Humidity": 87
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Cerklje Airport (at Krka river)",
-          "lat":45.88429,
-          "lng":15.51995
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":7,
-             "Pressure":1027,
-             "WindSpeed":0,
-             "WindGust":" ",
-             "WeatherType":"clear"
-          }
-       ]
+        "location": {
+            "StationName": "Cerklje Airport (at Krka river)",
+            "lat": 45.8936,
+            "long": 15.525,
+            "altitude": 154
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 14,
+                "Pressure": 996,
+                "WindSpeed": 1.3,
+                "WindDirection": "NE",
+                "WeatherType": "Light rain",
+                "Humidity": 95
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Crnomelj",
-          "lat":45.57465,
-          "lng":15.19018
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":6,
-             "Pressure":1027,
-             "WindSpeed":0,
-             "WindGust":" ",
-             "WeatherType":" "
-          }
-       ]
+        "location": {
+            "StationName": "Crnomelj",
+            "lat": 45.5603,
+            "long": 15.1508,
+            "altitude": 157
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 16,
+                "Pressure": 996,
+                "WindSpeed": 0.4,
+                "WindDirection": "",
+                "WeatherType": "",
+                "Humidity": 94
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Kredarica",
-          "lat":46.380571,
-          "lng":13.922479
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":1,
-             "Pressure":755,
-             "WindSpeed":8.89,
-             "WindGust":"43",
-             "WeatherType":"clear"
-          }
-       ]
+        "location": {
+            "StationName": "Kredarica",
+            "lat": 46.3794,
+            "long": 13.8539,
+            "altitude": 2514
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 4,
+                "Pressure": 750,
+                "WindSpeed": 0.4,
+                "WindDirection": "",
+                "WeatherType": "Light drizzle",
+                "Humidity": 100
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Lesce",
-          "lat":51.35252,
-          "lng":22.40094
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":11,
-             "Pressure":1026,
-             "WindSpeed":3.89,
-             "WindGust":" ",
-             "WeatherType":" "
-          }
-       ]
+        "location": {
+            "StationName": "Lesce",
+            "lat": 46.37,
+            "long": 14.18,
+            "altitude": 515
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 15,
+                "Pressure": 956,
+                "WindSpeed": 1.1,
+                "WindDirection": "W",
+                "WeatherType": "",
+                "Humidity": 92
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Lisca",
-          "lat":43.7783,
-          "lng":11.07174
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":6,
-             "Pressure":916,
-             "WindSpeed":6.94,
-             "WindGust":"43",
-             "WeatherType":"clear"
-          }
-       ]
+        "location": {
+            "StationName": "Lisca",
+            "lat": 46.0681,
+            "long": 15.2897,
+            "altitude": 943
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 13,
+                "Pressure": 908,
+                "WindSpeed": 2.2,
+                "WindDirection": "S",
+                "WeatherType": "",
+                "Humidity": 94
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Ljubljana",
-          "lat":46.05143,
-          "lng":14.50597
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":12,
-             "Pressure":1026,
-             "WindSpeed":0,
-             "WindGust":" ",
-             "WeatherType":"moderately cloudy"
-          }
-       ]
+        "location": {
+            "StationName": "Ljubljana",
+            "lat": 46.0658,
+            "long": 14.5172,
+            "altitude": 299
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 16,
+                "Pressure": 980,
+                "WindSpeed": 0,
+                "WindDirection": "",
+                "WeatherType": "",
+                "Humidity": 85
+            }
+        ]
     },
     {
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":11,
-             "Pressure":1026,
-             "WindSpeed":6.11,
-             "WindGust":"36",
-             "WeatherType":"prevailingly cloudy"
-          }
-       ]
+        "location": {
+            "StationName": " Ljubljana Jože Pučnik Airport",
+            "lat": 46.2178,
+            "long": 14.4775,
+            "altitude": 364
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 15,
+                "Pressure": 970,
+                "WindSpeed": 1.9,
+                "WindDirection": "SW",
+                "WeatherType": "",
+                "Humidity": 91
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Maribor Edvard Rusjan Airport",
-          "lat":46.331699,
-          "lng":15.384801
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":9,
-             "Pressure":1027,
-             "WindSpeed":1.11,
-             "WindGust":" ",
-             "WeatherType":"moderately cloudy"
-          }
-       ]
+        "location": {
+            "StationName": "Maribor Edvard Rusjan Airport",
+            "lat": 46.48,
+            "long": 15.6869,
+            "altitude": 264
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 15,
+                "Pressure": 983,
+                "WindSpeed": 0.5,
+                "WindDirection": "N",
+                "WeatherType": "",
+                "Humidity": 94
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Murska Sobota",
-          "lat":46.661362,
-          "lng":16.166201
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":6,
-             "Pressure":1027,
-             "WindSpeed":1.11,
-             "WindGust":" ",
-             "WeatherType":"clear"
-          }
-       ]
+        "location": {
+            "StationName": "Murska Sobota",
+            "lat": 46.6525,
+            "long": 16.1961,
+            "altitude": 188
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 14,
+                "Pressure": 993,
+                "WindSpeed": 0.3,
+                "WindDirection": "",
+                "WeatherType": "",
+                "Humidity": 96
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Nova Gorica",
-          "lat":45.957241,
-          "lng":13.64822
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":16,
-             "Pressure":1022,
-             "WindSpeed":6.94,
-             "WindGust":"43",
-             "WeatherType":"clear"
-          }
-       ]
+        "location": {
+            "StationName": "Nova Gorica",
+            "lat": 45.8958,
+            "long": 13.6289,
+            "altitude": 55
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 18,
+                "Pressure": 1007,
+                "WindSpeed": 1.1,
+                "WindDirection": "NW",
+                "WeatherType": "",
+                "Humidity": 89
+            }
+        ]
     },
     {
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":7,
-             "Pressure":1027,
-             "WindSpeed":1.11,
-             "WindGust":" ",
-             "WeatherType":"clear"
-          }
-       ]
+        "location": {
+            "StationName": "Novo Mesto",
+            "lat": 45.8019,
+            "long": 15.1822,
+            "altitude": 220
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 14,
+                "Pressure": 990,
+                "WindSpeed": 0.7,
+                "WindDirection": "W",
+                "WeatherType": "",
+                "Humidity": 96
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Portorož Airport",
-          "lat":45.282407,
-          "lng":13.365392
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":15,
-             "Pressure":1022,
-             "WindSpeed":1.11,
-             "WindGust":" ",
-             "WeatherType":"partly cloudy"
-          }
-       ]
+        "location": {
+            "StationName": "Portorož Airport",
+            "lat": 45.4756,
+            "long": 13.6206,
+            "altitude": 2
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 18,
+                "Pressure": 1014,
+                "WindSpeed": 0.5,
+                "WindDirection": "S",
+                "WeatherType": "",
+                "Humidity": 88
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Postojna",
-          "lat":45.775028,
-          "lng":14.21341
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":9,
-             "Pressure":null,
-             "WindSpeed":1.11,
-             "WindGust":" ",
-             "WeatherType":"clear"
-          }
-       ]
+        "location": {
+            "StationName": "Postojna",
+            "lat": 45.7664,
+            "long": 14.1975,
+            "altitude": 533
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 16,
+                "Pressure": null,
+                "WindSpeed": 1,
+                "WindDirection": "NE",
+                "WeatherType": "",
+                "Humidity": 90
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Ratece",
-          "lat":46.497284,
-          "lng":13.715841
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":9,
-             "Pressure":924,
-             "WindSpeed":3.06,
-             "WindGust":" ",
-             "WeatherType":" "
-          }
-       ]
+        "location": {
+            "StationName": "Ratece",
+            "lat": 46.4975,
+            "long": 13.7175,
+            "altitude": 864
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 13,
+                "Pressure": 916,
+                "WindSpeed": 0.2,
+                "WindDirection": "",
+                "WeatherType": "",
+                "Humidity": 86
+            }
+        ]
     },
     {
-       "location":{
-          "name":"Slovenj Gradec",
-          "lat":46.511131,
-          "lng":15.08032
-       },
-       "weather":[
-          {
-             "Time":"Saturday, 29.09.2018 22:00 CEST",
-             "Temperature":6,
-             "Pressure":null,
-             "WindSpeed":0,
-             "WindGust":" ",
-             "WeatherType":"clear"
-          }
-       ]
+        "location": {
+            "StationName": "Slovenj Gradec",
+            "lat": 46.49,
+            "long": 15.1161,
+            "altitude": 455
+        },
+        "weather": [
+            {
+                "TimeCEST": "07.10.2018 11:30 CEST",
+                "TimeUTC": "07.10.2018 9:30 UTC",
+                "Temperature": 16,
+                "Pressure": null,
+                "WindSpeed": 1.6,
+                "WindDirection": "N",
+                "WeatherType": "",
+                "Humidity": 88
+            }
+        ]
     }
- ]
+]
