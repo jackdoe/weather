@@ -228,10 +228,11 @@ function saveResults(results, message) {
           writeToFileJSON(countryPATH, countryData, message);
         }
       });
+    } else {
+      const undefinedResults = readData(`${basePATH}_undefinedResults.json`);
+      undefinedResults.push(result);
+      writeToFileJSON(`${basePATH}_undefinedResults.json`, undefinedResults, message);
     }
-    const undefinedResults = readData(`${basePATH}_undefinedResults.json`);
-    undefinedResults.push(result);
-    writeToFileJSON(`${basePATH}_undefinedResults.json`, undefinedResults, message);
   });
 }
 
@@ -259,7 +260,7 @@ function readData(path) {
     const listData = fs.readFileSync(statsListPATH, 'utf8');
     const PATHList = JSON.parse(listData);
     PATHList.push(path);
-    fs.writeFileSync(statsListPATH, JSON.stringify(PATHList));
+    fs.writeFileSync(statsListPATH, JSON.stringify(PATHList), null, 2);
     console.log(`the file name ${path} is pushed to ${statsListPATH}`);
   }
   const data = fs.readFileSync(path, "utf8");
