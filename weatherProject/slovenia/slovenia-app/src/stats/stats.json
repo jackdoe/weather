@@ -1,3 +1,109 @@
 [
-    
+  {
+    "timeStampRun": 1539014263,
+    "source": "ASRO Slovenia observations",
+    "countOfItems": 16,
+    "sumOfTemp": 278,
+    "sumOfHumidity": 1255,
+    "sumOfPressure": 13526,
+    "timeLastUpdate": "08.10.2018 15:42 UTC",
+    "latsLongs": [
+      {
+        "StationName": "Celje",
+        "lat": 46.2447,
+        "long": 15.2525,
+        "altitude": 244
+      },
+      {
+        "StationName": "Cerklje Airport (at Krka river)",
+        "lat": 45.8936,
+        "long": 15.525,
+        "altitude": 154
+      },
+      {
+        "StationName": "Crnomelj",
+        "lat": 45.5603,
+        "long": 15.1508,
+        "altitude": 157
+      },
+      {
+        "StationName": "Kredarica",
+        "lat": 46.3794,
+        "long": 13.8539,
+        "altitude": 2514
+      },
+      {
+        "StationName": "Lesce",
+        "lat": 46.37,
+        "long": 14.18,
+        "altitude": 515
+      },
+      {
+        "StationName": "Lisca",
+        "lat": 46.0681,
+        "long": 15.2897,
+        "altitude": 943
+      },
+      {
+        "StationName": "Ljubljana",
+        "lat": 46.0658,
+        "long": 14.5172,
+        "altitude": 299
+      },
+      {
+        "StationName": " Ljubljana Jože Pučnik Airport",
+        "lat": 46.2178,
+        "long": 14.4775,
+        "altitude": 364
+      },
+      {
+        "StationName": "Maribor Edvard Rusjan Airport",
+        "lat": 46.48,
+        "long": 15.6869,
+        "altitude": 264
+      },
+      {
+        "StationName": "Murska Sobota",
+        "lat": 46.6525,
+        "long": 16.1961,
+        "altitude": 188
+      },
+      {
+        "StationName": "Nova Gorica",
+        "lat": 45.8958,
+        "long": 13.6289,
+        "altitude": 55
+      },
+      {
+        "StationName": "Novo Mesto",
+        "lat": 45.8019,
+        "long": 15.1822,
+        "altitude": 220
+      },
+      {
+        "StationName": "Portorož Airport",
+        "lat": 45.4756,
+        "long": 13.6206,
+        "altitude": 2
+      },
+      {
+        "StationName": "Postojna",
+        "lat": 45.7664,
+        "long": 14.1975,
+        "altitude": 533
+      },
+      {
+        "StationName": "Ratece",
+        "lat": 46.4975,
+        "long": 13.7175,
+        "altitude": 864
+      },
+      {
+        "StationName": "Slovenj Gradec",
+        "lat": 46.49,
+        "long": 15.1161,
+        "altitude": 455
+      }
+    ]
+  }
 ]
