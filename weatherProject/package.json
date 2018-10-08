@@ -1,0 +1,25 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "create-react-app": "^2.0.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "promisify": "0.0.3",
+    "prop-types": "^15.6.2",
+    "react-component-component": "^1.2.1",
+    "react-google-charts": "^3.0.8",
+    "util": "^0.11.0",
+    "xml2js": "^0.4.19"
+  }
+}

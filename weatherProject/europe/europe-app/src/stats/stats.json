@@ -1,0 +1,812 @@
+[
+  {
+    "timeStampRun": 1538835876,
+    "source": "RMI observations Europe",
+    "countOfItems": 31,
+    "sumOfTemp": 602,
+    "sumOfHumidity": 1813,
+    "sumOfPressure": 31413,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (14 h)",
+    "latsLongs": [
+      {
+        "name": "Amsterdam",
+        "lat": 52.37403,
+        "lng": 4.88969
+      },
+      {
+        "name": "Athens",
+        "lat": 37.97945,
+        "lng": 23.71622
+      },
+      {
+        "name": "Barcelona",
+        "lat": 41.38879,
+        "lng": 2.15899
+      },
+      {
+        "name": "Belgrade",
+        "lat": 44.80401,
+        "lng": 20.46513
+      },
+      {
+        "name": "Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053
+      },
+      {
+        "name": "Bratislava Letisko",
+        "lat": 48.167084,
+        "lng": 17.184491
+      },
+      {
+        "name": "Bordeaux",
+        "lat": 44.837788,
+        "lng": -0.57918
+      },
+      {
+        "name": "Dublin",
+        "lat": 53.33306,
+        "lng": -6.24889
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Kopenhagen",
+        "lat": 55.675758,
+        "lng": 12.56902
+      },
+      {
+        "name": "Lisbon",
+        "lat": 38.71667,
+        "lng": -9.13333
+      },
+      {
+        "name": "London",
+        "lat": 51.50853,
+        "lng": -0.12574
+      },
+      {
+        "name": "Luxemburg",
+        "lat": 49.815273,
+        "lng": 6.129583
+      },
+      {
+        "name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256
+      },
+      {
+        "name": "Milan",
+        "lat": 45.46427,
+        "lng": 9.18951
+      },
+      {
+        "name": "Moskow",
+        "lat": 55.755825,
+        "lng": 37.617298
+      },
+      {
+        "name": "Munich",
+        "lat": 48.13743,
+        "lng": 11.57549
+      },
+      {
+        "name": "Nice",
+        "lat": 43.710175,
+        "lng": 7.261953
+      },
+      {
+        "name": "Palma de Mallorca",
+        "lat": 2.932247,
+        "lng": -75.255092
+      },
+      {
+        "name": "Paris",
+        "lat": 48.85341,
+        "lng": 2.3488
+      },
+      {
+        "name": "Prague",
+        "lat": 50.08804,
+        "lng": 14.42076
+      },
+      {
+        "name": "Reykjavik",
+        "lat": 64.126518,
+        "lng": -21.817438
+      },
+      {
+        "name": "Rhodes",
+        "lat": 36.434052,
+        "lng": 28.217638
+      },
+      {
+        "name": "Rome",
+        "lat": 41.89193,
+        "lng": 12.51133
+      },
+      {
+        "name": "Salzburg",
+        "lat": 47.80949,
+        "lng": 13.05501
+      },
+      {
+        "name": "Stockholm",
+        "lat": 59.33258,
+        "lng": 18.0649
+      },
+      {
+        "name": "Strasbourg",
+        "lat": 48.573406,
+        "lng": 7.752111
+      },
+      {
+        "name": "Tenerife",
+        "lat": 28.047955,
+        "lng": -16.577314
+      },
+      {
+        "name": "Venice",
+        "lat": 45.43972,
+        "lng": 12.33194
+      },
+      {
+        "name": "Vienna",
+        "lat": 48.20849,
+        "lng": 16.37208
+      },
+      {
+        "name": "Warsaw",
+        "lat": 52.22977,
+        "lng": 21.01178
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538843077,
+    "source": "RMI observations Europe",
+    "countOfItems": 29,
+    "sumOfTemp": 560,
+    "sumOfHumidity": 1730,
+    "sumOfPressure": 29344,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (17 h)",
+    "latsLongs": [
+      {
+        "name": "Amsterdam",
+        "lat": 52.37403,
+        "lng": 4.88969
+      },
+      {
+        "name": "Athens",
+        "lat": 37.97945,
+        "lng": 23.71622
+      },
+      {
+        "name": "Barcelona",
+        "lat": 41.38879,
+        "lng": 2.15899
+      },
+      {
+        "name": "Belgrade",
+        "lat": 44.80401,
+        "lng": 20.46513
+      },
+      {
+        "name": "Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053
+      },
+      {
+        "name": "Bratislava Letisko",
+        "lat": 48.167084,
+        "lng": 17.184491
+      },
+      {
+        "name": "Bordeaux",
+        "lat": 44.837788,
+        "lng": -0.57918
+      },
+      {
+        "name": "Dublin",
+        "lat": 53.33306,
+        "lng": -6.24889
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Kopenhagen",
+        "lat": 55.675758,
+        "lng": 12.56902
+      },
+      {
+        "name": "Lisbon",
+        "lat": 38.71667,
+        "lng": -9.13333
+      },
+      {
+        "name": "London",
+        "lat": 51.50853,
+        "lng": -0.12574
+      },
+      {
+        "name": "Luxemburg",
+        "lat": 49.815273,
+        "lng": 6.129583
+      },
+      {
+        "name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256
+      },
+      {
+        "name": "Milan",
+        "lat": 45.46427,
+        "lng": 9.18951
+      },
+      {
+        "name": "Moskow",
+        "lat": 55.755825,
+        "lng": 37.617298
+      },
+      {
+        "name": "Munich",
+        "lat": 48.13743,
+        "lng": 11.57549
+      },
+      {
+        "name": "Nice",
+        "lat": 43.710175,
+        "lng": 7.261953
+      },
+      {
+        "name": "Palma de Mallorca",
+        "lat": 2.932247,
+        "lng": -75.255092
+      },
+      {
+        "name": "Paris",
+        "lat": 48.85341,
+        "lng": 2.3488
+      },
+      {
+        "name": "Prague",
+        "lat": 50.08804,
+        "lng": 14.42076
+      },
+      {
+        "name": "Reykjavik",
+        "lat": 64.126518,
+        "lng": -21.817438
+      },
+      {
+        "name": "Rhodes",
+        "lat": 36.434052,
+        "lng": 28.217638
+      },
+      {
+        "name": "Rome",
+        "lat": 41.89193,
+        "lng": 12.51133
+      },
+      {
+        "name": "Stockholm",
+        "lat": 59.33258,
+        "lng": 18.0649
+      },
+      {
+        "name": "Strasbourg",
+        "lat": 48.573406,
+        "lng": 7.752111
+      },
+      {
+        "name": "Tenerife",
+        "lat": 28.047955,
+        "lng": -16.577314
+      },
+      {
+        "name": "Venice",
+        "lat": 45.43972,
+        "lng": 12.33194
+      },
+      {
+        "name": "Warsaw",
+        "lat": 52.22977,
+        "lng": 21.01178
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538850278,
+    "source": "RMI observations Europe",
+    "countOfItems": 29,
+    "sumOfTemp": 469,
+    "sumOfHumidity": 2088,
+    "sumOfPressure": 29343,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (20 h)",
+    "latsLongs": [
+      {
+        "name": "Amsterdam",
+        "lat": 52.37403,
+        "lng": 4.88969
+      },
+      {
+        "name": "Athens",
+        "lat": 37.97945,
+        "lng": 23.71622
+      },
+      {
+        "name": "Barcelona",
+        "lat": 41.38879,
+        "lng": 2.15899
+      },
+      {
+        "name": "Belgrade",
+        "lat": 44.80401,
+        "lng": 20.46513
+      },
+      {
+        "name": "Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053
+      },
+      {
+        "name": "Bratislava Letisko",
+        "lat": 48.167084,
+        "lng": 17.184491
+      },
+      {
+        "name": "Bordeaux",
+        "lat": 44.837788,
+        "lng": -0.57918
+      },
+      {
+        "name": "Dublin",
+        "lat": 53.33306,
+        "lng": -6.24889
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Kopenhagen",
+        "lat": 55.675758,
+        "lng": 12.56902
+      },
+      {
+        "name": "London",
+        "lat": 51.50853,
+        "lng": -0.12574
+      },
+      {
+        "name": "Luxemburg",
+        "lat": 49.815273,
+        "lng": 6.129583
+      },
+      {
+        "name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256
+      },
+      {
+        "name": "Milan",
+        "lat": 45.46427,
+        "lng": 9.18951
+      },
+      {
+        "name": "Munich",
+        "lat": 48.13743,
+        "lng": 11.57549
+      },
+      {
+        "name": "Nice",
+        "lat": 43.710175,
+        "lng": 7.261953
+      },
+      {
+        "name": "Palma de Mallorca",
+        "lat": 2.932247,
+        "lng": -75.255092
+      },
+      {
+        "name": "Paris",
+        "lat": 48.85341,
+        "lng": 2.3488
+      },
+      {
+        "name": "Prague",
+        "lat": 50.08804,
+        "lng": 14.42076
+      },
+      {
+        "name": "Reykjavik",
+        "lat": 64.126518,
+        "lng": -21.817438
+      },
+      {
+        "name": "Rhodes",
+        "lat": 36.434052,
+        "lng": 28.217638
+      },
+      {
+        "name": "Rome",
+        "lat": 41.89193,
+        "lng": 12.51133
+      },
+      {
+        "name": "Salzburg",
+        "lat": 47.80949,
+        "lng": 13.05501
+      },
+      {
+        "name": "Stockholm",
+        "lat": 59.33258,
+        "lng": 18.0649
+      },
+      {
+        "name": "Strasbourg",
+        "lat": 48.573406,
+        "lng": 7.752111
+      },
+      {
+        "name": "Tenerife",
+        "lat": 28.047955,
+        "lng": -16.577314
+      },
+      {
+        "name": "Venice",
+        "lat": 45.43972,
+        "lng": 12.33194
+      },
+      {
+        "name": "Vienna",
+        "lat": 48.20849,
+        "lng": 16.37208
+      },
+      {
+        "name": "Warsaw",
+        "lat": 52.22977,
+        "lng": 21.01178
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538857480,
+    "source": "RMI observations Europe",
+    "countOfItems": 31,
+    "sumOfTemp": 501,
+    "sumOfHumidity": 2224,
+    "sumOfPressure": 31375,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (20 h)",
+    "latsLongs": [
+      {
+        "name": "Amsterdam",
+        "lat": 52.37403,
+        "lng": 4.88969
+      },
+      {
+        "name": "Athens",
+        "lat": 37.97945,
+        "lng": 23.71622
+      },
+      {
+        "name": "Barcelona",
+        "lat": 41.38879,
+        "lng": 2.15899
+      },
+      {
+        "name": "Belgrade",
+        "lat": 44.80401,
+        "lng": 20.46513
+      },
+      {
+        "name": "Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053
+      },
+      {
+        "name": "Bratislava Letisko",
+        "lat": 48.167084,
+        "lng": 17.184491
+      },
+      {
+        "name": "Bordeaux",
+        "lat": 44.837788,
+        "lng": -0.57918
+      },
+      {
+        "name": "Dublin",
+        "lat": 53.33306,
+        "lng": -6.24889
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Kopenhagen",
+        "lat": 55.675758,
+        "lng": 12.56902
+      },
+      {
+        "name": "Lisbon",
+        "lat": 38.71667,
+        "lng": -9.13333
+      },
+      {
+        "name": "London",
+        "lat": 51.50853,
+        "lng": -0.12574
+      },
+      {
+        "name": "Luxemburg",
+        "lat": 49.815273,
+        "lng": 6.129583
+      },
+      {
+        "name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256
+      },
+      {
+        "name": "Milan",
+        "lat": 45.46427,
+        "lng": 9.18951
+      },
+      {
+        "name": "Moskow",
+        "lat": 55.755825,
+        "lng": 37.617298
+      },
+      {
+        "name": "Munich",
+        "lat": 48.13743,
+        "lng": 11.57549
+      },
+      {
+        "name": "Nice",
+        "lat": 43.710175,
+        "lng": 7.261953
+      },
+      {
+        "name": "Palma de Mallorca",
+        "lat": 2.932247,
+        "lng": -75.255092
+      },
+      {
+        "name": "Paris",
+        "lat": 48.85341,
+        "lng": 2.3488
+      },
+      {
+        "name": "Prague",
+        "lat": 50.08804,
+        "lng": 14.42076
+      },
+      {
+        "name": "Reykjavik",
+        "lat": 64.126518,
+        "lng": -21.817438
+      },
+      {
+        "name": "Rhodes",
+        "lat": 36.434052,
+        "lng": 28.217638
+      },
+      {
+        "name": "Rome",
+        "lat": 41.89193,
+        "lng": 12.51133
+      },
+      {
+        "name": "Salzburg",
+        "lat": 47.80949,
+        "lng": 13.05501
+      },
+      {
+        "name": "Stockholm",
+        "lat": 59.33258,
+        "lng": 18.0649
+      },
+      {
+        "name": "Strasbourg",
+        "lat": 48.573406,
+        "lng": 7.752111
+      },
+      {
+        "name": "Tenerife",
+        "lat": 28.047955,
+        "lng": -16.577314
+      },
+      {
+        "name": "Venice",
+        "lat": 45.43972,
+        "lng": 12.33194
+      },
+      {
+        "name": "Vienna",
+        "lat": 48.20849,
+        "lng": 16.37208
+      },
+      {
+        "name": "Warsaw",
+        "lat": 52.22977,
+        "lng": 21.01178
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538899951,
+    "source": "RMI observations Europe",
+    "countOfItems": 31,
+    "sumOfTemp": 389,
+    "sumOfHumidity": 2554,
+    "sumOfPressure": 31409,
+    "timeLastUpdate": "Observations October, sunday 7  2018 (8 h)",
+    "latsLongs": [
+      {
+        "name": "Amsterdam",
+        "lat": 52.37403,
+        "lng": 4.88969
+      },
+      {
+        "name": "Athens",
+        "lat": 37.97945,
+        "lng": 23.71622
+      },
+      {
+        "name": "Barcelona",
+        "lat": 41.38879,
+        "lng": 2.15899
+      },
+      {
+        "name": "Belgrade",
+        "lat": 44.80401,
+        "lng": 20.46513
+      },
+      {
+        "name": "Berlin",
+        "lat": 52.52437,
+        "lng": 13.41053
+      },
+      {
+        "name": "Bratislava Letisko",
+        "lat": 48.167084,
+        "lng": 17.184491
+      },
+      {
+        "name": "Bordeaux",
+        "lat": 44.837788,
+        "lng": -0.57918
+      },
+      {
+        "name": "Dublin",
+        "lat": 53.33306,
+        "lng": -6.24889
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Kopenhagen",
+        "lat": 55.675758,
+        "lng": 12.56902
+      },
+      {
+        "name": "Lisbon",
+        "lat": 38.71667,
+        "lng": -9.13333
+      },
+      {
+        "name": "London",
+        "lat": 51.50853,
+        "lng": -0.12574
+      },
+      {
+        "name": "Luxemburg",
+        "lat": 49.815273,
+        "lng": 6.129583
+      },
+      {
+        "name": "Madrid",
+        "lat": 40.4165,
+        "lng": -3.70256
+      },
+      {
+        "name": "Milan",
+        "lat": 45.46427,
+        "lng": 9.18951
+      },
+      {
+        "name": "Moskow",
+        "lat": 55.755825,
+        "lng": 37.617298
+      },
+      {
+        "name": "Munich",
+        "lat": 48.13743,
+        "lng": 11.57549
+      },
+      {
+        "name": "Nice",
+        "lat": 43.710175,
+        "lng": 7.261953
+      },
+      {
+        "name": "Palma de Mallorca",
+        "lat": 2.932247,
+        "lng": -75.255092
+      },
+      {
+        "name": "Paris",
+        "lat": 48.85341,
+        "lng": 2.3488
+      },
+      {
+        "name": "Prague",
+        "lat": 50.08804,
+        "lng": 14.42076
+      },
+      {
+        "name": "Reykjavik",
+        "lat": 64.126518,
+        "lng": -21.817438
+      },
+      {
+        "name": "Rhodes",
+        "lat": 36.434052,
+        "lng": 28.217638
+      },
+      {
+        "name": "Rome",
+        "lat": 41.89193,
+        "lng": 12.51133
+      },
+      {
+        "name": "Salzburg",
+        "lat": 47.80949,
+        "lng": 13.05501
+      },
+      {
+        "name": "Stockholm",
+        "lat": 59.33258,
+        "lng": 18.0649
+      },
+      {
+        "name": "Strasbourg",
+        "lat": 48.573406,
+        "lng": 7.752111
+      },
+      {
+        "name": "Tenerife",
+        "lat": 28.047955,
+        "lng": -16.577314
+      },
+      {
+        "name": "Venice",
+        "lat": 45.43972,
+        "lng": 12.33194
+      },
+      {
+        "name": "Vienna",
+        "lat": 48.20849,
+        "lng": 16.37208
+      },
+      {
+        "name": "Warsaw",
+        "lat": 52.22977,
+        "lng": 21.01178
+      }
+    ]
+  }
+]

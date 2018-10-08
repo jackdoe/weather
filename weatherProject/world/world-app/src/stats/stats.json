@@ -1,0 +1,1797 @@
+[
+  {
+    "timeStampRun": 1538835928,
+    "source": "RMI observations world",
+    "countOfItems": 44,
+    "sumOfTemp": 991,
+    "sumOfHumidity": 2819,
+    "sumOfPressure": 42561,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (14 h)",
+    "latsLongs": [
+      null,
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Atlanta",
+        "lat": 33.749,
+        "lng": -84.38798
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "CapeTown",
+        "lat": 40.466141,
+        "lng": -124.36763
+      },
+      {
+        "name": "Chicago",
+        "lat": 41.85003,
+        "lng": -87.65005
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Dhaka",
+        "lat": 23.7104,
+        "lng": 90.40744
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Guadeloupe",
+        "lat": 16.264999,
+        "lng": -61.550999
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kigali",
+        "lat": -1.94995,
+        "lng": 30.05885
+      },
+      {
+        "name": "Kilimanjaro",
+        "lat": -3.067425,
+        "lng": 37.355625
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "La Paz",
+        "lat": -16.5,
+        "lng": -68.15
+      },
+      {
+        "name": "Las Vegas",
+        "lat": 36.17497,
+        "lng": -115.13722
+      },
+      {
+        "name": "Lima",
+        "lat": -12.04318,
+        "lng": -77.02824
+      },
+      {
+        "name": "Los Angeles",
+        "lat": 34.05223,
+        "lng": -118.24368
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "Nassau",
+        "lat": 25.047983,
+        "lng": -77.355415
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New Orleans",
+        "lat": 29.951065,
+        "lng": -90.071533
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "San Francisco",
+        "lat": 37.77493,
+        "lng": -122.41942
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538843129,
+    "source": "RMI observations world",
+    "countOfItems": 38,
+    "sumOfTemp": 911,
+    "sumOfHumidity": 2372,
+    "sumOfPressure": 36480,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (17 h)",
+    "latsLongs": [
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "CapeTown",
+        "lat": 40.466141,
+        "lng": -124.36763
+      },
+      {
+        "name": "Dakar",
+        "lat": 14.6937,
+        "lng": -17.44406
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Dubai",
+        "lat": 25.0657,
+        "lng": 55.17128
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kigali",
+        "lat": -1.94995,
+        "lng": 30.05885
+      },
+      {
+        "name": "Kilimanjaro",
+        "lat": -3.067425,
+        "lng": 37.355625
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "Lima",
+        "lat": -12.04318,
+        "lng": -77.02824
+      },
+      {
+        "name": "Lodwar",
+        "lat": 3.116609,
+        "lng": 35.600003
+      },
+      {
+        "name": "Manila",
+        "lat": 14.6042,
+        "lng": 120.9822
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "Nassau",
+        "lat": 25.047983,
+        "lng": -77.355415
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Pointe-Noire",
+        "lat": -4.77609,
+        "lng": 11.86352
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538850330,
+    "source": "RMI observations world",
+    "countOfItems": 38,
+    "sumOfTemp": 911,
+    "sumOfHumidity": 2372,
+    "sumOfPressure": 36480,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (17 h)",
+    "latsLongs": [
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "CapeTown",
+        "lat": 40.466141,
+        "lng": -124.36763
+      },
+      {
+        "name": "Dakar",
+        "lat": 14.6937,
+        "lng": -17.44406
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Dubai",
+        "lat": 25.0657,
+        "lng": 55.17128
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kigali",
+        "lat": -1.94995,
+        "lng": 30.05885
+      },
+      {
+        "name": "Kilimanjaro",
+        "lat": -3.067425,
+        "lng": 37.355625
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "Lima",
+        "lat": -12.04318,
+        "lng": -77.02824
+      },
+      {
+        "name": "Lodwar",
+        "lat": 3.116609,
+        "lng": 35.600003
+      },
+      {
+        "name": "Manila",
+        "lat": 14.6042,
+        "lng": 120.9822
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "Nassau",
+        "lat": 25.047983,
+        "lng": -77.355415
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Pointe-Noire",
+        "lat": -4.77609,
+        "lng": 11.86352
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538857532,
+    "source": "RMI observations world",
+    "countOfItems": 44,
+    "sumOfTemp": 990,
+    "sumOfHumidity": 2956,
+    "sumOfPressure": 41532,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (20 h)",
+    "latsLongs": [
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Atlanta",
+        "lat": 33.749,
+        "lng": -84.38798
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "CapeTown",
+        "lat": 40.466141,
+        "lng": -124.36763
+      },
+      {
+        "name": "Chicago",
+        "lat": 41.85003,
+        "lng": -87.65005
+      },
+      {
+        "name": "Dakar",
+        "lat": 14.6937,
+        "lng": -17.44406
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Dhaka",
+        "lat": 23.7104,
+        "lng": 90.40744
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Dubai",
+        "lat": 25.0657,
+        "lng": 55.17128
+      },
+      {
+        "name": "Guadeloupe",
+        "lat": 16.264999,
+        "lng": -61.550999
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kilimanjaro",
+        "lat": -3.067425,
+        "lng": 37.355625
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "La Paz",
+        "lat": -16.5,
+        "lng": -68.15
+      },
+      {
+        "name": "Las Vegas",
+        "lat": 36.17497,
+        "lng": -115.13722
+      },
+      {
+        "name": "Lima",
+        "lat": -12.04318,
+        "lng": -77.02824
+      },
+      {
+        "name": "Lodwar",
+        "lat": 3.116609,
+        "lng": 35.600003
+      },
+      {
+        "name": "Los Angeles",
+        "lat": 34.05223,
+        "lng": -118.24368
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New Orleans",
+        "lat": 29.951065,
+        "lng": -90.071533
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Pointe-Noire",
+        "lat": -4.77609,
+        "lng": 11.86352
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "San Francisco",
+        "lat": 37.77493,
+        "lng": -122.41942
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538864734,
+    "source": "RMI observations world",
+    "countOfItems": 32,
+    "sumOfTemp": 694,
+    "sumOfHumidity": 2327,
+    "sumOfPressure": 30368,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (23 h)",
+    "latsLongs": [
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Dubai",
+        "lat": 25.0657,
+        "lng": 55.17128
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "Lodwar",
+        "lat": 3.116609,
+        "lng": 35.600003
+      },
+      {
+        "name": "Manila",
+        "lat": 14.6042,
+        "lng": 120.9822
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Pointe-Noire",
+        "lat": -4.77609,
+        "lng": 11.86352
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538871939,
+    "source": "RMI observations world",
+    "countOfItems": 32,
+    "sumOfTemp": 694,
+    "sumOfHumidity": 2327,
+    "sumOfPressure": 30368,
+    "timeLastUpdate": "Observations October, saturday 6  2018 (23 h)",
+    "latsLongs": [
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Dubai",
+        "lat": 25.0657,
+        "lng": 55.17128
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "Lodwar",
+        "lat": 3.116609,
+        "lng": 35.600003
+      },
+      {
+        "name": "Manila",
+        "lat": 14.6042,
+        "lng": 120.9822
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Pointe-Noire",
+        "lat": -4.77609,
+        "lng": 11.86352
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538879140,
+    "source": "RMI observations world",
+    "countOfItems": 42,
+    "sumOfTemp": 894,
+    "sumOfHumidity": 3004,
+    "sumOfPressure": 41529,
+    "timeLastUpdate": "Observations October, sunday 7  2018 (2 h)",
+    "latsLongs": [
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Atlanta",
+        "lat": 33.749,
+        "lng": -84.38798
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Beijing",
+        "lat": 39.9075,
+        "lng": 116.39723
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "CapeTown",
+        "lat": 40.466141,
+        "lng": -124.36763
+      },
+      {
+        "name": "Chicago",
+        "lat": 41.85003,
+        "lng": -87.65005
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Dhaka",
+        "lat": 23.7104,
+        "lng": 90.40744
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Dubai",
+        "lat": 25.0657,
+        "lng": 55.17128
+      },
+      {
+        "name": "Guadeloupe",
+        "lat": 16.264999,
+        "lng": -61.550999
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kilimanjaro",
+        "lat": -3.067425,
+        "lng": 37.355625
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "Las Vegas",
+        "lat": 36.17497,
+        "lng": -115.13722
+      },
+      {
+        "name": "Lima",
+        "lat": -12.04318,
+        "lng": -77.02824
+      },
+      {
+        "name": "Los Angeles",
+        "lat": 34.05223,
+        "lng": -118.24368
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New Orleans",
+        "lat": 29.951065,
+        "lng": -90.071533
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Pointe-Noire",
+        "lat": -4.77609,
+        "lng": 11.86352
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "San Francisco",
+        "lat": 37.77493,
+        "lng": -122.41942
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538886342,
+    "source": "RMI observations world",
+    "countOfItems": 35,
+    "sumOfTemp": 783,
+    "sumOfHumidity": 2485,
+    "sumOfPressure": 34438,
+    "timeLastUpdate": "Observations October, sunday 7  2018 (5 h)",
+    "latsLongs": [
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "CapeTown",
+        "lat": 40.466141,
+        "lng": -124.36763
+      },
+      {
+        "name": "Dakar",
+        "lat": 14.6937,
+        "lng": -17.44406
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Dhaka",
+        "lat": 23.7104,
+        "lng": 90.40744
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Dubai",
+        "lat": 25.0657,
+        "lng": 55.17128
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kilimanjaro",
+        "lat": -3.067425,
+        "lng": 37.355625
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "Nassau",
+        "lat": 25.047983,
+        "lng": -77.355415
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Pointe-Noire",
+        "lat": -4.77609,
+        "lng": 11.86352
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  },
+  {
+    "timeStampRun": 1538893543,
+    "source": "RMI observations world",
+    "countOfItems": 35,
+    "sumOfTemp": 783,
+    "sumOfHumidity": 2485,
+    "sumOfPressure": 34438,
+    "timeLastUpdate": "Observations October, sunday 7  2018 (5 h)",
+    "latsLongs": [
+      {
+        "name": "Adelaide",
+        "lat": -34.92866,
+        "lng": 138.59863
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.75398,
+        "lng": 100.50144
+      },
+      {
+        "name": "Bangui",
+        "lat": 4.36122,
+        "lng": 18.55496
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.46794,
+        "lng": 153.02809
+      },
+      {
+        "name": "Buenos Aires",
+        "lat": -34.61315,
+        "lng": -58.37723
+      },
+      {
+        "name": "Cairo",
+        "lat": 30.06263,
+        "lng": 31.24967
+      },
+      {
+        "name": "Calcutta",
+        "lat": 22.572645,
+        "lng": 88.363892
+      },
+      {
+        "name": "CapeTown",
+        "lat": 40.466141,
+        "lng": -124.36763
+      },
+      {
+        "name": "Dakar",
+        "lat": 14.6937,
+        "lng": -17.44406
+      },
+      {
+        "name": "Denver",
+        "lat": 39.73915,
+        "lng": -104.9847
+      },
+      {
+        "name": "Dhaka",
+        "lat": 23.7104,
+        "lng": 90.40744
+      },
+      {
+        "name": "Djerba",
+        "lat": 33.807598,
+        "lng": 10.845147
+      },
+      {
+        "name": "Dubai",
+        "lat": 25.0657,
+        "lng": 55.17128
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.28552,
+        "lng": 114.15769
+      },
+      {
+        "name": "Hurghada",
+        "lat": 27.251671,
+        "lng": 33.818291
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.01384,
+        "lng": 28.94966
+      },
+      {
+        "name": "Jakarta",
+        "lat": -6.21462,
+        "lng": 106.84513
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.9056,
+        "lng": 67.0822
+      },
+      {
+        "name": "Kilimanjaro",
+        "lat": -3.067425,
+        "lng": 37.355625
+      },
+      {
+        "name": "Kuwait",
+        "lat": 29.36857,
+        "lng": 47.97283
+      },
+      {
+        "name": "Miami",
+        "lat": 25.761681,
+        "lng": -80.191788
+      },
+      {
+        "name": "Montreal",
+        "lat": 45.50884,
+        "lng": -73.58781
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.28333,
+        "lng": 36.81667
+      },
+      {
+        "name": "Nassau",
+        "lat": 25.047983,
+        "lng": -77.355415
+      },
+      {
+        "name": "New Delhi",
+        "lat": 28.613939,
+        "lng": 77.209023
+      },
+      {
+        "name": "New York",
+        "lat": 40.71427,
+        "lng": -74.00597
+      },
+      {
+        "name": "Pointe-Noire",
+        "lat": -4.77609,
+        "lng": 11.86352
+      },
+      {
+        "name": "Rabat",
+        "lat": 34.01325,
+        "lng": -6.83255
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.22222,
+        "lng": 121.45806
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.86785,
+        "lng": 151.20732
+      },
+      {
+        "name": "Singapore",
+        "lat": 1.28967,
+        "lng": 103.85007
+      },
+      {
+        "name": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.69171
+      },
+      {
+        "name": "Toronto",
+        "lat": 43.70011,
+        "lng": -79.4163
+      },
+      {
+        "name": "Tunis",
+        "lat": 36.81897,
+        "lng": 10.16579
+      },
+      {
+        "name": "Ushuaia",
+        "lat": -54.80191,
+        "lng": -68.302948
+      }
+    ]
+  }
+]
