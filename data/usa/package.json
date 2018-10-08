@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "require-dir": "^1.1.0",
     "sleep": "^5.2.3"
   }
 }

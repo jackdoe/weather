@@ -38,7 +38,7 @@ async function main() {
                 ), []);
                 cityObj.weather = cityWeather;
                 usaWeather.push(cityObj);
-                console.log('Location (' + cityObj.location.lat + ',' + cityObj.location.lng + ') updated');
+                console.error('Location (' + cityObj.location.lat + ',' + cityObj.location.lng + ') updated');
                 // if (i % 25 === 0)
                 //     await writeJSONFile(USA_WEATHER_FILE, usaWeather);
             }
@@ -48,9 +48,10 @@ async function main() {
 
 
     } catch (error) {
-        console.log(error);
+        console.error(error);
     } finally {
-        await writeJSONFile(USA_WEATHER_FILE, usaWeather);
+        console.log(JSON.stringify(usaWeather, null, 2));
+        // await writeJSONFile(USA_WEATHER_FILE, usaWeather);
     }
 
 }
@@ -67,7 +68,7 @@ async function getData(lat, lng) {
         return response.data;
     } catch (error) {
         if (error.response) { // The request was made and the server responded with a status code
-            console.log('ERROR:', error.response.data);
+            console.error('ERROR:', error.response.data);
         }
         else {
             throw error;
