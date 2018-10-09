@@ -1,0 +1,19 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consume.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "latlon-geohash": "^1.1.0",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0",
+    "require-dir": "^1.1.0"
+  }
+}
