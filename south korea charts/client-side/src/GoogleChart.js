@@ -19,7 +19,6 @@ export default class GoogleChart extends React.Component {
       lineWidth: 3,
       pointSize: 5,
       pointShape: { type: "circle", sides: 4 },
-      background: "blue"
     };
 
     return (
@@ -36,24 +35,3 @@ export default class GoogleChart extends React.Component {
     );
   }
 }
-
-/* 
-was in app.js 
-  drawCharts = async (str, propName, destination) => {
-    // str: text to be displayd,
-    // propNmae: from stats,
-    // destination: to be stored in state (must exist)
-
-    const data = await this.getStats();
-    const dataHead = [{ type: "date", label: "Hour" }, str]; // can unshift
-    destination = [dataHead];
-
-    for (let file of data) {
-      //TODO: make it a function and get one property at a time
-      const { timeIssued, propName } = file;
-      const time = new Date(new Date(timeIssued * 1000));
-      destination.push([time, propName]);
-    }
-    this.setState({ destination });
-  };
-*/
