@@ -1,0 +1,26 @@
+{
+  "name": "smhi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SMHI.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fs-extra": "^7.0.0",
+    "geolib": "^2.0.24",
+    "latlon-geohash": "^1.1.0",
+    "mysql": "^2.16.0",
+    "node-fetch": "^2.2.0",
+    "react-google-charts": "^3.0.8",
+    "sleep": "^5.2.3",
+    "util.promisify": "^1.0.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
