@@ -1,19 +1,18 @@
-// import username from "myConfig.json";
+'use strict';
+
 const fetch = require("node-fetch");
 const sleep = require("sleep");
 const geolib = require("geolib");
-const fs = require("fs");
-const moment = require("moment");
-const basePATH = `${moment().format("YYYYMMDDHHmmss")}`;
-const statsListPATH = `listPATH.json`;
-const countriesList = ['Åland', 'Belarus', 'Denmark', 'Estonia', 'Finland', 'Germany', 'Lithuania', 'Latvia', 'Norway', 'Netherlands', 'Poland', 'Russia', 'Svalbard and Jan Mayen', 'United Kingdom'];
-// const parameters = ["t", "msl", "r", "wd", "ws", "tcc_mean", "lcc_mean", "mcc_mean", "hcc_mean", "pcat"];
+const config = require('./myConfig.json');
 const baseURL = "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2"; //setting base url with all static parameters
 const downsample = 17; 
 const coordinatesURL = `${baseURL}/geotype/multipoint.json?downsample=${downsample}`; //getting coordinates from the api
 const polygonURL = `${baseURL}/geotype/polygon.json`;
-const username = "freeweatherapi";
 const cityNameURL = "http://api.geonames.org/findNearbyPlaceNameJSON?";
+const finalResults = [];
+// const fs = require("fs");
+// const moment = require("moment");
+// const basePATH = `./results/fetchedData/${moment().format("YYYYMMDDHHmmss")}`;
 
 /** This is a description of the @async getWeatherData function
  * the api provides forecast information for 1665 cities in 
@@ -41,7 +40,7 @@ const getWeatherData = async (url, chunkSize, pausing) => {
     const responseCoordinates = await fetch(url);
     errorHandler(responseCoordinates, "responseCoordinates", 1);
     const coordinatesCities = await responseCoordinates.json();
-    console.log(`fetching ${coordinatesCities.coordinates.length} cities`);
+    console.error(`fetching ${coordinatesCities.coordinates.length} cities`);
     
     //filtering coordinates that are inside the polygon
     const testedInBoundaries = coordinatesCities.coordinates.filter(city => {
@@ -50,17 +49,10 @@ const getWeatherData = async (url, chunkSize, pausing) => {
         polygonBoundaries
       );
     });
-    //structuring the tested coordinates
-    const SMHICities = await testedInBoundaries.map(city => {
-      return {lat: city[1], lng: city[0]};
-    });
-    //saving coordinates in a separate file to monitor results later <on></on>
-    fs.writeFileSync("SMHICities.json", JSON.stringify(SMHICities),null, 2);
-    console.log("SMHI in boundary cities have been saved!");
 
     //for loop to make fetch in chunks that can be assigend with passing chunkSize to the getWeatherData function
     for (let i = 0; i < testedInBoundaries.length; i += chunkSize) {
-      console.log(`fetching from ${i} to ${i + chunkSize}`);
+      console.error(`fetching from ${i} to ${i + chunkSize}`);
       const slicedCoordinates = testedInBoundaries.slice(i, i + chunkSize - 1); //slicing testedInBoundaries array to a chunckSize array
 
       //fetching forecast data and city name for the slicedCoordinates array
@@ -71,11 +63,7 @@ const getWeatherData = async (url, chunkSize, pausing) => {
           const result = await fetch(`${baseURL}/geotype/point/lon/${Math.floor(testedCoordinates[0] * 1000000) / 1000000}/lat/${Math.floor(testedCoordinates[1] * 1000000) / 1000000}/data.json`);
           errorHandler(result, "response forecast result", i + index);
           // fetching city name based on nearest populated place from geoname api
-          const fetchCityName = await fetch(
-            `${cityNameURL}lat=${Math.floor(testedCoordinates[1] * 1000000) /
-              1000000}&lng=${Math.floor(testedCoordinates[0] * 1000000) /
-              1000000}&username=${username}`
-          );
+          const fetchCityName = await fetch(`${cityNameURL}lat=${Math.floor(testedCoordinates[1] * 1000000) /1000000}&lng=${Math.floor(testedCoordinates[0] * 1000000) /1000000}&username=${config.username}`);
           errorHandler(fetchCityName, "response cityName", i + index);
           //parsing coordinates and fetched forecast from JSON
           const cityName = await fetchCityName.json();
@@ -84,7 +72,7 @@ const getWeatherData = async (url, chunkSize, pausing) => {
           if (cityName.geonames !== undefined && cityName.geonames.length > 0 && parsedResult.geometry.coordinates !== undefined) {
             return [parsedResult, cityName];
           }
-          console.log(`city name not found for lat:${testedCoordinates[1]}, lng ${testedCoordinates[0]}`);
+          console.error(`city name not found for lat:${testedCoordinates[1]}, lng ${testedCoordinates[0]}`);
           //return undefined values when response is not found
           if (cityName.geonames === undefined && parsedResult.geometry.coordinates !== undefined) {
             return [
@@ -129,7 +117,7 @@ const getWeatherData = async (url, chunkSize, pausing) => {
       const results = forecastResults.map(forecast => {
         return {
           location: {
-            timeStamp: Date.parse(forecast[0].approvedTime)/1000,
+            timeStamp: Date.parse(forecast[0].approvedTime)/1000 || undefined,
             lng: forecast[0].geometry.coordinates[0][0],
             lat: forecast[0].geometry.coordinates[0][1],
             cityName: forecast[1].geonames[0].toponymName,
@@ -137,12 +125,13 @@ const getWeatherData = async (url, chunkSize, pausing) => {
           },
           weather: forecast[0].timeSeries.map(result => {
             return {
-              time: Date.parse(result.validTime)/1000,
+              time: Date.parse(result.validTime)/1000 || undefined,
               tempC: extractParameter(result, "t"),
               pressureHPA: extractParameter(result, "msl"),
               humidityPercent: extractParameter(result, "r"),
               windDirectionDeg: extractParameter(result, "wd"),
               windSpeedMps: extractParameter(result, "ws"),
+              windGustMps: extractParameter(result, 'gust'),
               cloudinessPercent: extractParameter(result, "tcc_mean"),
               lowCloudsPercent: extractParameter(result, "lcc_mean"),
               mediumCloudsPercent: extractParameter(result, "mcc_mean"),
@@ -152,9 +141,21 @@ const getWeatherData = async (url, chunkSize, pausing) => {
           })
         };
       });
-      //saving the structured results into the earlier created file
-      saveResults(results, `${i} to ${i + chunkSize - 1}`);
+
+      // // testing results
+      // if (!fs.existsSync(`${basePATH}testSMHI.json`)) {
+      //   fs.writeFileSync(`${basePATH}testSMHI.json`, JSON.stringify([], null, 2));
+      // }
+      // const listData = fs.readFileSync(`${basePATH}testSMHI.json`, "utf8");
+      // const finalResults = JSON.parse(listData);
+      // filtering undefined results
+      results.forEach(result => {
+        if (result.location.timeStamp !== undefined){
+          finalResults.push(result);
+        }
+      })
     }
+    console.log(JSON.stringify(finalResults));
   } catch (error) {
     console.error(error);
   }
@@ -166,10 +167,10 @@ const getWeatherData = async (url, chunkSize, pausing) => {
  */
 const errorHandler = (response, dataName, number) => {
   if (response.status !== 200) {
-    throw new Error( `Error: ${response.status} - ${response.statusText} fetching ${dataName}` );
+    console.error( `Error: ${response.status} - ${response.statusText} fetching ${dataName}` );
+    return;
   }
-  
-  console.log(`Success ${dataName} ${number}`);
+  console.error(`Success ${dataName} ${number}`);
 };
 
 /**this is a description of extractPrameter function
@@ -215,57 +216,5 @@ const extractParameter = (result, param) => {
   }
   return undefined;
 };
-
-function saveResults(results, message) {
-  //creating an empty file to save data in
-  results.forEach(result => {
-    if (result.location.countryName !== undefined) {
-      countriesList.forEach(country => {
-        if (result.location.countryName === country) {
-          const countryPATH = `${basePATH}_${country}.json`;
-          const countryData = readData(countryPATH);
-          filterCountry(result, countryData, country);
-          writeToFileJSON(countryPATH, countryData, message);
-        }
-      });
-    } else {
-      const undefinedResults = readData(`${basePATH}_undefinedResults.json`);
-      undefinedResults.push(result);
-      writeToFileJSON(`${basePATH}_undefinedResults.json`, undefinedResults, message);
-    }
-  });
-}
-
-
-function writeToFileJSON(path, data, message) {
-  fs.writeFileSync(path, JSON.stringify(data, null, 2));
-  console.log(`The file ${path} has been saved ${message}!`);
-}
-
-function filterCountry(result, countryData, countryName) {
-  if (result.location.countryName === countryName) {
-    countryData.push(result);
-  }
-  if(countryName === undefined) {
-    DataCountry.push(result);
-  }
-}
-
-function readData(path) {
-  if (!fs.existsSync(path)) {
-    fs.writeFileSync(path, JSON.stringify([]));
-    if(!fs.existsSync(statsListPATH)) {
-      fs.writeFileSync(statsListPATH, JSON.stringify([]));
-    }
-    const listData = fs.readFileSync(statsListPATH, 'utf8');
-    const PATHList = JSON.parse(listData);
-    PATHList.push(path);
-    fs.writeFileSync(statsListPATH, JSON.stringify(PATHList), null, 2);
-    console.log(`the file name ${path} is pushed to ${statsListPATH}`);
-  }
-  const data = fs.readFileSync(path, "utf8");
-  const json = JSON.parse(data);
-  return json;
-}
 
 getWeatherData(coordinatesURL, 5, 2);
