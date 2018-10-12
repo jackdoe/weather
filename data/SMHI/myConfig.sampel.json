@@ -1,0 +1,10 @@
+{
+  "dbConfig": {
+    "host": "localhost",
+    "user": "root",
+    "password": "Add_your_password_for_mysql",
+    "database": "SMHI_DB",
+    "port": 3306
+  },
+  "username": "Add_your_username"
+}
