@@ -1,0 +1,682 @@
+[
+    {
+        "location": {
+            "id": "124",
+            "station": "Abu Al Abyad",
+            "lat": 24.20611,
+            "lng": 53.79083
+        }
+    },
+    {
+        "location": {
+            "id": "422",
+            "station": "Abu Al Bukhoosh",
+            "lat": 25.495,
+            "lng": 53.14583
+        }
+    },
+    {
+        "location": {
+            "id": "8801",
+            "station": "Abu Dhabi I.A.",
+            "lat": 24.432972,
+            "lng": 54.651138
+        }
+    },
+    {
+        "location": {
+            "id": "26",
+            "station": "Abu Dhabi corniche",
+            "lat": 24.47722,
+            "lng": 54.32778
+        }
+    },
+    {
+        "location": {
+            "id": "386",
+            "station": "Ajman",
+            "lat": 25.423611,
+            "lng": 55.444722
+        }
+    },
+    {
+        "location": {
+            "id": "389",
+            "station": "Al Ain",
+            "lat": 24.21583,
+            "lng": 55.79361
+        }
+    },
+    {
+        "location": {
+            "id": "8802",
+            "station": "Al Ain I.A.",
+            "lat": 24.261667,
+            "lng": 55.609167
+        }
+    },
+    {
+        "location": {
+            "id": "410",
+            "station": "Al Ajban",
+            "lat": 24.607778,
+            "lng": 54.888333
+        }
+    },
+    {
+        "location": {
+            "id": "14",
+            "station": "Al Arad",
+            "lat": 23.84472,
+            "lng": 55.52417
+        }
+    },
+    {
+        "location": {
+            "id": "131",
+            "station": "Al Aryam",
+            "lat": 24.30833,
+            "lng": 54.17194
+        }
+    },
+    {
+        "location": {
+            "id": "8808",
+            "station": "Al Bateen Airport",
+            "lat": 24.428333,
+            "lng": 54.458084
+        }
+    },
+    {
+        "location": {
+            "id": "136",
+            "station": "Al Dhaid",
+            "lat": 25.23694,
+            "lng": 55.81694
+        }
+    },
+    {
+        "location": {
+            "id": "382",
+            "station": "Al Ejeili Tuwa",
+            "lat": 25.022222,
+            "lng": 56.126389
+        }
+    },
+    {
+        "location": {
+            "id": "5",
+            "station": "Al Faqa",
+            "lat": 24.71889,
+            "lng": 55.62139
+        }
+    },
+    {
+        "location": {
+            "id": "441",
+            "station": "Al FarFar",
+            "lat": 25.1665,
+            "lng": 56.176
+        }
+    },
+    {
+        "location": {
+            "id": "11",
+            "station": "Al Foah",
+            "lat": 24.33389,
+            "lng": 55.80611
+        }
+    },
+    {
+        "location": {
+            "id": "22",
+            "station": "Al Gheweifat",
+            "lat": 24.12111,
+            "lng": 51.62694
+        }
+    },
+    {
+        "location": {
+            "id": "118",
+            "station": "Al Heben mountain",
+            "lat": 25.12594,
+            "lng": 56.15752
+        }
+    },
+    {
+        "location": {
+            "id": "23",
+            "station": "Al Jazeera B.G.",
+            "lat": 23.29111,
+            "lng": 52.28889
+        }
+    },
+    {
+        "location": {
+            "id": "6",
+            "station": "Al Khazna",
+            "lat": 24.12472,
+            "lng": 55.11333
+        }
+    },
+    {
+        "location": {
+            "id": "109",
+            "station": "Al Malaiha",
+            "lat": 25.13056,
+            "lng": 55.88806
+        }
+    },
+    {
+        "location": {
+            "id": "128",
+            "station": "Al Qattara",
+            "lat": 24.266,
+            "lng": 55.7555
+        }
+    },
+    {
+        "location": {
+            "id": "30",
+            "station": "Al Qlaa",
+            "lat": 24.15528,
+            "lng": 52.97972
+        }
+    },
+    {
+        "location": {
+            "id": "183",
+            "station": "Al Qor",
+            "lat": 24.90639,
+            "lng": 56.15194
+        }
+    },
+    {
+        "location": {
+            "id": "15",
+            "station": "Al Quaa",
+            "lat": 23.39333,
+            "lng": 55.41944
+        }
+    },
+    {
+        "location": {
+            "id": "409",
+            "station": "Al Rass",
+            "lat": 24.454056,
+            "lng": 54.317463
+        }
+    },
+    {
+        "location": {
+            "id": "387",
+            "station": "Al Reem Island",
+            "lat": 24.4961111,
+            "lng": 54.4086111
+        }
+    },
+    {
+        "location": {
+            "id": "143",
+            "station": "Al Ruwais",
+            "lat": 24.09333,
+            "lng": 52.62306
+        }
+    },
+    {
+        "location": {
+            "id": "439",
+            "station": "Al Shawamekh",
+            "lat": 24.338216,
+            "lng": 54.640384
+        }
+    },
+    {
+        "location": {
+            "id": "12",
+            "station": "Al Shiweb",
+            "lat": 24.77611,
+            "lng": 55.79806
+        }
+    },
+    {
+        "location": {
+            "id": "412",
+            "station": "Al Shuaibah",
+            "lat": 24.113889,
+            "lng": 55.607222
+        }
+    },
+    {
+        "location": {
+            "id": "180",
+            "station": "Al Wathbah",
+            "lat": 24.17889,
+            "lng": 54.70306
+        }
+    },
+    {
+        "location": {
+            "id": "416",
+            "station": "Arylah2",
+            "lat": 24.988611,
+            "lng": 54.212778
+        }
+    },
+    {
+        "location": {
+            "id": "381",
+            "station": "Ashaab",
+            "lat": 24.386389,
+            "lng": 54.812222
+        }
+    },
+    {
+        "location": {
+            "id": "428",
+            "station": "Barakah",
+            "lat": 23.95518,
+            "lng": 52.266498
+        }
+    },
+    {
+        "location": {
+            "id": "28",
+            "station": "Bu Humrah",
+            "lat": 23.50583,
+            "lng": 54.53
+        }
+    },
+    {
+        "location": {
+            "id": "400",
+            "station": "Burj Khalifa",
+            "lat": 25.198979,
+            "lng": 55.273107
+        }
+    },
+    {
+        "location": {
+            "id": "8804",
+            "station": "DWC Al Maktoum I.A.",
+            "lat": 24.918333,
+            "lng": 55.175556
+        }
+    },
+    {
+        "location": {
+            "id": "112",
+            "station": "Dalma",
+            "lat": 24.49083,
+            "lng": 52.29139
+        }
+    },
+    {
+        "location": {
+            "id": "132",
+            "station": "Damtha",
+            "lat": 24.18,
+            "lng": 55.41333
+        }
+    },
+    {
+        "location": {
+            "id": "31",
+            "station": "Dhudna",
+            "lat": 25.51111,
+            "lng": 56.32472
+        }
+    },
+    {
+        "location": {
+            "id": "8803",
+            "station": "Dubai I.A.",
+            "lat": 25.252778,
+            "lng": 55.364444
+        }
+    },
+    {
+        "location": {
+            "id": "106",
+            "station": "Falaj Al Moalla",
+            "lat": 25.33778,
+            "lng": 55.86611
+        }
+    },
+    {
+        "location": {
+            "id": "8807",
+            "station": "Fujairah I.A.",
+            "lat": 25.112225,
+            "lng": 56.323964
+        }
+    },
+    {
+        "location": {
+            "id": "413",
+            "station": "Fujairah Port",
+            "lat": 25.172442,
+            "lng": 56.361087
+        }
+    },
+    {
+        "location": {
+            "id": "17",
+            "station": "Hamim",
+            "lat": 22.97361,
+            "lng": 54.30278
+        }
+    },
+    {
+        "location": {
+            "id": "107",
+            "station": "Hatta",
+            "lat": 24.81111,
+            "lng": 56.1375
+        }
+    },
+    {
+        "location": {
+            "id": "421",
+            "station": "Jabal Hafeet",
+            "lat": 24.05667,
+            "lng": 55.77528
+        }
+    },
+    {
+        "location": {
+            "id": "110",
+            "station": "Jais Mountain",
+            "lat": 25.95,
+            "lng": 56.172222
+        }
+    },
+    {
+        "location": {
+            "id": "437",
+            "station": "Jumeirah",
+            "lat": 25.088827,
+            "lng": 55.135476
+        }
+    },
+    {
+        "location": {
+            "id": "10",
+            "station": "Khatam Al Shaklah",
+            "lat": 24.21111,
+            "lng": 55.95194
+        }
+    },
+    {
+        "location": {
+            "id": "18",
+            "station": "Madinat Zayed",
+            "lat": 23.68167,
+            "lng": 53.69861
+        }
+    },
+    {
+        "location": {
+            "id": "113",
+            "station": "Makassib",
+            "lat": 24.66639,
+            "lng": 51.82417
+        }
+    },
+    {
+        "location": {
+            "id": "105",
+            "station": "Manama",
+            "lat": 25.38528,
+            "lng": 56.00806
+        }
+    },
+    {
+        "location": {
+            "id": "438",
+            "station": "Margham",
+            "lat": 24.884202,
+            "lng": 55.55008
+        }
+    },
+    {
+        "location": {
+            "id": "33",
+            "station": "Masafi",
+            "lat": 25.4475,
+            "lng": 56.11722
+        }
+    },
+    {
+        "location": {
+            "id": "116",
+            "station": "Mebreh Mountain",
+            "lat": 25.64694,
+            "lng": 56.12944
+        }
+    },
+    {
+        "location": {
+            "id": "114",
+            "station": "Mezaira",
+            "lat": 23.145,
+            "lng": 53.77861
+        }
+    },
+    {
+        "location": {
+            "id": "8",
+            "station": "Mezyed",
+            "lat": 24.02861,
+            "lng": 55.84778
+        }
+    },
+    {
+        "location": {
+            "id": "24",
+            "station": "Mukhariz",
+            "lat": 22.93,
+            "lng": 52.87
+        }
+    },
+    {
+        "location": {
+            "id": "19",
+            "station": "Owtaid",
+            "lat": 23.39556,
+            "lng": 53.10278
+        }
+    },
+    {
+        "location": {
+            "id": "27",
+            "station": "Qarnen",
+            "lat": 24.94167,
+            "lng": 52.84972
+        }
+    },
+    {
+        "location": {
+            "id": "137",
+            "station": "Qsyoura",
+            "lat": 22.82861,
+            "lng": 54.81944
+        }
+    },
+    {
+        "location": {
+            "id": "34",
+            "station": "Raknah",
+            "lat": 24.34556,
+            "lng": 55.70806
+        }
+    },
+    {
+        "location": {
+            "id": "420",
+            "station": "Ras Al Khaimah",
+            "lat": 25.771626,
+            "lng": 55.939236
+        }
+    },
+    {
+        "location": {
+            "id": "8806",
+            "station": "Ras Al Khaimah I.A.",
+            "lat": 25.613483,
+            "lng": 55.938817
+        }
+    },
+    {
+        "location": {
+            "id": "123",
+            "station": "Ras Ghanadah",
+            "lat": 24.83639,
+            "lng": 54.76667
+        }
+    },
+    {
+        "location": {
+            "id": "121",
+            "station": "Ras Musherib",
+            "lat": 24.33,
+            "lng": 51.65
+        }
+    },
+    {
+        "location": {
+            "id": "20",
+            "station": "Razeen",
+            "lat": 23.6775,
+            "lng": 54.74556
+        }
+    },
+    {
+        "location": {
+            "id": "125",
+            "station": "Rowdah",
+            "lat": 24.10167,
+            "lng": 55.53944
+        }
+    },
+    {
+        "location": {
+            "id": "102",
+            "station": "Saih Al Salem",
+            "lat": 24.8275,
+            "lng": 55.31194
+        }
+    },
+    {
+        "location": {
+            "id": "383",
+            "station": "Saqr Port",
+            "lat": 25.976944,
+            "lng": 56.056667
+        }
+    },
+    {
+        "location": {
+            "id": "8805",
+            "station": "Sharjah I.A.",
+            "lat": 25.328575,
+            "lng": 55.51715
+        }
+    },
+    {
+        "location": {
+            "id": "345",
+            "station": "Shoukah",
+            "lat": 25.105833,
+            "lng": 56.048056
+        }
+    },
+    {
+        "location": {
+            "id": "108",
+            "station": "Sir Bani Yas",
+            "lat": 24.31694,
+            "lng": 52.59778
+        }
+    },
+    {
+        "location": {
+            "id": "126",
+            "station": "Sir Bu Nair",
+            "lat": 25.22,
+            "lng": 54.217222
+        }
+    },
+    {
+        "location": {
+            "id": "3",
+            "station": "Sweihan",
+            "lat": 24.46611,
+            "lng": 55.33139
+        }
+    },
+    {
+        "location": {
+            "id": "104",
+            "station": "Tawiyen",
+            "lat": 25.56,
+            "lng": 56.07028
+        }
+    },
+    {
+        "location": {
+            "id": "414",
+            "station": "UAE University",
+            "lat": 24.1951,
+            "lng": 55.6789
+        }
+    },
+    {
+        "location": {
+            "id": "16",
+            "station": "Um Azimul",
+            "lat": 22.71417,
+            "lng": 55.13861
+        }
+    },
+    {
+        "location": {
+            "id": "129",
+            "station": "Um Ghafa",
+            "lat": 24.06667,
+            "lng": 55.93333
+        }
+    },
+    {
+        "location": {
+            "id": "111",
+            "station": "Umm Al Quwain",
+            "lat": 25.53333,
+            "lng": 55.65361
+        }
+    },
+    {
+        "location": {
+            "id": "467",
+            "station": "Wadi Shahah",
+            "lat": 25.902795,
+            "lng": 56.13553
+        }
+    },
+    {
+        "location": {
+            "id": "419",
+            "station": "Yanas Mountain",
+            "lat": 25.731863,
+            "lng": 56.09454
+        }
+    },
+    {
+        "location": {
+            "id": "185",
+            "station": "Yasat",
+            "lat": 24.17222,
+            "lng": 51.98833
+        }
+    }
+]

@@ -1,0 +1,89 @@
+[
+  [
+    [
+      {
+        "location": {
+          "id": "416",
+          "station": "Arylah2",
+          "lat": 24.988611,
+          "lng": 54.212778
+        },
+        "weather": {
+          "tempC": 32.143883364344,
+          "pressure": 1009.153552589,
+          "humidity": 58.484300035242,
+          "windSpeed": 18.342790376791,
+          "time": 1539345600
+        }
+      }
+    ],
+    [
+      {
+        "location": {
+          "id": "132",
+          "station": "Damtha",
+          "lat": 24.18,
+          "lng": 55.41333
+        },
+        "weather": {
+          "tempC": 37.267463425,
+          "pressure": 1008.3402802,
+          "humidity": 8.5936059977539,
+          "windSpeed": 26.556533145336,
+          "time": 1539345600
+        }
+      }
+    ],
+    [
+      {
+        "location": {
+          "id": "185",
+          "station": "Yasat",
+          "lat": 24.17222,
+          "lng": 51.98833
+        },
+        "weather": {
+          "tempC": 34.0620765073,
+          "pressure": 1008.9642373384,
+          "humidity": 40.697873440127,
+          "windSpeed": 18.644892757223,
+          "time": 1539342000
+        }
+      }
+    ],
+    [
+      {
+        "location": {
+          "id": "441",
+          "station": "Al FarFar",
+          "lat": 25.1665,
+          "lng": 56.176
+        },
+        "weather": {
+          "tempC": 33.06297528125,
+          "pressure": 1010.830269,
+          "humidity": 14.260254522827,
+          "windSpeed": 22.424500235293,
+          "time": 1539342000
+        }
+      }
+    ],
+    [
+      {
+        "location": {
+          "id": "410",
+          "station": "Al Ajban",
+          "lat": 24.607778,
+          "lng": 54.888333
+        },
+        "weather": {
+          "tempC": 39.440506278147,
+          "pressure": 1008.3180256248,
+          "humidity": 8.5253299427852,
+          "windSpeed": 21.705699272557,
+          "time": 1539342000
+        }
+      }
+    ]
+  ]
+]
