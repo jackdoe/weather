@@ -1,3 +1,5 @@
 node_modules/
 archive/
 tmp/
+monitoring/states/
+config/config.js

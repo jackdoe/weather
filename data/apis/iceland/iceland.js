@@ -2,11 +2,10 @@
 
 const cheerio = require('cheerio');
 const axios = require('axios');
-const { readJSONFile, writeJSONFile } = require('./fileOperations');
+const { readJSONFile } = require('./fileOperations');
 
 const ICELAND_URL = 'https://icelandmonitor.mbl.is/weather/forecasts/';
 const CITIES_LOCATION_FILE = './icelandCities.json';
-const CITIES_WEATHER_FILE = './icelandWeather.json'
 
 async function main() {
 
@@ -21,7 +20,6 @@ async function main() {
     const updated = cheerioObject("p[class^= 'text-forecast'] small")
       .toArray().map(elem => elem.children[2].data);
     const updatedTimestamp = Date.parse(updated[0]) / 1000;
-
 
     const dayPerCity = cheerioObject("div[class^= 'd--maincol'] ul").find('li').length / cities.length;
     if (dayPerCity === 0 || dayPerCity === Infinity)
@@ -66,7 +64,6 @@ async function main() {
 
     });
 
-    // await writeJSONFile(CITIES_WEATHER_FILE, citiesObj);
     console.log(JSON.stringify(citiesObj, null, 2));
 
   } catch (error) {

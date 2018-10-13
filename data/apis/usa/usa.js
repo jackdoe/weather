@@ -3,13 +3,10 @@
 const axios = require('axios');
 const sleep = require('sleep');
 const { readJSONFile } = require('./fileOperations');
-const config = require('./config');
 
-const SLEEP_SECOND = config.delayBetweenRequests;
-const API_USER_AGENT = config.delayBetweenRequests
+const { SLEEP_IN_SECOND, USA_API_USERAGENT } = require('../config/config.js');
 const USA_WEATHER_API = 'https://api.weather.gov/points/';
 const USA_CITIES_FILE = './usaCities.json';
-const USA_WEATHER_FILE = './usaWeather.json';
 
 async function main() {
     const usaWeather = [];
@@ -17,7 +14,7 @@ async function main() {
 
         const usaCitiesList = await readJSONFile(USA_CITIES_FILE);
 
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < usaCitiesList.length; i++) {
             const response = await getData(usaCitiesList[i].lat, usaCitiesList[i].lng);
             if (response) {
                 const cityObj = {
@@ -39,10 +36,9 @@ async function main() {
                 cityObj.weather = cityWeather;
                 usaWeather.push(cityObj);
                 console.error('Location (' + cityObj.location.lat + ',' + cityObj.location.lng + ') updated');
-                // if (i % 25 === 0)
-                //     await writeJSONFile(USA_WEATHER_FILE, usaWeather);
+
             }
-            sleep.sleep(SLEEP_SECOND);
+            sleep.sleep(SLEEP_IN_SECOND);
 
         }
 
@@ -51,7 +47,6 @@ async function main() {
         console.error(error);
     } finally {
         console.log(JSON.stringify(usaWeather, null, 2));
-        // await writeJSONFile(USA_WEATHER_FILE, usaWeather);
     }
 
 }
@@ -62,7 +57,7 @@ async function getData(lat, lng) {
         const response = await axios.get(url,
             {
                 headers: {
-                    "user-agent": API_USER_AGENT
+                    "user-agent": USA_API_USERAGENT
                 }
             });
         return response.data;

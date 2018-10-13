@@ -7,7 +7,6 @@ const { readJSONFile } = require('./fileOperations');
 
 const DUTCH_URL = 'https://www.knmi.nl/nederland-nu/weer/waarnemingen';
 const CITIES_LOCATION_FILE = './netherlandsCities.json';
-const CITIES_WEATHER_FILE = './netherlandsWeather.json'
 
 async function main() {
   try {
@@ -44,6 +43,7 @@ async function main() {
       city.weather = [{
         updatedTimestamp,
         fromHour: updatedTimestamp,
+        toHour: updatedTimestamp + 7200,
         symbol: stationsData[index][1],
         temperatureC: stationsData[index][2],
         humidityPercent: stationsData[index][3],
@@ -53,7 +53,6 @@ async function main() {
       }];
     });
 
-    // await writeJSONFile(CITIES_WEATHER_FILE, dutchWeather);
     console.log(JSON.stringify(dutchWeather, null, 2));
     return;
 
