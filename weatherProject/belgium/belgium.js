@@ -1,3 +1,4 @@
+"use strict";
 const cheerio = require('cheerio');
 const axios = require('axios');
 const coords = require('../data.json');
@@ -33,9 +34,19 @@ async function main() {
             arr[4] = (arr[4] * 0.277777778).toFixed(2);
         });
 
+        let time = object('.table')
+            .children('h3')
+            .text()
+            .replace("Observations  ", "")
+            .replace("(", "")
+            .replace(" h)", ":00 UTC");
+        let date = Date.parse(time) / 1000;
+
         const objects = data.map(arr => {
             return {
-                Time: object('.table').children('h3').text(),
+                UpdatedTimeStamp: Math.floor(Date.now() /1000),
+                From:date - 7200,
+                To:date - 3600,
                 Temperature: parseFloat(arr[0]),
                 Humidity: parseFloat(arr[1]),
                 Pressure: parseFloat(arr[2]),
@@ -46,17 +57,17 @@ async function main() {
         });
 
         const array = [];
-        for (i = 0; i < data.length; i++) {
+        for (let i = 0; i < data.length; i++) {
             const obj = {
                 location: cities[i],
                 weather: [objects[i]]
             }
             array.push(obj)
-        }
+        };
 
         console.log(JSON.stringify(array, null, 2));
     } catch (error) {
-        console.log(error)
+        console.error(error)
     }
 }
 main()

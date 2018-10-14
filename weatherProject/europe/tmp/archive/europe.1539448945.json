@@ -1,0 +1,582 @@
+[
+  {
+    "location": {
+      "name": "Amsterdam",
+      "lat": 52.37403,
+      "lng": 4.88969
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 25,
+        "Humidity": 57,
+        "Pressure": 1013,
+        "WindDirection": "SSE",
+        "WindSpeed": 5,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Athens",
+      "lat": 37.97945,
+      "lng": 23.71622
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 19,
+        "Humidity": 66,
+        "Pressure": 1020,
+        "WindDirection": "N",
+        "WindSpeed": 4.17,
+        "WeatherType": "precipitation"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Barcelona",
+      "lat": 41.38879,
+      "lng": 2.15899
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 24,
+        "Humidity": 76,
+        "Pressure": 1017,
+        "WindDirection": "S",
+        "WindSpeed": 3.06,
+        "WeatherType": "partly cloudy"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Belgrade",
+      "lat": 44.80401,
+      "lng": 20.46513
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 22,
+        "Humidity": 41,
+        "Pressure": 1025,
+        "WindDirection": "E",
+        "WindSpeed": 1.94,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Berlin",
+      "lat": 52.52437,
+      "lng": 13.41053
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 24,
+        "Humidity": 34,
+        "Pressure": 1022,
+        "WindDirection": "SE",
+        "WindSpeed": 3.89,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Bratislava Letisko",
+      "lat": 48.167084,
+      "lng": 17.184491
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 21,
+        "Humidity": 46,
+        "Pressure": 1025,
+        "WindDirection": "SE",
+        "WindSpeed": 3.89,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Bordeaux",
+      "lat": 44.837788,
+      "lng": -0.57918
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 26,
+        "Humidity": 57,
+        "Pressure": 1012,
+        "WindDirection": "SE",
+        "WindSpeed": 5.28,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Dublin",
+      "lat": 53.33306,
+      "lng": -6.24889
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 11,
+        "Humidity": 98,
+        "Pressure": 994,
+        "WindDirection": "W",
+        "WindSpeed": 5,
+        "WeatherType": "rain and drizzle"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Istanbul",
+      "lat": 41.01384,
+      "lng": 28.94966
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 18,
+        "Humidity": 71,
+        "Pressure": 1021,
+        "WindDirection": "N",
+        "WindSpeed": 8.33,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Kopenhagen",
+      "lat": 55.675758,
+      "lng": 12.56902
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 17,
+        "Humidity": 72,
+        "Pressure": 1021,
+        "WindDirection": "SSE",
+        "WindSpeed": 2.22,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Lisbon",
+      "lat": 38.71667,
+      "lng": -9.13333
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 24,
+        "Humidity": 59,
+        "Pressure": 1010,
+        "WindDirection": "SSW",
+        "WindSpeed": 6.11,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "London",
+      "lat": 51.50853,
+      "lng": -0.12574
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 22,
+        "Humidity": 67,
+        "Pressure": 1007,
+        "WindDirection": "S",
+        "WindSpeed": 8.06,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Luxemburg",
+      "lat": 49.815273,
+      "lng": 6.129583
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 24,
+        "Humidity": 44,
+        "Pressure": 1016,
+        "WindDirection": "SSE",
+        "WindSpeed": 5,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Madrid",
+      "lat": 40.4165,
+      "lng": -3.70256
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 26,
+        "Humidity": 41,
+        "Pressure": 1011,
+        "WindDirection": "SSW",
+        "WindSpeed": 3.89,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Milan",
+      "lat": 45.46427,
+      "lng": 9.18951
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 22,
+        "Humidity": 62,
+        "Pressure": 1022,
+        "WindDirection": "S",
+        "WindSpeed": 1.39,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Moskow",
+      "lat": 55.755825,
+      "lng": 37.617298
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 12,
+        "Humidity": 78,
+        "Pressure": 1026,
+        "WindDirection": "W",
+        "WindSpeed": 1.11,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Munich",
+      "lat": 48.13743,
+      "lng": 11.57549
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 21,
+        "Humidity": 46,
+        "Pressure": 1018,
+        "WindDirection": "E",
+        "WindSpeed": 3.06,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Nice",
+      "lat": 43.710175,
+      "lng": 7.261953
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 22,
+        "Humidity": 62,
+        "Pressure": 1020,
+        "WindDirection": "E",
+        "WindSpeed": 4.17,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Palma de Mallorca",
+      "lat": 2.932247,
+      "lng": -75.255092
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 25,
+        "Humidity": 71,
+        "Pressure": 1017,
+        "WindDirection": "WSW",
+        "WindSpeed": 5,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Paris",
+      "lat": 48.85341,
+      "lng": 2.3488
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 25,
+        "Humidity": 47,
+        "Pressure": 1013,
+        "WindDirection": "SSE",
+        "WindSpeed": 4.72,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Prague",
+      "lat": 50.08804,
+      "lng": 14.42076
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 22,
+        "Humidity": 37,
+        "Pressure": 1022,
+        "WindDirection": "SE",
+        "WindSpeed": 6.11,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Reykjavik",
+      "lat": 64.126518,
+      "lng": -21.817438
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 7,
+        "Humidity": 67,
+        "Pressure": 982,
+        "WindDirection": "S",
+        "WindSpeed": 4.17,
+        "WeatherType": "distant precipitation but not falling at station"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Rhodes",
+      "lat": 36.434052,
+      "lng": 28.217638
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 24,
+        "Humidity": 66,
+        "Pressure": 1015,
+        "WindDirection": "W",
+        "WindSpeed": 2.22,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Rome",
+      "lat": 41.89193,
+      "lng": 12.51133
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 23,
+        "Humidity": 57,
+        "Pressure": 1020,
+        "WindDirection": "WNW",
+        "WindSpeed": 4.17,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Stockholm",
+      "lat": 59.33258,
+      "lng": 18.0649
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 17,
+        "Humidity": 70,
+        "Pressure": 1020,
+        "WindDirection": "S",
+        "WindSpeed": 3.06,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Strasbourg",
+      "lat": 48.573406,
+      "lng": 7.752111
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 25,
+        "Humidity": 44,
+        "Pressure": 1017,
+        "WindDirection": "E",
+        "WindSpeed": 1.39,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Tenerife",
+      "lat": 28.047955,
+      "lng": -16.577314
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 26,
+        "Humidity": 64,
+        "Pressure": 1016,
+        "WindDirection": "SSW",
+        "WindSpeed": 3.06,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Venice",
+      "lat": 45.43972,
+      "lng": 12.33194
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 21,
+        "Humidity": 70,
+        "Pressure": 1022,
+        "WindDirection": "SSE",
+        "WindSpeed": 2.22,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Warsaw",
+      "lat": 52.22977,
+      "lng": 21.01178
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448945,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 19,
+        "Humidity": 56,
+        "Pressure": 1028,
+        "WindDirection": "ESE",
+        "WindSpeed": 1.94,
+        "WeatherType": "fair"
+      }
+    ]
+  }
+]

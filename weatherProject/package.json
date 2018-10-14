@@ -12,7 +12,11 @@
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "fs": "0.0.1-security",
+    "fs-extra": "^7.0.0",
+    "latlon-geohash": "^1.1.0",
+    "mysql": "^2.16.0",
     "promisify": "0.0.3",
-    "util": "^0.11.0"
+    "util": "^0.11.0",
+    "xml2js": "^0.4.19"
   }
 }
