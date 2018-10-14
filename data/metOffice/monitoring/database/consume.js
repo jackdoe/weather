@@ -29,6 +29,7 @@ files.forEach(file => {
     const geohash3 = geoHash.encode(lat, lng, 3);
     const geohash5 = geoHash.encode(lat, lng, 5);
     return loc.weather.map(wts => {
+      // use replace instead of insert
       return `insert into weather(
         sourceApi, geohash3, geohash5, lat,lng,fromHour,temperatureC,pressureHPA,windSpeedMps,
         humidityPercent) values ("UAE","${geohash3}","${geohash5}",${lat},${lng},${
