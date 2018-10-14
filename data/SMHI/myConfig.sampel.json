@@ -1,0 +1,10 @@
+{
+  "dbConfig": {
+    "connectionLimit": 100,
+    "host": "localhost",
+    "user": "root",
+    "password": "Add_your_password_for_mysql",
+    "database": "smhi_db"
+  },
+  "username": "Add_your_username"
+}
