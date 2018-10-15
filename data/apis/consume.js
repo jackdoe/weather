@@ -5,7 +5,7 @@ const geohash = require('latlon-geohash');
 const mysql = require('mysql');
 const fs = require('fs-extra');
 
-const { DB_CONFIG } = require('./config/config');
+const { DB_CONFIG, QUERY_CHUNK_SIZE } = require('./config/config');
 const TODO_DIR_PATH = './tmp/todo';
 const ARCHIVE_DIR_PATH = './archive';
 const weatherFiles = requireDir(TODO_DIR_PATH);
@@ -32,10 +32,9 @@ dbConnection.connect(function (err) {
              mediumCloudsPercent, highCloudsPercent, temperatureProbability, windProbability,\
               updatedTimestamp) VALUES ?';
 
+    const values = [];
 
     weatherFiles[file].forEach(locationElement => {
-
-      const values = [];
 
       const geohash3 = geohash.encode(locationElement.location.lat, locationElement.location.lng, 3);
       const geohash5 = geohash.encode(locationElement.location.lat, locationElement.location.lng, 5);
@@ -52,13 +51,16 @@ dbConnection.connect(function (err) {
 
       });
 
-      dbConnection.query(sql, [values],
+    });
+
+    for (let i = 0; i < values.length; i += QUERY_CHUNK_SIZE) {
+      dbConnection.query(sql, [values.slice(i, i + QUERY_CHUNK_SIZE)],
         (err, result) => {
           if (err) console.error(err);
           else console.log(result.affectedRows + ' rows inserted');
         });
+    }
 
-    });
 
     fs.move(`${TODO_DIR_PATH}/${file}.json`, `${ARCHIVE_DIR_PATH}/${file}.json`, (err) => {
       if (err) throw err;
