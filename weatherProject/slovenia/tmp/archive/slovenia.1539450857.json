@@ -1,0 +1,338 @@
+[
+  {
+    "location": {
+      "StationName": "Celje",
+      "lat": 46.2447,
+      "long": 15.2525,
+      "altitude": 244
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 16,
+        "Pressure": 997,
+        "WindSpeed": 1.4,
+        "WindDirection": "SE",
+        "WeatherType": "",
+        "Humidity": 79
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Cerklje Airport (at Krka river)",
+      "lat": 45.8936,
+      "long": 15.525,
+      "altitude": 154
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 17,
+        "Pressure": 1006,
+        "WindSpeed": 1,
+        "WindDirection": "S",
+        "WeatherType": "clear",
+        "Humidity": 73
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Crnomelj",
+      "lat": 45.5603,
+      "long": 15.1508,
+      "altitude": 157
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 17,
+        "Pressure": 1007,
+        "WindSpeed": 0,
+        "WindDirection": "",
+        "WeatherType": "",
+        "Humidity": 72
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Kredarica",
+      "lat": 46.3794,
+      "long": 13.8539,
+      "altitude": 2514
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 4,
+        "Pressure": 759,
+        "WindSpeed": 6.2,
+        "WindDirection": "SE",
+        "WeatherType": "clear",
+        "Humidity": 57
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Lesce",
+      "lat": 46.37,
+      "long": 14.18,
+      "altitude": 515
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 16,
+        "Pressure": 966,
+        "WindSpeed": 1.2,
+        "WindDirection": "SE",
+        "WeatherType": "",
+        "Humidity": 66
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Lisca",
+      "lat": 46.0681,
+      "long": 15.2897,
+      "altitude": 943
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 12,
+        "Pressure": 918,
+        "WindSpeed": 2.6,
+        "WindDirection": "NE",
+        "WeatherType": "clear",
+        "Humidity": 72
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Ljubljana",
+      "lat": 46.0658,
+      "long": 14.5172,
+      "altitude": 299
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 18,
+        "Pressure": 990,
+        "WindSpeed": 0.6,
+        "WindDirection": "E",
+        "WeatherType": "clear",
+        "Humidity": 56
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": " Ljubljana Jože Pučnik Airport",
+      "lat": 46.2178,
+      "long": 14.4775,
+      "altitude": 364
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 16,
+        "Pressure": 980,
+        "WindSpeed": 2,
+        "WindDirection": "SE",
+        "WeatherType": "mostly clear",
+        "Humidity": 65
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Maribor Edvard Rusjan Airport",
+      "lat": 46.48,
+      "long": 15.6869,
+      "altitude": 264
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 18,
+        "Pressure": 995,
+        "WindSpeed": 0.9,
+        "WindDirection": "E",
+        "WeatherType": "clear",
+        "Humidity": 56
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Murska Sobota",
+      "lat": 46.6525,
+      "long": 16.1961,
+      "altitude": 188
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 19,
+        "Pressure": 1004,
+        "WindSpeed": 0.7,
+        "WindDirection": "SE",
+        "WeatherType": "clear",
+        "Humidity": 54
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Nova Gorica",
+      "lat": 45.8958,
+      "long": 13.6289,
+      "altitude": 55
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 21,
+        "Pressure": 1016,
+        "WindSpeed": 5.1,
+        "WindDirection": "E",
+        "WeatherType": "clear",
+        "Humidity": 45
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Novo Mesto",
+      "lat": 45.8019,
+      "long": 15.1822,
+      "altitude": 220
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 18,
+        "Pressure": 1000,
+        "WindSpeed": 1.4,
+        "WindDirection": "E",
+        "WeatherType": "clear",
+        "Humidity": 64
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Portorož Airport",
+      "lat": 45.4756,
+      "long": 13.6206,
+      "altitude": 2
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 22,
+        "Pressure": 1021,
+        "WindSpeed": 3.6,
+        "WindDirection": "SE",
+        "WeatherType": "clear",
+        "Humidity": 47
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Postojna",
+      "lat": 45.7664,
+      "long": 14.1975,
+      "altitude": 533
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 16,
+        "Pressure": null,
+        "WindSpeed": 2.9,
+        "WindDirection": "N",
+        "WeatherType": "clear",
+        "Humidity": 63
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Ratece",
+      "lat": 46.4975,
+      "long": 13.7175,
+      "altitude": 864
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 13,
+        "Pressure": 926,
+        "WindSpeed": 0.3,
+        "WindDirection": "",
+        "WeatherType": "",
+        "Humidity": 71
+      }
+    ]
+  },
+  {
+    "location": {
+      "StationName": "Slovenj Gradec",
+      "lat": 46.49,
+      "long": 15.1161,
+      "altitude": 455
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539450857,
+        "From": 1539446400,
+        "To": 1539450000,
+        "Temperature": 16,
+        "Pressure": null,
+        "WindSpeed": 3.4,
+        "WindDirection": "SE",
+        "WeatherType": "clear",
+        "Humidity": 69
+      }
+    ]
+  }
+]

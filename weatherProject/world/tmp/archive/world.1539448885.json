@@ -1,0 +1,682 @@
+[
+  {
+    "location": {
+      "name": "Adelaide",
+      "lat": -34.92866,
+      "lng": 138.59863
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 24,
+        "Humidity": 32,
+        "Pressure": 1010,
+        "WindDirection": "NE",
+        "WindSpeed": 8.33,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Bangkok",
+      "lat": 13.75398,
+      "lng": 100.50144
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 26,
+        "Humidity": 92,
+        "Pressure": 1013,
+        "WindDirection": "-",
+        "WindSpeed": 0,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Beirut",
+      "lat": 33.88894,
+      "lng": 35.49442
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 26,
+        "Humidity": 55,
+        "Pressure": 1016,
+        "WindDirection": "N",
+        "WindSpeed": 4.17,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Beijing",
+      "lat": 39.9075,
+      "lng": 116.39723
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 10,
+        "Humidity": 81,
+        "Pressure": 1021,
+        "WindDirection": "WSW",
+        "WindSpeed": 1.11,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Brisbane",
+      "lat": -27.46794,
+      "lng": 153.02809
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 17,
+        "Humidity": 94,
+        "Pressure": 1018,
+        "WindDirection": "S",
+        "WindSpeed": 3.06,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Buenos Aires",
+      "lat": -34.61315,
+      "lng": -58.37723
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 21,
+        "Humidity": 50,
+        "Pressure": 1020,
+        "WindDirection": "SW",
+        "WindSpeed": 3.06,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Cairo",
+      "lat": 30.06263,
+      "lng": 31.24967
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 28,
+        "Humidity": 37,
+        "Pressure": 1015,
+        "WindDirection": "NNW",
+        "WindSpeed": 4.17,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Calcutta",
+      "lat": 22.572645,
+      "lng": 88.363892
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 24,
+        "Humidity": 93,
+        "Pressure": 1010,
+        "WindDirection": "-",
+        "WindSpeed": 0,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "CapeTown",
+      "lat": 40.466141,
+      "lng": -124.36763
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 24,
+        "Humidity": 39,
+        "Pressure": 1009,
+        "WindDirection": "SSW",
+        "WindSpeed": 6.11,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Denver",
+      "lat": 39.73915,
+      "lng": -104.9847
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 9,
+        "Humidity": 59,
+        "Pressure": 1007,
+        "WindDirection": "-",
+        "WindSpeed": 2.5,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Djerba",
+      "lat": 33.807598,
+      "lng": 10.845147
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 25,
+        "Humidity": 51,
+        "Pressure": 1015,
+        "WindDirection": "N",
+        "WindSpeed": 3.06,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Dubai",
+      "lat": 25.0657,
+      "lng": 55.17128
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 32,
+        "Humidity": 38,
+        "Pressure": 1012,
+        "WindDirection": "N",
+        "WindSpeed": 3.61,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Hong Kong",
+      "lat": 22.28552,
+      "lng": 114.15769
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 25,
+        "Humidity": 69,
+        "Pressure": 1017,
+        "WindDirection": "ESE",
+        "WindSpeed": 3.89,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Hurghada",
+      "lat": 27.251671,
+      "lng": 33.818291
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 29,
+        "Humidity": 47,
+        "Pressure": 1011,
+        "WindDirection": "N",
+        "WindSpeed": 5.28,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Istanbul",
+      "lat": 41.01384,
+      "lng": 28.94966
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 18,
+        "Humidity": 71,
+        "Pressure": 1021,
+        "WindDirection": "N",
+        "WindSpeed": 8.33,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Jakarta",
+      "lat": -6.21462,
+      "lng": 106.84513
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 26,
+        "Humidity": 77,
+        "Pressure": 1012,
+        "WindDirection": "WSW",
+        "WindSpeed": 1.39,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Karachi",
+      "lat": 24.9056,
+      "lng": 67.0822
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 31,
+        "Humidity": 28,
+        "Pressure": 1012,
+        "WindDirection": "W",
+        "WindSpeed": 3.06,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Kilimanjaro",
+      "lat": -3.067425,
+      "lng": 37.355625
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 29,
+        "Humidity": 42,
+        "Pressure": 1002,
+        "WindDirection": "E",
+        "WindSpeed": 5.28,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Kuwait",
+      "lat": 29.36857,
+      "lng": 47.97283
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 31,
+        "Humidity": 66,
+        "Pressure": 1012,
+        "WindDirection": "SE",
+        "WindSpeed": 2.5,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Lima",
+      "lat": -12.04318,
+      "lng": -77.02824
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 19,
+        "Humidity": 76,
+        "Pressure": 1018,
+        "WindDirection": "-",
+        "WindSpeed": 4.17,
+        "WeatherType": "partly cloudy"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Manila",
+      "lat": 14.6042,
+      "lng": 120.9822
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 29,
+        "Humidity": 68,
+        "Pressure": 1011,
+        "WindDirection": "-",
+        "WindSpeed": 0,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Miami",
+      "lat": 25.761681,
+      "lng": -80.191788
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 28,
+        "Humidity": 74,
+        "Pressure": 1013,
+        "WindDirection": "-",
+        "WindSpeed": 0,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Montreal",
+      "lat": 45.50884,
+      "lng": -73.58781
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 7,
+        "Humidity": 68,
+        "Pressure": 1008,
+        "WindDirection": "W",
+        "WindSpeed": 5.28,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Nairobi",
+      "lat": -1.28333,
+      "lng": 36.81667
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 26,
+        "Humidity": 39,
+        "Pressure": null,
+        "WindDirection": "ESE",
+        "WindSpeed": 7.22,
+        "WeatherType": "few clouds"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Nassau",
+      "lat": 25.047983,
+      "lng": -77.355415
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 31,
+        "Humidity": 73,
+        "Pressure": 1014,
+        "WindDirection": "SSW",
+        "WindSpeed": 4.72,
+        "WeatherType": "precipitation within sight but not hitting ground"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "New Delhi",
+      "lat": 28.613939,
+      "lng": 77.209023
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 22,
+        "Humidity": 71,
+        "Pressure": 1012,
+        "WindDirection": "-",
+        "WindSpeed": 0,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "New York",
+      "lat": 40.71427,
+      "lng": -74.00597
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 10,
+        "Humidity": 71,
+        "Pressure": 1011,
+        "WindDirection": "W",
+        "WindSpeed": 4.72,
+        "WeatherType": "slight rain"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Rabat",
+      "lat": 34.01325,
+      "lng": -6.83255
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 29,
+        "Humidity": 33,
+        "Pressure": 1012,
+        "WindDirection": "WNW",
+        "WindSpeed": 4.17,
+        "WeatherType": "fair"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Shanghai",
+      "lat": 31.22222,
+      "lng": 121.45806
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 17,
+        "Humidity": 70,
+        "Pressure": 1023,
+        "WindDirection": "-",
+        "WindSpeed": 0,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sydney",
+      "lat": -33.86785,
+      "lng": 151.20732
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 16,
+        "Humidity": 80,
+        "Pressure": 1025,
+        "WindDirection": "E",
+        "WindSpeed": 8.89,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Singapore",
+      "lat": 1.28967,
+      "lng": 103.85007
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 26,
+        "Humidity": 94,
+        "Pressure": 1013,
+        "WindDirection": "NNW",
+        "WindSpeed": 1.11,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Tokyo",
+      "lat": 35.6895,
+      "lng": 139.69171
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 15,
+        "Humidity": 79,
+        "Pressure": 1022,
+        "WindDirection": "NW",
+        "WindSpeed": 2.22,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Toronto",
+      "lat": 43.70011,
+      "lng": -79.4163
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 8,
+        "Humidity": 58,
+        "Pressure": 1013,
+        "WindDirection": "WNW",
+        "WindSpeed": 5.83,
+        "WeatherType": "-"
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Ushuaia",
+      "lat": -54.80191,
+      "lng": -68.302948
+    },
+    "weather": [
+      {
+        "UpdatedTimeStamp": 1539448885,
+        "From": 1539442800,
+        "To": 1539453600,
+        "Temperature": 5,
+        "Humidity": 64,
+        "Pressure": 988,
+        "WindDirection": "W",
+        "WindSpeed": 5.28,
+        "WeatherType": "slight rain"
+      }
+    ]
+  }
+]
