@@ -31,9 +31,11 @@ dbConnection.connect(function (err) {
             humidityPercent, areaMaxWindSpeedMps, windSpeedMps, temperatureC, lowCloudsPercent,\
              mediumCloudsPercent, highCloudsPercent, temperatureProbability, windProbability,\
               updatedTimestamp) VALUES ?';
-    const values = [];
+
 
     weatherFiles[file].forEach(locationElement => {
+
+      const values = [];
 
       const geohash3 = geohash.encode(locationElement.location.lat, locationElement.location.lng, 3);
       const geohash5 = geohash.encode(locationElement.location.lat, locationElement.location.lng, 5);
@@ -50,13 +52,13 @@ dbConnection.connect(function (err) {
 
       });
 
-    });
+      dbConnection.query(sql, [values],
+        (err, result) => {
+          if (err) console.error(err);
+          else console.log(result.affectedRows + ' rows inserted');
+        });
 
-    dbConnection.query(sql, [values],
-      (err, result) => {
-        if (err) console.error(err);
-        else console.log(result.affectedRows + ' rows inserted');
-      });
+    });
 
     fs.move(`${TODO_DIR_PATH}/${file}.json`, `${ARCHIVE_DIR_PATH}/${file}.json`, (err) => {
       if (err) throw err;
