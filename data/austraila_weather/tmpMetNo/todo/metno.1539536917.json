@@ -1,0 +1,4418 @@
+[
+  {
+    "location": {
+      "name": "Shanghai",
+      "lat": 31.22222,
+      "lng": 121.45806,
+      "alt": 12
+    },
+    "weather": {
+      "timeStamp": 1539536921,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.9,
+      "dewpointTemperatureC": 12.1,
+      "windSpeedMps": 2.5,
+      "windDirectionDeg": 35.8,
+      "cloudsPercent": 82.8,
+      "forPercent": 0,
+      "humidityPercent": 77.7,
+      "pressureHPA": 1020.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 73.4,
+      "highCloudsPercent": 43.8
+    }
+  },
+  {
+    "location": {
+      "name": "Buenos Aires",
+      "lat": -34.61315,
+      "lng": -58.37723,
+      "alt": 31
+    },
+    "weather": {
+      "timeStamp": 1539536924,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23.3,
+      "dewpointTemperatureC": 11,
+      "windSpeedMps": 5.2,
+      "windDirectionDeg": 320.7,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 45.5,
+      "pressureHPA": 1015,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Mumbai",
+      "lat": 19.07283,
+      "lng": 72.88261,
+      "alt": 8
+    },
+    "weather": {
+      "timeStamp": 1539536926,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 27.1,
+      "dewpointTemperatureC": 25.3,
+      "windSpeedMps": 1.5,
+      "windDirectionDeg": 10.5,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 88.1,
+      "pressureHPA": 1012.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Mexico City",
+      "lat": 19.42847,
+      "lng": -99.12766,
+      "alt": 2240
+    },
+    "weather": {
+      "timeStamp": 1539536929,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.4,
+      "dewpointTemperatureC": 12.1,
+      "windSpeedMps": 0.9,
+      "windDirectionDeg": 56.9,
+      "cloudsPercent": 90.6,
+      "forPercent": 0,
+      "humidityPercent": 55.3,
+      "pressureHPA": 1013.5,
+      "lowCloudsPercent": 4.7,
+      "mediumCloudsPercent": 18,
+      "highCloudsPercent": 89.8
+    }
+  },
+  {
+    "location": {
+      "name": "Beijing",
+      "lat": 39.9075,
+      "lng": 116.39723,
+      "alt": 49
+    },
+    "weather": {
+      "timeStamp": 1539536931,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.4,
+      "dewpointTemperatureC": 7.4,
+      "windSpeedMps": 1.1,
+      "windDirectionDeg": 26.5,
+      "cloudsPercent": 84.4,
+      "forPercent": 0,
+      "humidityPercent": 76.8,
+      "pressureHPA": 1022.5,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 84.4,
+      "highCloudsPercent": 7
+    }
+  },
+  {
+    "location": {
+      "name": "Karachi",
+      "lat": 24.9056,
+      "lng": 67.0822,
+      "alt": 38
+    },
+    "weather": {
+      "timeStamp": 1539536934,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.7,
+      "dewpointTemperatureC": 23.9,
+      "windSpeedMps": 2.4,
+      "windDirectionDeg": 259.3,
+      "cloudsPercent": 78.9,
+      "forPercent": 0,
+      "humidityPercent": 87.9,
+      "pressureHPA": 1012.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 78.9
+    }
+  },
+  {
+    "location": {
+      "name": "Istanbul",
+      "lat": 41.01384,
+      "lng": 28.94966,
+      "alt": 39
+    },
+    "weather": {
+      "timeStamp": 1539536936,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 17.3,
+      "dewpointTemperatureC": 14.8,
+      "windSpeedMps": 6.4,
+      "windDirectionDeg": 33.2,
+      "cloudsPercent": 19.5,
+      "forPercent": 0,
+      "humidityPercent": 84.6,
+      "pressureHPA": 1021,
+      "lowCloudsPercent": 9.4,
+      "mediumCloudsPercent": 2.3,
+      "highCloudsPercent": 10.9
+    }
+  },
+  {
+    "location": {
+      "name": "Tianjin",
+      "lat": 39.14222,
+      "lng": 117.17667,
+      "alt": 11
+    },
+    "weather": {
+      "timeStamp": 1539536939,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.7,
+      "dewpointTemperatureC": 7.5,
+      "windSpeedMps": 2.4,
+      "windDirectionDeg": 205.8,
+      "cloudsPercent": 96.1,
+      "forPercent": 0,
+      "humidityPercent": 66.3,
+      "pressureHPA": 1022.4,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 51.6,
+      "highCloudsPercent": 93
+    }
+  },
+  {
+    "location": {
+      "name": "Guangzhou",
+      "lat": 23.11667,
+      "lng": 113.25,
+      "alt": 15
+    },
+    "weather": {
+      "timeStamp": 1539536945,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23,
+      "dewpointTemperatureC": 22.1,
+      "windSpeedMps": 4.3,
+      "windDirectionDeg": 117.3,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 92.7,
+      "pressureHPA": 1014.4,
+      "lowCloudsPercent": 90.6,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 90.6
+    }
+  },
+  {
+    "location": {
+      "name": "Delhi",
+      "lat": 28.65195,
+      "lng": 77.23149,
+      "alt": 227
+    },
+    "weather": {
+      "timeStamp": 1539536947,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 19,
+      "dewpointTemperatureC": 14.4,
+      "windSpeedMps": 2.8,
+      "windDirectionDeg": 342.4,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 73.8,
+      "pressureHPA": 1011.9,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Manila",
+      "lat": 14.6042,
+      "lng": 120.9822,
+      "alt": 13
+    },
+    "weather": {
+      "timeStamp": 1539536950,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.4,
+      "dewpointTemperatureC": 24.6,
+      "windSpeedMps": 0.3,
+      "windDirectionDeg": 93.3,
+      "cloudsPercent": 82,
+      "forPercent": 0,
+      "humidityPercent": 93.4,
+      "pressureHPA": 1011.4,
+      "lowCloudsPercent": 1.6,
+      "mediumCloudsPercent": 7,
+      "highCloudsPercent": 80.5
+    }
+  },
+  {
+    "location": {
+      "name": "Moscow",
+      "lat": 55.75222,
+      "lng": 37.61556,
+      "alt": 147
+    },
+    "weather": {
+      "timeStamp": 1539536952,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.8,
+      "dewpointTemperatureC": 10,
+      "windSpeedMps": 3.8,
+      "windDirectionDeg": 296.7,
+      "cloudsPercent": 43,
+      "forPercent": 0,
+      "humidityPercent": 88.2,
+      "pressureHPA": 1025.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 43
+    }
+  },
+  {
+    "location": {
+      "name": "Shenzhen",
+      "lat": 22.54554,
+      "lng": 114.0683,
+      "alt": 4
+    },
+    "weather": {
+      "timeStamp": 1539536955,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24,
+      "dewpointTemperatureC": 21.6,
+      "windSpeedMps": 2.9,
+      "windDirectionDeg": 114.6,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 84.8,
+      "pressureHPA": 1014.9,
+      "lowCloudsPercent": 18.8,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 91.4
+    }
+  },
+  {
+    "location": {
+      "name": "Dhaka",
+      "lat": 23.7104,
+      "lng": 90.40744,
+      "alt": 23
+    },
+    "weather": {
+      "timeStamp": 1539536957,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22.6,
+      "dewpointTemperatureC": 22.2,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 200.8,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 95.9,
+      "pressureHPA": 1011.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Seoul",
+      "lat": 37.566,
+      "lng": 126.9784,
+      "alt": 38
+    },
+    "weather": {
+      "timeStamp": 1539536960,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 9.9,
+      "dewpointTemperatureC": 7.2,
+      "windSpeedMps": 1,
+      "windDirectionDeg": 36.5,
+      "cloudsPercent": 18,
+      "forPercent": 0,
+      "humidityPercent": 83.5,
+      "pressureHPA": 1022.4,
+      "lowCloudsPercent": 10.9,
+      "mediumCloudsPercent": 5.5,
+      "highCloudsPercent": 7.8
+    }
+  },
+  {
+    "location": {
+      "name": "Sao Paulo",
+      "lat": -23.5475,
+      "lng": -46.63611,
+      "alt": 769
+    },
+    "weather": {
+      "timeStamp": 1539536962,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 19.4,
+      "dewpointTemperatureC": 17.4,
+      "windSpeedMps": 4.4,
+      "windDirectionDeg": 150.9,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 87.3,
+      "pressureHPA": 1013.8,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 2.3,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Wuhan",
+      "lat": 30.58333,
+      "lng": 114.26667,
+      "alt": 20
+    },
+    "weather": {
+      "timeStamp": 1539536964,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 16,
+      "dewpointTemperatureC": 13.6,
+      "windSpeedMps": 2.3,
+      "windDirectionDeg": 358.1,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 84.8,
+      "pressureHPA": 1019.9,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Lagos",
+      "lat": 6.45407,
+      "lng": 3.39467,
+      "alt": 11
+    },
+    "weather": {
+      "timeStamp": 1539536967,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.7,
+      "dewpointTemperatureC": 24.2,
+      "windSpeedMps": 3,
+      "windDirectionDeg": 213.2,
+      "cloudsPercent": 85.9,
+      "forPercent": 0,
+      "humidityPercent": 84.4,
+      "pressureHPA": 1010,
+      "lowCloudsPercent": 28.1,
+      "mediumCloudsPercent": 7,
+      "highCloudsPercent": 83.6
+    }
+  },
+  {
+    "location": {
+      "name": "Jakarta",
+      "lat": -6.21462,
+      "lng": 106.84513,
+      "alt": 16
+    },
+    "weather": {
+      "timeStamp": 1539536969,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.5,
+      "dewpointTemperatureC": 23.3,
+      "windSpeedMps": 1,
+      "windDirectionDeg": 147.4,
+      "cloudsPercent": 83.6,
+      "forPercent": 0,
+      "humidityPercent": 85.7,
+      "pressureHPA": 1012.4,
+      "lowCloudsPercent": 13.3,
+      "mediumCloudsPercent": 7.8,
+      "highCloudsPercent": 81.2
+    }
+  },
+  {
+    "location": {
+      "name": "Tokyo",
+      "lat": 35.6895,
+      "lng": 139.69171,
+      "alt": 43
+    },
+    "weather": {
+      "timeStamp": 1539536972,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.2,
+      "dewpointTemperatureC": 13.3,
+      "windSpeedMps": 2.6,
+      "windDirectionDeg": 346.4,
+      "cloudsPercent": 98.4,
+      "forPercent": 0,
+      "humidityPercent": 93.9,
+      "pressureHPA": 1020.1,
+      "lowCloudsPercent": 15.6,
+      "mediumCloudsPercent": 42.2,
+      "highCloudsPercent": 98.4
+    }
+  },
+  {
+    "location": {
+      "name": "New York City",
+      "lat": 40.71427,
+      "lng": -74.00597,
+      "alt": 9
+    },
+    "weather": {
+      "timeStamp": 1539536974,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15,
+      "dewpointTemperatureC": 4.9,
+      "windSpeedMps": 4.3,
+      "windDirectionDeg": 225.1,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 51.3,
+      "pressureHPA": 1023.1,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 98.4,
+      "highCloudsPercent": 100
+    }
+  },
+  {
+    "location": {
+      "name": "Dongguan",
+      "lat": 23.04889,
+      "lng": 113.74472,
+      "alt": 10
+    },
+    "weather": {
+      "timeStamp": 1539536977,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22.5,
+      "dewpointTemperatureC": 21.6,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 100.9,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 93,
+      "pressureHPA": 1015,
+      "lowCloudsPercent": 11.7,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 85.9
+    }
+  },
+  {
+    "location": {
+      "name": "Taipei",
+      "lat": 25.04776,
+      "lng": 121.53185,
+      "alt": 10
+    },
+    "weather": {
+      "timeStamp": 1539536979,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23.2,
+      "dewpointTemperatureC": 22.5,
+      "windSpeedMps": 2.5,
+      "windDirectionDeg": 63.1,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 94.2,
+      "pressureHPA": 1015.1,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 35.9,
+      "highCloudsPercent": 14.8
+    }
+  },
+  {
+    "location": {
+      "name": "Kinshasa",
+      "lat": -4.32758,
+      "lng": 15.31357,
+      "alt": 281
+    },
+    "weather": {
+      "timeStamp": 1539536982,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.3,
+      "dewpointTemperatureC": 23.3,
+      "windSpeedMps": 3.7,
+      "windDirectionDeg": 180.9,
+      "cloudsPercent": 96.9,
+      "forPercent": 0,
+      "humidityPercent": 86.8,
+      "pressureHPA": 1010,
+      "lowCloudsPercent": 22.7,
+      "mediumCloudsPercent": 10.9,
+      "highCloudsPercent": 96.1
+    }
+  },
+  {
+    "location": {
+      "name": "Lima",
+      "lat": -12.04318,
+      "lng": -77.02824,
+      "alt": 152
+    },
+    "weather": {
+      "timeStamp": 1539536984,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 20.1,
+      "dewpointTemperatureC": 14.3,
+      "windSpeedMps": 4.5,
+      "windDirectionDeg": 254.5,
+      "cloudsPercent": 93.8,
+      "forPercent": 0,
+      "humidityPercent": 68.6,
+      "pressureHPA": 1014.1,
+      "lowCloudsPercent": 7,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 93
+    }
+  },
+  {
+    "location": {
+      "name": "Cairo",
+      "lat": 30.06263,
+      "lng": 31.24967,
+      "alt": 23
+    },
+    "weather": {
+      "timeStamp": 1539536987,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.6,
+      "dewpointTemperatureC": 13.7,
+      "windSpeedMps": 3.9,
+      "windDirectionDeg": 17.7,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 50,
+      "pressureHPA": 1015.8,
+      "lowCloudsPercent": 1.6,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Bogota",
+      "lat": 4.60971,
+      "lng": -74.08175,
+      "alt": 2582
+    },
+    "weather": {
+      "timeStamp": 1539536989,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 17.3,
+      "dewpointTemperatureC": 8.6,
+      "windSpeedMps": 1.4,
+      "windDirectionDeg": 255.6,
+      "cloudsPercent": 94.5,
+      "forPercent": 0,
+      "humidityPercent": 56.5,
+      "pressureHPA": 1014.3,
+      "lowCloudsPercent": 51.6,
+      "mediumCloudsPercent": 25,
+      "highCloudsPercent": 91.4
+    }
+  },
+  {
+    "location": {
+      "name": "City of London",
+      "lat": 51.51279,
+      "lng": -0.09184,
+      "alt": 27
+    },
+    "weather": {
+      "timeStamp": 1539536992,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.4,
+      "dewpointTemperatureC": 10.2,
+      "windSpeedMps": 6.3,
+      "windDirectionDeg": 20.2,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 91.9,
+      "pressureHPA": 1006.7,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 83.6,
+      "highCloudsPercent": 91.4
+    }
+  },
+  {
+    "location": {
+      "name": "London",
+      "lat": 51.50853,
+      "lng": -0.12574,
+      "alt": 25
+    },
+    "weather": {
+      "timeStamp": 1539536994,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.4,
+      "dewpointTemperatureC": 10.2,
+      "windSpeedMps": 6.3,
+      "windDirectionDeg": 20.2,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 92.2,
+      "pressureHPA": 1006.7,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 83.6,
+      "highCloudsPercent": 91.4
+    }
+  },
+  {
+    "location": {
+      "name": "Chongqing",
+      "lat": 29.56278,
+      "lng": 106.55278,
+      "alt": 225
+    },
+    "weather": {
+      "timeStamp": 1539536997,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 16.5,
+      "dewpointTemperatureC": 14.3,
+      "windSpeedMps": 1.2,
+      "windDirectionDeg": 232.6,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 86,
+      "pressureHPA": 1019.7,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 98.4,
+      "highCloudsPercent": 26.6
+    }
+  },
+  {
+    "location": {
+      "name": "Chengdu",
+      "lat": 30.66667,
+      "lng": 104.06667,
+      "alt": 499
+    },
+    "weather": {
+      "timeStamp": 1539536999,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.9,
+      "dewpointTemperatureC": 10.8,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 330.3,
+      "cloudsPercent": 37.5,
+      "forPercent": 0,
+      "humidityPercent": 92.5,
+      "pressureHPA": 1020.5,
+      "lowCloudsPercent": 14.1,
+      "mediumCloudsPercent": 14.1,
+      "highCloudsPercent": 27.3
+    }
+  },
+  {
+    "location": {
+      "name": "Nanjing",
+      "lat": 32.06167,
+      "lng": 118.77778,
+      "alt": 22
+    },
+    "weather": {
+      "timeStamp": 1539537002,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 16.1,
+      "dewpointTemperatureC": 11.1,
+      "windSpeedMps": 2.9,
+      "windDirectionDeg": 86.4,
+      "cloudsPercent": 77.3,
+      "forPercent": 0,
+      "humidityPercent": 72.3,
+      "pressureHPA": 1021.1,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 77.3,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Tehran",
+      "lat": 35.69439,
+      "lng": 51.42151,
+      "alt": 1178
+    },
+    "weather": {
+      "timeStamp": 1539537004,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 17.3,
+      "dewpointTemperatureC": 11.3,
+      "windSpeedMps": 1.9,
+      "windDirectionDeg": 43.2,
+      "cloudsPercent": 93.8,
+      "forPercent": 0,
+      "humidityPercent": 67.6,
+      "pressureHPA": 1019.5,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 93.8
+    }
+  },
+  {
+    "location": {
+      "name": "Nanchong",
+      "lat": 30.79508,
+      "lng": 106.08473,
+      "alt": 287
+    },
+    "weather": {
+      "timeStamp": 1539537007,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 14,
+      "dewpointTemperatureC": 12.9,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 13.6,
+      "cloudsPercent": 93.8,
+      "forPercent": 0,
+      "humidityPercent": 92.3,
+      "pressureHPA": 1020,
+      "lowCloudsPercent": 12.5,
+      "mediumCloudsPercent": 89.8,
+      "highCloudsPercent": 52.3
+    }
+  },
+  {
+    "location": {
+      "name": "Hong Kong",
+      "lat": 22.28552,
+      "lng": 114.15769,
+      "alt": 3
+    },
+    "weather": {
+      "timeStamp": 1539537009,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 25.2,
+      "dewpointTemperatureC": 22.7,
+      "windSpeedMps": 6.7,
+      "windDirectionDeg": 106.7,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 84.4,
+      "pressureHPA": 1015.2,
+      "lowCloudsPercent": 24.2,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 89.8
+    }
+  },
+  {
+    "location": {
+      "name": "Xi'an",
+      "lat": 34.25833,
+      "lng": 108.92861,
+      "alt": 416
+    },
+    "weather": {
+      "timeStamp": 1539537011,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 12.9,
+      "dewpointTemperatureC": 9.6,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 227.2,
+      "cloudsPercent": 98.4,
+      "forPercent": 0,
+      "humidityPercent": 80.1,
+      "pressureHPA": 1021.2,
+      "lowCloudsPercent": 8.6,
+      "mediumCloudsPercent": 35.9,
+      "highCloudsPercent": 97.7
+    }
+  },
+  {
+    "location": {
+      "name": "Lahore",
+      "lat": 31.54972,
+      "lng": 74.34361,
+      "alt": 224
+    },
+    "weather": {
+      "timeStamp": 1539537014,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 21,
+      "dewpointTemperatureC": 13.9,
+      "windSpeedMps": 1.9,
+      "windDirectionDeg": 90.7,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 63.2,
+      "pressureHPA": 1012.1,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Shenyang",
+      "lat": 41.79222,
+      "lng": 123.43278,
+      "alt": 53
+    },
+    "weather": {
+      "timeStamp": 1539537016,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 5.5,
+      "dewpointTemperatureC": 0.9,
+      "windSpeedMps": 2.3,
+      "windDirectionDeg": 20.3,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 73.1,
+      "pressureHPA": 1024.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Hangzhou",
+      "lat": 30.29365,
+      "lng": 120.16142,
+      "alt": 12
+    },
+    "weather": {
+      "timeStamp": 1539537018,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 15.7,
+      "dewpointTemperatureC": 13.6,
+      "windSpeedMps": 1.8,
+      "windDirectionDeg": 114.1,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 87,
+      "pressureHPA": 1020.9,
+      "lowCloudsPercent": 1.6,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Rio de Janeiro",
+      "lat": -22.90278,
+      "lng": -43.2075,
+      "alt": 5
+    },
+    "weather": {
+      "timeStamp": 1539537021,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 23.5,
+      "dewpointTemperatureC": 19.7,
+      "windSpeedMps": 5.6,
+      "windDirectionDeg": 202,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 78.3,
+      "pressureHPA": 1013.4,
+      "lowCloudsPercent": 99.2,
+      "mediumCloudsPercent": 50.8,
+      "highCloudsPercent": 95.3
+    }
+  },
+  {
+    "location": {
+      "name": "Harbin",
+      "lat": 45.75,
+      "lng": 126.65,
+      "alt": 140
+    },
+    "weather": {
+      "timeStamp": 1539537023,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 3.9,
+      "dewpointTemperatureC": -1.2,
+      "windSpeedMps": 2.4,
+      "windDirectionDeg": 258.4,
+      "cloudsPercent": 98.4,
+      "forPercent": 0,
+      "humidityPercent": 70.5,
+      "pressureHPA": 1021.4,
+      "lowCloudsPercent": 1.6,
+      "mediumCloudsPercent": 98.4,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Baghdad",
+      "lat": 33.34058,
+      "lng": 44.40088,
+      "alt": 41
+    },
+    "weather": {
+      "timeStamp": 1539537026,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 31.7,
+      "dewpointTemperatureC": 4.4,
+      "windSpeedMps": 2.3,
+      "windDirectionDeg": 99.4,
+      "cloudsPercent": 32.8,
+      "forPercent": 0,
+      "humidityPercent": 18,
+      "pressureHPA": 1010.9,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 15.6,
+      "highCloudsPercent": 27.3
+    }
+  },
+  {
+    "location": {
+      "name": "Tai'an",
+      "lat": 36.18528,
+      "lng": 117.12,
+      "alt": 143
+    },
+    "weather": {
+      "timeStamp": 1539537028,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 12.2,
+      "dewpointTemperatureC": 6,
+      "windSpeedMps": 1.1,
+      "windDirectionDeg": 35,
+      "cloudsPercent": 50,
+      "forPercent": 0,
+      "humidityPercent": 66.4,
+      "pressureHPA": 1023.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 2.3,
+      "highCloudsPercent": 49.2
+    }
+  },
+  {
+    "location": {
+      "name": "Suzhou",
+      "lat": 31.30408,
+      "lng": 120.59538,
+      "alt": 10
+    },
+    "weather": {
+      "timeStamp": 1539537030,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 16.6,
+      "dewpointTemperatureC": 11.9,
+      "windSpeedMps": 1.7,
+      "windDirectionDeg": 71.7,
+      "cloudsPercent": 82.8,
+      "forPercent": 0,
+      "humidityPercent": 73.5,
+      "pressureHPA": 1021.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 82.8,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Shantou",
+      "lat": 23.36814,
+      "lng": 116.71479,
+      "alt": 17
+    },
+    "weather": {
+      "timeStamp": 1539537033,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 22.3,
+      "dewpointTemperatureC": 19.1,
+      "windSpeedMps": 4.6,
+      "windDirectionDeg": 55,
+      "cloudsPercent": 16.4,
+      "forPercent": 0,
+      "humidityPercent": 80.7,
+      "pressureHPA": 1016.1,
+      "lowCloudsPercent": 4.7,
+      "mediumCloudsPercent": 13.3,
+      "highCloudsPercent": 1.6
+    }
+  },
+  {
+    "location": {
+      "name": "Bangkok",
+      "lat": 13.75398,
+      "lng": 100.50144,
+      "alt": 12
+    },
+    "weather": {
+      "timeStamp": 1539537035,
+      "sourceUpdateTime": 1539536400,
+      "temperatureC": 26,
+      "dewpointTemperatureC": 25.1,
+      "windSpeedMps": 1.7,
+      "windDirectionDeg": 211.6,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 92.7,
+      "pressureHPA": 1012.7,
+      "lowCloudsPercent": 15.6,
+      "mediumCloudsPercent": 10.9,
+      "highCloudsPercent": 100
+    }
+  },
+  {
+    "location": {
+      "name": "Bangalore",
+      "lat": 12.97194,
+      "lng": 77.59369,
+      "alt": 914
+    },
+    "weather": {
+      "timeStamp": 1539537038,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 20.4,
+      "dewpointTemperatureC": 19.8,
+      "windSpeedMps": 2.2,
+      "windDirectionDeg": 232.6,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 94.6,
+      "pressureHPA": 1015.6,
+      "lowCloudsPercent": 4.7,
+      "mediumCloudsPercent": 40.6,
+      "highCloudsPercent": 99.2
+    }
+  },
+  {
+    "location": {
+      "name": "Saint Petersburg",
+      "lat": 59.93863,
+      "lng": 30.31413,
+      "alt": 13
+    },
+    "weather": {
+      "timeStamp": 1539537040,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.5,
+      "dewpointTemperatureC": 9.8,
+      "windSpeedMps": 3.4,
+      "windDirectionDeg": 238.4,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 88.9,
+      "pressureHPA": 1023.3,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Santiago",
+      "lat": -33.45694,
+      "lng": -70.64827,
+      "alt": 556
+    },
+    "weather": {
+      "timeStamp": 1539537042,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 20.3,
+      "dewpointTemperatureC": 10.2,
+      "windSpeedMps": 1.5,
+      "windDirectionDeg": 218.4,
+      "cloudsPercent": 0.8,
+      "forPercent": 0,
+      "humidityPercent": 52.3,
+      "pressureHPA": 1018.3,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Kolkata",
+      "lat": 22.56263,
+      "lng": 88.36304,
+      "alt": 11
+    },
+    "weather": {
+      "timeStamp": 1539537045,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.5,
+      "dewpointTemperatureC": 24.2,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 223.6,
+      "cloudsPercent": 2.3,
+      "forPercent": 0,
+      "humidityPercent": 95.9,
+      "pressureHPA": 1011.5,
+      "lowCloudsPercent": 2.3,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Sydney",
+      "lat": -33.86785,
+      "lng": 151.20732,
+      "alt": 58
+    },
+    "weather": {
+      "timeStamp": 1539537047,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.7,
+      "dewpointTemperatureC": 15,
+      "windSpeedMps": 6,
+      "windDirectionDeg": 47.7,
+      "cloudsPercent": 49.2,
+      "forPercent": 0,
+      "humidityPercent": 94.4,
+      "pressureHPA": 1025,
+      "lowCloudsPercent": 19.5,
+      "mediumCloudsPercent": 44.5,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Yangon",
+      "lat": 16.80528,
+      "lng": 96.15611,
+      "alt": 30
+    },
+    "weather": {
+      "timeStamp": 1539537050,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.7,
+      "dewpointTemperatureC": 24.6,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 288.5,
+      "cloudsPercent": 28.1,
+      "forPercent": 0,
+      "humidityPercent": 91.7,
+      "pressureHPA": 1012.4,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 27.3
+    }
+  },
+  {
+    "location": {
+      "name": "Jinan",
+      "lat": 36.66833,
+      "lng": 116.99722,
+      "alt": 32
+    },
+    "weather": {
+      "timeStamp": 1539537052,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 12,
+      "dewpointTemperatureC": 4.6,
+      "windSpeedMps": 3.1,
+      "windDirectionDeg": 174.2,
+      "cloudsPercent": 68.8,
+      "forPercent": 0,
+      "humidityPercent": 60.9,
+      "pressureHPA": 1023.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 68.8
+    }
+  },
+  {
+    "location": {
+      "name": "Chennai",
+      "lat": 13.08784,
+      "lng": 80.27847,
+      "alt": 14
+    },
+    "weather": {
+      "timeStamp": 1539537055,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 28,
+      "dewpointTemperatureC": 25.5,
+      "windSpeedMps": 2.8,
+      "windDirectionDeg": 197.5,
+      "cloudsPercent": 81.2,
+      "forPercent": 0,
+      "humidityPercent": 84.4,
+      "pressureHPA": 1012.4,
+      "lowCloudsPercent": 10.2,
+      "mediumCloudsPercent": 13.3,
+      "highCloudsPercent": 78.1
+    }
+  },
+  {
+    "location": {
+      "name": "Zhengzhou",
+      "lat": 34.75778,
+      "lng": 113.64861,
+      "alt": 104
+    },
+    "weather": {
+      "timeStamp": 1539537057,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 12.3,
+      "dewpointTemperatureC": 8.6,
+      "windSpeedMps": 2,
+      "windDirectionDeg": 189.8,
+      "cloudsPercent": 98.4,
+      "forPercent": 0,
+      "humidityPercent": 77.8,
+      "pressureHPA": 1022.4,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 98.4
+    }
+  },
+  {
+    "location": {
+      "name": "Melbourne",
+      "lat": -37.814,
+      "lng": 144.96332,
+      "alt": 25
+    },
+    "weather": {
+      "timeStamp": 1539537060,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 17.8,
+      "dewpointTemperatureC": 9.8,
+      "windSpeedMps": 6.6,
+      "windDirectionDeg": 17.4,
+      "cloudsPercent": 81.2,
+      "forPercent": 0,
+      "humidityPercent": 59.1,
+      "pressureHPA": 1017.9,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 81.2
+    }
+  },
+  {
+    "location": {
+      "name": "Riyadh",
+      "lat": 24.68773,
+      "lng": 46.72185,
+      "alt": 612
+    },
+    "weather": {
+      "timeStamp": 1539537062,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.4,
+      "dewpointTemperatureC": -1.1,
+      "windSpeedMps": 3,
+      "windDirectionDeg": 120.8,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 16.6,
+      "pressureHPA": 1014.9,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Changchun",
+      "lat": 43.88,
+      "lng": 125.32278,
+      "alt": 206
+    },
+    "weather": {
+      "timeStamp": 1539537065,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 2.7,
+      "dewpointTemperatureC": 0.2,
+      "windSpeedMps": 2.3,
+      "windDirectionDeg": 243.1,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 84.5,
+      "pressureHPA": 1023.1,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Dalian",
+      "lat": 38.91222,
+      "lng": 121.60222,
+      "alt": 33
+    },
+    "weather": {
+      "timeStamp": 1539537067,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.8,
+      "dewpointTemperatureC": 11.1,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 19.7,
+      "cloudsPercent": 32.8,
+      "forPercent": 0,
+      "humidityPercent": 83.4,
+      "pressureHPA": 1023.2,
+      "lowCloudsPercent": 18.8,
+      "mediumCloudsPercent": 9.4,
+      "highCloudsPercent": 17.2
+    }
+  },
+  {
+    "location": {
+      "name": "Chittagong",
+      "lat": 22.3384,
+      "lng": 91.83168,
+      "alt": 15
+    },
+    "weather": {
+      "timeStamp": 1539537070,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23.6,
+      "dewpointTemperatureC": 23.3,
+      "windSpeedMps": 1.2,
+      "windDirectionDeg": 118.6,
+      "cloudsPercent": 76.6,
+      "forPercent": 0,
+      "humidityPercent": 96.4,
+      "pressureHPA": 1012,
+      "lowCloudsPercent": 71.1,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 6.2
+    }
+  },
+  {
+    "location": {
+      "name": "Kunming",
+      "lat": 25.03889,
+      "lng": 102.71833,
+      "alt": 1895
+    },
+    "weather": {
+      "timeStamp": 1539537072,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.5,
+      "dewpointTemperatureC": 15.5,
+      "windSpeedMps": 3.9,
+      "windDirectionDeg": 202.4,
+      "cloudsPercent": 55.5,
+      "forPercent": 0,
+      "humidityPercent": 99.1,
+      "pressureHPA": 1014.6,
+      "lowCloudsPercent": 50,
+      "mediumCloudsPercent": 25.8,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Alexandria",
+      "lat": 31.21564,
+      "lng": 29.95527,
+      "alt": -1
+    },
+    "weather": {
+      "timeStamp": 1539537075,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23.7,
+      "dewpointTemperatureC": 15.7,
+      "windSpeedMps": 3.5,
+      "windDirectionDeg": 351.7,
+      "cloudsPercent": 28.9,
+      "forPercent": 0,
+      "humidityPercent": 60.5,
+      "pressureHPA": 1016.5,
+      "lowCloudsPercent": 28.1,
+      "mediumCloudsPercent": 4.7,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Los Angeles",
+      "lat": 34.05223,
+      "lng": -118.24368,
+      "alt": 88
+    },
+    "weather": {
+      "timeStamp": 1539537077,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 19.1,
+      "dewpointTemperatureC": 15.1,
+      "windSpeedMps": 0.9,
+      "windDirectionDeg": 123.4,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 76.7,
+      "pressureHPA": 1014.9,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 6.2,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Ahmedabad",
+      "lat": 23.02579,
+      "lng": 72.58727,
+      "alt": 56
+    },
+    "weather": {
+      "timeStamp": 1539537080,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.5,
+      "dewpointTemperatureC": 16.8,
+      "windSpeedMps": 2.5,
+      "windDirectionDeg": 180.6,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 61.4,
+      "pressureHPA": 1011.9,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Qingdao",
+      "lat": 36.06605,
+      "lng": 120.36939,
+      "alt": 46
+    },
+    "weather": {
+      "timeStamp": 1539537083,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 17,
+      "dewpointTemperatureC": 9.4,
+      "windSpeedMps": 1.7,
+      "windDirectionDeg": 137.9,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 60.9,
+      "pressureHPA": 1023.3,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Busan",
+      "lat": 35.10278,
+      "lng": 129.04028,
+      "alt": 2
+    },
+    "weather": {
+      "timeStamp": 1539537085,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.2,
+      "dewpointTemperatureC": 10.6,
+      "windSpeedMps": 1.9,
+      "windDirectionDeg": 343.6,
+      "cloudsPercent": 86.7,
+      "forPercent": 0,
+      "humidityPercent": 78.9,
+      "pressureHPA": 1021,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 85.2,
+      "highCloudsPercent": 10.9
+    }
+  },
+  {
+    "location": {
+      "name": "Abidjan",
+      "lat": 5.30966,
+      "lng": -4.01266,
+      "alt": 10
+    },
+    "weather": {
+      "timeStamp": 1539537088,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.6,
+      "dewpointTemperatureC": 23.8,
+      "windSpeedMps": 3.4,
+      "windDirectionDeg": 216.1,
+      "cloudsPercent": 51.6,
+      "forPercent": 0,
+      "humidityPercent": 87.8,
+      "pressureHPA": 1010.5,
+      "lowCloudsPercent": 37.5,
+      "mediumCloudsPercent": 18.8,
+      "highCloudsPercent": 28.1
+    }
+  },
+  {
+    "location": {
+      "name": "Kano",
+      "lat": 12.00012,
+      "lng": 8.51672,
+      "alt": 484
+    },
+    "weather": {
+      "timeStamp": 1539537090,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 29.4,
+      "dewpointTemperatureC": 17.9,
+      "windSpeedMps": 2.6,
+      "windDirectionDeg": 161.6,
+      "cloudsPercent": 75,
+      "forPercent": 0,
+      "humidityPercent": 49.6,
+      "pressureHPA": 1008.9,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 39.8,
+      "highCloudsPercent": 64.1
+    }
+  },
+  {
+    "location": {
+      "name": "Foshan",
+      "lat": 23.02677,
+      "lng": 113.13148,
+      "alt": 5
+    },
+    "weather": {
+      "timeStamp": 1539537093,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23.8,
+      "dewpointTemperatureC": 22.1,
+      "windSpeedMps": 3.8,
+      "windDirectionDeg": 144.7,
+      "cloudsPercent": 98.4,
+      "forPercent": 0,
+      "humidityPercent": 89,
+      "pressureHPA": 1014.2,
+      "lowCloudsPercent": 43.8,
+      "mediumCloudsPercent": 98.4,
+      "highCloudsPercent": 10.2
+    }
+  },
+  {
+    "location": {
+      "name": "Hyderabad",
+      "lat": 17.38405,
+      "lng": 78.45636,
+      "alt": 515
+    },
+    "weather": {
+      "timeStamp": 1539537095,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.3,
+      "dewpointTemperatureC": 20,
+      "windSpeedMps": 1.9,
+      "windDirectionDeg": 93.9,
+      "cloudsPercent": 82,
+      "forPercent": 0,
+      "humidityPercent": 75.9,
+      "pressureHPA": 1013.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 4.7,
+      "highCloudsPercent": 81.2
+    }
+  },
+  {
+    "location": {
+      "name": "Puyang",
+      "lat": 29.45679,
+      "lng": 119.88872,
+      "alt": 76
+    },
+    "weather": {
+      "timeStamp": 1539537098,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.7,
+      "dewpointTemperatureC": 15.1,
+      "windSpeedMps": 1.7,
+      "windDirectionDeg": 20.2,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 95.2,
+      "pressureHPA": 1020.2,
+      "lowCloudsPercent": 14.1,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Yokohama",
+      "lat": 35.44778,
+      "lng": 139.6425,
+      "alt": 10
+    },
+    "weather": {
+      "timeStamp": 1539537100,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.7,
+      "dewpointTemperatureC": 13.9,
+      "windSpeedMps": 3.6,
+      "windDirectionDeg": 355.3,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 88.5,
+      "pressureHPA": 1020,
+      "lowCloudsPercent": 11.7,
+      "mediumCloudsPercent": 25.8,
+      "highCloudsPercent": 100
+    }
+  },
+  {
+    "location": {
+      "name": "Ibadan",
+      "lat": 7.37756,
+      "lng": 3.90591,
+      "alt": 181
+    },
+    "weather": {
+      "timeStamp": 1539537103,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.8,
+      "dewpointTemperatureC": 23.8,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 163.5,
+      "cloudsPercent": 95.3,
+      "forPercent": 0,
+      "humidityPercent": 92.1,
+      "pressureHPA": 1010.4,
+      "lowCloudsPercent": 65.6,
+      "mediumCloudsPercent": 7,
+      "highCloudsPercent": 92.2
+    }
+  },
+  {
+    "location": {
+      "name": "Singapore",
+      "lat": 1.28967,
+      "lng": 103.85007,
+      "alt": 23
+    },
+    "weather": {
+      "timeStamp": 1539537105,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.9,
+      "dewpointTemperatureC": 24.3,
+      "windSpeedMps": 2.6,
+      "windDirectionDeg": 267.2,
+      "cloudsPercent": 85.9,
+      "forPercent": 0,
+      "humidityPercent": 89.1,
+      "pressureHPA": 1012.3,
+      "lowCloudsPercent": 21.1,
+      "mediumCloudsPercent": 75,
+      "highCloudsPercent": 75
+    }
+  },
+  {
+    "location": {
+      "name": "Wuxi",
+      "lat": 31.56887,
+      "lng": 120.28857,
+      "alt": 10
+    },
+    "weather": {
+      "timeStamp": 1539537108,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.6,
+      "dewpointTemperatureC": 11.4,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 60,
+      "cloudsPercent": 64.8,
+      "forPercent": 0,
+      "humidityPercent": 75.5,
+      "pressureHPA": 1021,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 64.8,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Xiamen",
+      "lat": 24.47979,
+      "lng": 118.08187,
+      "alt": 12
+    },
+    "weather": {
+      "timeStamp": 1539537110,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 20.7,
+      "dewpointTemperatureC": 16.8,
+      "windSpeedMps": 4,
+      "windDirectionDeg": 25.4,
+      "cloudsPercent": 14.8,
+      "forPercent": 0,
+      "humidityPercent": 77.6,
+      "pressureHPA": 1016.6,
+      "lowCloudsPercent": 11.7,
+      "mediumCloudsPercent": 8.6,
+      "highCloudsPercent": 1.6
+    }
+  },
+  {
+    "location": {
+      "name": "Ankara",
+      "lat": 39.91987,
+      "lng": 32.85427,
+      "alt": 874
+    },
+    "weather": {
+      "timeStamp": 1539537113,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.4,
+      "dewpointTemperatureC": 10.8,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 99.1,
+      "cloudsPercent": 77.3,
+      "forPercent": 0,
+      "humidityPercent": 78.6,
+      "pressureHPA": 1019,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 5.5,
+      "highCloudsPercent": 77.3
+    }
+  },
+  {
+    "location": {
+      "name": "Tianshui",
+      "lat": 34.57952,
+      "lng": 105.74238,
+      "alt": 1153
+    },
+    "weather": {
+      "timeStamp": 1539537116,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 8.1,
+      "dewpointTemperatureC": 7,
+      "windSpeedMps": 1.1,
+      "windDirectionDeg": 91,
+      "cloudsPercent": 6.2,
+      "forPercent": 0,
+      "humidityPercent": 92.7,
+      "pressureHPA": 1021.8,
+      "lowCloudsPercent": 3.9,
+      "mediumCloudsPercent": 3.1,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Ningbo",
+      "lat": 29.87819,
+      "lng": 121.54945,
+      "alt": 15
+    },
+    "weather": {
+      "timeStamp": 1539537119,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 16.2,
+      "dewpointTemperatureC": 14.7,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 309.1,
+      "cloudsPercent": 99.2,
+      "forPercent": 0,
+      "humidityPercent": 89.6,
+      "pressureHPA": 1019.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 99.2,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Ho Chi Minh City",
+      "lat": 10.82302,
+      "lng": 106.62965,
+      "alt": 7
+    },
+    "weather": {
+      "timeStamp": 1539537121,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25,
+      "dewpointTemperatureC": 24.6,
+      "windSpeedMps": 2,
+      "windDirectionDeg": 121.9,
+      "cloudsPercent": 56.2,
+      "forPercent": 0,
+      "humidityPercent": 95.6,
+      "pressureHPA": 1012.4,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 0.8,
+      "highCloudsPercent": 55.5
+    }
+  },
+  {
+    "location": {
+      "name": "Shiyan",
+      "lat": 32.6475,
+      "lng": 110.77806,
+      "alt": 247
+    },
+    "weather": {
+      "timeStamp": 1539537124,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.4,
+      "dewpointTemperatureC": 7,
+      "windSpeedMps": 1.4,
+      "windDirectionDeg": 131.8,
+      "cloudsPercent": 70.3,
+      "forPercent": 0,
+      "humidityPercent": 61.1,
+      "pressureHPA": 1021.7,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 50,
+      "highCloudsPercent": 56.2
+    }
+  },
+  {
+    "location": {
+      "name": "Cape Town",
+      "lat": -33.92584,
+      "lng": 18.42322,
+      "alt": 25
+    },
+    "weather": {
+      "timeStamp": 1539537126,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.9,
+      "dewpointTemperatureC": 13.3,
+      "windSpeedMps": 7.6,
+      "windDirectionDeg": 334.6,
+      "cloudsPercent": 48.4,
+      "forPercent": 0,
+      "humidityPercent": 89.7,
+      "pressureHPA": 1015.8,
+      "lowCloudsPercent": 46.9,
+      "mediumCloudsPercent": 3.1,
+      "highCloudsPercent": 1.6
+    }
+  },
+  {
+    "location": {
+      "name": "Taiyuan",
+      "lat": 37.86944,
+      "lng": 112.56028,
+      "alt": 795
+    },
+    "weather": {
+      "timeStamp": 1539537131,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 10.4,
+      "dewpointTemperatureC": 7,
+      "windSpeedMps": 1,
+      "windDirectionDeg": 300,
+      "cloudsPercent": 91.4,
+      "forPercent": 0,
+      "humidityPercent": 79.2,
+      "pressureHPA": 1022.1,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 90.6,
+      "highCloudsPercent": 50.8
+    }
+  },
+  {
+    "location": {
+      "name": "Berlin",
+      "lat": 52.52437,
+      "lng": 13.41053,
+      "alt": 41
+    },
+    "weather": {
+      "timeStamp": 1539537134,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 18.4,
+      "dewpointTemperatureC": 7.6,
+      "windSpeedMps": 4.6,
+      "windDirectionDeg": 138.1,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 49.7,
+      "pressureHPA": 1014.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Tangshan",
+      "lat": 39.63333,
+      "lng": 118.18333,
+      "alt": 36
+    },
+    "weather": {
+      "timeStamp": 1539537136,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.3,
+      "dewpointTemperatureC": 10.7,
+      "windSpeedMps": 1.1,
+      "windDirectionDeg": 124.4,
+      "cloudsPercent": 96.9,
+      "forPercent": 0,
+      "humidityPercent": 84.2,
+      "pressureHPA": 1023,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 96.9,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Hefei",
+      "lat": 31.86389,
+      "lng": 117.28083,
+      "alt": 24
+    },
+    "weather": {
+      "timeStamp": 1539537139,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 16,
+      "dewpointTemperatureC": 12.9,
+      "windSpeedMps": 2.4,
+      "windDirectionDeg": 59.7,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 81.1,
+      "pressureHPA": 1020.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Montreal",
+      "lat": 45.50884,
+      "lng": -73.58781,
+      "alt": 201
+    },
+    "weather": {
+      "timeStamp": 1539537149,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.1,
+      "dewpointTemperatureC": 0.1,
+      "windSpeedMps": 4.7,
+      "windDirectionDeg": 255.9,
+      "cloudsPercent": 82,
+      "forPercent": 0,
+      "humidityPercent": 47,
+      "pressureHPA": 1019.8,
+      "lowCloudsPercent": 79.7,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 14.1
+    }
+  },
+  {
+    "location": {
+      "name": "Madrid",
+      "lat": 40.4165,
+      "lng": -3.70256,
+      "alt": 665
+    },
+    "weather": {
+      "timeStamp": 1539537152,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 12.2,
+      "dewpointTemperatureC": 3.7,
+      "windSpeedMps": 4.9,
+      "windDirectionDeg": 295.9,
+      "cloudsPercent": 35.9,
+      "forPercent": 0,
+      "humidityPercent": 56.6,
+      "pressureHPA": 1009.5,
+      "lowCloudsPercent": 11.7,
+      "mediumCloudsPercent": 35.2,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Pyongyang",
+      "lat": 39.03385,
+      "lng": 125.75432,
+      "alt": 43
+    },
+    "weather": {
+      "timeStamp": 1539537156,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 9.8,
+      "dewpointTemperatureC": 9.4,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 131.5,
+      "cloudsPercent": 44.5,
+      "forPercent": 0,
+      "humidityPercent": 97.1,
+      "pressureHPA": 1021.4,
+      "lowCloudsPercent": 27.3,
+      "mediumCloudsPercent": 36.7,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Casablanca",
+      "lat": 33.58831,
+      "lng": -7.61138,
+      "alt": 27
+    },
+    "weather": {
+      "timeStamp": 1539537158,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 18.9,
+      "dewpointTemperatureC": 14.6,
+      "windSpeedMps": 3.6,
+      "windDirectionDeg": 60.7,
+      "cloudsPercent": 16.4,
+      "forPercent": 0,
+      "humidityPercent": 75.5,
+      "pressureHPA": 1016.3,
+      "lowCloudsPercent": 11.7,
+      "mediumCloudsPercent": 10.2,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Zibo",
+      "lat": 36.79056,
+      "lng": 118.06333,
+      "alt": 51
+    },
+    "weather": {
+      "timeStamp": 1539537161,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.3,
+      "dewpointTemperatureC": 8,
+      "windSpeedMps": 2.7,
+      "windDirectionDeg": 189.4,
+      "cloudsPercent": 14.1,
+      "forPercent": 0,
+      "humidityPercent": 80.1,
+      "pressureHPA": 1023.5,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 13.3,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Zhongshan",
+      "lat": 21.31992,
+      "lng": 110.5723,
+      "alt": 14
+    },
+    "weather": {
+      "timeStamp": 1539537163,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.5,
+      "dewpointTemperatureC": 23.4,
+      "windSpeedMps": 2.5,
+      "windDirectionDeg": 163.5,
+      "cloudsPercent": 85.9,
+      "forPercent": 0,
+      "humidityPercent": 86.4,
+      "pressureHPA": 1013.8,
+      "lowCloudsPercent": 21.9,
+      "mediumCloudsPercent": 35.2,
+      "highCloudsPercent": 82
+    }
+  },
+  {
+    "location": {
+      "name": "Durban",
+      "lat": -29.8579,
+      "lng": 31.0292,
+      "alt": 21
+    },
+    "weather": {
+      "timeStamp": 1539537166,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 19.6,
+      "dewpointTemperatureC": 14.2,
+      "windSpeedMps": 3.7,
+      "windDirectionDeg": 28,
+      "cloudsPercent": 96.9,
+      "forPercent": 0,
+      "humidityPercent": 70.5,
+      "pressureHPA": 1015,
+      "lowCloudsPercent": 96.1,
+      "mediumCloudsPercent": 22.7,
+      "highCloudsPercent": 16.4
+    }
+  },
+  {
+    "location": {
+      "name": "Changsha",
+      "lat": 28.19874,
+      "lng": 112.97087,
+      "alt": 67
+    },
+    "weather": {
+      "timeStamp": 1539537168,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15,
+      "dewpointTemperatureC": 13.8,
+      "windSpeedMps": 2.4,
+      "windDirectionDeg": 334,
+      "cloudsPercent": 94.5,
+      "forPercent": 0,
+      "humidityPercent": 91.5,
+      "pressureHPA": 1019.2,
+      "lowCloudsPercent": 94.5,
+      "mediumCloudsPercent": 5.5,
+      "highCloudsPercent": 3.1
+    }
+  },
+  {
+    "location": {
+      "name": "Kabul",
+      "lat": 34.52813,
+      "lng": 69.17233,
+      "alt": 1798
+    },
+    "weather": {
+      "timeStamp": 1539537171,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 10.4,
+      "dewpointTemperatureC": -2.7,
+      "windSpeedMps": 2,
+      "windDirectionDeg": 323.8,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 40.3,
+      "pressureHPA": 1016.9,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "UEruemqi",
+      "lat": 43.80096,
+      "lng": 87.60046,
+      "alt": 862
+    },
+    "weather": {
+      "timeStamp": 1539537173,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 6.1,
+      "dewpointTemperatureC": -0.9,
+      "windSpeedMps": 1.8,
+      "windDirectionDeg": 28.7,
+      "cloudsPercent": 59.4,
+      "forPercent": 0,
+      "humidityPercent": 61.6,
+      "pressureHPA": 1024.3,
+      "lowCloudsPercent": 3.1,
+      "mediumCloudsPercent": 18.8,
+      "highCloudsPercent": 57
+    }
+  },
+  {
+    "location": {
+      "name": "Caracas",
+      "lat": 10.48801,
+      "lng": -66.87919,
+      "alt": 887
+    },
+    "weather": {
+      "timeStamp": 1539537176,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.9,
+      "dewpointTemperatureC": 16.3,
+      "windSpeedMps": 1.4,
+      "windDirectionDeg": 118.3,
+      "cloudsPercent": 82.8,
+      "forPercent": 0,
+      "humidityPercent": 58.5,
+      "pressureHPA": 1013.8,
+      "lowCloudsPercent": 16.4,
+      "mediumCloudsPercent": 19.5,
+      "highCloudsPercent": 79.7
+    }
+  },
+  {
+    "location": {
+      "name": "Pune",
+      "lat": 18.51957,
+      "lng": 73.85535,
+      "alt": 554
+    },
+    "weather": {
+      "timeStamp": 1539537179,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22.1,
+      "dewpointTemperatureC": 17.5,
+      "windSpeedMps": 1.8,
+      "windDirectionDeg": 244.6,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 73.9,
+      "pressureHPA": 1014.1,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Surat",
+      "lat": 21.19594,
+      "lng": 72.83023,
+      "alt": 20
+    },
+    "weather": {
+      "timeStamp": 1539537182,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 27.4,
+      "dewpointTemperatureC": 24.2,
+      "windSpeedMps": 1.8,
+      "windDirectionDeg": 284.8,
+      "cloudsPercent": 2.3,
+      "forPercent": 0,
+      "humidityPercent": 80.7,
+      "pressureHPA": 1012.1,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 2.3,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Jeddah",
+      "lat": 21.54238,
+      "lng": 39.19797,
+      "alt": 21
+    },
+    "weather": {
+      "timeStamp": 1539537184,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 30.2,
+      "dewpointTemperatureC": 24.5,
+      "windSpeedMps": 3.8,
+      "windDirectionDeg": 354.8,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 69.9,
+      "pressureHPA": 1008.7,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Shijiazhuang",
+      "lat": 38.04139,
+      "lng": 114.47861,
+      "alt": 77
+    },
+    "weather": {
+      "timeStamp": 1539537187,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 10.8,
+      "dewpointTemperatureC": 6.9,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 257.7,
+      "cloudsPercent": 56.2,
+      "forPercent": 0,
+      "humidityPercent": 76.6,
+      "pressureHPA": 1022,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 21.9,
+      "highCloudsPercent": 48.4
+    }
+  },
+  {
+    "location": {
+      "name": "Kanpur",
+      "lat": 26.4478,
+      "lng": 80.34627,
+      "alt": 131
+    },
+    "weather": {
+      "timeStamp": 1539537189,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.5,
+      "dewpointTemperatureC": 11.3,
+      "windSpeedMps": 3.1,
+      "windDirectionDeg": 320.8,
+      "cloudsPercent": 0.8,
+      "forPercent": 0,
+      "humidityPercent": 51.9,
+      "pressureHPA": 1011.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Kiev",
+      "lat": 50.45466,
+      "lng": 30.5238,
+      "alt": 188
+    },
+    "weather": {
+      "timeStamp": 1539537192,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.1,
+      "dewpointTemperatureC": 3.9,
+      "windSpeedMps": 1,
+      "windDirectionDeg": 21.9,
+      "cloudsPercent": 93.8,
+      "forPercent": 0,
+      "humidityPercent": 61.5,
+      "pressureHPA": 1030.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 93.8
+    }
+  },
+  {
+    "location": {
+      "name": "Luanda",
+      "lat": -8.83682,
+      "lng": 13.23432,
+      "alt": 73
+    },
+    "weather": {
+      "timeStamp": 1539537194,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.7,
+      "dewpointTemperatureC": 21.3,
+      "windSpeedMps": 5.3,
+      "windDirectionDeg": 232.6,
+      "cloudsPercent": 96.1,
+      "forPercent": 0,
+      "humidityPercent": 80,
+      "pressureHPA": 1010.1,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 96.1
+    }
+  },
+  {
+    "location": {
+      "name": "Quezon City",
+      "lat": 14.6488,
+      "lng": 121.0509,
+      "alt": 49
+    },
+    "weather": {
+      "timeStamp": 1539537197,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.1,
+      "dewpointTemperatureC": 24.1,
+      "windSpeedMps": 0.3,
+      "windDirectionDeg": 93.3,
+      "cloudsPercent": 82,
+      "forPercent": 0,
+      "humidityPercent": 100.6,
+      "pressureHPA": 1011.4,
+      "lowCloudsPercent": 1.6,
+      "mediumCloudsPercent": 7,
+      "highCloudsPercent": 80.5
+    }
+  },
+  {
+    "location": {
+      "name": "Addis Ababa",
+      "lat": 9.02497,
+      "lng": 38.74689,
+      "alt": 2405
+    },
+    "weather": {
+      "timeStamp": 1539537199,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.7,
+      "dewpointTemperatureC": 7.3,
+      "windSpeedMps": 1.7,
+      "windDirectionDeg": 36,
+      "cloudsPercent": 98.4,
+      "forPercent": 0,
+      "humidityPercent": 57.4,
+      "pressureHPA": 1015.7,
+      "lowCloudsPercent": 5.5,
+      "mediumCloudsPercent": 43,
+      "highCloudsPercent": 96.9
+    }
+  },
+  {
+    "location": {
+      "name": "Nairobi",
+      "lat": -1.28333,
+      "lng": 36.81667,
+      "alt": 1684
+    },
+    "weather": {
+      "timeStamp": 1539537202,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 18,
+      "dewpointTemperatureC": 14.8,
+      "windSpeedMps": 1.8,
+      "windDirectionDeg": 353.1,
+      "cloudsPercent": 83.6,
+      "forPercent": 0,
+      "humidityPercent": 80.8,
+      "pressureHPA": 1014.3,
+      "lowCloudsPercent": 7.8,
+      "mediumCloudsPercent": 25,
+      "highCloudsPercent": 80.5
+    }
+  },
+  {
+    "location": {
+      "name": "Salvador",
+      "lat": -12.97111,
+      "lng": -38.51083,
+      "alt": 10
+    },
+    "weather": {
+      "timeStamp": 1539537204,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 27.2,
+      "dewpointTemperatureC": 22.2,
+      "windSpeedMps": 7.4,
+      "windDirectionDeg": 89.2,
+      "cloudsPercent": 7.8,
+      "forPercent": 0,
+      "humidityPercent": 72.8,
+      "pressureHPA": 1010.1,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 0.8,
+      "highCloudsPercent": 7
+    }
+  },
+  {
+    "location": {
+      "name": "Jaipur",
+      "lat": 26.91962,
+      "lng": 75.78781,
+      "alt": 435
+    },
+    "weather": {
+      "timeStamp": 1539537207,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.4,
+      "dewpointTemperatureC": 6,
+      "windSpeedMps": 1.9,
+      "windDirectionDeg": 22,
+      "cloudsPercent": 59.4,
+      "forPercent": 0,
+      "humidityPercent": 36.9,
+      "pressureHPA": 1013,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 59.4
+    }
+  },
+  {
+    "location": {
+      "name": "Dar es Salaam",
+      "lat": -6.82349,
+      "lng": 39.26951,
+      "alt": 24
+    },
+    "weather": {
+      "timeStamp": 1539537210,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.9,
+      "dewpointTemperatureC": 22.1,
+      "windSpeedMps": 2.9,
+      "windDirectionDeg": 135,
+      "cloudsPercent": 23.4,
+      "forPercent": 0,
+      "humidityPercent": 82.8,
+      "pressureHPA": 1013.3,
+      "lowCloudsPercent": 23.4,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Chicago",
+      "lat": 41.85003,
+      "lng": -87.65005,
+      "alt": 178
+    },
+    "weather": {
+      "timeStamp": 1539537214,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 12.9,
+      "dewpointTemperatureC": 5.5,
+      "windSpeedMps": 3.7,
+      "windDirectionDeg": 177.5,
+      "cloudsPercent": 64.8,
+      "forPercent": 0,
+      "humidityPercent": 61.3,
+      "pressureHPA": 1016.9,
+      "lowCloudsPercent": 41.4,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 44.5
+    }
+  },
+  {
+    "location": {
+      "name": "Lanzhou",
+      "lat": 36.05701,
+      "lng": 103.83987,
+      "alt": 1521
+    },
+    "weather": {
+      "timeStamp": 1539537217,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 7.6,
+      "dewpointTemperatureC": 3.7,
+      "windSpeedMps": 1,
+      "windDirectionDeg": 201.7,
+      "cloudsPercent": 10.2,
+      "forPercent": 0,
+      "humidityPercent": 76.4,
+      "pressureHPA": 1020,
+      "lowCloudsPercent": 9.4,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Incheon",
+      "lat": 37.45646,
+      "lng": 126.70515,
+      "alt": 43
+    },
+    "weather": {
+      "timeStamp": 1539537219,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.3,
+      "dewpointTemperatureC": 7.4,
+      "windSpeedMps": 1.2,
+      "windDirectionDeg": 68.1,
+      "cloudsPercent": 12.5,
+      "forPercent": 0,
+      "humidityPercent": 76.8,
+      "pressureHPA": 1022.3,
+      "lowCloudsPercent": 6.2,
+      "mediumCloudsPercent": 10.9,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Yunfu",
+      "lat": 22.92833,
+      "lng": 112.03954,
+      "alt": 76
+    },
+    "weather": {
+      "timeStamp": 1539537222,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23.1,
+      "dewpointTemperatureC": 22.3,
+      "windSpeedMps": 2.2,
+      "windDirectionDeg": 207,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 93.3,
+      "pressureHPA": 1014.7,
+      "lowCloudsPercent": 73.4,
+      "mediumCloudsPercent": 59.4,
+      "highCloudsPercent": 99.2
+    }
+  },
+  {
+    "location": {
+      "name": "Toronto",
+      "lat": 43.70011,
+      "lng": -79.4163,
+      "alt": 171
+    },
+    "weather": {
+      "timeStamp": 1539537224,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.4,
+      "dewpointTemperatureC": 4.5,
+      "windSpeedMps": 5.2,
+      "windDirectionDeg": 213,
+      "cloudsPercent": 92.2,
+      "forPercent": 0,
+      "humidityPercent": 54.9,
+      "pressureHPA": 1019.7,
+      "lowCloudsPercent": 92.2,
+      "mediumCloudsPercent": 5.5,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Navi Mumbai",
+      "lat": 19.03681,
+      "lng": 73.01582,
+      "alt": 14
+    },
+    "weather": {
+      "timeStamp": 1539537227,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.2,
+      "dewpointTemperatureC": 24.6,
+      "windSpeedMps": 1.7,
+      "windDirectionDeg": 56.5,
+      "cloudsPercent": 2.3,
+      "forPercent": 0,
+      "humidityPercent": 89,
+      "pressureHPA": 1012,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 2.3,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Al Basrah",
+      "lat": 30.53302,
+      "lng": 47.79747,
+      "alt": 6
+    },
+    "weather": {
+      "timeStamp": 1539537229,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 31.6,
+      "dewpointTemperatureC": 9.1,
+      "windSpeedMps": 3.4,
+      "windDirectionDeg": 153.4,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 24.9,
+      "pressureHPA": 1012.7,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Osaka-shi",
+      "lat": 34.69374,
+      "lng": 135.50218,
+      "alt": 24
+    },
+    "weather": {
+      "timeStamp": 1539537232,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.8,
+      "dewpointTemperatureC": 13,
+      "windSpeedMps": 2.2,
+      "windDirectionDeg": 15.5,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 87.9,
+      "pressureHPA": 1019.6,
+      "lowCloudsPercent": 1.6,
+      "mediumCloudsPercent": 70.3,
+      "highCloudsPercent": 100
+    }
+  },
+  {
+    "location": {
+      "name": "Mogadishu",
+      "lat": 2.03711,
+      "lng": 45.34375,
+      "alt": 14
+    },
+    "weather": {
+      "timeStamp": 1539537234,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.1,
+      "dewpointTemperatureC": 23.6,
+      "windSpeedMps": 6.9,
+      "windDirectionDeg": 192.5,
+      "cloudsPercent": 52.3,
+      "forPercent": 0,
+      "humidityPercent": 84.4,
+      "pressureHPA": 1012.1,
+      "lowCloudsPercent": 32.8,
+      "mediumCloudsPercent": 0.8,
+      "highCloudsPercent": 46.1
+    }
+  },
+  {
+    "location": {
+      "name": "Daegu",
+      "lat": 35.87028,
+      "lng": 128.59111,
+      "alt": 45
+    },
+    "weather": {
+      "timeStamp": 1539537237,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.1,
+      "dewpointTemperatureC": 8.4,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 300.2,
+      "cloudsPercent": 78.1,
+      "forPercent": 0,
+      "humidityPercent": 83.2,
+      "pressureHPA": 1021.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 70.3,
+      "highCloudsPercent": 67.2
+    }
+  },
+  {
+    "location": {
+      "name": "Faisalabad",
+      "lat": 31.41667,
+      "lng": 73.08333,
+      "alt": 186
+    },
+    "weather": {
+      "timeStamp": 1539537239,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.7,
+      "dewpointTemperatureC": 12.4,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 71.2,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 55.1,
+      "pressureHPA": 1011.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Izmir",
+      "lat": 38.41273,
+      "lng": 27.13838,
+      "alt": 122
+    },
+    "weather": {
+      "timeStamp": 1539537242,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 19.3,
+      "dewpointTemperatureC": 16.9,
+      "windSpeedMps": 1.4,
+      "windDirectionDeg": 299,
+      "cloudsPercent": 19.5,
+      "forPercent": 0,
+      "humidityPercent": 85,
+      "pressureHPA": 1017.3,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 19.5,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Dakar",
+      "lat": 14.6937,
+      "lng": -17.44406,
+      "alt": 12
+    },
+    "weather": {
+      "timeStamp": 1539537244,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.8,
+      "dewpointTemperatureC": 23.8,
+      "windSpeedMps": 6.8,
+      "windDirectionDeg": 351.2,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 81.7,
+      "pressureHPA": 1008.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Lucknow",
+      "lat": 26.83928,
+      "lng": 80.92313,
+      "alt": 126
+    },
+    "weather": {
+      "timeStamp": 1539537247,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22,
+      "dewpointTemperatureC": 11.4,
+      "windSpeedMps": 2.3,
+      "windDirectionDeg": 294.8,
+      "cloudsPercent": 14.1,
+      "forPercent": 0,
+      "humidityPercent": 50.9,
+      "pressureHPA": 1011.5,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 14.1
+    }
+  },
+  {
+    "location": {
+      "name": "Al Jizah",
+      "lat": 30.00808,
+      "lng": 31.21093,
+      "alt": 30
+    },
+    "weather": {
+      "timeStamp": 1539537249,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.7,
+      "dewpointTemperatureC": 13.3,
+      "windSpeedMps": 5.3,
+      "windDirectionDeg": 20.5,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 48.9,
+      "pressureHPA": 1015.8,
+      "lowCloudsPercent": 1.6,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Fortaleza",
+      "lat": -3.71722,
+      "lng": -38.54306,
+      "alt": 18
+    },
+    "weather": {
+      "timeStamp": 1539537252,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 27.7,
+      "dewpointTemperatureC": 23.3,
+      "windSpeedMps": 5.9,
+      "windDirectionDeg": 77.1,
+      "cloudsPercent": 69.5,
+      "forPercent": 0,
+      "humidityPercent": 75.4,
+      "pressureHPA": 1009.7,
+      "lowCloudsPercent": 2.3,
+      "mediumCloudsPercent": 48.4,
+      "highCloudsPercent": 42.2
+    }
+  },
+  {
+    "location": {
+      "name": "Cali",
+      "lat": 3.43722,
+      "lng": -76.5225,
+      "alt": 967
+    },
+    "weather": {
+      "timeStamp": 1539537254,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 25.5,
+      "dewpointTemperatureC": 20.2,
+      "windSpeedMps": 1.9,
+      "windDirectionDeg": 94.3,
+      "cloudsPercent": 28.9,
+      "forPercent": 0,
+      "humidityPercent": 71.5,
+      "pressureHPA": 1010.8,
+      "lowCloudsPercent": 16.4,
+      "mediumCloudsPercent": 2.3,
+      "highCloudsPercent": 16.4
+    }
+  },
+  {
+    "location": {
+      "name": "Surabaya",
+      "lat": -7.24917,
+      "lng": 112.75083,
+      "alt": 8
+    },
+    "weather": {
+      "timeStamp": 1539537257,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.9,
+      "dewpointTemperatureC": 23.6,
+      "windSpeedMps": 1.7,
+      "windDirectionDeg": 305.4,
+      "cloudsPercent": 53.9,
+      "forPercent": 0,
+      "humidityPercent": 80.8,
+      "pressureHPA": 1012.4,
+      "lowCloudsPercent": 3.1,
+      "mediumCloudsPercent": 0.8,
+      "highCloudsPercent": 53.9
+    }
+  },
+  {
+    "location": {
+      "name": "Belo Horizonte",
+      "lat": -19.92083,
+      "lng": -43.93778,
+      "alt": 872
+    },
+    "weather": {
+      "timeStamp": 1539537259,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 29.7,
+      "dewpointTemperatureC": 17,
+      "windSpeedMps": 1.8,
+      "windDirectionDeg": 155.1,
+      "cloudsPercent": 83.6,
+      "forPercent": 0,
+      "humidityPercent": 45.9,
+      "pressureHPA": 1008.9,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 18.8,
+      "highCloudsPercent": 81.2
+    }
+  },
+  {
+    "location": {
+      "name": "Nanchang",
+      "lat": 28.68396,
+      "lng": 115.85306,
+      "alt": 20
+    },
+    "weather": {
+      "timeStamp": 1539537262,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 17,
+      "dewpointTemperatureC": 16.4,
+      "windSpeedMps": 3.2,
+      "windDirectionDeg": 359,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 95.2,
+      "pressureHPA": 1018.2,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 25,
+      "highCloudsPercent": 3.9
+    }
+  },
+  {
+    "location": {
+      "name": "Grand Dakar",
+      "lat": 14.71331,
+      "lng": -17.45472,
+      "alt": 27
+    },
+    "weather": {
+      "timeStamp": 1539537264,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.7,
+      "dewpointTemperatureC": 23.7,
+      "windSpeedMps": 6.8,
+      "windDirectionDeg": 351.2,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 81.7,
+      "pressureHPA": 1008.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Rome",
+      "lat": 41.89193,
+      "lng": 12.51133,
+      "alt": 52
+    },
+    "weather": {
+      "timeStamp": 1539537267,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 18.3,
+      "dewpointTemperatureC": 14.8,
+      "windSpeedMps": 1,
+      "windDirectionDeg": 21.9,
+      "cloudsPercent": 2.3,
+      "forPercent": 0,
+      "humidityPercent": 79.3,
+      "pressureHPA": 1016.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 2.3,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Mashhad",
+      "lat": 36.31559,
+      "lng": 59.56796,
+      "alt": 1003
+    },
+    "weather": {
+      "timeStamp": 1539537269,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 10.5,
+      "dewpointTemperatureC": 0.7,
+      "windSpeedMps": 3.1,
+      "windDirectionDeg": 181.4,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 51.2,
+      "pressureHPA": 1020.7,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Brooklyn",
+      "lat": 40.6501,
+      "lng": -73.94958,
+      "alt": 14
+    },
+    "weather": {
+      "timeStamp": 1539537272,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.8,
+      "dewpointTemperatureC": 4.6,
+      "windSpeedMps": 4.2,
+      "windDirectionDeg": 242,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 50.7,
+      "pressureHPA": 1023.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 97.7,
+      "highCloudsPercent": 100
+    }
+  },
+  {
+    "location": {
+      "name": "Borough of Queens",
+      "lat": 40.68149,
+      "lng": -73.83652,
+      "alt": 11
+    },
+    "weather": {
+      "timeStamp": 1539537274,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.9,
+      "dewpointTemperatureC": 4.9,
+      "windSpeedMps": 4.3,
+      "windDirectionDeg": 243.2,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 51.4,
+      "pressureHPA": 1023.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 98.4,
+      "highCloudsPercent": 100
+    }
+  },
+  {
+    "location": {
+      "name": "Nagpur",
+      "lat": 21.14631,
+      "lng": 79.08491,
+      "alt": 319
+    },
+    "weather": {
+      "timeStamp": 1539537277,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24,
+      "dewpointTemperatureC": 17.7,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 304.4,
+      "cloudsPercent": 5.5,
+      "forPercent": 0,
+      "humidityPercent": 67.2,
+      "pressureHPA": 1012.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 5.5,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Maracaibo",
+      "lat": 10.63167,
+      "lng": -71.64056,
+      "alt": 12
+    },
+    "weather": {
+      "timeStamp": 1539537279,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 29,
+      "dewpointTemperatureC": 23.6,
+      "windSpeedMps": 1.3,
+      "windDirectionDeg": 105.8,
+      "cloudsPercent": 89.8,
+      "forPercent": 0,
+      "humidityPercent": 71.2,
+      "pressureHPA": 1010.2,
+      "lowCloudsPercent": 37.5,
+      "mediumCloudsPercent": 6.2,
+      "highCloudsPercent": 86.7
+    }
+  },
+  {
+    "location": {
+      "name": "Brasilia",
+      "lat": -15.77972,
+      "lng": -47.92972,
+      "alt": 1136
+    },
+    "weather": {
+      "timeStamp": 1539537282,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 28.7,
+      "dewpointTemperatureC": 14.7,
+      "windSpeedMps": 3,
+      "windDirectionDeg": 215.1,
+      "cloudsPercent": 64.8,
+      "forPercent": 0,
+      "humidityPercent": 42,
+      "pressureHPA": 1009.1,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 55.5,
+      "highCloudsPercent": 40.6
+    }
+  },
+  {
+    "location": {
+      "name": "Santo Domingo",
+      "lat": 18.50012,
+      "lng": -69.98857,
+      "alt": 55
+    },
+    "weather": {
+      "timeStamp": 1539537285,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26,
+      "dewpointTemperatureC": 23.8,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 149.8,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 86.2,
+      "pressureHPA": 1014.7,
+      "lowCloudsPercent": 29.7,
+      "mediumCloudsPercent": 62.5,
+      "highCloudsPercent": 100
+    }
+  },
+  {
+    "location": {
+      "name": "Nagoya-shi",
+      "lat": 35.18147,
+      "lng": 136.90641,
+      "alt": 23
+    },
+    "weather": {
+      "timeStamp": 1539537287,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.4,
+      "dewpointTemperatureC": 13.4,
+      "windSpeedMps": 2.8,
+      "windDirectionDeg": 334.2,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 100.9,
+      "pressureHPA": 1019.5,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 92.2,
+      "highCloudsPercent": 99.2
+    }
+  },
+  {
+    "location": {
+      "name": "Brisbane",
+      "lat": -27.46794,
+      "lng": 153.02809,
+      "alt": 27
+    },
+    "weather": {
+      "timeStamp": 1539537290,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 17,
+      "dewpointTemperatureC": 15.8,
+      "windSpeedMps": 4.4,
+      "windDirectionDeg": 181.6,
+      "cloudsPercent": 98.4,
+      "forPercent": 0,
+      "humidityPercent": 91.9,
+      "pressureHPA": 1016.6,
+      "lowCloudsPercent": 28.1,
+      "mediumCloudsPercent": 16.4,
+      "highCloudsPercent": 97.7
+    }
+  },
+  {
+    "location": {
+      "name": "Havana",
+      "lat": 23.13302,
+      "lng": -82.38304,
+      "alt": 41
+    },
+    "weather": {
+      "timeStamp": 1539537293,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 29.9,
+      "dewpointTemperatureC": 23.3,
+      "windSpeedMps": 4.6,
+      "windDirectionDeg": 61.4,
+      "cloudsPercent": 30.5,
+      "forPercent": 0,
+      "humidityPercent": 66.6,
+      "pressureHPA": 1013.8,
+      "lowCloudsPercent": 14.8,
+      "mediumCloudsPercent": 26.6,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Paris",
+      "lat": 48.85341,
+      "lng": 2.3488,
+      "alt": 42
+    },
+    "weather": {
+      "timeStamp": 1539537297,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22.6,
+      "dewpointTemperatureC": 11.2,
+      "windSpeedMps": 4.6,
+      "windDirectionDeg": 155.2,
+      "cloudsPercent": 48.4,
+      "forPercent": 0,
+      "humidityPercent": 48.2,
+      "pressureHPA": 1005.4,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 43.8,
+      "highCloudsPercent": 7.8
+    }
+  },
+  {
+    "location": {
+      "name": "Houston",
+      "lat": 29.76328,
+      "lng": -95.36327,
+      "alt": 11
+    },
+    "weather": {
+      "timeStamp": 1539537300,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 30.3,
+      "dewpointTemperatureC": 21.9,
+      "windSpeedMps": 5.1,
+      "windDirectionDeg": 179.2,
+      "cloudsPercent": 60.9,
+      "forPercent": 0,
+      "humidityPercent": 59.7,
+      "pressureHPA": 1011.6,
+      "lowCloudsPercent": 60.2,
+      "mediumCloudsPercent": 0.8,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Al Mawsil al Jadidah",
+      "lat": 36.33306,
+      "lng": 43.1049,
+      "alt": 246
+    },
+    "weather": {
+      "timeStamp": 1539537303,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.8,
+      "dewpointTemperatureC": 7.1,
+      "windSpeedMps": 4.4,
+      "windDirectionDeg": 75.1,
+      "cloudsPercent": 50.8,
+      "forPercent": 0,
+      "humidityPercent": 28.7,
+      "pressureHPA": 1012.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 28.1,
+      "highCloudsPercent": 41.4
+    }
+  },
+  {
+    "location": {
+      "name": "Johannesburg",
+      "lat": -26.20227,
+      "lng": 28.04363,
+      "alt": 1767
+    },
+    "weather": {
+      "timeStamp": 1539537305,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.5,
+      "dewpointTemperatureC": 10.2,
+      "windSpeedMps": 4.6,
+      "windDirectionDeg": 350,
+      "cloudsPercent": 7.8,
+      "forPercent": 0,
+      "humidityPercent": 80.4,
+      "pressureHPA": 1014.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 7.8,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Kowloon",
+      "lat": 22.31667,
+      "lng": 114.18333,
+      "alt": 92
+    },
+    "weather": {
+      "timeStamp": 1539537308,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.4,
+      "dewpointTemperatureC": 21.2,
+      "windSpeedMps": 3.1,
+      "windDirectionDeg": 109.2,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 80.8,
+      "pressureHPA": 1015,
+      "lowCloudsPercent": 30.5,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 88.3
+    }
+  },
+  {
+    "location": {
+      "name": "Al Basrah al Qadimah",
+      "lat": 30.50316,
+      "lng": 47.81507,
+      "alt": 7
+    },
+    "weather": {
+      "timeStamp": 1539537310,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 31.7,
+      "dewpointTemperatureC": 8.8,
+      "windSpeedMps": 3.3,
+      "windDirectionDeg": 159.1,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 24.1,
+      "pressureHPA": 1012.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Almaty",
+      "lat": 43.25654,
+      "lng": 76.92848,
+      "alt": 787
+    },
+    "weather": {
+      "timeStamp": 1539537313,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 2.9,
+      "dewpointTemperatureC": -3.5,
+      "windSpeedMps": 1.5,
+      "windDirectionDeg": 60.6,
+      "cloudsPercent": 77.3,
+      "forPercent": 0,
+      "humidityPercent": 64.1,
+      "pressureHPA": 1024.1,
+      "lowCloudsPercent": 2.3,
+      "mediumCloudsPercent": 31.2,
+      "highCloudsPercent": 75
+    }
+  },
+  {
+    "location": {
+      "name": "Medellin",
+      "lat": 6.25184,
+      "lng": -75.56359,
+      "alt": 1500
+    },
+    "weather": {
+      "timeStamp": 1539537315,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.2,
+      "dewpointTemperatureC": 16.2,
+      "windSpeedMps": 0.5,
+      "windDirectionDeg": 39.8,
+      "cloudsPercent": 62.5,
+      "forPercent": 0,
+      "humidityPercent": 60.3,
+      "pressureHPA": 1014,
+      "lowCloudsPercent": 31.2,
+      "mediumCloudsPercent": 55.5,
+      "highCloudsPercent": 15.6
+    }
+  },
+  {
+    "location": {
+      "name": "Tashkent",
+      "lat": 41.26465,
+      "lng": 69.21627,
+      "alt": 424
+    },
+    "weather": {
+      "timeStamp": 1539537318,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 8.2,
+      "dewpointTemperatureC": -0.8,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 120.2,
+      "cloudsPercent": 99.2,
+      "forPercent": 0,
+      "humidityPercent": 53.7,
+      "pressureHPA": 1020.2,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 67.2,
+      "highCloudsPercent": 98.4
+    }
+  },
+  {
+    "location": {
+      "name": "Algiers",
+      "lat": 36.7525,
+      "lng": 3.04197,
+      "alt": 186
+    },
+    "weather": {
+      "timeStamp": 1539537321,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.6,
+      "dewpointTemperatureC": 18.6,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 242.7,
+      "cloudsPercent": 84.4,
+      "forPercent": 0,
+      "humidityPercent": 81.7,
+      "pressureHPA": 1009.2,
+      "lowCloudsPercent": 16.4,
+      "mediumCloudsPercent": 3.9,
+      "highCloudsPercent": 81.2
+    }
+  },
+  {
+    "location": {
+      "name": "Khartoum",
+      "lat": 15.55177,
+      "lng": 32.53241,
+      "alt": 381
+    },
+    "weather": {
+      "timeStamp": 1539537324,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 33.6,
+      "dewpointTemperatureC": 6.2,
+      "windSpeedMps": 5.7,
+      "windDirectionDeg": 322,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 18.3,
+      "pressureHPA": 1007.3,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Accra",
+      "lat": 5.55602,
+      "lng": -0.1969,
+      "alt": 33
+    },
+    "weather": {
+      "timeStamp": 1539537327,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.4,
+      "dewpointTemperatureC": 23.8,
+      "windSpeedMps": 5.6,
+      "windDirectionDeg": 217.3,
+      "cloudsPercent": 64.1,
+      "forPercent": 0,
+      "humidityPercent": 84,
+      "pressureHPA": 1009.8,
+      "lowCloudsPercent": 24.2,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 53.1
+    }
+  },
+  {
+    "location": {
+      "name": "Guayaquil",
+      "lat": -2.20584,
+      "lng": -79.90795,
+      "alt": 6
+    },
+    "weather": {
+      "timeStamp": 1539537329,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 28.9,
+      "dewpointTemperatureC": 18.5,
+      "windSpeedMps": 1.6,
+      "windDirectionDeg": 140.5,
+      "cloudsPercent": 31.2,
+      "forPercent": 0,
+      "humidityPercent": 52.6,
+      "pressureHPA": 1011.6,
+      "lowCloudsPercent": 26.6,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 13.3
+    }
+  },
+  {
+    "location": {
+      "name": "Ordos",
+      "lat": 39.6086,
+      "lng": 109.78157,
+      "alt": 1310
+    },
+    "weather": {
+      "timeStamp": 1539537332,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 6.4,
+      "dewpointTemperatureC": 4.6,
+      "windSpeedMps": 1.5,
+      "windDirectionDeg": 94.9,
+      "cloudsPercent": 96.1,
+      "forPercent": 0,
+      "humidityPercent": 88.4,
+      "pressureHPA": 1021.9,
+      "lowCloudsPercent": 92.2,
+      "mediumCloudsPercent": 70.3,
+      "highCloudsPercent": 2.3
+    }
+  },
+  {
+    "location": {
+      "name": "Sanaa",
+      "lat": 15.35472,
+      "lng": 44.20667,
+      "alt": 2253
+    },
+    "weather": {
+      "timeStamp": 1539537334,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 16.4,
+      "dewpointTemperatureC": -1,
+      "windSpeedMps": 2.3,
+      "windDirectionDeg": 45.1,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 31,
+      "pressureHPA": 1018,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 1.6
+    }
+  },
+  {
+    "location": {
+      "name": "Beirut",
+      "lat": 33.88894,
+      "lng": 35.49442,
+      "alt": 102
+    },
+    "weather": {
+      "timeStamp": 1539537337,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22.5,
+      "dewpointTemperatureC": 19.1,
+      "windSpeedMps": 1.5,
+      "windDirectionDeg": 117.9,
+      "cloudsPercent": 2.3,
+      "forPercent": 0,
+      "humidityPercent": 80,
+      "pressureHPA": 1014.5,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 2.3,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Perth",
+      "lat": -31.95224,
+      "lng": 115.8614,
+      "alt": 34
+    },
+    "weather": {
+      "timeStamp": 1539537339,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.3,
+      "dewpointTemperatureC": 10.9,
+      "windSpeedMps": 1.9,
+      "windDirectionDeg": 204.7,
+      "cloudsPercent": 40.6,
+      "forPercent": 0,
+      "humidityPercent": 85.4,
+      "pressureHPA": 1018.4,
+      "lowCloudsPercent": 40.6,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Sapporo",
+      "lat": 43.06417,
+      "lng": 141.34695,
+      "alt": 29
+    },
+    "weather": {
+      "timeStamp": 1539537342,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 9.1,
+      "dewpointTemperatureC": 8.6,
+      "windSpeedMps": 3.1,
+      "windDirectionDeg": 153,
+      "cloudsPercent": 57,
+      "forPercent": 0,
+      "humidityPercent": 97,
+      "pressureHPA": 1019.2,
+      "lowCloudsPercent": 0.8,
+      "mediumCloudsPercent": 13.3,
+      "highCloudsPercent": 50
+    }
+  },
+  {
+    "location": {
+      "name": "Jilin",
+      "lat": 43.85083,
+      "lng": 126.56028,
+      "alt": 196
+    },
+    "weather": {
+      "timeStamp": 1539537345,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 2.8,
+      "dewpointTemperatureC": 1.4,
+      "windSpeedMps": 2.2,
+      "windDirectionDeg": 247.8,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 91.3,
+      "pressureHPA": 1023,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Bucharest",
+      "lat": 44.43225,
+      "lng": 26.10626,
+      "alt": 83
+    },
+    "weather": {
+      "timeStamp": 1539537348,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.7,
+      "dewpointTemperatureC": 2.3,
+      "windSpeedMps": 3.7,
+      "windDirectionDeg": 49.5,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 46.6,
+      "pressureHPA": 1026.4,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Camayenne",
+      "lat": 9.535,
+      "lng": -13.68778,
+      "alt": 6
+    },
+    "weather": {
+      "timeStamp": 1539537350,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.6,
+      "dewpointTemperatureC": 24.1,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 256.5,
+      "cloudsPercent": 96.1,
+      "forPercent": 0,
+      "humidityPercent": 84.2,
+      "pressureHPA": 1009.8,
+      "lowCloudsPercent": 79.7,
+      "mediumCloudsPercent": 13.3,
+      "highCloudsPercent": 91.4
+    }
+  },
+  {
+    "location": {
+      "name": "Vancouver",
+      "lat": 49.24966,
+      "lng": -123.11934,
+      "alt": 66
+    },
+    "weather": {
+      "timeStamp": 1539537353,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 11.9,
+      "dewpointTemperatureC": 7,
+      "windSpeedMps": 1.1,
+      "windDirectionDeg": 174.1,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 71.8,
+      "pressureHPA": 1029.7,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Indore",
+      "lat": 22.71792,
+      "lng": 75.8333,
+      "alt": 550
+    },
+    "weather": {
+      "timeStamp": 1539537356,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22,
+      "dewpointTemperatureC": 14,
+      "windSpeedMps": 2.8,
+      "windDirectionDeg": 311.2,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 60.2,
+      "pressureHPA": 1013.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 1.6,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Iztapalapa",
+      "lat": 19.35738,
+      "lng": -99.0671,
+      "alt": 2239
+    },
+    "weather": {
+      "timeStamp": 1539537358,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22,
+      "dewpointTemperatureC": 12.3,
+      "windSpeedMps": 0.9,
+      "windDirectionDeg": 56.9,
+      "cloudsPercent": 90.6,
+      "forPercent": 0,
+      "humidityPercent": 53.7,
+      "pressureHPA": 1013.5,
+      "lowCloudsPercent": 4.7,
+      "mediumCloudsPercent": 18,
+      "highCloudsPercent": 89.8
+    }
+  },
+  {
+    "location": {
+      "name": "Ecatepec",
+      "lat": 19.61725,
+      "lng": -99.06601,
+      "alt": 2274
+    },
+    "weather": {
+      "timeStamp": 1539537361,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.4,
+      "dewpointTemperatureC": 12.5,
+      "windSpeedMps": 0.6,
+      "windDirectionDeg": 66.7,
+      "cloudsPercent": 86.7,
+      "forPercent": 0,
+      "humidityPercent": 56.4,
+      "pressureHPA": 1013.6,
+      "lowCloudsPercent": 12.5,
+      "mediumCloudsPercent": 14.1,
+      "highCloudsPercent": 85.9
+    }
+  },
+  {
+    "location": {
+      "name": "Conakry",
+      "lat": 9.53795,
+      "lng": -13.67729,
+      "alt": 13
+    },
+    "weather": {
+      "timeStamp": 1539537363,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.6,
+      "dewpointTemperatureC": 23.7,
+      "windSpeedMps": 2.2,
+      "windDirectionDeg": 258.4,
+      "cloudsPercent": 91.4,
+      "forPercent": 0,
+      "humidityPercent": 82.6,
+      "pressureHPA": 1009.7,
+      "lowCloudsPercent": 47.7,
+      "mediumCloudsPercent": 14.1,
+      "highCloudsPercent": 85.2
+    }
+  },
+  {
+    "location": {
+      "name": "Maracay",
+      "lat": 10.24694,
+      "lng": -67.59583,
+      "alt": 448
+    },
+    "weather": {
+      "timeStamp": 1539537366,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 30.4,
+      "dewpointTemperatureC": 22.7,
+      "windSpeedMps": 2.8,
+      "windDirectionDeg": 254.6,
+      "cloudsPercent": 87.5,
+      "forPercent": 0,
+      "humidityPercent": 62.2,
+      "pressureHPA": 1011.1,
+      "lowCloudsPercent": 10.9,
+      "mediumCloudsPercent": 41.4,
+      "highCloudsPercent": 82.8
+    }
+  },
+  {
+    "location": {
+      "name": "Medan",
+      "lat": 3.58333,
+      "lng": 98.66667,
+      "alt": 26
+    },
+    "weather": {
+      "timeStamp": 1539537368,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22.6,
+      "dewpointTemperatureC": 21.9,
+      "windSpeedMps": 1.4,
+      "windDirectionDeg": 104,
+      "cloudsPercent": 99.2,
+      "forPercent": 0,
+      "humidityPercent": 94.3,
+      "pressureHPA": 1012.4,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 38.3,
+      "highCloudsPercent": 98.4
+    }
+  },
+  {
+    "location": {
+      "name": "Rawalpindi",
+      "lat": 33.6007,
+      "lng": 73.0679,
+      "alt": 493
+    },
+    "weather": {
+      "timeStamp": 1539537371,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 17.6,
+      "dewpointTemperatureC": 11.4,
+      "windSpeedMps": 2.1,
+      "windDirectionDeg": 23.4,
+      "cloudsPercent": 1.6,
+      "forPercent": 0,
+      "humidityPercent": 66.8,
+      "pressureHPA": 1013.3,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0.8,
+      "highCloudsPercent": 0.8
+    }
+  },
+  {
+    "location": {
+      "name": "Minsk",
+      "lat": 53.9,
+      "lng": 27.56667,
+      "alt": 222
+    },
+    "weather": {
+      "timeStamp": 1539537374,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 8.3,
+      "dewpointTemperatureC": 5.5,
+      "windSpeedMps": 2.5,
+      "windDirectionDeg": 182.4,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 82.7,
+      "pressureHPA": 1029.3,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Budapest",
+      "lat": 47.49801,
+      "lng": 19.03991,
+      "alt": 111
+    },
+    "weather": {
+      "timeStamp": 1539537376,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.8,
+      "dewpointTemperatureC": 5.5,
+      "windSpeedMps": 2.2,
+      "windDirectionDeg": 104.1,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 57.5,
+      "pressureHPA": 1023.4,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Mosul",
+      "lat": 36.335,
+      "lng": 43.11889,
+      "alt": 228
+    },
+    "weather": {
+      "timeStamp": 1539537379,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 26.9,
+      "dewpointTemperatureC": 7.2,
+      "windSpeedMps": 4.4,
+      "windDirectionDeg": 75.1,
+      "cloudsPercent": 50.8,
+      "forPercent": 0,
+      "humidityPercent": 28.6,
+      "pressureHPA": 1012.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 28.1,
+      "highCloudsPercent": 41.4
+    }
+  },
+  {
+    "location": {
+      "name": "Hamburg",
+      "lat": 53.57532,
+      "lng": 10.01534,
+      "alt": 8
+    },
+    "weather": {
+      "timeStamp": 1539537382,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 18.7,
+      "dewpointTemperatureC": 9.3,
+      "windSpeedMps": 4.5,
+      "windDirectionDeg": 142,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 54.3,
+      "pressureHPA": 1011.7,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Curitiba",
+      "lat": -25.42778,
+      "lng": -49.27306,
+      "alt": 924
+    },
+    "weather": {
+      "timeStamp": 1539537384,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 16.3,
+      "dewpointTemperatureC": 13.8,
+      "windSpeedMps": 5.2,
+      "windDirectionDeg": 77.7,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 84.5,
+      "pressureHPA": 1014.8,
+      "lowCloudsPercent": 100,
+      "mediumCloudsPercent": 7.8,
+      "highCloudsPercent": 93.8
+    }
+  },
+  {
+    "location": {
+      "name": "Warsaw",
+      "lat": 52.22977,
+      "lng": 21.01178,
+      "alt": 112
+    },
+    "weather": {
+      "timeStamp": 1539537388,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 13.5,
+      "dewpointTemperatureC": 9.1,
+      "windSpeedMps": 3.9,
+      "windDirectionDeg": 140.8,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 74.6,
+      "pressureHPA": 1024,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Bandung",
+      "lat": -6.90389,
+      "lng": 107.61861,
+      "alt": 728
+    },
+    "weather": {
+      "timeStamp": 1539537391,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.5,
+      "dewpointTemperatureC": 20.4,
+      "windSpeedMps": 0.6,
+      "windDirectionDeg": 60,
+      "cloudsPercent": 32,
+      "forPercent": 0,
+      "humidityPercent": 91.6,
+      "pressureHPA": 1015.3,
+      "lowCloudsPercent": 11.7,
+      "mediumCloudsPercent": 5.5,
+      "highCloudsPercent": 24.2
+    }
+  },
+  {
+    "location": {
+      "name": "Soweto",
+      "lat": -26.26781,
+      "lng": 27.85849,
+      "alt": 1632
+    },
+    "weather": {
+      "timeStamp": 1539537394,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 14.4,
+      "dewpointTemperatureC": 11.5,
+      "windSpeedMps": 4.4,
+      "windDirectionDeg": 359,
+      "cloudsPercent": 4.7,
+      "forPercent": 0,
+      "humidityPercent": 82.6,
+      "pressureHPA": 1014.3,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 4.7,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Vienna",
+      "lat": 48.20849,
+      "lng": 16.37208,
+      "alt": 193
+    },
+    "weather": {
+      "timeStamp": 1539537396,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.4,
+      "dewpointTemperatureC": 2.5,
+      "windSpeedMps": 5.4,
+      "windDirectionDeg": 149.6,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 42.2,
+      "pressureHPA": 1021.6,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Rabat",
+      "lat": 34.01325,
+      "lng": -6.83255,
+      "alt": 46
+    },
+    "weather": {
+      "timeStamp": 1539537399,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 19.2,
+      "dewpointTemperatureC": 12.3,
+      "windSpeedMps": 2.2,
+      "windDirectionDeg": 17.1,
+      "cloudsPercent": 59.4,
+      "forPercent": 0,
+      "humidityPercent": 64.1,
+      "pressureHPA": 1016.2,
+      "lowCloudsPercent": 9.4,
+      "mediumCloudsPercent": 57,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Guadalajara",
+      "lat": 20.66682,
+      "lng": -103.39182,
+      "alt": 1598
+    },
+    "weather": {
+      "timeStamp": 1539537401,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.1,
+      "dewpointTemperatureC": 14.7,
+      "windSpeedMps": 1.3,
+      "windDirectionDeg": 140.8,
+      "cloudsPercent": 98.4,
+      "forPercent": 0,
+      "humidityPercent": 55.1,
+      "pressureHPA": 1012.6,
+      "lowCloudsPercent": 89.1,
+      "mediumCloudsPercent": 10.2,
+      "highCloudsPercent": 93.8
+    }
+  },
+  {
+    "location": {
+      "name": "Barcelona",
+      "lat": 41.38879,
+      "lng": 2.15899,
+      "alt": 47
+    },
+    "weather": {
+      "timeStamp": 1539537404,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 20.9,
+      "dewpointTemperatureC": 18.1,
+      "windSpeedMps": 5.7,
+      "windDirectionDeg": 110,
+      "cloudsPercent": 82.8,
+      "forPercent": 0,
+      "humidityPercent": 82.7,
+      "pressureHPA": 1007.8,
+      "lowCloudsPercent": 17.2,
+      "mediumCloudsPercent": 10.9,
+      "highCloudsPercent": 78.1
+    }
+  },
+  {
+    "location": {
+      "name": "Pretoria",
+      "lat": -25.74486,
+      "lng": 28.18783,
+      "alt": 1332
+    },
+    "weather": {
+      "timeStamp": 1539537407,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.4,
+      "dewpointTemperatureC": 12.7,
+      "windSpeedMps": 2.3,
+      "windDirectionDeg": 90.5,
+      "cloudsPercent": 26.6,
+      "forPercent": 0,
+      "humidityPercent": 83.2,
+      "pressureHPA": 1013.9,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 26.6,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Aleppo",
+      "lat": 36.20124,
+      "lng": 37.16117,
+      "alt": 401
+    },
+    "weather": {
+      "timeStamp": 1539537409,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23.6,
+      "dewpointTemperatureC": 7.3,
+      "windSpeedMps": 3.7,
+      "windDirectionDeg": 307.7,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 35.2,
+      "pressureHPA": 1013.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Patna",
+      "lat": 25.60222,
+      "lng": 85.11936,
+      "alt": 57
+    },
+    "weather": {
+      "timeStamp": 1539537443,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.7,
+      "dewpointTemperatureC": 18.8,
+      "windSpeedMps": 2.5,
+      "windDirectionDeg": 287,
+      "cloudsPercent": 0,
+      "forPercent": 0,
+      "humidityPercent": 82.4,
+      "pressureHPA": 1010.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Bhopal",
+      "lat": 23.25469,
+      "lng": 77.40289,
+      "alt": 523
+    },
+    "weather": {
+      "timeStamp": 1539537450,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 22.9,
+      "dewpointTemperatureC": 12.1,
+      "windSpeedMps": 1.9,
+      "windDirectionDeg": 323.5,
+      "cloudsPercent": 0.8,
+      "forPercent": 0,
+      "humidityPercent": 50.3,
+      "pressureHPA": 1013.4,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 0.8,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Manaus",
+      "lat": -3.10194,
+      "lng": -60.025,
+      "alt": 20
+    },
+    "weather": {
+      "timeStamp": 1539537452,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 31.6,
+      "dewpointTemperatureC": 23.1,
+      "windSpeedMps": 0.3,
+      "windDirectionDeg": 326.6,
+      "cloudsPercent": 21.9,
+      "forPercent": 0,
+      "humidityPercent": 59.5,
+      "pressureHPA": 1008.8,
+      "lowCloudsPercent": 11.7,
+      "mediumCloudsPercent": 18.8,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Xinyang",
+      "lat": 32.12278,
+      "lng": 114.06556,
+      "alt": 89
+    },
+    "weather": {
+      "timeStamp": 1539537455,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 15.2,
+      "dewpointTemperatureC": 11.8,
+      "windSpeedMps": 2,
+      "windDirectionDeg": 16.2,
+      "cloudsPercent": 100,
+      "forPercent": 0,
+      "humidityPercent": 79.7,
+      "pressureHPA": 1021.1,
+      "lowCloudsPercent": 35.9,
+      "mediumCloudsPercent": 100,
+      "highCloudsPercent": 0
+    }
+  },
+  {
+    "location": {
+      "name": "Puebla",
+      "lat": 19.04334,
+      "lng": -98.20193,
+      "alt": 2152
+    },
+    "weather": {
+      "timeStamp": 1539537457,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 21.4,
+      "dewpointTemperatureC": 13.7,
+      "windSpeedMps": 2.5,
+      "windDirectionDeg": 193.7,
+      "cloudsPercent": 73.4,
+      "forPercent": 0,
+      "humidityPercent": 61.2,
+      "pressureHPA": 1014.1,
+      "lowCloudsPercent": 14.8,
+      "mediumCloudsPercent": 16.4,
+      "highCloudsPercent": 71.1
+    }
+  },
+  {
+    "location": {
+      "name": "Kaduna",
+      "lat": 10.52641,
+      "lng": 7.43879,
+      "alt": 626
+    },
+    "weather": {
+      "timeStamp": 1539537460,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 23.3,
+      "dewpointTemperatureC": 22.8,
+      "windSpeedMps": 1.1,
+      "windDirectionDeg": 239.3,
+      "cloudsPercent": 96.9,
+      "forPercent": 0,
+      "humidityPercent": 95.1,
+      "pressureHPA": 1010.8,
+      "lowCloudsPercent": 0,
+      "mediumCloudsPercent": 10.2,
+      "highCloudsPercent": 96.9
+    }
+  },
+  {
+    "location": {
+      "name": "Phnom Penh",
+      "lat": 11.56245,
+      "lng": 104.91601,
+      "alt": 20
+    },
+    "weather": {
+      "timeStamp": 1539537462,
+      "sourceUpdateTime": 1539540000,
+      "temperatureC": 24.8,
+      "dewpointTemperatureC": 24.6,
+      "windSpeedMps": 0.5,
+      "windDirectionDeg": 260.7,
+      "cloudsPercent": 48.4,
+      "forPercent": 0,
+      "humidityPercent": 96.1,
+      "pressureHPA": 1012.8,
+      "lowCloudsPercent": 9.4,
+      "mediumCloudsPercent": 16.4,
+      "highCloudsPercent": 40.6
+    }
+  }
+]

@@ -1,8 +1,6 @@
 
 const _ = require('lodash');
 const australiaWeather = require('./australiaWeather.json');
-const axios = require('axios');
-const cheerio = require('cheerio');
 const fs = require('fs');
 
   
