@@ -43,7 +43,7 @@ async function main() {
       city.weather = [{
         updatedTimestamp,
         fromHour: updatedTimestamp,
-        toHour: updatedTimestamp + 7200,
+        toHour: updatedTimestamp + 3600,
         symbol: stationsData[index][1],
         temperatureC: stationsData[index][2],
         humidityPercent: stationsData[index][3],

@@ -12,7 +12,8 @@ async function main() {
     const usaWeather = [];
     try {
 
-        const usaCitiesList = await readJSONFile(USA_CITIES_FILE);
+        let usaCitiesList = await readJSONFile(USA_CITIES_FILE);
+        usaCitiesList = await shuffle(usaCitiesList);
 
         for (let i = 0; i < usaCitiesList.length; i++) {
             const response = await getData(usaCitiesList[i].lat, usaCitiesList[i].lng);
@@ -85,6 +86,25 @@ function toMps(mph) {
 
 function getTimeStamp(dateStr) {
     return new Date(dateStr).getTime() / 1000;
+}
+
+async function shuffle(array) {
+    let currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
 }
 
 main();

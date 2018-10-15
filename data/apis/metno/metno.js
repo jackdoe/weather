@@ -17,12 +17,14 @@ async function main() {
   let dbConnection;
   try {
 
-    const cities = await readJSONFile(CITIES_FILE);
+    let cities = await readJSONFile(CITIES_FILE);
+    cities = await shuffle(cities);
+
     dbConnection = mysql.createConnection({
       ...DB_CONFIG
     });
 
-    for (let i = 0; i < cities.length; i++) {
+    for (let i = 0; i < 100; i++) {
 
       const { lat, lng, alt } = cities[i];
       const response = await axios.get(`${METNO_API_URL}${lat}&lon=${lng}&msl=${alt}`);
@@ -42,12 +44,12 @@ async function main() {
 
         const filtered = xml.weatherdata.product[0].time.filter(
           obj => obj.location[0].hasOwnProperty('temperature'));
-
+        console.log(filtered.length);
         weather = filtered.reduce((acc, elem, index) => (
           [...acc, {
             updatedTimestamp,
             fromHour: Date.parse(elem.$.from) / 1000,
-            toHour: Date.parse(elem.$.to) / 1000,
+            // toHour: Date.parse(elem.$.to) / 1000,
             altitude: alt,
             temperatureC: getSafe(() => elem.location[0].temperature[0].$.value, null),
             fogPercent: getSafe(() => elem.location[0].fog[0].$.percent, null),
@@ -67,7 +69,8 @@ async function main() {
 
         cityObj.weather = weather;
 
-        insertToDB(dbConnection, cityObj);
+        insertToDB(dbConnection, { ...cityObj });
+
         sleep.sleep(SLEEP_IN_SECOND);
 
       }
@@ -92,16 +95,16 @@ async function insertToDB(connection, cityObj) {
   const lat = +cityObj.location.lat.toFixed(2);
   const lng = +cityObj.location.lng.toFixed(2);
   const sql =
-    'INSERT INTO weather_metno (geohash5, geohash3, lat, sourceApi, lng, fromHour, toHour, altitude,\
+    'REPLACE INTO weather_monitoring (geohash5, geohash3, lat, sourceApi, lng, fromHour, altitude,\
            fogPercent, pressureHPA, cloudinessPercent, windDirectionDeg, dewpointTemperatureC, windGustMps,\
            areaMaxWindSpeedMps, humidityPercent, windSpeedMps, temperatureC, lowCloudsPercent,\
-           mediumCloudsPercent,highCloudsPercent, updatedTimestamp) values ?';
+           mediumCloudsPercent,highCloudsPercent, updatedTimestamp) VALUES ?';
 
   const values = [];
 
   cityObj.weather.forEach(elem => {
-    values.push([geohash5, geohash3, lat, 'metno', lng, elem.fromHour, elem.toHour,
-      elem.altitude, elem.fogPercent, elem.pressureHPA, elem.cloudinessPercent, elem.windDirectionDeg,
+    values.push([geohash5, geohash3, lat, 'metno', lng, elem.fromHour, elem.altitude, elem.fogPercent,
+      elem.pressureHPA, elem.cloudinessPercent, elem.windDirectionDeg,
       elem.dewpointTemperatureC, elem.windGustMps, elem.areaMaxWindSpeedMps, elem.humidityPercent,
       elem.windSpeedMps, elem.temperatureC, elem.lowCloudPercent, elem.mediumCloudPercent,
       elem.highCloudPercent, elem.updatedTimestamp]);
@@ -120,6 +123,25 @@ function getSafe(fn, defaultVal) {
   } catch (e) {
     return defaultVal;
   }
+}
+
+async function shuffle(array) {
+  let currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
 }
 
 main();

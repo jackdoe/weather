@@ -26,7 +26,7 @@ dbConnection.connect(function (err) {
     const sourceApi = file.split('.')[0];
 
     const sql =
-      'INSERT INTO weather (geohash5, geohash3, lat, sourceApi, lng, symbol, fromHour, toHour, altitude,\
+      'REPLACE INTO weather (geohash5, geohash3, lat, sourceApi, lng, symbol, fromHour, altitude,\
            fogPercent, pressureHPA, cloudinessPercent, windDirectionDeg, dewpointTemperatureC, windGustMps,\
             humidityPercent, areaMaxWindSpeedMps, windSpeedMps, temperatureC, lowCloudsPercent,\
              mediumCloudsPercent, highCloudsPercent, temperatureProbability, windProbability,\
@@ -42,7 +42,7 @@ dbConnection.connect(function (err) {
 
       locationElement.weather.forEach(elem => {
 
-        values.push([geohash5, geohash3, lat, sourceApi, lng, elem.symbol, elem.fromHour, elem.toHour,
+        values.push([geohash5, geohash3, lat, sourceApi, lng, elem.symbol, elem.fromHour,
           elem.altitude, elem.fogPercent, elem.pressureHPA, elem.cloudinessPercent, elem.windDirectionDeg,
           elem.dewpointTemperatureC, elem.windGustMps, elem.humidityPercent, elem.areaMaxWindSpeedMps,
           elem.windSpeedMps, elem.temperatureC, elem.lowCloudPercent, elem.mediumCloudPercent,
