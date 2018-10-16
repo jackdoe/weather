@@ -6,7 +6,7 @@ const fs = require("fs");
 
 const citiesAndCoords = require("./sources/south-korean-cities-coordinates.json");
 
-async function fetchKoreanAPI() {
+(async function fetchKoreanAPI() {
   const url = "http://web.kma.go.kr/eng/weather/forecast/current_korea.jsp";
   const response = await axios.get(url);
   const html = response.data;
@@ -89,11 +89,7 @@ async function fetchKoreanAPI() {
       JSON.stringify(stats, null, 2)
     );
   }
-}
-
-fetchKoreanAPI();
-
-module.exports = fetchKoreanAPI;
+})();
 
 /*
 node parse.js > ./tmp/korea.json && mv ./tmp/korea.json ./tmp/todo/korea.$(date +%s).json
