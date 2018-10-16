@@ -1,0 +1,26 @@
+{
+  "name": "south-korea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "metno.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node server.js\" \"cd .. && cd stats-visualization && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "latlon-geohash": "^1.1.0",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0",
+    "require-dir": "^1.1.0",
+    "sleep": "^5.2.3",
+    "sync-request": "^6.0.0",
+    "xml2js": "^0.4.19"
+  }
+}
