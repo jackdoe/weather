@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "curl": "^0.1.4",
+    "ngeohash": "^0.6.0",
     "sync-request": "^6.0.0",
-    "system-sleep": "^1.3.6"
+    "system-sleep": "^1.3.6",
+    "windrose": "^2.1.0"
   }
 }

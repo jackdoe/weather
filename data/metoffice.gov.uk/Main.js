@@ -2,6 +2,8 @@ const curl = require("curl");
 const fs = require("fs");
 const requestKey = require("./config.json");
 const sleep = require("system-sleep");
+const geohash = require("ngeohash");
+const Windrose = require("windrose");
 
 const UK_LOCATIONS_API = `http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/sitelist?&key=${
   requestKey.key
@@ -86,7 +88,7 @@ writeFile = (path, data) => {
 
 curl.getJSON(UK_LOCATIONS_API, null, (err, response, data) => {
   console.log(
-    `Line 87: Requesting all UK locations data. Request statusCode ->${
+    `Line 89: Requesting all UK locations data. Request statusCode ->${
       response.statusCode
     }`
   );
@@ -94,7 +96,7 @@ curl.getJSON(UK_LOCATIONS_API, null, (err, response, data) => {
     const locations = data.Locations.Location.map(location => location.name);
     writeFile("UK-6001-LocationNames.json", locations);
     writeFile("UK-LocationDetails.json", data);
-    console.log("Line 105: Requesting weather data based on locations' id");
+    console.log("Line 110: Requesting weather data based on locations' id");
     data.Locations.Location.map(location => requestWeatherData(location.id));
   } else if (err) {
     console.log(err);
@@ -122,33 +124,39 @@ handleWeatherData = data => {
   const locationName = data.SiteRep.DV.Location.name;
   const country = data.SiteRep.DV.Location.country;
   const continent = data.SiteRep.DV.Location.continent;
-  const longitude = data.SiteRep.DV.Location.lon;
-  const latitude = data.SiteRep.DV.Location.lat;
-  const elevation = data.SiteRep.DV.Location.elevation;
+  const longitude = parseFloat(data.SiteRep.DV.Location.lon);
+  const latitude = parseFloat(data.SiteRep.DV.Location.lat);
+  const elevation = parseFloat(data.SiteRep.DV.Location.elevation);
+  const geohash3 = geohash.encode(longitude, latitude, (precision = 3));
+  const geohash5 = geohash.encode(longitude, latitude, (precision = 5));
 
-  const weatherArray = data.SiteRep.DV.Location.Period.map(period => {
-    const day = period.value;
-    const detailsObj = {
-      day,
-      weather_details: []
-    };
+  const weatherArray = [];
 
-    period.Rep.filter(weather => {
+  data.SiteRep.DV.Location.Period.map(period => {
+    return period.Rep.filter(weather => {
+      let fromHour = Date.parse(`${period.value}${weather.$ / 60}:00`) / 1000;
+      let toHour = Date.parse(`${period.value}${weather.$ / 60 + 3}:00`) / 1000;
+
       const obj = {
-        temperatureC: parseInt(weather.T),
-        feelsLikeC: parseInt(weather.F),
-        weather_description: weather_type_code_description[weather.W],
-        UV_index: ChooseUVDescription(weather.U),
+        sourceApi: "datapoint.metoffice.gov.uk",
+        geohash3,
+        geohash5,
+        fromHour,
+        toHour,
+        temperatureC: parseFloat(weather.T),
+        feelsLikeC: parseFloat(weather.F),
+        symbol: parseInt(weather.W),
+        UV_index: parseInt(weather.U),
         visibility: visibility_acronyms[weather.V],
-        humidityPercent: parseInt(weather.H),
-        windSpeedMph: parseInt(weather.S),
-        windGustMph: parseInt(weather.G),
-        windDirectionCompass: weather.D,
+        humidityPercent: parseFloat(weather.H),
+        windSpeedMps: parseFloat((parseFloat(weather.S) * 0.44704).toFixed(2)),
+        windGustMps: parseFloat((parseFloat(weather.G) * 0.44704).toFixed(2)),
+        windDirectionDegree: Windrose.getDegrees(weather.D).value,
         precipitation_probabilityPercent: parseInt(weather.Pp)
       };
-      detailsObj.weather_details.push(obj);
+
+      weatherArray.push(obj);
     });
-    return detailsObj;
   });
 
   const fullWeatherDetails = [
