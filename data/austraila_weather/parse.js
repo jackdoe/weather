@@ -39,16 +39,33 @@ function getCityData(areaUrl) {
             altM: cityCoords.altM
           };
         })
-        
+      let utcTime;
+
+      const header = object('h1')
+        .toArray()
+        .map(th => th.children[0] && th.children[0].data);
+      
       const data = object('tbody > tr')
         .toArray()
         .map(row => row.children
           .filter(cell => cell.name === 'td' && cell.type === 'tag')
           .map(td => td.children[0] && td.children[0].data));
+      
       const weatherInfo = data.map((arr) => {
+        if (new RegExp('melbourne', 'i').test(header) || new RegExp('sydney', 'i').test(header) || new RegExp('canberra', 'i').test(header) || new RegExp('hobart', 'i').test(header)) {
+          utcTime = moment(arr[0], "DD/hh:mma").unix() - 39600;
+        } else if (new RegExp("brisbane", "i").test(header)) {
+          utcTime = moment(arr[0], "DD/hh:mma").unix() - 36000;
+        } else if (new RegExp("adelaide", "i").test(header)) {
+          utcTime = moment(arr[0], "DD/hh:mma").unix() - 37800;
+        } else if (new RegExp("darwin", "i").test(header)) {
+          utcTime = moment(arr[0], "DD/hh:mma").unix() - 34200;
+        } else if (new RegExp("perth", "i").test(header)) {
+          utcTime = moment(arr[0], "DD/hh:mma").unix() - 28800;
+        }
         return {
           "time_stamp": timeStamp,
-          "last_updated": moment(arr[0], 'DD/hh:mma').unix(),
+          "last_updated": utcTime,
           "tempC": Number(Number((arr[1]).replace('-', '')).toFixed(0)),
           "appTempC": Number(arr[2]),
           "dewPointC": Number(arr[3]),
@@ -95,7 +112,7 @@ let stats = {}
   .then((citiesWeather) => {
     finalResult = [].concat.apply([],citiesWeather);
     console.log(JSON.stringify(finalResult, null, 2))
-    // fs.writeFileSync(`./australiaWeather.json`, JSON.stringify(finalResult, null, 2), 'utf8');
+    fs.writeFileSync(`./australiaWeather.json`, JSON.stringify(finalResult, null, 2), 'utf8');
   return finalResult
   })
     
