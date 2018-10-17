@@ -16,7 +16,7 @@ async function main() {
         let usaCitiesList = await readJSONFile(USA_CITIES_FILE);
         usaCitiesList = await shuffle(usaCitiesList);
 
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < usaCitiesList.length; i++) {
             const response = await getData(usaCitiesList[i].lat, usaCitiesList[i].lng);
             if (response) {
                 const cityObj = {
