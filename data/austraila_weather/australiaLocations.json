@@ -1,0 +1,948 @@
+[
+  {"name": "Sydney - Observatory Hill"	,
+  "lat": -33.86	,
+  "lng": 151.21,
+  "altM": 39.0 
+  },
+  {"name": "Sydney Airport"	,
+    "lat": -33.95	,
+    "lng": 151.17,
+    "altM": 6.0 
+  },
+  {"name" : "Sydney Harbor" 	,
+    "lat": -33.84	,
+    "lng": 151.26,
+    "altM": 6.0 
+  },
+  {"name": "Sydney Olympic Park"	,
+    "lat": -33.83	,
+    "lng": 151.07,
+    "altM": 4.0 
+  },
+  {"name": "Badgerys Creek" 	,
+    "lat": -33.90	,
+    "lng": 150.73,
+    "altM": 81.2 
+  },
+  {"name": "Bankstown"	,
+    "lat": -33.92	,
+    "lng": 150.99,
+    "altM": 6.5 
+  },
+  {"name": "Bellambi" 	,
+    "lat": -34.37	,
+    "lng": 150.93,
+    "altM": 10.0 
+  },
+  {"name": "CAMDEN AIRPORT" ,
+    "lat": -34.04	,
+    "lng": 150.69,
+    "altM": 73.9 
+  },
+  {"name": "CAMPBELLTOWN"	,
+    "lat": -34.06	,
+    "lng": 150.77,
+    "altM": 112.0 
+  },
+  {"name": "CANTERBURY"	,
+    "lat": -33.91	,
+    "lng": 151.11,
+    "altM": 3.0 
+  },
+  {"name": "FORT DENISON"	,
+    "lat": -33.86	,
+    "lng": 151.23,
+    "altM": 5.0 
+  },
+  {"name": "GOSFORD"	,
+    "lat": -33.44	,
+    "lng": 151.36,
+    "altM": 7.0 
+  },
+  {"name": "HOLSWORTHY" ,
+    "lat": -33.99	,
+    "lng": 150.95,
+    "altM": 68.16 
+  },
+  {"name": "HOLSWORTHY" 	,
+    "lat": -34.08	,
+    "lng": 150.90,
+    "altM": 165.0 
+  },
+  {"name": "HORSLEY PARK" 	,
+    "lat": -33.85	,
+    "lng": 150.86,
+    "altM": 100.0 
+  },
+  {"name": "KATOOMBA" ,
+  "lat": -33.71	,
+  "lng": 150.31,
+  "altM": 1015.0 
+  },
+  {"name": "KURNELL" ,
+  "lat": -34.00	,
+  "lng": 151.21,
+  "altM": 4.0 
+  },
+  {"name":"Lake Macquarie - Cooranbong"	,
+  "lat": -33.09	,
+  "lng": 151.46,
+  "altM": 6.0 
+  },
+  {"name": "LITTLE BAY" 	,
+  "lat": -33.98	,
+  "lng": 151.25,
+  "altM": 22.0 
+  },
+  {"name": "LUCAS"	,
+  "lat": -34.05	,
+  "lng": 150.98,
+  "altM": 140.0 
+  },
+  {"name": "MANGROVE MOUNTAIN"	,
+  "lat": -33.29	,
+  "lng": 151.21,
+  "altM": 305.0 
+  },
+  {"name": "MOUNT BOYCE"	,
+  "lat": -33.62	,
+  "lng": 150.27,
+  "altM": 1080.0 
+  },
+  {"name": "NEWCASTLE NOBBYS"	,
+  "lat": -32.92	,
+  "lng": 151.80,
+  "altM": 33.0 
+  },
+  {"name": "NEWCASTLE UNIVERSITY"	,
+    "lat": -32.89	,
+    "lng": 151.71,
+    "altM": 21.0 
+  },
+  {"name": "NORAH HEAD"	,
+  "lat": -33.28	,
+  "lng": 151.58,
+  "altM": 18.8 
+  },
+  {"name": "NORTH HEAD"	,
+  "lat": -33.82	,
+  "lng": 151.30,
+  "altM": 90.0 
+  },
+  {"name": "PARRAMATTA NORTH" 	,
+  "lat": -33.79	,
+  "lng": 151.02,
+  "altM": 55.0 
+  },
+  {"name": "PENRITH LAKES"	,
+  "lat": -33.72	,
+  "lng": 150.68,
+  "altM": 24.7 
+  },
+  {"name": "RICHMOND RAAF"	,
+  "lat": -33.60	,
+  "lng": 150.78,
+  "altM": 19.0 
+  },
+  {"name": "SPRINGWOOD" ,
+  "lat": -33.71	,
+  "lng": 150.58,
+  "altM": 320.0 
+  },
+  {"name": "TERREY HILLS" ,
+  "lat": -33.69	,
+  "lng": 151.23,
+  "altM": 199.0 
+  },
+  {"name": "WATTAMOLLA AWS"	,
+  "lat": -34.14	,
+  "lng": 151.12,
+  "altM": 44.0 
+  },
+  {"name": "WILLIAMTOWN RAAF"	,
+    "lat": -32.79	,
+    "lng": 151.84,
+    "altM": 7.5 
+  },
+  {
+    "name": "MELBOURNE OLYMPIC PARK",
+    "lat": -37.83	,
+    "lng": 144.98	,
+    "altM": 7.53 
+  },
+  {
+    "name": "MELBOURNE AIRPORT",
+    "lat": -37.67	,
+    "lng": 144.83	,
+    "altM": 113.4 
+  },
+  {
+    "name": "AVALON AIRPORT",
+    "lat": -38.03	,
+    "lng": 144.48	,
+    "altM": 10.6 
+  },
+  {
+    "name": "BUNDOORA",
+    "lat": -37.72	,
+    "lng": 145.05	,
+    "altM": 83.0 
+  },
+  {
+    "name": "CERBERUS",
+    "lat": -38.36	,
+    "lng": 145.18	,
+    "altM": 12.69 
+  },
+  {
+    "name": "COLDSTREAM",
+    "lat": -37.72	,
+    "lng": 145.41	,
+    "altM": 83.0 
+  },
+  {
+    "name": "ESSENDON AIRPORT",
+    "lat": -37.73	,
+    "lng": 144.91	,
+    "altM": 78.4 
+  },
+  {
+    "name": "FAWKNER BEACON",
+    "lat": -37.95	,
+    "lng": 144.93	,
+    "altM": 17.0 
+  },
+  {
+    "name": "FERNY CREEK",
+    "lat": -37.87	,
+    "lng": 145.35	,
+    "altM": 512.9 
+  },
+  {
+    "name": "FRANKSTON",
+    "lat": -38.15	,
+    "lng": 145.12	,
+    "altM": 6.0 
+  },
+  {
+    "name": "GEELONG RACECOURSE",
+    "lat": -38.17	,
+    "lng": 144.38	,
+    "altM": 12.9 
+  },
+  {
+    "name": "LAVERTON" ,
+    "lat": -37.86	,
+    "lng": 144.76	,
+    "altM": 20.1 
+  },
+  {
+    "name": "MOORABBIN AIRPORT",
+    "lat": -37.98	,
+    "lng": 145.10	,
+    "altM": 12.1 
+  },
+  {
+    "name": "POINT WILSON",
+    "lat": -38.10	,
+    "lng": 144.54	,
+    "altM": 18.0 
+  },
+  {
+    "name": "RHYLL",
+    "lat": -38.46	,
+    "lng": 145.31	,
+    "altM": 13.4 
+  },
+  {
+    "name": "SCORESBY",
+    "lat": -37.87	,
+    "lng": 145.26	,
+    "altM": 80.0 
+  },
+  {
+    "name": "SHEOAKS",
+    "lat": -37.91	,
+    "lng": 144.13	,
+    "altM": 236.7 
+  },
+  {
+    "name": "SOUTH CHANNEL ISLAND",
+    "lat": -38.31	,
+    "lng": 144.80	,
+    "altM": 9.0 
+  },
+  {
+    "name": "ST KILDA HARBOUR RMYS",
+    "lat": -37.86	,
+    "lng": 144.96	,
+    "altM": 6.4 
+  },
+  {
+    "name": "VIEWBANK",
+    "lat": -37.74	,
+    "lng": 145.10	,
+    "altM": 66.1 
+  },
+  {
+    "name": "BRISBANE",
+    "lat": -27.48,
+    "lng": 153.04,
+    "altM": 8.13 
+  },
+  {
+    "name": "BRISBANE AIRPORT",	
+    "lat": -27.39,
+    "lng": 153.13,
+    "altM": 4.51 
+  },
+  {
+    "name": "AMBERLEY", 
+    "lat": -27.63,
+    "lng": 152.71,
+    "altM": 24.2 
+  },
+  {
+    "name": "ARCHERFIELD",	
+    "lat": -27.57,
+    "lng": 153.01,
+    "altM": 12.5 
+  },
+  {
+    "name": "BANANA BANK",	
+    "lat": -27.53,
+    "lng": 153.33,
+    "altM": 7.0 
+  },
+  {
+    "name": "BEERBURRUM", 
+    "lat": -26.96,
+    "lng": 152.96,
+    "altM": 48.0 
+  },
+  {
+    "name": "Beaudesert AWS",	
+    "lat": -27.97,
+    "lng": 152.99,
+    "altM": 47.81 
+  },
+  {
+    "name": "CANUNGRA (DEFENCE)",	
+    "lat": -28.04,
+    "lng": 153.19,
+    "altM": 108.15 
+  },
+  {
+    "name": "CAPE MORETON",	
+    "lat": -27.03,
+    "lng": 153.47,
+    "altM": 99.9 
+  },
+  {
+    "name": "COOLANGATTA",	
+    "lat": -28.17,
+    "lng": 153.51,
+    "altM": 4.0 
+  },
+  {
+    "name": "DOUBLE ISLAND POINT",	
+    "lat": -25.93,
+    "lng": 153.19,
+    "altM": 95.64 
+  },
+  {
+    "name": "GATTON",	
+    "lat": -27.54,
+    "lng": 152.34,
+    "altM": 89.0 
+  },
+  {
+    "name": "GOLD COAST SEAWAY",	
+    "lat": -27.94,
+    "lng": 153.43,
+    "altM": 2.98 
+  },
+  {
+    "name": "GREENBANK (DEFENCE)",	
+    "lat": -27.69,
+    "lng": 152.99,
+    "altM": 41.46 
+  },
+  {
+    "name": "GYMPIE",	
+    "lat": -26.18,
+    "lng": 152.64,
+    "altM": 64.5 
+  },
+  {
+    "name": "INNER BEACON",	
+    "lat": -27.26,
+    "lng": 153.24,
+    "altM": 20.0 
+  },
+  {
+    "name": "KINGAROY",	
+    "lat": -26.57,
+    "lng": 151.84,
+    "altM": 433.67 
+  },
+  {
+    "name": "LOGAN CITY",	
+    "lat": -27.68,
+    "lng": 153.19,
+    "altM": 14.0 
+  },
+  {
+    "name": "NAMBOUR",	
+    "lat": -26.64,
+    "lng": 152.94,
+    "altM": 53.24 
+  },
+  {
+    "name": "OAKEY",	
+    "lat": -27.40,
+    "lng": 151.74,
+    "altM": 405.69 
+  },
+  {
+    "name": "RAINBOW BEACH",	
+    "lat": -25.90,
+    "lng": 153.09,
+    "altM": 14.4 
+  },
+  {
+    "name": "REDCLIFFE",	
+    "lat": -27.22,
+    "lng": 153.09,
+    "altM": 12.6 
+  },
+  {
+    "name": "REDLAND ALEXANDRA HILLS",	
+    "lat": -27.54,
+    "lng": 153.24,
+    "altM": 50.53 
+  },
+  {
+    "name": "SPITFIRE CHANNEL",	
+    "lat": -27.05,
+    "lng": 153.27,
+    "altM": 7.0 
+  },
+  {
+    "name": "SUNSHINE COAST AIRPORT",	
+    "lat": -26.60,
+    "lng": 153.09,
+    "altM": 3.3 
+  },
+  {
+    "name": "TEWANTIN", 
+    "lat": -26.39,
+    "lng": 153.04,
+    "altM": 6.4 
+  },
+  {
+    "name": "TIN CAN BAY",	
+    "lat": -25.94,
+    "lng": 152.96,
+    "altM": 31.26 
+  },
+  {
+    "name": "TOOWOOMBA",	
+    "lat": -27.54,
+    "lng": 151.91,
+    "altM": 640.9 
+  },
+  {
+    "name": "WARWICK",	
+    "lat": -28.21,
+    "lng": 152.10,
+    "altM": 475.4 
+  },
+  {
+    "name": "WELLCAMP AIRPORT",	
+    "lat": -27.55,
+    "lng": 151.78,
+    "altM": 436.98 
+  },
+  {
+    "name": "PERTH",	
+    "lat": -31.92,
+    "lng": 115.87,
+    "altM": 24.9 
+  },
+  {
+    "name": "PERTH AIRPORT",	
+    "lat": -31.93,
+    "lng": 115.98,
+    "altM": 15.4 
+  },
+  {
+    "name": "BICKLEY",	
+    "lat": -32.01,
+    "lng": 116.14,
+    "altM": 384.0 
+  },
+  {
+    "name": "GARDEN ISLAND",	
+    "lat": -32.24,
+    "lng": 115.68,
+    "altM": 6.0 
+  },
+  {
+    "name": "GOOSEBERRY HILL",	
+    "lat": -31.94,
+    "lng": 116.05,
+    "altM": 220.0 
+  },
+  {
+    "name": "GOSNELLS", 
+    "lat": -32.05,
+    "lng": 115.98,
+    "altM": 10.0 
+  },
+  {
+    "name": "HILLARYS  POINT BOAT HARBOUR",	
+    "lat": -31.83,
+    "lng": 115.74,
+    "altM": 0.0 
+  },
+  {
+    "name": "JANDAKOT",	
+    "lat": -32.10,
+    "lng": 115.88,
+    "altM": 30.0 
+  },
+  {
+    "name": "KARNET",	
+    "lat": -32.44,
+    "lng": 116.08,
+    "altM": 286.0 
+  },
+  {
+    "name": "MANDURAH",	
+    "lat": -32.52,
+    "lng": 115.71,
+    "altM": 3.0 
+  },
+  {
+    "name": "MELVILLE WATER",	
+    "lat": -31.99,
+    "lng": 115.83,
+    "altM": 0.0 
+  },
+  {
+    "name": "MILLENDON SWAN VALLEY",	
+    "lat": -31.81,
+    "lng": 116.02,
+    "altM": 16.0 
+  },
+  {
+    "name": "OCEAN REEF",	
+    "lat": -31.76,
+    "lng": 115.73,
+    "altM": 10.0 
+  },
+  {
+    "name": "PEARCE",	
+    "lat": -31.67,
+    "lng": 116.02,
+    "altM": 40.0 
+  },
+  {
+    "name": "ROTTNEST ISLAND",	
+    "lat": -32.01,
+    "lng": 115.50,
+    "altM": 43.1 
+  },
+  {
+    "name": "SWANBOURNE",	
+    "lat": -31.96,
+    "lng": 115.76,
+    "altM": 40.96 
+  },
+  {
+    "name": "ADELAIDE WEST TERRACE / NGAYIRDAPIRA",	
+    "lat": -34.93,
+    "lng": 138.58,
+    "altM": 29.32 
+  },
+  {
+    "name": "ADELAIDE KENT TOWN",	
+    "lat": -34.92,
+    "lng": 138.62,
+    "altM": 48.0 
+  },
+  {
+    "name": "ADELAIDE AIRPORT",	
+    "lat": -34.95,
+    "lng": 138.52,
+    "altM": 2.0 
+  },
+  {
+    "name": "EDINBURGH",	
+    "lat": -34.71,
+    "lng": 138.62,
+    "altM": 16.54 
+  },
+  {
+    "name": "HINDMARSH ISLAND", 
+    "lat": -35.52,
+    "lng": 138.82,
+    "altM": 11.0 
+  },
+  {
+    "name": "KUITPO", 
+    "lat": -35.17,
+    "lng": 138.68,
+    "altM": 365.0 
+  },
+  {
+    "name": "MOUNT BARKER",	
+    "lat": -35.07,
+    "lng": 138.85,
+    "altM": 359.0 
+  },
+  {
+    "name": "MOUNT CRAWFORD", 
+    "lat": -34.73,
+    "lng": 138.93,
+    "altM": 525.0 
+  },
+  {
+    "name": "MOUNT LOFTY",	
+    "lat": -34.98,
+    "lng": 138.71,
+    "altM": 685.0 
+  },
+  {
+    "name": "MURRAY BRIDGE",	
+    "lat": -35.12,
+    "lng": 139.26,
+    "altM": 33.0 
+  },
+  {
+    "name": "NOARLUNGA",	
+    "lat": -35.16,
+    "lng": 138.51,
+    "altM": 55.0 
+  },
+  {
+    "name": "NURIOOTPA", 
+    "lat": -34.48,
+    "lng": 139.01,
+    "altM": 275.0 
+  },
+  {
+    "name": "OUTER HARBOR BLACK POLE",	
+    "lat": -34.73,
+    "lng": 138.47,
+    "altM": 6.27 
+  },
+  {
+    "name": "PALLAMANA",	
+    "lat": -35.06,
+    "lng": 139.23,
+    "altM": 45.0 
+  },
+  {
+    "name": "PARAFIELD",	
+    "lat": -34.80,
+    "lng": 138.63,
+    "altM": 9.5 
+  },
+  {
+    "name": "PARAWA WEST",	
+    "lat": -35.57,
+    "lng": 138.29,
+    "altM": 341.0 
+  },
+  {
+    "name": "ROSEWORTHY",	
+    "lat": -34.51,
+    "lng": 138.68,
+    "altM": 65.0 
+  },
+  {
+    "name": "SELLICKS HILL",	
+    "lat": -35.33,
+    "lng": 138.50,
+    "altM": 385.7 
+  },
+  {
+    "name": "STRATHALBYN",	
+    "lat": -35.28,
+    "lng": 138.89,
+    "altM": 58.0 
+  },
+  {
+    "name": "TURRETFIELD",	
+    "lat": -34.55,
+    "lng": 138.83,
+    "altM": 116.0 
+  },
+  {
+    "name": "VICTOR HARBOR", 
+    "lat": -35.55,
+    "lng": 138.60,
+    "altM": 8.0 
+  },
+  {
+    "name": "HOBART", 
+    "lat": -42.89,
+    "lng": 147.33,
+    "altM": 50.5 
+  },
+  {
+    "name": "HOBART AIRPORT",	
+    "lat": -42.83,
+    "lng": 147.50,
+    "altM": 4.0 
+  },
+  {
+    "name": "BUSHY PARK",	
+    "lat": -42.71,
+    "lng": 146.90,
+    "altM": 27.0 
+  },
+  {
+    "name": "CAMPANIA",	
+    "lat": -42.69,
+    "lng": 147.43,
+    "altM": 45.0 
+  },
+  {
+    "name": "CAPE BRUNY ",	
+    "lat": -43.49,
+    "lng": 147.15,
+    "altM": 55.0 
+  },
+  {
+    "name": "CAPE BRUNY AWS",	
+    "lat": -43.49,
+    "lng": 147.14,
+    "altM": 59.7 
+  },
+  {
+    "name": "DENNES POINT",	
+    "lat": -43.06,
+    "lng": 147.36,
+    "altM": 5.67 
+  },
+  {
+    "name": "DOVER",	
+    "lat": -43.33,
+    "lng": 147.00,
+    "altM": 20.0 
+  },
+  {
+    "name": "DUNALLEY", 
+    "lat": -42.90,
+    "lng": 147.79,
+    "altM": 12.43 
+  },
+  {
+    "name": "GROVE",	
+    "lat": -42.99,
+    "lng": 147.07,
+    "altM": 65.0 
+  },
+  {
+    "name": "KUNANYI MOUNT WELLINGTON",	
+    "lat": -42.90,
+    "lng": 147.24,
+    "altM": 1260.47 
+  },
+  {
+    "name": "MARIA ISLAND",	
+    "lat": -42.66,
+    "lng": 148.02,
+    "altM": 28.0 
+  },
+  {
+    "name": "ORFORD",	
+    "lat": -42.55,
+    "lng": 147.88,
+    "altM": 14.0 
+  },
+  {
+    "name": "TASMAN ISLAND",	
+    "lat": -43.24,
+    "lng": 148.00,
+    "altM": 240.0 
+  },
+  {
+    "name": "CANBERRA",	
+    "lat": -35.31,
+    "lng": 149.20,
+    "altM": 577.05 
+  },
+  {
+    "name": "BATEMANS BAY",	
+    "lat": -35.72,
+    "lng": 150.19,
+    "altM": 11.0 
+  },
+  {
+    "name": "BRAIDWOOD",	
+    "lat": -35.43,
+    "lng": 149.78,
+    "altM": 665.2 
+  },
+  {
+    "name": "CABRAMURRA",	
+    "lat": -35.94,
+    "lng": 148.38,
+    "altM": 1482.4 
+  },
+  {
+    "name": "COOMA AIRPORT",	
+    "lat": -36.29,
+    "lng": 148.97,
+    "altM": 930.0 
+  },
+  {
+    "name": "GOULBURN AIRPORT",	
+    "lat": -34.81,
+    "lng": 149.73,
+    "altM": 640.0 
+  },
+  {
+    "name": "MONTAGUE ISLAND",	
+    "lat": -36.25,
+    "lng": 150.23,
+    "altM": 52.0 
+  },
+  {
+    "name": "MORUYA AIRPORT", 
+    "lat": -35.90,
+    "lng": 150.14,
+    "altM": 4.0 
+  },
+  {
+    "name": "MOUNT GININI",	
+    "lat": -35.53,
+    "lng": 148.77,
+    "altM": 1760.0 
+  },
+  {
+    "name": "NAROOMA",	
+    "lat": -36.21,
+    "lng": 150.14,
+    "altM": 25.0 
+  },
+  {
+    "name": "NOWRA",	
+    "lat": -34.95,
+    "lng": 150.54,
+    "altM": 109.0 
+  },
+  {
+    "name": "PERISHER VALLEY",	
+    "lat": -36.41,
+    "lng": 148.41,
+    "altM": 1738.0 
+  },
+  {
+    "name": "THREDBO TOP STATION",	
+    "lat": -36.49,
+    "lng": 148.29,
+    "altM": 1957.0 
+  },
+  {
+    "name": "TUGGERANONG",	
+    "lat": -35.42,
+    "lng": 149.09,
+    "altM": 586.7 
+  },
+  {
+    "name": "ULLADULLA",	
+    "lat": -35.36,
+    "lng": 150.48,
+    "altM": 35.7 
+  },
+  {
+    "name": "DARWIN AIRPORT",	
+    "lat": -12.42,
+    "lng": 130.89,
+    "altM": 30.4 
+  },
+  {
+    "name": "DARWIN HARBOUR",	
+    "lat": -12.47,
+    "lng": 130.85,
+    "altM": 0.0 
+  },
+  {
+    "name": "BATCHELOR",	
+    "lat": -13.05,
+    "lng": 131.03,
+    "altM": 104.0 
+  },
+  {
+    "name": "BLACK POINT",	
+    "lat": -11.15,
+    "lng": 132.14,
+    "altM": 5.0 
+  },
+  {
+    "name": "CHANNEL POINT",	
+    "lat": -13.17,
+    "lng": 130.12,
+    "altM": 3.0 
+  },
+  {
+    "name": "CHARLES POINT",	
+    "lat": -12.39,
+    "lng": 130.63,
+    "altM": 14.0 
+  },
+  {
+    "name": "DUM IN MIRRIE ",	
+    "lat": -12.63,
+    "lng": 130.37,
+    "altM": 3.5 
+  },
+  {
+    "name": "MIDDLE POINT",	
+    "lat": -12.61,
+    "lng": 131.30,
+    "altM": 14.1 
+  },
+  {
+    "name": "NOONAMAH",	
+    "lat": -12.61,
+    "lng": 131.05,
+    "altM": 17.5 
+  },
+  {
+    "name": "PIRLANGIMPI",	
+    "lat": -11.40,
+    "lng": 130.42,
+    "altM": 18.3 
+  },
+  {
+    "name": "POINT FAWCETT",	
+    "lat": -11.76,
+    "lng": 130.03,
+    "altM": 6.5 
+  },
+  {
+    "name": "POINT STUART",	
+    "lat": -12.24,
+    "lng": 131.88,
+    "altM": 1.0
+  } 
+
+]
+
+
+
+
+
+
+
+
+
+
+
+

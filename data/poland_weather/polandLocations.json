@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Bialystok",
+    "lat": 53.143291,
+    "lng": 23.164089,
+    "altM": 36
+  },
+  {
+    "name": "Bydgoszcz",
+    "lat": 53.1234804,
+    "lng": 18.0084378,
+    "altM": 36
+  },
+  {
+    "name": "Gdansk",
+    "lat": 54.3520252,
+    "lng": 18.6466384,
+    "altM": 8
+  },
+  {
+    "name": "Gorzow Wielkopolski",
+    "lat": 52.7325285,
+    "lng": 15.2369305,
+    "altM": 25
+  },
+  {
+    "name": "Katowice",
+    "lat": 50.2648919,
+    "lng": 19.0237815,
+    "altM": 263
+  },
+  {
+    "name": "Kielce",
+    "lat": 50.8660773,
+    "lng": 20.6285676,
+    "altM": 271
+  },
+  {
+    "name": "Krakow",
+    "lat": 51.7287402,
+    "lng": 18.5161243,
+    "altM": 134
+  },
+  {
+    "name": "Lodz",
+    "lat": 51.7592485,
+    "lng": 19.4559833,
+    "altM": 204
+  },
+  {
+    "name": "Lubin",
+    "lat": 51.397722,
+    "lng": 16.2095788,
+    "altM": 126
+  },
+  {
+    "name": "Olsztyn",
+    "lat": 53.778422,
+    "lng": 20.4801192,
+    "altM": 123
+  },
+  {
+    "name": "Opole",
+    "lat": 50.6751067,
+    "lng": 17.9212976,
+    "altM": 156
+  },
+  {
+    "name": "Poznan",
+    "lat": 52.409538,
+    "lng": 16.931992,
+    "altM": 67
+  },
+  {
+    "name": "Rzeszow",
+    "lat": 50.0411867,
+    "lng": 21.9991196,
+    "altM": 202
+  },
+  {
+    "name": "Szczecin",
+    "lat": 51.9192466,
+    "lng": 19.7154594,
+    "altM": 146
+  },
+  {
+    "name": "Warsaw",
+    "lat": 52.237049,
+    "lng": 21.017532,
+    "altM": 111
+  },
+  {
+    "name": "Wroclaw",
+    "lat": 51.1078852,
+    "lng": 17.0385376,
+    "altM": 118
+  }
+]

@@ -1,0 +1,4249 @@
+[
+  {
+    "location": {
+      "name": "Melbourne Airport",
+      "lat": -37.67,
+      "lng": 144.83,
+      "altM": 113.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 16,
+        "appTempC": 13.7,
+        "dewPointC": 9.7,
+        "humidityPercent": 65,
+        "wetBulbDepression": 3.4,
+        "windDir": "SW",
+        "windSpeedMps": 4,
+        "windGustMps": 4.16666667,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 8,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 16.2,
+        "highTempC": 27.5,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 4.16666667,
+        "highestWindGustFrom10MKts": 8
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Bundoora",
+      "lat": -37.72,
+      "lng": 145.05,
+      "altM": 83
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 18,
+        "appTempC": 16.4,
+        "dewPointC": 8.4,
+        "humidityPercent": 55,
+        "wetBulbDepression": 4.7,
+        "windDir": "NNE",
+        "windSpeedMps": 1,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Cerberus",
+      "lat": -38.36,
+      "lng": 145.18,
+      "altM": 12.69
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "SW",
+        "windSpeedMps": 4,
+        "windGustMps": 5.555555559999999,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 11,
+        "pressureHpa": 1016,
+        "rainSince9AM": 2.6,
+        "lowTempC": null,
+        "highTempC": 24.8,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 5.555555559999999,
+        "highestWindGustFrom10MKts": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Coldstream",
+      "lat": -37.72,
+      "lng": 145.41,
+      "altM": 83
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 15,
+        "appTempC": 14.4,
+        "dewPointC": 12,
+        "humidityPercent": 83,
+        "wetBulbDepression": 1.6,
+        "windDir": "NW",
+        "windSpeedMps": 2,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 5,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0,
+        "lowTempC": 14.9,
+        "highTempC": 26.6,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 2.5000000019999997,
+        "highestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Essendon Airport",
+      "lat": -37.73,
+      "lng": 144.91,
+      "altM": 78.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 17,
+        "appTempC": 15.2,
+        "dewPointC": 9.7,
+        "humidityPercent": 61,
+        "wetBulbDepression": 4,
+        "windDir": "SSW",
+        "windSpeedMps": 3,
+        "windGustMps": 4.16666667,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 8,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0,
+        "lowTempC": 17.2,
+        "highTempC": 28.9,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 4.7222222259999995,
+        "highestWindGustFrom10MKts": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Fawkner Beacon",
+      "lat": -37.95,
+      "lng": 144.93,
+      "altM": 17
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "S",
+        "windSpeedMps": 7,
+        "windGustMps": 7.7777777839999995,
+        "windSpeedKnotsKts": 14,
+        "windGustKts": 15,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "S",
+        "highestWindGustFrom10Mps": 7.7777777839999995,
+        "highestWindGustFrom10MKts": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Ferny Creek",
+      "lat": -37.87,
+      "lng": 145.35,
+      "altM": 512.9
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 15,
+        "appTempC": 14,
+        "dewPointC": 9.9,
+        "humidityPercent": 73,
+        "wetBulbDepression": 2.6,
+        "windDir": "SSW",
+        "windSpeedMps": 1,
+        "windGustMps": 3.0555555579999996,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 6,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 14.6,
+        "highTempC": 23.2,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 3.0555555579999996,
+        "highestWindGustFrom10MKts": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Frankston",
+      "lat": -38.15,
+      "lng": 145.12,
+      "altM": 6
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "WSW",
+        "windSpeedMps": 3,
+        "windGustMps": 5.277777781999999,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 10,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 5.277777781999999,
+        "highestWindGustFrom10MKts": 10
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Geelong Racecourse",
+      "lat": -38.17,
+      "lng": 144.38,
+      "altM": 12.9
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 15,
+        "appTempC": 13,
+        "dewPointC": 13.7,
+        "humidityPercent": 94,
+        "wetBulbDepression": 0.6,
+        "windDir": "S",
+        "windSpeedMps": 4,
+        "windGustMps": 5.277777781999999,
+        "windSpeedKnotsKts": 8,
+        "windGustKts": 10,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0.6,
+        "lowTempC": 14.7,
+        "highTempC": 27.5,
+        "dirWindComeFrom": "S",
+        "highestWindGustFrom10Mps": 5.277777781999999,
+        "highestWindGustFrom10MKts": 10
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Laverton",
+      "lat": -37.86,
+      "lng": 144.76,
+      "altM": 20.1
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 17,
+        "appTempC": 14.5,
+        "dewPointC": 10.7,
+        "humidityPercent": 66,
+        "wetBulbDepression": 3.4,
+        "windDir": "SSW",
+        "windSpeedMps": 4,
+        "windGustMps": 5.555555559999999,
+        "windSpeedKnotsKts": 8,
+        "windGustKts": 11,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0,
+        "lowTempC": 16.8,
+        "highTempC": 26.7,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 5.555555559999999,
+        "highestWindGustFrom10MKts": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Moorabbin Airport",
+      "lat": -37.98,
+      "lng": 145.1,
+      "altM": 12.1
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 16,
+        "appTempC": 14.2,
+        "dewPointC": 13.3,
+        "humidityPercent": 84,
+        "wetBulbDepression": 1.5,
+        "windDir": "SSW",
+        "windSpeedMps": 4,
+        "windGustMps": 7.222222228,
+        "windSpeedKnotsKts": 8,
+        "windGustKts": 14,
+        "pressureHpa": 1016,
+        "rainSince9AM": 8.2,
+        "lowTempC": 15.6,
+        "highTempC": 27.5,
+        "dirWindComeFrom": "S",
+        "highestWindGustFrom10Mps": 7.222222228,
+        "highestWindGustFrom10MKts": 14
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Point Wilson",
+      "lat": -38.1,
+      "lng": 144.54,
+      "altM": 18
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "S",
+        "windSpeedMps": 8,
+        "windGustMps": 8.888888896,
+        "windSpeedKnotsKts": 15,
+        "windGustKts": 17,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "S",
+        "highestWindGustFrom10Mps": 8.888888896,
+        "highestWindGustFrom10MKts": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Rhyll",
+      "lat": -38.46,
+      "lng": 145.31,
+      "altM": 13.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 16,
+        "appTempC": 14.7,
+        "dewPointC": 13.9,
+        "humidityPercent": 88,
+        "wetBulbDepression": 1.1,
+        "windDir": "SSW",
+        "windSpeedMps": 4,
+        "windGustMps": 6.111111115999999,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 12,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0.4,
+        "lowTempC": 15.9,
+        "highTempC": 21.9,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 6.111111115999999,
+        "highestWindGustFrom10MKts": 12
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Scoresby",
+      "lat": -37.87,
+      "lng": 145.26,
+      "altM": 80
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 16,
+        "appTempC": 15.2,
+        "dewPointC": 12.4,
+        "humidityPercent": 78,
+        "wetBulbDepression": 2.1,
+        "windDir": "WSW",
+        "windSpeedMps": 3,
+        "windGustMps": 4.16666667,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": 8,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 16.1,
+        "highTempC": 28.4,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 4.16666667,
+        "highestWindGustFrom10MKts": 8
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sheoaks",
+      "lat": -37.91,
+      "lng": 144.13,
+      "altM": 236.7
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 13,
+        "appTempC": 12.4,
+        "dewPointC": 10.8,
+        "humidityPercent": 85,
+        "wetBulbDepression": 1.3,
+        "windDir": "E",
+        "windSpeedMps": 2,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 4,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0,
+        "lowTempC": 13.3,
+        "highTempC": 25.5,
+        "dirWindComeFrom": "SE",
+        "highestWindGustFrom10Mps": 2.5000000019999997,
+        "highestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "South Channel Island",
+      "lat": -38.31,
+      "lng": 144.8,
+      "altM": 9
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "SSW",
+        "windSpeedMps": 7,
+        "windGustMps": 7.7777777839999995,
+        "windSpeedKnotsKts": 14,
+        "windGustKts": 15,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "St Kilda Harbour RMYS",
+      "lat": -37.86,
+      "lng": 144.96,
+      "altM": 6.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "S",
+        "windSpeedMps": 3,
+        "windGustMps": 3.611111114,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": 7,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 4.16666667,
+        "highestWindGustFrom10MKts": 8
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Viewbank",
+      "lat": -37.74,
+      "lng": 145.1,
+      "altM": 66.1
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 16,
+        "appTempC": 14.8,
+        "dewPointC": 11.6,
+        "humidityPercent": 73,
+        "wetBulbDepression": 2.6,
+        "windDir": "SSW",
+        "windSpeedMps": 3,
+        "windGustMps": 5.277777781999999,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 10,
+        "pressureHpa": 1016,
+        "rainSince9AM": 1.6,
+        "lowTempC": 16.4,
+        "highTempC": 28.7,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 5.277777781999999,
+        "highestWindGustFrom10MKts": 10
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sydney - Observatory Hill",
+      "lat": -33.86,
+      "lng": 151.21,
+      "altM": 39
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 16,
+        "appTempC": null,
+        "dewPointC": 12.7,
+        "humidityPercent": 83,
+        "wetBulbDepression": 1.6,
+        "windDir": "-",
+        "windSpeedMps": 0,
+        "windGustMps": null,
+        "windSpeedKnotsKts": null,
+        "windGustKts": null,
+        "pressureHpa": 1017,
+        "rainSince9AM": 2.2,
+        "lowTempC": 15.5,
+        "highTempC": 21.1,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sydney Airport",
+      "lat": -33.95,
+      "lng": 151.17,
+      "altM": 6
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 16,
+        "appTempC": 14.1,
+        "dewPointC": 13.5,
+        "humidityPercent": 88,
+        "wetBulbDepression": 1.1,
+        "windDir": "W",
+        "windSpeedMps": 4,
+        "windGustMps": 3.611111114,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 7,
+        "pressureHpa": 1017,
+        "rainSince9AM": 1,
+        "lowTempC": 15.4,
+        "highTempC": 19.5,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 3.611111114,
+        "highestWindGustFrom10MKts": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sydney Olympic Park",
+      "lat": -33.83,
+      "lng": 151.07,
+      "altM": 4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 14,
+        "appTempC": 14.7,
+        "dewPointC": 13.4,
+        "humidityPercent": 99,
+        "wetBulbDepression": 0.1,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 13.5,
+        "highTempC": 21.8,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Badgerys Creek",
+      "lat": -33.9,
+      "lng": 150.73,
+      "altM": 81.2
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 13,
+        "appTempC": 12.6,
+        "dewPointC": 12.2,
+        "humidityPercent": 97,
+        "wetBulbDepression": 0.3,
+        "windDir": "SW",
+        "windSpeedMps": 1,
+        "windGustMps": 1.111111112,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 2,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.2,
+        "lowTempC": 12.4,
+        "highTempC": 21.2,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 1.666666668,
+        "highestWindGustFrom10MKts": 3
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Bankstown",
+      "lat": -33.92,
+      "lng": 150.99,
+      "altM": 6.5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 14,
+        "appTempC": 15.1,
+        "dewPointC": 12.5,
+        "humidityPercent": 89,
+        "wetBulbDepression": 1,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0.2,
+        "lowTempC": 13.5,
+        "highTempC": 23.1,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Bellambi",
+      "lat": -34.37,
+      "lng": 150.93,
+      "altM": 10
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 15,
+        "appTempC": 13.4,
+        "dewPointC": 12.8,
+        "humidityPercent": 89,
+        "wetBulbDepression": 1,
+        "windDir": "WSW",
+        "windSpeedMps": 3,
+        "windGustMps": 3.0555555579999996,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 6,
+        "pressureHpa": 0,
+        "rainSince9AM": 5,
+        "lowTempC": 14.6,
+        "highTempC": 18.4,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 3.611111114,
+        "highestWindGustFrom10MKts": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Campbelltown",
+      "lat": -34.06,
+      "lng": 150.77,
+      "altM": 112
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 12,
+        "appTempC": 11.7,
+        "dewPointC": 10.9,
+        "humidityPercent": 94,
+        "wetBulbDepression": 0.5,
+        "windDir": "SSW",
+        "windSpeedMps": 1,
+        "windGustMps": 1.111111112,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 2,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 11,
+        "highTempC": 22.9,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 1.9444444459999999,
+        "highestWindGustFrom10MKts": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Canterbury",
+      "lat": -33.91,
+      "lng": 151.11,
+      "altM": 3
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 13,
+        "appTempC": 13.1,
+        "dewPointC": 12,
+        "humidityPercent": 97,
+        "wetBulbDepression": 0.3,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 12.4,
+        "highTempC": 20.6,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Gosford",
+      "lat": -33.44,
+      "lng": 151.36,
+      "altM": 7
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 13,
+        "appTempC": 13.5,
+        "dewPointC": 12.4,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "SSW",
+        "windSpeedMps": 1,
+        "windGustMps": 0.555555556,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 1,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.4,
+        "lowTempC": 13,
+        "highTempC": 20.9,
+        "dirWindComeFrom": "NNW",
+        "highestWindGustFrom10Mps": 1.666666668,
+        "highestWindGustFrom10MKts": 3
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Holsworthy",
+      "lat": -33.99,
+      "lng": 150.95,
+      "altM": 68.16
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 14,
+        "appTempC": 12.6,
+        "dewPointC": 12.9,
+        "humidityPercent": 94,
+        "wetBulbDepression": 0.5,
+        "windDir": "WSW",
+        "windSpeedMps": 3,
+        "windGustMps": 3.611111114,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 7,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 13.4,
+        "highTempC": 21.5,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 3.611111114,
+        "highestWindGustFrom10MKts": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Holsworthy (Defence)",
+      "lat": -33.99,
+      "lng": 150.95,
+      "altM": 68.16
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 13,
+        "appTempC": 12.9,
+        "dewPointC": 12,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "SSW",
+        "windSpeedMps": 1,
+        "windGustMps": 0.555555556,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 1,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.2,
+        "lowTempC": 12.6,
+        "highTempC": 21.2,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 1.111111112,
+        "highestWindGustFrom10MKts": 2
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Horsley Park",
+      "lat": -33.85,
+      "lng": 150.86,
+      "altM": 100
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 14,
+        "appTempC": 13.7,
+        "dewPointC": 12,
+        "humidityPercent": 87,
+        "wetBulbDepression": 1.2,
+        "windDir": "WSW",
+        "windSpeedMps": 2,
+        "windGustMps": 1.666666668,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 3,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 12.7,
+        "highTempC": 21.8,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 2.5000000019999997,
+        "highestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Katoomba",
+      "lat": -33.71,
+      "lng": 150.31,
+      "altM": 1015
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 10,
+        "appTempC": 6.5,
+        "dewPointC": 8.8,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "S",
+        "windSpeedMps": 4,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 8,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 9,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Kurnell",
+      "lat": -34,
+      "lng": 151.21,
+      "altM": 4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "W",
+        "windSpeedMps": 3,
+        "windGustMps": 3.611111114,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 7,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 4.16666667,
+        "highestWindGustFrom10MKts": 8
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Lake Macquarie - Cooranbong",
+      "lat": -33.09,
+      "lng": 151.46,
+      "altM": 6
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 12,
+        "appTempC": 12.4,
+        "dewPointC": 11.2,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 0,
+        "rainSince9AM": 1.6,
+        "lowTempC": 12,
+        "highTempC": 22.4,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Little Bay",
+      "lat": -33.98,
+      "lng": 151.25,
+      "altM": 22
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "W",
+        "windSpeedMps": 2,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": 5,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 3.611111114,
+        "highestWindGustFrom10MKts": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Lucas Heights (ANSTO)",
+      "lat": -34.05,
+      "lng": 150.98,
+      "altM": 140
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 14,
+        "appTempC": 12.7,
+        "dewPointC": 12.6,
+        "humidityPercent": 89,
+        "wetBulbDepression": 1,
+        "windDir": "SSW",
+        "windSpeedMps": 4,
+        "windGustMps": 3.611111114,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 7,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Mangrove Mountain",
+      "lat": -33.29,
+      "lng": 151.21,
+      "altM": 305
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 12,
+        "appTempC": 12.2,
+        "dewPointC": 11.7,
+        "humidityPercent": 100,
+        "wetBulbDepression": 0,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 0,
+        "rainSince9AM": 1.8,
+        "lowTempC": 11.5,
+        "highTempC": 19.4,
+        "dirWindComeFrom": "NNW",
+        "highestWindGustFrom10Mps": 1.111111112,
+        "highestWindGustFrom10MKts": 2
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Mount Boyce",
+      "lat": -33.62,
+      "lng": 150.27,
+      "altM": 1080
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 9,
+        "appTempC": 7.8,
+        "dewPointC": 8.6,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "WSW",
+        "windSpeedMps": 2,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": 5,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 9.3,
+        "highTempC": 19.2,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 2.5000000019999997,
+        "highestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Newcastle Nobbys",
+      "lat": -32.92,
+      "lng": 151.8,
+      "altM": 33
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 16,
+        "appTempC": 16.9,
+        "dewPointC": 14.3,
+        "humidityPercent": 88,
+        "wetBulbDepression": 1.1,
+        "windDir": "W",
+        "windSpeedMps": 1,
+        "windGustMps": 1.666666668,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 3,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.2,
+        "lowTempC": 16.3,
+        "highTempC": 21.9,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 1.666666668,
+        "highestWindGustFrom10MKts": 3
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Norah Head",
+      "lat": -33.28,
+      "lng": 151.58,
+      "altM": 18.8
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 15,
+        "appTempC": 15.7,
+        "dewPointC": 14.5,
+        "humidityPercent": 97,
+        "wetBulbDepression": 0.3,
+        "windDir": "NW",
+        "windSpeedMps": 1,
+        "windGustMps": 1.666666668,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 3,
+        "pressureHpa": 0,
+        "rainSince9AM": 3,
+        "lowTempC": 15,
+        "highTempC": 20.2,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 3.0555555579999996,
+        "highestWindGustFrom10MKts": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "North Head",
+      "lat": -33.82,
+      "lng": 151.3,
+      "altM": 90
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "W",
+        "windSpeedMps": 3,
+        "windGustMps": 3.0555555579999996,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": 6,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 4.7222222259999995,
+        "highestWindGustFrom10MKts": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Springwood",
+      "lat": -33.71,
+      "lng": 150.58,
+      "altM": 320
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 18,
+        "appTempC": 16.7,
+        "dewPointC": 11,
+        "humidityPercent": 65,
+        "wetBulbDepression": 3.7,
+        "windDir": "SW",
+        "windSpeedMps": 2,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 1,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Terrey Hills",
+      "lat": -33.69,
+      "lng": 151.23,
+      "altM": 199
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037200,
+        "tempC": 13,
+        "appTempC": 13.1,
+        "dewPointC": 13.4,
+        "humidityPercent": 100,
+        "wetBulbDepression": 0,
+        "windDir": "W",
+        "windSpeedMps": 2,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": 4,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.6,
+        "lowTempC": 13.3,
+        "highTempC": 19.4,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 3.611111114,
+        "highestWindGustFrom10MKts": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Brisbane",
+      "lat": -27.48,
+      "lng": 153.04,
+      "altM": 8.13
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 17,
+        "appTempC": 18.9,
+        "dewPointC": 15.6,
+        "humidityPercent": 91,
+        "wetBulbDepression": 0.9,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1018,
+        "rainSince9AM": 0,
+        "lowTempC": 17.1,
+        "highTempC": 27.5,
+        "dirWindComeFrom": "ENE",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Brisbane Airport",
+      "lat": -27.48,
+      "lng": 153.04,
+      "altM": 8.13
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 18,
+        "appTempC": 18.7,
+        "dewPointC": 16.5,
+        "humidityPercent": 92,
+        "wetBulbDepression": 0.8,
+        "windDir": "WNW",
+        "windSpeedMps": 2,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": 4,
+        "pressureHpa": 1017,
+        "rainSince9AM": 3.4,
+        "lowTempC": 17.5,
+        "highTempC": 25.6,
+        "dirWindComeFrom": "NE",
+        "highestWindGustFrom10Mps": 8.888888896,
+        "highestWindGustFrom10MKts": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Amberley",
+      "lat": -27.63,
+      "lng": 152.71,
+      "altM": 24.2
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 16,
+        "appTempC": 17.4,
+        "dewPointC": 15.1,
+        "humidityPercent": 96,
+        "wetBulbDepression": 0.3,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1017,
+        "rainSince9AM": 7,
+        "lowTempC": 15.7,
+        "highTempC": 29.7,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 11.944444454,
+        "highestWindGustFrom10MKts": 23
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Archerfield",
+      "lat": -27.57,
+      "lng": 153.01,
+      "altM": 12.5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 18,
+        "appTempC": 19.5,
+        "dewPointC": 16.8,
+        "humidityPercent": 93,
+        "wetBulbDepression": 0.7,
+        "windDir": "SE",
+        "windSpeedMps": 1,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 4,
+        "pressureHpa": 1017,
+        "rainSince9AM": 2.8,
+        "lowTempC": 17.1,
+        "highTempC": 27.4,
+        "dirWindComeFrom": "ENE",
+        "highestWindGustFrom10Mps": 9.72222223,
+        "highestWindGustFrom10MKts": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Banana Bank",
+      "lat": -27.53,
+      "lng": 153.33,
+      "altM": 7
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "NNE",
+        "windSpeedMps": 2,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 4,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "NNE",
+        "highestWindGustFrom10Mps": 7.222222228,
+        "highestWindGustFrom10MKts": 14
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Beerburrum",
+      "lat": -26.96,
+      "lng": 152.96,
+      "altM": 48
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 17,
+        "appTempC": 17.3,
+        "dewPointC": 14.7,
+        "humidityPercent": 89,
+        "wetBulbDepression": 1,
+        "windDir": "SE",
+        "windSpeedMps": 1,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 5,
+        "pressureHpa": 0,
+        "rainSince9AM": 10,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Beaudesert AWS",
+      "lat": -27.97,
+      "lng": 152.99,
+      "altM": 47.81
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 17,
+        "appTempC": 18.6,
+        "dewPointC": 15.5,
+        "humidityPercent": 92,
+        "wetBulbDepression": 0.8,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1017,
+        "rainSince9AM": 3.4,
+        "lowTempC": 16.4,
+        "highTempC": 27.4,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 9.166666674,
+        "highestWindGustFrom10MKts": 18
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Cape Moreton",
+      "lat": -27.03,
+      "lng": 153.47,
+      "altM": 99.9
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 20,
+        "appTempC": 20.2,
+        "dewPointC": 17.5,
+        "humidityPercent": 85,
+        "wetBulbDepression": 1.6,
+        "windDir": "N",
+        "windSpeedMps": 4,
+        "windGustMps": 4.7222222259999995,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 9,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0.2,
+        "lowTempC": 19.3,
+        "highTempC": 24.1,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 8.888888896,
+        "highestWindGustFrom10MKts": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Coolangatta",
+      "lat": -28.17,
+      "lng": 153.51,
+      "altM": 4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 16,
+        "appTempC": 16.5,
+        "dewPointC": 15.5,
+        "humidityPercent": 97,
+        "wetBulbDepression": 0.3,
+        "windDir": "WSW",
+        "windSpeedMps": 2,
+        "windGustMps": 3.0555555579999996,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": 6,
+        "pressureHpa": 1017,
+        "rainSince9AM": 2.6,
+        "lowTempC": 15.9,
+        "highTempC": 24.8,
+        "dirWindComeFrom": "ENE",
+        "highestWindGustFrom10Mps": 7.7777777839999995,
+        "highestWindGustFrom10MKts": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Gatton",
+      "lat": -27.54,
+      "lng": 152.34,
+      "altM": 89
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 15,
+        "appTempC": 15.9,
+        "dewPointC": 13.5,
+        "humidityPercent": 92,
+        "wetBulbDepression": 0.7,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 14.7,
+        "highTempC": 29.4,
+        "dirWindComeFrom": "N",
+        "highestWindGustFrom10Mps": 9.166666674,
+        "highestWindGustFrom10MKts": 18
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Gold Coast Seaway",
+      "lat": -27.94,
+      "lng": 153.43,
+      "altM": 2.98
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 17,
+        "appTempC": 17.6,
+        "dewPointC": 17.1,
+        "humidityPercent": 99,
+        "wetBulbDepression": 0.1,
+        "windDir": "WNW",
+        "windSpeedMps": 3,
+        "windGustMps": 3.611111114,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 7,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0.4,
+        "lowTempC": 17.2,
+        "highTempC": 25,
+        "dirWindComeFrom": "SSE",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Gympie",
+      "lat": -26.18,
+      "lng": 152.64,
+      "altM": 64.5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 17,
+        "appTempC": 19.7,
+        "dewPointC": 17,
+        "humidityPercent": 98,
+        "wetBulbDepression": 0.2,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1017,
+        "rainSince9AM": 3.2,
+        "lowTempC": 16.7,
+        "highTempC": 29,
+        "dirWindComeFrom": "S",
+        "highestWindGustFrom10Mps": 12.777777787999998,
+        "highestWindGustFrom10MKts": 25
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Inner Beacon",
+      "lat": -27.26,
+      "lng": 153.24,
+      "altM": 20
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "W",
+        "windSpeedMps": 3,
+        "windGustMps": 3.0555555579999996,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": 6,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "ENE",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Kingaroy",
+      "lat": -26.57,
+      "lng": 151.84,
+      "altM": 433.67
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 17,
+        "appTempC": 16.4,
+        "dewPointC": 14,
+        "humidityPercent": 85,
+        "wetBulbDepression": 1.4,
+        "windDir": "ESE",
+        "windSpeedMps": 2,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": 5,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 15.3,
+        "highTempC": 27.1,
+        "dirWindComeFrom": "SSE",
+        "highestWindGustFrom10Mps": 10.833333342,
+        "highestWindGustFrom10MKts": 21
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Logan City",
+      "lat": -27.68,
+      "lng": 153.19,
+      "altM": 14
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539003600,
+        "tempC": 24,
+        "appTempC": 23.8,
+        "dewPointC": 12.6,
+        "humidityPercent": 49,
+        "wetBulbDepression": 6.4,
+        "windDir": "E",
+        "windSpeedMps": 1,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.5,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Nambour",
+      "lat": -26.64,
+      "lng": 152.94,
+      "altM": 53.24
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 16,
+        "appTempC": 18,
+        "dewPointC": 15.3,
+        "humidityPercent": 94,
+        "wetBulbDepression": 0.6,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1017,
+        "rainSince9AM": 4,
+        "lowTempC": 16,
+        "highTempC": 26.2,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 7.7777777839999995,
+        "highestWindGustFrom10MKts": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Oakey",
+      "lat": -27.4,
+      "lng": 151.74,
+      "altM": 405.69
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 16,
+        "appTempC": 13.9,
+        "dewPointC": 13.5,
+        "humidityPercent": 83,
+        "wetBulbDepression": 1.7,
+        "windDir": "NE",
+        "windSpeedMps": 5,
+        "windGustMps": 6.666666672,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": 13,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0,
+        "lowTempC": 16.4,
+        "highTempC": 27.9,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 13.8888889,
+        "highestWindGustFrom10MKts": 27
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Rainbow Beach",
+      "lat": -25.9,
+      "lng": 153.09,
+      "altM": 14.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 24,
+        "appTempC": 26.1,
+        "dewPointC": 19.1,
+        "humidityPercent": 76,
+        "wetBulbDepression": 2.9,
+        "windDir": "-",
+        "windSpeedMps": 1,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": null,
+        "pressureHpa": 1020,
+        "rainSince9AM": 0.4,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Redcliffe",
+      "lat": -27.22,
+      "lng": 153.09,
+      "altM": 12.6
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 18,
+        "appTempC": 19.6,
+        "dewPointC": 16.2,
+        "humidityPercent": 90,
+        "wetBulbDepression": 1,
+        "windDir": "WSW",
+        "windSpeedMps": 1,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 4,
+        "pressureHpa": 1017,
+        "rainSince9AM": 2.4,
+        "lowTempC": 17.9,
+        "highTempC": 26.4,
+        "dirWindComeFrom": "NE",
+        "highestWindGustFrom10Mps": 8.888888896,
+        "highestWindGustFrom10MKts": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Spitfire Channel",
+      "lat": -27.05,
+      "lng": 153.27,
+      "altM": 7
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "WSW",
+        "windSpeedMps": 1,
+        "windGustMps": 1.666666668,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 3,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "NE",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sunshine Coast Airport",
+      "lat": -26.6,
+      "lng": 153.09,
+      "altM": 3.3
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 17,
+        "appTempC": 17.2,
+        "dewPointC": 16.6,
+        "humidityPercent": 97,
+        "wetBulbDepression": 0.3,
+        "windDir": "WNW",
+        "windSpeedMps": 3,
+        "windGustMps": 3.611111114,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 7,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0.4,
+        "lowTempC": 17.1,
+        "highTempC": 24.9,
+        "dirWindComeFrom": "NE",
+        "highestWindGustFrom10Mps": 7.7777777839999995,
+        "highestWindGustFrom10MKts": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Tewantin",
+      "lat": -26.39,
+      "lng": 153.04,
+      "altM": 6.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 18,
+        "appTempC": 21.2,
+        "dewPointC": 18.1,
+        "humidityPercent": 99,
+        "wetBulbDepression": 0.1,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1017,
+        "rainSince9AM": 2.2,
+        "lowTempC": 18.1,
+        "highTempC": 25.5,
+        "dirWindComeFrom": "ENE",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Tin Can Bay (Defence)",
+      "lat": -25.94,
+      "lng": 152.96,
+      "altM": 31.26
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 19,
+        "appTempC": 21.2,
+        "dewPointC": 17.7,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.5,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 1.111111112,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 2,
+        "pressureHpa": 0,
+        "rainSince9AM": 7,
+        "lowTempC": 18.5,
+        "highTempC": 26.1,
+        "dirWindComeFrom": "ENE",
+        "highestWindGustFrom10Mps": 9.166666674,
+        "highestWindGustFrom10MKts": 18
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Toowoomba",
+      "lat": -27.54,
+      "lng": 151.91,
+      "altM": 640.9
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 15,
+        "appTempC": 12.3,
+        "dewPointC": 14.3,
+        "humidityPercent": 99,
+        "wetBulbDepression": 0.1,
+        "windDir": "NE",
+        "windSpeedMps": 5,
+        "windGustMps": 6.666666672,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": 13,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 14.4,
+        "highTempC": 25.6,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 11.388888898,
+        "highestWindGustFrom10MKts": 22
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Warwick",
+      "lat": -28.21,
+      "lng": 152.1,
+      "altM": 475.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 14,
+        "appTempC": 14.2,
+        "dewPointC": 12,
+        "humidityPercent": 88,
+        "wetBulbDepression": 1.1,
+        "windDir": "NNE",
+        "windSpeedMps": 1,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 4,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0.2,
+        "lowTempC": 14,
+        "highTempC": 26.8,
+        "dirWindComeFrom": "WNW",
+        "highestWindGustFrom10Mps": 9.72222223,
+        "highestWindGustFrom10MKts": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Wellcamp Airport",
+      "lat": -27.55,
+      "lng": 151.78,
+      "altM": 436.98
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539034200,
+        "tempC": 16,
+        "appTempC": 14.3,
+        "dewPointC": 14,
+        "humidityPercent": 86,
+        "wetBulbDepression": 1.3,
+        "windDir": "NE",
+        "windSpeedMps": 5,
+        "windGustMps": 6.666666672,
+        "windSpeedKnotsKts": 9,
+        "windGustKts": 13,
+        "pressureHpa": 1016,
+        "rainSince9AM": 0,
+        "lowTempC": 16,
+        "highTempC": 27.9,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 13.333333344,
+        "highestWindGustFrom10MKts": 26
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Perth",
+      "lat": -31.92,
+      "lng": 115.87,
+      "altM": 24.9
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 20,
+        "appTempC": 19.4,
+        "dewPointC": 12.7,
+        "humidityPercent": 63,
+        "wetBulbDepression": 4.1,
+        "windDir": "SE",
+        "windSpeedMps": 2,
+        "windGustMps": 4.16666667,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": 8,
+        "pressureHpa": 1018,
+        "rainSince9AM": 0,
+        "lowTempC": 19.9,
+        "highTempC": 26.7,
+        "dirWindComeFrom": "SSE",
+        "highestWindGustFrom10Mps": 7.7777777839999995,
+        "highestWindGustFrom10MKts": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Perth Airport",
+      "lat": -31.92,
+      "lng": 115.87,
+      "altM": 24.9
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 20,
+        "appTempC": 14.7,
+        "dewPointC": 11.9,
+        "humidityPercent": 60,
+        "wetBulbDepression": 4.4,
+        "windDir": "E",
+        "windSpeedMps": 8,
+        "windGustMps": 9.72222223,
+        "windSpeedKnotsKts": 16,
+        "windGustKts": 19,
+        "pressureHpa": 1018,
+        "rainSince9AM": 0,
+        "lowTempC": 19.8,
+        "highTempC": 26.5,
+        "dirWindComeFrom": "ESE",
+        "highestWindGustFrom10Mps": 11.944444454,
+        "highestWindGustFrom10MKts": 23
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Bickley",
+      "lat": -32.01,
+      "lng": 116.14,
+      "altM": 384
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 16,
+        "appTempC": 12.9,
+        "dewPointC": 11.9,
+        "humidityPercent": 77,
+        "wetBulbDepression": 2.2,
+        "windDir": "ESE",
+        "windSpeedMps": 5,
+        "windGustMps": 8.33333334,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": 16,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 15.9,
+        "highTempC": 23.3,
+        "dirWindComeFrom": "ESE",
+        "highestWindGustFrom10Mps": 9.72222223,
+        "highestWindGustFrom10MKts": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Garden Island",
+      "lat": -32.24,
+      "lng": 115.68,
+      "altM": 6
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 19,
+        "appTempC": 17.4,
+        "dewPointC": 14.2,
+        "humidityPercent": 76,
+        "wetBulbDepression": 2.5,
+        "windDir": "ESE",
+        "windSpeedMps": 4,
+        "windGustMps": 5.277777781999999,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 10,
+        "pressureHpa": 1019,
+        "rainSince9AM": 0,
+        "lowTempC": 18.5,
+        "highTempC": 24.6,
+        "dirWindComeFrom": "SE",
+        "highestWindGustFrom10Mps": 8.888888896,
+        "highestWindGustFrom10MKts": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Gooseberry Hill",
+      "lat": -31.94,
+      "lng": 116.05,
+      "altM": 220
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 18,
+        "appTempC": 13.2,
+        "dewPointC": 12.6,
+        "humidityPercent": 72,
+        "wetBulbDepression": 2.9,
+        "windDir": "E",
+        "windSpeedMps": 8,
+        "windGustMps": 11.388888898,
+        "windSpeedKnotsKts": 15,
+        "windGustKts": 22,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": 17.6,
+        "highTempC": 25.1,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 12.777777787999998,
+        "highestWindGustFrom10MKts": 25
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Gosnells",
+      "lat": -32.05,
+      "lng": 115.98,
+      "altM": 10
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539003600,
+        "tempC": 25,
+        "appTempC": 26.3,
+        "dewPointC": 18.5,
+        "humidityPercent": 65,
+        "wetBulbDepression": 4.4,
+        "windDir": "SE",
+        "windSpeedMps": 3,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Jandakot",
+      "lat": -32.1,
+      "lng": 115.88,
+      "altM": 30
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 19,
+        "appTempC": 16.4,
+        "dewPointC": 12.5,
+        "humidityPercent": 65,
+        "wetBulbDepression": 3.7,
+        "windDir": "ESE",
+        "windSpeedMps": 5,
+        "windGustMps": 6.666666672,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": 13,
+        "pressureHpa": 1018,
+        "rainSince9AM": 0,
+        "lowTempC": 18.9,
+        "highTempC": 26,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 9.72222223,
+        "highestWindGustFrom10MKts": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Karnet",
+      "lat": -32.44,
+      "lng": 116.08,
+      "altM": 286
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539003600,
+        "tempC": 21,
+        "appTempC": 18,
+        "dewPointC": 12.3,
+        "humidityPercent": 58,
+        "wetBulbDepression": 4.9,
+        "windDir": "E",
+        "windSpeedMps": 5,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Mandurah",
+      "lat": -32.52,
+      "lng": 115.71,
+      "altM": 3
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 19,
+        "appTempC": 18,
+        "dewPointC": 14.5,
+        "humidityPercent": 75,
+        "wetBulbDepression": 2.6,
+        "windDir": "ESE",
+        "windSpeedMps": 4,
+        "windGustMps": 5.277777781999999,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 10,
+        "pressureHpa": 1019,
+        "rainSince9AM": 0,
+        "lowTempC": 18.9,
+        "highTempC": 25.1,
+        "dirWindComeFrom": "SSE",
+        "highestWindGustFrom10Mps": 7.7777777839999995,
+        "highestWindGustFrom10MKts": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Melville Water",
+      "lat": -31.99,
+      "lng": 115.83,
+      "altM": 0
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "ESE",
+        "windSpeedMps": 4,
+        "windGustMps": 5.555555559999999,
+        "windSpeedKnotsKts": 8,
+        "windGustKts": 11,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "SE",
+        "highestWindGustFrom10Mps": 9.72222223,
+        "highestWindGustFrom10MKts": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Ocean Reef",
+      "lat": -31.76,
+      "lng": 115.73,
+      "altM": 10
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "ESE",
+        "windSpeedMps": 5,
+        "windGustMps": 7.7777777839999995,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": 15,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "SE",
+        "highestWindGustFrom10Mps": 10.277777786,
+        "highestWindGustFrom10MKts": 20
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Pearce",
+      "lat": -31.67,
+      "lng": 116.02,
+      "altM": 40
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 20,
+        "appTempC": 15,
+        "dewPointC": 12.5,
+        "humidityPercent": 61,
+        "wetBulbDepression": 4.4,
+        "windDir": "E",
+        "windSpeedMps": 9,
+        "windGustMps": 12.777777787999998,
+        "windSpeedKnotsKts": 17,
+        "windGustKts": 25,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 20.2,
+        "highTempC": 26.8,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 12.777777787999998,
+        "highestWindGustFrom10MKts": 25
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Rottnest Island",
+      "lat": -32.01,
+      "lng": 115.5,
+      "altM": 43.1
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 18,
+        "appTempC": 15.3,
+        "dewPointC": 14.5,
+        "humidityPercent": 78,
+        "wetBulbDepression": 2.3,
+        "windDir": "SE",
+        "windSpeedMps": 7,
+        "windGustMps": 8.33333334,
+        "windSpeedKnotsKts": 13,
+        "windGustKts": 16,
+        "pressureHpa": 1018,
+        "rainSince9AM": 0,
+        "lowTempC": 18.4,
+        "highTempC": 21.8,
+        "dirWindComeFrom": "S",
+        "highestWindGustFrom10Mps": 10.833333342,
+        "highestWindGustFrom10MKts": 21
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Swanbourne",
+      "lat": -31.96,
+      "lng": 115.76,
+      "altM": 40.96
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539027000,
+        "tempC": 20,
+        "appTempC": 18.4,
+        "dewPointC": 13.2,
+        "humidityPercent": 64,
+        "wetBulbDepression": 4,
+        "windDir": "ESE",
+        "windSpeedMps": 4,
+        "windGustMps": 6.111111115999999,
+        "windSpeedKnotsKts": 8,
+        "windGustKts": 12,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 20,
+        "highTempC": 26.1,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 8.888888896,
+        "highestWindGustFrom10MKts": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Adelaide Airport",
+      "lat": -34.95,
+      "lng": 138.52,
+      "altM": 2
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 15,
+        "appTempC": 11.8,
+        "dewPointC": 12.4,
+        "humidityPercent": 85,
+        "wetBulbDepression": 1.3,
+        "windDir": "SW",
+        "windSpeedMps": 6,
+        "windGustMps": 7.222222228,
+        "windSpeedKnotsKts": 11,
+        "windGustKts": 14,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 14.8,
+        "highTempC": 28.9,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 6.666666672,
+        "highestWindGustFrom10MKts": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Edinburgh",
+      "lat": -34.71,
+      "lng": 138.62,
+      "altM": 16.54
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 15,
+        "appTempC": 12.4,
+        "dewPointC": 12.7,
+        "humidityPercent": 85,
+        "wetBulbDepression": 1.4,
+        "windDir": "WSW",
+        "windSpeedMps": 5,
+        "windGustMps": 6.111111115999999,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": 12,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 15.1,
+        "highTempC": 30.2,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 5.555555559999999,
+        "highestWindGustFrom10MKts": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Hindmarsh Island",
+      "lat": -35.52,
+      "lng": 138.82,
+      "altM": 11
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 15,
+        "appTempC": 10.1,
+        "dewPointC": 11.7,
+        "humidityPercent": 83,
+        "wetBulbDepression": 1.5,
+        "windDir": "WSW",
+        "windSpeedMps": 7,
+        "windGustMps": 8.888888896,
+        "windSpeedKnotsKts": 14,
+        "windGustKts": 17,
+        "pressureHpa": 1014,
+        "rainSince9AM": 0,
+        "lowTempC": 14.4,
+        "highTempC": 29.1,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 8.888888896,
+        "highestWindGustFrom10MKts": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Kuitpo",
+      "lat": -35.17,
+      "lng": 138.68,
+      "altM": 365
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 12,
+        "appTempC": 8.9,
+        "dewPointC": 11.4,
+        "humidityPercent": 98,
+        "wetBulbDepression": 0.2,
+        "windDir": "W",
+        "windSpeedMps": 5,
+        "windGustMps": 6.666666672,
+        "windSpeedKnotsKts": 9,
+        "windGustKts": 13,
+        "pressureHpa": 1013,
+        "rainSince9AM": 0,
+        "lowTempC": 11.7,
+        "highTempC": 26.8,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 6.666666672,
+        "highestWindGustFrom10MKts": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Mount Barker",
+      "lat": -35.07,
+      "lng": 138.85,
+      "altM": 359
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 22,
+        "appTempC": 19.4,
+        "dewPointC": 6.3,
+        "humidityPercent": 37,
+        "wetBulbDepression": 7.9,
+        "windDir": "NNW",
+        "windSpeedMps": 2,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.2,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Mount Crawford",
+      "lat": -34.73,
+      "lng": 138.93,
+      "altM": 525
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 11,
+        "appTempC": 6.9,
+        "dewPointC": 11.4,
+        "humidityPercent": 100,
+        "wetBulbDepression": 0,
+        "windDir": "WNW",
+        "windSpeedMps": 7,
+        "windGustMps": 10.277777786,
+        "windSpeedKnotsKts": 14,
+        "windGustKts": 20,
+        "pressureHpa": 1014,
+        "rainSince9AM": 0,
+        "lowTempC": 11.4,
+        "highTempC": 24.9,
+        "dirWindComeFrom": "WNW",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Mount Lofty",
+      "lat": -34.98,
+      "lng": 138.71,
+      "altM": 685
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 11,
+        "appTempC": 8.5,
+        "dewPointC": 10.2,
+        "humidityPercent": 98,
+        "wetBulbDepression": 0.2,
+        "windDir": "W",
+        "windSpeedMps": 3,
+        "windGustMps": 5.555555559999999,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 11,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 10.4,
+        "highTempC": 22.7,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 3.611111114,
+        "highestWindGustFrom10MKts": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Murray Bridge",
+      "lat": -35.12,
+      "lng": 139.26,
+      "altM": 33
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 18,
+        "appTempC": 16.4,
+        "dewPointC": 11.6,
+        "humidityPercent": 66,
+        "wetBulbDepression": 3.5,
+        "windDir": "E",
+        "windSpeedMps": 3,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.6,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Noarlunga",
+      "lat": -35.16,
+      "lng": 138.51,
+      "altM": 55
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 14,
+        "appTempC": 13.1,
+        "dewPointC": 11.5,
+        "humidityPercent": 83,
+        "wetBulbDepression": 1.5,
+        "windDir": "WSW",
+        "windSpeedMps": 3,
+        "windGustMps": 4.16666667,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": 8,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.2,
+        "lowTempC": 14.3,
+        "highTempC": 28.4,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 4.16666667,
+        "highestWindGustFrom10MKts": 8
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Nuriootpa",
+      "lat": -34.48,
+      "lng": 139.01,
+      "altM": 275
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 13,
+        "appTempC": 10.8,
+        "dewPointC": 12.4,
+        "humidityPercent": 94,
+        "wetBulbDepression": 0.5,
+        "windDir": "W",
+        "windSpeedMps": 5,
+        "windGustMps": 7.222222228,
+        "windSpeedKnotsKts": 9,
+        "windGustKts": 14,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0.2,
+        "lowTempC": 13.3,
+        "highTempC": 28,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 6.111111115999999,
+        "highestWindGustFrom10MKts": 12
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Pallamana",
+      "lat": -35.06,
+      "lng": 139.23,
+      "altM": 45
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 16,
+        "appTempC": 16.1,
+        "dewPointC": 13.1,
+        "humidityPercent": 81,
+        "wetBulbDepression": 1.8,
+        "windDir": "WNW",
+        "windSpeedMps": 2,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 5,
+        "pressureHpa": 1014,
+        "rainSince9AM": 1,
+        "lowTempC": 15.9,
+        "highTempC": 30.9,
+        "dirWindComeFrom": "WNW",
+        "highestWindGustFrom10Mps": 1.666666668,
+        "highestWindGustFrom10MKts": 3
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Parafield",
+      "lat": -34.8,
+      "lng": 138.63,
+      "altM": 9.5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 15,
+        "appTempC": 12.7,
+        "dewPointC": 12.9,
+        "humidityPercent": 85,
+        "wetBulbDepression": 1.4,
+        "windDir": "WSW",
+        "windSpeedMps": 5,
+        "windGustMps": 6.666666672,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": 13,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 15.4,
+        "highTempC": 29.9,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 4.7222222259999995,
+        "highestWindGustFrom10MKts": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Parawa West",
+      "lat": -35.57,
+      "lng": 138.29,
+      "altM": 341
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 11,
+        "appTempC": 9.2,
+        "dewPointC": 11,
+        "humidityPercent": 98,
+        "wetBulbDepression": 0.2,
+        "windDir": "SW",
+        "windSpeedMps": 4,
+        "windGustMps": 5.555555559999999,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 11,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 11.2,
+        "highTempC": 23.4,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 4.16666667,
+        "highestWindGustFrom10MKts": 8
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Roseworthy",
+      "lat": -34.51,
+      "lng": 138.68,
+      "altM": 65
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 14,
+        "appTempC": 12.9,
+        "dewPointC": 13.5,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "NW",
+        "windSpeedMps": 4,
+        "windGustMps": 5.555555559999999,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 11,
+        "pressureHpa": 1015,
+        "rainSince9AM": 1,
+        "lowTempC": 14.3,
+        "highTempC": 31.2,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 5.277777781999999,
+        "highestWindGustFrom10MKts": 10
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Sellicks Hill",
+      "lat": -35.33,
+      "lng": 138.5,
+      "altM": 385.7
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 0,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "WNW",
+        "windSpeedMps": 2,
+        "windGustMps": 4.16666667,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 8,
+        "pressureHpa": 0,
+        "rainSince9AM": null,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 1.9444444459999999,
+        "highestWindGustFrom10MKts": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Strathalbyn",
+      "lat": -35.28,
+      "lng": 138.89,
+      "altM": 58
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539036000,
+        "tempC": 15,
+        "appTempC": 12.9,
+        "dewPointC": 11.3,
+        "humidityPercent": 77,
+        "wetBulbDepression": 2.1,
+        "windDir": "WSW",
+        "windSpeedMps": 4,
+        "windGustMps": 5.555555559999999,
+        "windSpeedKnotsKts": 8,
+        "windGustKts": 11,
+        "pressureHpa": 1014,
+        "rainSince9AM": 0.6,
+        "lowTempC": 15.3,
+        "highTempC": 29.8,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 4.7222222259999995,
+        "highestWindGustFrom10MKts": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Turretfield",
+      "lat": -34.55,
+      "lng": 138.83,
+      "altM": 116
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 23,
+        "appTempC": 22.4,
+        "dewPointC": 10.5,
+        "humidityPercent": 45,
+        "wetBulbDepression": 6.9,
+        "windDir": "NE",
+        "windSpeedMps": 1,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Hobart",
+      "lat": -42.89,
+      "lng": 147.33,
+      "altM": 50.5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 12,
+        "appTempC": 11.3,
+        "dewPointC": 9.5,
+        "humidityPercent": 86,
+        "wetBulbDepression": 1.2,
+        "windDir": "W",
+        "windSpeedMps": 1,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 4,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 11.7,
+        "highTempC": 16.9,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 1.9444444459999999,
+        "highestWindGustFrom10MKts": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Hobart Airport",
+      "lat": -42.89,
+      "lng": 147.33,
+      "altM": 50.5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 11,
+        "appTempC": 10.3,
+        "dewPointC": 8.8,
+        "humidityPercent": 89,
+        "wetBulbDepression": 0.9,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 10.4,
+        "highTempC": 18.8,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Bushy Park",
+      "lat": -42.71,
+      "lng": 146.9,
+      "altM": 27
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 12,
+        "appTempC": 11.9,
+        "dewPointC": 10.8,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 0,
+        "rainSince9AM": 0.2,
+        "lowTempC": 11.4,
+        "highTempC": 18.9,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Campania",
+      "lat": -42.69,
+      "lng": 147.43,
+      "altM": 45
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 10,
+        "appTempC": 8.8,
+        "dewPointC": 8.8,
+        "humidityPercent": 91,
+        "wetBulbDepression": 0.7,
+        "windDir": "N",
+        "windSpeedMps": 2,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 4,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 10.1,
+        "highTempC": 20.7,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 2.5000000019999997,
+        "highestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Cape Bruny AWS",
+      "lat": -43.49,
+      "lng": 147.15,
+      "altM": 55
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 11,
+        "appTempC": 9.3,
+        "dewPointC": 9.2,
+        "humidityPercent": 91,
+        "wetBulbDepression": 0.7,
+        "windDir": "NNW",
+        "windSpeedMps": 2,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 5,
+        "pressureHpa": 1015,
+        "rainSince9AM": 2.6,
+        "lowTempC": 10.6,
+        "highTempC": 16.1,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 2.5000000019999997,
+        "highestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Dennes Point",
+      "lat": -43.06,
+      "lng": 147.36,
+      "altM": 5.67
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 12,
+        "appTempC": 10.9,
+        "dewPointC": 10.4,
+        "humidityPercent": 93,
+        "wetBulbDepression": 0.6,
+        "windDir": "SSW",
+        "windSpeedMps": 1,
+        "windGustMps": 1.666666668,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 3,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0.2,
+        "lowTempC": 10.8,
+        "highTempC": 15.6,
+        "dirWindComeFrom": "SSW",
+        "highestWindGustFrom10Mps": 1.666666668,
+        "highestWindGustFrom10MKts": 3
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Dover",
+      "lat": -43.33,
+      "lng": 147,
+      "altM": 20
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 11,
+        "appTempC": 8.7,
+        "dewPointC": 9.5,
+        "humidityPercent": 93,
+        "wetBulbDepression": 0.5,
+        "windDir": "NW",
+        "windSpeedMps": 3,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Dunalley",
+      "lat": -42.9,
+      "lng": 147.79,
+      "altM": 12.43
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 12,
+        "appTempC": 9.6,
+        "dewPointC": 8.8,
+        "humidityPercent": 83,
+        "wetBulbDepression": 1.4,
+        "windDir": "ENE",
+        "windSpeedMps": 3,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": 5,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 11.3,
+        "highTempC": 17.2,
+        "dirWindComeFrom": "ENE",
+        "highestWindGustFrom10Mps": 3.0555555579999996,
+        "highestWindGustFrom10MKts": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Grove",
+      "lat": -42.99,
+      "lng": 147.07,
+      "altM": 65
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 11,
+        "appTempC": 11.8,
+        "dewPointC": 11.2,
+        "humidityPercent": 99,
+        "wetBulbDepression": 0.1,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 0,
+        "rainSince9AM": 1,
+        "lowTempC": 11.3,
+        "highTempC": 18,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Maria Island",
+      "lat": -42.66,
+      "lng": 148.02,
+      "altM": 28
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 13,
+        "appTempC": 12.7,
+        "dewPointC": 10.7,
+        "humidityPercent": 89,
+        "wetBulbDepression": 0.9,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 12.3,
+        "highTempC": 18,
+        "dirWindComeFrom": "WNW",
+        "highestWindGustFrom10Mps": 0.555555556,
+        "highestWindGustFrom10MKts": 1
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Orford",
+      "lat": -42.55,
+      "lng": 147.88,
+      "altM": 14
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 12,
+        "appTempC": 11.1,
+        "dewPointC": 8.6,
+        "humidityPercent": 78,
+        "wetBulbDepression": 1.8,
+        "windDir": "NW",
+        "windSpeedMps": 1,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Tasman Island",
+      "lat": -43.24,
+      "lng": 148,
+      "altM": 240
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 10,
+        "appTempC": 8.3,
+        "dewPointC": 9.1,
+        "humidityPercent": 93,
+        "wetBulbDepression": 0.6,
+        "windDir": "WNW",
+        "windSpeedMps": 3,
+        "windGustMps": 3.0555555579999996,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": 6,
+        "pressureHpa": 1015,
+        "rainSince9AM": 0,
+        "lowTempC": 9.8,
+        "highTempC": 15.7,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 3.0555555579999996,
+        "highestWindGustFrom10MKts": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Canberra",
+      "lat": -35.31,
+      "lng": 149.2,
+      "altM": 577.05
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 11,
+        "appTempC": 9.3,
+        "dewPointC": 9.8,
+        "humidityPercent": 92,
+        "wetBulbDepression": 0.6,
+        "windDir": "E",
+        "windSpeedMps": 3,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": 5,
+        "pressureHpa": 1018,
+        "rainSince9AM": 0,
+        "lowTempC": 10.5,
+        "highTempC": 23.5,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 3.0555555579999996,
+        "highestWindGustFrom10MKts": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Batemans Bay",
+      "lat": -35.72,
+      "lng": 150.19,
+      "altM": 11
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 18,
+        "appTempC": 17.3,
+        "dewPointC": 14.2,
+        "humidityPercent": 78,
+        "wetBulbDepression": 2.2,
+        "windDir": "SW",
+        "windSpeedMps": 3,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 1,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Braidwood",
+      "lat": -35.43,
+      "lng": 149.78,
+      "altM": 665.2
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 7,
+        "appTempC": 6.6,
+        "dewPointC": 6.5,
+        "humidityPercent": 94,
+        "wetBulbDepression": 0.4,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1018,
+        "rainSince9AM": 0,
+        "lowTempC": 7.3,
+        "highTempC": 18.7,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Cabramurra",
+      "lat": -35.94,
+      "lng": 148.38,
+      "altM": 1482.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 9,
+        "appTempC": 5.1,
+        "dewPointC": 5.1,
+        "humidityPercent": 78,
+        "wetBulbDepression": 1.8,
+        "windDir": "NE",
+        "windSpeedMps": 4,
+        "windGustMps": 5.277777781999999,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 10,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 8.7,
+        "highTempC": 16.3,
+        "dirWindComeFrom": "NE",
+        "highestWindGustFrom10Mps": 5.555555559999999,
+        "highestWindGustFrom10MKts": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Cooma Airport",
+      "lat": -36.29,
+      "lng": 148.97,
+      "altM": 930
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 6,
+        "appTempC": 4.5,
+        "dewPointC": 5.4,
+        "humidityPercent": 99,
+        "wetBulbDepression": 0,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1018,
+        "rainSince9AM": 0,
+        "lowTempC": 5.5,
+        "highTempC": 20.9,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Goulburn Airport",
+      "lat": -34.81,
+      "lng": 149.73,
+      "altM": 640
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 11,
+        "appTempC": 10.3,
+        "dewPointC": 10.3,
+        "humidityPercent": 99,
+        "wetBulbDepression": 0.1,
+        "windDir": "ESE",
+        "windSpeedMps": 1,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 5,
+        "pressureHpa": 1018,
+        "rainSince9AM": 1,
+        "lowTempC": 8.5,
+        "highTempC": 20.4,
+        "dirWindComeFrom": "E",
+        "highestWindGustFrom10Mps": 2.5000000019999997,
+        "highestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Montague Island",
+      "lat": -36.25,
+      "lng": 150.23,
+      "altM": 52
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 16,
+        "appTempC": 15.8,
+        "dewPointC": 14.9,
+        "humidityPercent": 96,
+        "wetBulbDepression": 0.3,
+        "windDir": "NW",
+        "windSpeedMps": 2,
+        "windGustMps": 2.5000000019999997,
+        "windSpeedKnotsKts": 4,
+        "windGustKts": 5,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 15.4,
+        "highTempC": 19.8,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 2.5000000019999997,
+        "highestWindGustFrom10MKts": 5
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Moruya Airport",
+      "lat": -35.9,
+      "lng": 150.14,
+      "altM": 4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 12,
+        "appTempC": 11.2,
+        "dewPointC": 11.2,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "WSW",
+        "windSpeedMps": 2,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 4,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 11.9,
+        "highTempC": 21.1,
+        "dirWindComeFrom": "WSW",
+        "highestWindGustFrom10Mps": 1.9444444459999999,
+        "highestWindGustFrom10MKts": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Mount Ginini",
+      "lat": -35.53,
+      "lng": 148.77,
+      "altM": 1760
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 6,
+        "appTempC": 3.1,
+        "dewPointC": 5.8,
+        "humidityPercent": 98,
+        "wetBulbDepression": 0.1,
+        "windDir": "NW",
+        "windSpeedMps": 3,
+        "windGustMps": 4.16666667,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 8,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 6,
+        "highTempC": 16.1,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 4.16666667,
+        "highestWindGustFrom10MKts": 8
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Narooma",
+      "lat": -36.21,
+      "lng": 150.14,
+      "altM": 25
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539003600,
+        "tempC": 21,
+        "appTempC": 20.6,
+        "dewPointC": 15.8,
+        "humidityPercent": 73,
+        "wetBulbDepression": 3,
+        "windDir": "SW",
+        "windSpeedMps": 3,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": null,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Nowra",
+      "lat": -34.95,
+      "lng": 150.54,
+      "altM": 109
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 13,
+        "appTempC": 12.4,
+        "dewPointC": 13.4,
+        "humidityPercent": 100,
+        "wetBulbDepression": 0,
+        "windDir": "W",
+        "windSpeedMps": 3,
+        "windGustMps": 3.611111114,
+        "windSpeedKnotsKts": 6,
+        "windGustKts": 7,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 13.2,
+        "highTempC": 21.5,
+        "dirWindComeFrom": "W",
+        "highestWindGustFrom10Mps": 3.611111114,
+        "highestWindGustFrom10MKts": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Perisher Valley",
+      "lat": -36.41,
+      "lng": 148.41,
+      "altM": 1738
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 2,
+        "appTempC": 0.2,
+        "dewPointC": 1.6,
+        "humidityPercent": 98,
+        "wetBulbDepression": 0.1,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0.555555556,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 1,
+        "pressureHpa": 0,
+        "rainSince9AM": 0,
+        "lowTempC": 1.3,
+        "highTempC": 14.3,
+        "dirWindComeFrom": "SW",
+        "highestWindGustFrom10Mps": 1.111111112,
+        "highestWindGustFrom10MKts": 2
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Thredbo Top Station",
+      "lat": -36.49,
+      "lng": 148.29,
+      "altM": 1957
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 2,
+        "appTempC": -2.5,
+        "dewPointC": -0.6,
+        "humidityPercent": 83,
+        "wetBulbDepression": 1.1,
+        "windDir": "NW",
+        "windSpeedMps": 4,
+        "windGustMps": 4.16666667,
+        "windSpeedKnotsKts": 7,
+        "windGustKts": 8,
+        "pressureHpa": 1019,
+        "rainSince9AM": 0,
+        "lowTempC": 0.2,
+        "highTempC": 12.6,
+        "dirWindComeFrom": "NNW",
+        "highestWindGustFrom10Mps": 5.555555559999999,
+        "highestWindGustFrom10MKts": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Tuggeranong",
+      "lat": -35.42,
+      "lng": 149.09,
+      "altM": 586.7
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 11,
+        "appTempC": 11.1,
+        "dewPointC": 10.6,
+        "humidityPercent": 98,
+        "wetBulbDepression": 0.2,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0.4,
+        "lowTempC": 10.8,
+        "highTempC": 24.1,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 0,
+        "highestWindGustFrom10MKts": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Ulladulla",
+      "lat": -35.36,
+      "lng": 150.48,
+      "altM": 35.7
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539037800,
+        "tempC": 14,
+        "appTempC": 14.8,
+        "dewPointC": 13.6,
+        "humidityPercent": 95,
+        "wetBulbDepression": 0.4,
+        "windDir": "W",
+        "windSpeedMps": 1,
+        "windGustMps": 1.666666668,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 3,
+        "pressureHpa": 1017,
+        "rainSince9AM": 0,
+        "lowTempC": 14.4,
+        "highTempC": 18.9,
+        "dirWindComeFrom": "WNW",
+        "highestWindGustFrom10Mps": 1.9444444459999999,
+        "highestWindGustFrom10MKts": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Darwin Airport",
+      "lat": -12.42,
+      "lng": 130.89,
+      "altM": 30.4
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 27,
+        "appTempC": 30.7,
+        "dewPointC": 21.6,
+        "humidityPercent": 71,
+        "wetBulbDepression": 3.8,
+        "windDir": "SW",
+        "windSpeedMps": 2,
+        "windGustMps": 1.666666668,
+        "windSpeedKnotsKts": 3,
+        "windGustKts": 3,
+        "pressureHpa": 1012,
+        "rainSince9AM": 0,
+        "lowTempC": 27.3,
+        "highTempC": 35.6,
+        "dirWindComeFrom": "NNW",
+        "highestWindGustFrom10Mps": 8.888888896,
+        "highestWindGustFrom10MKts": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Darwin Harbour",
+      "lat": -12.47,
+      "lng": 130.85,
+      "altM": 0
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 28,
+        "appTempC": null,
+        "dewPointC": null,
+        "humidityPercent": 0,
+        "wetBulbDepression": null,
+        "windDir": "WSW",
+        "windSpeedMps": 1,
+        "windGustMps": 1.111111112,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 2,
+        "pressureHpa": 1011,
+        "rainSince9AM": null,
+        "lowTempC": 27.9,
+        "highTempC": 33.8,
+        "dirWindComeFrom": "WNW",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Batchelor",
+      "lat": -13.05,
+      "lng": 131.03,
+      "altM": 104
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 26,
+        "appTempC": 28.7,
+        "dewPointC": 19.5,
+        "humidityPercent": 69,
+        "wetBulbDepression": 3.9,
+        "windDir": "NNW",
+        "windSpeedMps": 1,
+        "windGustMps": 0.555555556,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 1,
+        "pressureHpa": 1012,
+        "rainSince9AM": 0,
+        "lowTempC": 25.6,
+        "highTempC": 38.7,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 9.72222223,
+        "highestWindGustFrom10MKts": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Black Point",
+      "lat": -11.15,
+      "lng": 132.14,
+      "altM": 5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 28,
+        "appTempC": 30.4,
+        "dewPointC": 21.6,
+        "humidityPercent": 70,
+        "wetBulbDepression": 4,
+        "windDir": "SW",
+        "windSpeedMps": 3,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 5,
+        "windGustKts": null,
+        "pressureHpa": 1014,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Channel Point",
+      "lat": -13.17,
+      "lng": 130.12,
+      "altM": 3
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1538982000,
+        "tempC": 30,
+        "appTempC": 34.5,
+        "dewPointC": 27.2,
+        "humidityPercent": 84,
+        "wetBulbDepression": 2.2,
+        "windDir": "NNE",
+        "windSpeedMps": 5,
+        "windGustMps": null,
+        "windSpeedKnotsKts": 10,
+        "windGustKts": null,
+        "pressureHpa": 1013,
+        "rainSince9AM": 0,
+        "lowTempC": null,
+        "highTempC": null,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": null,
+        "highestWindGustFrom10MKts": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Charles Point",
+      "lat": -12.39,
+      "lng": 130.63,
+      "altM": 14
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 27,
+        "appTempC": 30.2,
+        "dewPointC": 20.7,
+        "humidityPercent": 69,
+        "wetBulbDepression": 4.1,
+        "windDir": "WSW",
+        "windSpeedMps": 1,
+        "windGustMps": 1.666666668,
+        "windSpeedKnotsKts": 2,
+        "windGustKts": 3,
+        "pressureHpa": 1012,
+        "rainSince9AM": 0,
+        "lowTempC": 26.8,
+        "highTempC": 32.5,
+        "dirWindComeFrom": "N",
+        "highestWindGustFrom10Mps": 6.111111115999999,
+        "highestWindGustFrom10MKts": 12
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Middle Point",
+      "lat": -12.61,
+      "lng": 131.3,
+      "altM": 14.1
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 25,
+        "appTempC": 27.1,
+        "dewPointC": 18.4,
+        "humidityPercent": 69,
+        "wetBulbDepression": 3.9,
+        "windDir": "NW",
+        "windSpeedMps": 1,
+        "windGustMps": 0.555555556,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 1,
+        "pressureHpa": 1012,
+        "rainSince9AM": 0,
+        "lowTempC": 22.3,
+        "highTempC": 38,
+        "dirWindComeFrom": "N",
+        "highestWindGustFrom10Mps": 9.72222223,
+        "highestWindGustFrom10MKts": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Noonamah",
+      "lat": -12.61,
+      "lng": 131.05,
+      "altM": 17.5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 26,
+        "appTempC": 29.4,
+        "dewPointC": 19.7,
+        "humidityPercent": 69,
+        "wetBulbDepression": 3.9,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1011,
+        "rainSince9AM": 0,
+        "lowTempC": 25.8,
+        "highTempC": 38.2,
+        "dirWindComeFrom": "NE",
+        "highestWindGustFrom10Mps": 8.33333334,
+        "highestWindGustFrom10MKts": 16
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Pirlangimpi",
+      "lat": -11.4,
+      "lng": 130.42,
+      "altM": 18.3
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 24,
+        "appTempC": 27.3,
+        "dewPointC": 19.4,
+        "humidityPercent": 76,
+        "wetBulbDepression": 2.9,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1012,
+        "rainSince9AM": 0,
+        "lowTempC": 23.9,
+        "highTempC": 36,
+        "dirWindComeFrom": "ENE",
+        "highestWindGustFrom10Mps": 6.666666672,
+        "highestWindGustFrom10MKts": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Point Fawcett",
+      "lat": -11.76,
+      "lng": 130.03,
+      "altM": 6.5
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 23,
+        "appTempC": 26.2,
+        "dewPointC": 19.8,
+        "humidityPercent": 82,
+        "wetBulbDepression": 2.1,
+        "windDir": "W",
+        "windSpeedMps": 1,
+        "windGustMps": 1.9444444459999999,
+        "windSpeedKnotsKts": 1,
+        "windGustKts": 4,
+        "pressureHpa": 1012,
+        "rainSince9AM": 0,
+        "lowTempC": 22.9,
+        "highTempC": 34.3,
+        "dirWindComeFrom": "-",
+        "highestWindGustFrom10Mps": 7.222222228,
+        "highestWindGustFrom10MKts": 14
+      }
+    ]
+  },
+  {
+    "location": {
+      "name": "Point Stuart",
+      "lat": -12.24,
+      "lng": 131.88,
+      "altM": 1
+    },
+    "weather": [
+      {
+        "time_stamp": 1539005533,
+        "last_updated": 1539032400,
+        "tempC": 26,
+        "appTempC": 31.2,
+        "dewPointC": 22.9,
+        "humidityPercent": 83,
+        "wetBulbDepression": 2.1,
+        "windDir": "CALM",
+        "windSpeedMps": 0,
+        "windGustMps": 0,
+        "windSpeedKnotsKts": 0,
+        "windGustKts": 0,
+        "pressureHpa": 1011,
+        "rainSince9AM": 0,
+        "lowTempC": 26,
+        "highTempC": 34,
+        "dirWindComeFrom": "NW",
+        "highestWindGustFrom10Mps": 6.666666672,
+        "highestWindGustFrom10MKts": 13
+      }
+    ]
+  }
+]
