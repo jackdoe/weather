@@ -2,6 +2,7 @@
 
 const cheerio = require('cheerio');
 const axios = require('axios');
+const Windrose = require('windrose');
 const { readJSONFile } = require('./fileOperations');
 
 const ICELAND_URL = 'https://icelandmonitor.mbl.is/weather/forecasts/';
@@ -28,6 +29,7 @@ async function main() {
     const symbolArray = getData(cheerioObject, 'condition');
     const tempCArray = getData(cheerioObject, 'temp');
     const windMpsArray = getData(cheerioObject, 'wind');
+    const windDirectionArray = getData(cheerioObject, 'windDirection');
     const rainMmArray = getData(cheerioObject, 'precipitation');
 
     const citiesLocation = await readJSONFile(CITIES_LOCATION_FILE);
@@ -56,6 +58,7 @@ async function main() {
           symbol: symbolArray[i],
           temperatureC: tempCArray[i],
           windSpeedMps: windMpsArray[i],
+          windDirectionDeg: windDirectionArray[i],
           rainPrecipitationMm: rainMmArray[i]
         });
       }
@@ -84,13 +87,18 @@ function getData(html, className) {
       throw new Error('error fetching condition values');
     return values;
 
+  } else if (className === 'windDirection') {
+    values = html("div[class^='d--maincol'] span[class^=wind] > span[class=direction]")
+      .toArray().map(elem => Windrose.getDegrees(elem.children[0].data).value);
+    return values;
   }
-
-  values = html("div[class^='d--maincol'] span[class^=" + className + "] > span[class=value]")
-    .toArray().map(elem => Number(elem.children[0].data));
-  if (values.length === 0 || values.some(isNaN))
-    throw new Error('error fetching ' + className + ' values');
-  return values;
+  else {
+    values = html("div[class^='d--maincol'] span[class^=" + className + "] > span[class=value]")
+      .toArray().map(elem => Number(elem.children[0].data));
+    if (values.length === 0 || values.some(isNaN))
+      throw new Error('error fetching ' + className + ' values');
+    return values;
+  }
 
 }
 

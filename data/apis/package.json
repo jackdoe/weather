@@ -12,11 +12,13 @@
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "fs-extra": "^7.0.0",
+    "geolib": "^2.0.24",
     "latlon-geohash": "^1.1.0",
     "moment": "^2.22.2",
     "mysql": "^2.16.0",
     "require-dir": "^1.1.0",
     "sleep": "^5.2.3",
+    "windrose": "^2.1.0",
     "xml2js": "^0.4.19"
   }
 }

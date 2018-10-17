@@ -3,6 +3,7 @@
 const axios = require('axios');
 const sleep = require('sleep');
 const { readJSONFile } = require('./fileOperations');
+const Windrose = require('windrose');
 
 const { SLEEP_IN_SECOND, USA_API_USERAGENT } = require('../config/config.js');
 const USA_WEATHER_API = 'https://api.weather.gov/points/';
@@ -15,7 +16,7 @@ async function main() {
         let usaCitiesList = await readJSONFile(USA_CITIES_FILE);
         usaCitiesList = await shuffle(usaCitiesList);
 
-        for (let i = 0; i < usaCitiesList.length; i++) {
+        for (let i = 0; i < 10; i++) {
             const response = await getData(usaCitiesList[i].lat, usaCitiesList[i].lng);
             if (response) {
                 const cityObj = {
@@ -31,7 +32,8 @@ async function main() {
                         toHour: getTimeStamp(day.endTime),
                         symbol: day.shortForecast,
                         temperatureC: convertToC(day.temperature),
-                        windSpeedMps: toMps(day.windSpeed)
+                        windSpeedMps: toMps(day.windSpeed),
+                        windDirectionDeg: Windrose.getDegrees(day.windDirection).value
                     }]
                 ), []);
                 cityObj.weather = cityWeather;

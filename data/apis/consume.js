@@ -42,13 +42,14 @@ dbConnection.connect(function (err) {
       const lng = +locationElement.location.lng.toFixed(2);
 
       locationElement.weather.forEach(elem => {
-
-        values.push([geohash5, geohash3, lat, sourceApi, lng, elem.symbol, elem.fromHour,
-          elem.altitude, elem.fogPercent, elem.pressureHPA, elem.cloudinessPercent, elem.windDirectionDeg,
-          elem.dewpointTemperatureC, elem.windGustMps, elem.humidityPercent, elem.areaMaxWindSpeedMps,
-          elem.windSpeedMps, elem.temperatureC, elem.lowCloudPercent, elem.mediumCloudPercent,
-          elem.highCloudPercent, elem.temperatureProbability, elem.windProbability, elem.updatedTimestamp]);
-
+        for (let i = 0; i < ((elem.toHour - elem.fromHour) / 3600); i++) {
+          const fromHour = elem.fromHour + (i * 3600);
+          values.push([geohash5, geohash3, lat, sourceApi, lng, elem.symbol, fromHour,
+            elem.altitude, elem.fogPercent, elem.pressureHPA, elem.cloudinessPercent, elem.windDirectionDeg,
+            elem.dewpointTemperatureC, elem.windGustMps, elem.humidityPercent, elem.areaMaxWindSpeedMps,
+            elem.windSpeedMps, elem.temperatureC, elem.lowCloudPercent, elem.mediumCloudPercent,
+            elem.highCloudPercent, elem.temperatureProbability, elem.windProbability, elem.updatedTimestamp]);
+        }
       });
 
     });
