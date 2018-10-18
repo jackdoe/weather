@@ -73,7 +73,7 @@ const citiesAndCoords = require("./sources/south-korean-cities-coordinates.json"
       };
       sleep(2);
     } catch (e) {
-      console.error(`\n✗ ${e.message}\n`);
+      console.error(`\n✗ ${e.message}, please keep waiting..\n`);
     }
   });
 
