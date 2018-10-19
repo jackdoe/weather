@@ -24,13 +24,13 @@ async function main() {
       ...DB_CONFIG
     });
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < cities.length; i++) {
 
       const { lat, lng, alt } = cities[i];
-      const response = await axios.get(`${METNO_API_URL}${lat}&lon=${lng}&msl=${alt}`);
+      const response = await getData(lat, lng, alt);
 
-      if (response.data) {
-        const xml = await parseStringWithPromise(response.data);
+      if (response) {
+        const xml = await parseStringWithPromise(response);
         console.log(`city ${lat}, ${lng} fetched`);
         const cityObj = {
           location: {
@@ -49,7 +49,7 @@ async function main() {
           [...acc, {
             updatedTimestamp,
             fromHour: Date.parse(elem.$.from) / 1000,
-            // toHour: Date.parse(elem.$.to) / 1000,
+            toHour: Date.parse(elem.$.to) / 1000,
             altitude: alt,
             temperatureC: getSafe(() => elem.location[0].temperature[0].$.value, null),
             fogPercent: getSafe(() => elem.location[0].fog[0].$.percent, null),
@@ -88,7 +88,6 @@ async function main() {
 const parseStringWithPromise = promisify(parseString);
 
 async function insertToDB(connection, cityObj) {
-
 
   const geohash3 = geohash.encode(cityObj.location.lat, cityObj.location.lng, 3);
   const geohash5 = geohash.encode(cityObj.location.lat, cityObj.location.lng, 5);
@@ -142,6 +141,21 @@ async function shuffle(array) {
   }
 
   return array;
+}
+
+
+async function getData(lat, lng, alt) {
+  try {
+    const response = await axios.get(`${METNO_API_URL}${lat}&lon=${lng}&msl=${alt}`);
+    return response.data;
+  } catch (error) {
+    if (error.response) { // The request was made and the server responded with a status code
+      console.error('ERROR:', error.response.data);
+    }
+    else {
+      throw error;
+    }
+  }
 }
 
 main();

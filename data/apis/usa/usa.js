@@ -17,6 +17,7 @@ async function main() {
         usaCitiesList = await shuffle(usaCitiesList);
 
         for (let i = 0; i < usaCitiesList.length; i++) {
+            console.error('Location (' + usaCitiesList[i].lat + ',' + usaCitiesList[i].lng + ') ');
             const response = await getData(usaCitiesList[i].lat, usaCitiesList[i].lng);
             if (response) {
                 const cityObj = {
