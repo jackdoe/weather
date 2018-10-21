@@ -7,7 +7,7 @@ const statsArr = Object.values(stats);
 const app = express();
 const port = 3001;
 
-app.get('/api/stats', (req, res) => {
+app.get(`/api/stats`, (req, res) => {
   res.json(statsArr)
 });
 

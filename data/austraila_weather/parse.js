@@ -107,12 +107,13 @@ function getCityData(areaUrl) {
 }
 
 let finalResult = []
+
 let stats = {}
   Promise.mapSeries(endPoints,  getCityData)
   .then((citiesWeather) => {
     finalResult = [].concat.apply([],citiesWeather);
-    console.log(JSON.stringify(finalResult, null, 2))
-    fs.writeFileSync(`./australiaWeather.json`, JSON.stringify(finalResult, null, 2), 'utf8');
+    // console.log(JSON.stringify(finalResult, null, 2))
+    fs.writeFileSync(`./tmp/todo/australia.json`, JSON.stringify(finalResult, null, 2), 'utf8');
   return finalResult
   })
     
