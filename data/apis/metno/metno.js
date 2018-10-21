@@ -149,12 +149,7 @@ async function getData(lat, lng, alt) {
     const response = await axios.get(`${METNO_API_URL}${lat}&lon=${lng}&msl=${alt}`);
     return response.data;
   } catch (error) {
-    if (error.response) { // The request was made and the server responded with a status code
-      console.error('ERROR:', error.response.data);
-    }
-    else {
-      throw error;
-    }
+    console.error(error);
   }
 }
 
