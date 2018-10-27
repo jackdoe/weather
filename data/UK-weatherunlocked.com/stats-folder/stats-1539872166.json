@@ -1,0 +1,12 @@
+{
+  "timeStampRun": 1539872166,
+  "forecastDate": "2018-10-18T14:00:00Z",
+  "weatherApi": "developer.weatherunlocked.com",
+  "metNoAPI": "https://api.met.no",
+  "countOfCities": 67,
+  "countOfItems": 3283,
+  "sumOfTemp": 639,
+  "sumOfWind": 225,
+  "sumOfPressure": 68746,
+  "temperatureDifference": 222
+}

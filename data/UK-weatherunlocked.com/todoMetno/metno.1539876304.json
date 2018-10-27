@@ -1,0 +1,1878 @@
+[
+  {
+    "location": {
+      "longitude": -2.0981,
+      "latitude": 57.1437,
+      "altitude": 29,
+      "city": "Aberdeen"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mr8",
+        "geohash5": "mr8sh",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 10.5,
+        "dewpointTemperatureC": 4.6,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 67.2,
+        "pressureHpa": 1026,
+        "windDirectionDeg": 178.9,
+        "windSpeedMps": 3.6,
+        "cloudinessPercent": 78.1,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0.8,
+        "highCloudsPercent": 78.1,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -6.6667,
+      "latitude": 54.35,
+      "altitude": 54,
+      "city": "Armagh"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mny",
+        "geohash5": "mnydh",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.3,
+        "dewpointTemperatureC": 4.2,
+        "symbol": "LightCloud",
+        "humidityPercent": 61.7,
+        "pressureHpa": 1026.4,
+        "windDirectionDeg": 177.2,
+        "windSpeedMps": 2.7,
+        "cloudinessPercent": 25,
+        "lowCloudsPercent": 0.8,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 25,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -5.669,
+      "latitude": 54.6534,
+      "altitude": 18,
+      "city": "Bangor"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mny",
+        "geohash5": "mnyze",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.5,
+        "dewpointTemperatureC": 4.3,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 61.7,
+        "pressureHpa": 1026.7,
+        "windDirectionDeg": 168.1,
+        "windSpeedMps": 4,
+        "cloudinessPercent": 70.3,
+        "lowCloudsPercent": 1.6,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 69.5,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.3617,
+      "latitude": 51.3751,
+      "altitude": 31,
+      "city": "Bath"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mps",
+        "geohash5": "mpsd9",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.2,
+        "dewpointTemperatureC": 7.9,
+        "symbol": "Cloud",
+        "humidityPercent": 66.1,
+        "pressureHpa": 1025.9,
+        "windDirectionDeg": 61.9,
+        "windSpeedMps": 4.4,
+        "cloudinessPercent": 96.1,
+        "lowCloudsPercent": 90.6,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 58.6,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -5.9254,
+      "latitude": 54.5968,
+      "altitude": 13,
+      "city": "Belfast"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mny",
+        "geohash5": "mnyy6",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.5,
+        "dewpointTemperatureC": 4.2,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 61.1,
+        "pressureHpa": 1026.6,
+        "windDirectionDeg": 173.4,
+        "windSpeedMps": 2.5,
+        "cloudinessPercent": 56.2,
+        "lowCloudsPercent": 2.3,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 54.7,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.8998,
+      "latitude": 52.4814,
+      "altitude": 129,
+      "city": "Birmingham"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mptm4",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.1,
+        "dewpointTemperatureC": 5.1,
+        "symbol": "Cloud",
+        "humidityPercent": 62.6,
+        "pressureHpa": 1027.2,
+        "windDirectionDeg": 62.6,
+        "windSpeedMps": 2.5,
+        "cloudinessPercent": 98.4,
+        "lowCloudsPercent": 98.4,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.7521,
+      "latitude": 53.7939,
+      "altitude": 108,
+      "city": "Bradford"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpwq0",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.2,
+        "dewpointTemperatureC": 3.8,
+        "symbol": "Sun",
+        "humidityPercent": 60.7,
+        "pressureHpa": 1027.8,
+        "windDirectionDeg": 92.6,
+        "windSpeedMps": 1.2,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": 0.1167,
+      "latitude": 52.2,
+      "altitude": 17,
+      "city": "Cambridge"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "t0j",
+        "geohash5": "t0j0e",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.6,
+        "dewpointTemperatureC": 7.3,
+        "symbol": "Cloud",
+        "humidityPercent": 66,
+        "pressureHpa": 1026.8,
+        "windDirectionDeg": 32,
+        "windSpeedMps": 4,
+        "cloudinessPercent": 100,
+        "lowCloudsPercent": 100,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 62.5,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": 1.0799,
+      "latitude": 51.279,
+      "altitude": 14,
+      "city": "Canterbury"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "t0h",
+        "geohash5": "t0hqn",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.5,
+        "dewpointTemperatureC": 8,
+        "symbol": "Cloud",
+        "humidityPercent": 64.9,
+        "pressureHpa": 1025.3,
+        "windDirectionDeg": 42.4,
+        "windSpeedMps": 5.6,
+        "cloudinessPercent": 97.7,
+        "lowCloudsPercent": 96.9,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 9.4,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -3.18,
+      "latitude": 51.48,
+      "altitude": 17,
+      "city": "Cardiff"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpk",
+        "geohash5": "mpktg",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.6,
+        "dewpointTemperatureC": 8.3,
+        "symbol": "Cloud",
+        "humidityPercent": 70.3,
+        "pressureHpa": 1026.3,
+        "windDirectionDeg": 50.9,
+        "windSpeedMps": 4.7,
+        "cloudinessPercent": 96.1,
+        "lowCloudsPercent": 96.1,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 3.9,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.9382,
+      "latitude": 54.8951,
+      "altitude": 31,
+      "city": "Carlisle"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpr",
+        "geohash5": "mprp3",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.3,
+        "dewpointTemperatureC": 5.1,
+        "symbol": "Cloud",
+        "humidityPercent": 65.9,
+        "pressureHpa": 1027.6,
+        "windDirectionDeg": 160,
+        "windSpeedMps": 0.2,
+        "cloudinessPercent": 87.5,
+        "lowCloudsPercent": 86.7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": 0.4696,
+      "latitude": 51.7357,
+      "altitude": 31,
+      "city": "Chelmsford"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "t0h",
+        "geohash5": "t0hf9",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.1,
+        "dewpointTemperatureC": 7.3,
+        "symbol": "Cloud",
+        "humidityPercent": 63.6,
+        "pressureHpa": 1026.2,
+        "windDirectionDeg": 49.2,
+        "windSpeedMps": 3.9,
+        "cloudinessPercent": 100,
+        "lowCloudsPercent": 100,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 80.5,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.8919,
+      "latitude": 53.1905,
+      "altitude": 19,
+      "city": "Chester"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpm",
+        "geohash5": "mpmzd",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.2,
+        "dewpointTemperatureC": 3.7,
+        "symbol": "Sun",
+        "humidityPercent": 56.7,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 56.1,
+        "windSpeedMps": 0.5,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -0.78,
+      "latitude": 50.8367,
+      "altitude": 20,
+      "city": "Chichester"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpu",
+        "geohash5": "mpu5s",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 15.3,
+        "dewpointTemperatureC": 8.2,
+        "symbol": "Cloud",
+        "humidityPercent": 62.6,
+        "pressureHpa": 1025.1,
+        "windDirectionDeg": 51.6,
+        "windSpeedMps": 5.2,
+        "cloudinessPercent": 96.1,
+        "lowCloudsPercent": 88.3,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 70.3,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.5122,
+      "latitude": 52.4066,
+      "altitude": 97,
+      "city": "Coventry"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mptr2",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.5,
+        "dewpointTemperatureC": 5.8,
+        "symbol": "Cloud",
+        "humidityPercent": 63.8,
+        "pressureHpa": 1027.1,
+        "windDirectionDeg": 52.6,
+        "windSpeedMps": 2.7,
+        "cloudinessPercent": 94.5,
+        "lowCloudsPercent": 94.5,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.4766,
+      "latitude": 52.9228,
+      "altitude": 49,
+      "city": "Derby"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mptxs",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.5,
+        "dewpointTemperatureC": 4.6,
+        "symbol": "Sun",
+        "humidityPercent": 59.2,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 68.3,
+        "windSpeedMps": 2.2,
+        "cloudinessPercent": 8.6,
+        "lowCloudsPercent": 8.6,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -7.3093,
+      "latitude": 54.9981,
+      "altitude": 30,
+      "city": "Derry"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mnx",
+        "geohash5": "mnxn7",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.4,
+        "dewpointTemperatureC": 4.2,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 61.5,
+        "pressureHpa": 1025.7,
+        "windDirectionDeg": 185.2,
+        "windSpeedMps": 3.4,
+        "cloudinessPercent": 99.2,
+        "lowCloudsPercent": 3.1,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 99.2,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.9749,
+      "latitude": 56.4691,
+      "altitude": 21,
+      "city": "Dundee"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mr2",
+        "geohash5": "mr2ph",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11,
+        "dewpointTemperatureC": 4.8,
+        "symbol": "Cloud",
+        "humidityPercent": 65.7,
+        "pressureHpa": 1026.4,
+        "windDirectionDeg": 254.4,
+        "windSpeedMps": 2.7,
+        "cloudinessPercent": 99.2,
+        "lowCloudsPercent": 85.2,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 94.5,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.5757,
+      "latitude": 54.7768,
+      "altitude": 32,
+      "city": "Durham"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpwzn",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.3,
+        "dewpointTemperatureC": 4.1,
+        "symbol": "Sun",
+        "humidityPercent": 61.7,
+        "pressureHpa": 1027.8,
+        "windDirectionDeg": 153.8,
+        "windSpeedMps": 0.5,
+        "cloudinessPercent": 11.7,
+        "lowCloudsPercent": 11.7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -3.1965,
+      "latitude": 55.9521,
+      "altitude": 65,
+      "city": "Edinburgh"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpr",
+        "geohash5": "mprvc",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.3,
+        "dewpointTemperatureC": 3.9,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 60.7,
+        "pressureHpa": 1026.7,
+        "windDirectionDeg": 235.3,
+        "windSpeedMps": 2.1,
+        "cloudinessPercent": 68,
+        "lowCloudsPercent": 64.8,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 10.2,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": 0.262,
+      "latitude": 52.3996,
+      "altitude": 23,
+      "city": "Ely"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "t0j",
+        "geohash5": "t0j32",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.2,
+        "dewpointTemperatureC": 7.1,
+        "symbol": "Cloud",
+        "humidityPercent": 66.6,
+        "pressureHpa": 1026.9,
+        "windDirectionDeg": 28.6,
+        "windSpeedMps": 3.8,
+        "cloudinessPercent": 93.8,
+        "lowCloudsPercent": 90.6,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 39.1,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -3.5275,
+      "latitude": 50.7236,
+      "altitude": 40,
+      "city": "Exeter"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpk",
+        "geohash5": "mpk5f",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.9,
+        "dewpointTemperatureC": 8.7,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 66.2,
+        "pressureHpa": 1025.3,
+        "windDirectionDeg": 66.9,
+        "windSpeedMps": 3.4,
+        "cloudinessPercent": 57,
+        "lowCloudsPercent": 4.7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 54.7,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -4.2576,
+      "latitude": 55.8652,
+      "altitude": 30,
+      "city": "Glasgow"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpp",
+        "geohash5": "mppxz",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.4,
+        "dewpointTemperatureC": 5.6,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 67.9,
+        "pressureHpa": 1026.7,
+        "windDirectionDeg": 223.1,
+        "windSpeedMps": 2.4,
+        "cloudinessPercent": 73.4,
+        "lowCloudsPercent": 31.2,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 61.7,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.2431,
+      "latitude": 51.8657,
+      "altitude": 11,
+      "city": "Gloucester"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mps",
+        "geohash5": "mpsgh",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.8,
+        "dewpointTemperatureC": 7.5,
+        "symbol": "Cloud",
+        "humidityPercent": 65.7,
+        "pressureHpa": 1026.6,
+        "windDirectionDeg": 49.9,
+        "windSpeedMps": 3.2,
+        "cloudinessPercent": 98.4,
+        "lowCloudsPercent": 98.4,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 5.5,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.7148,
+      "latitude": 52.0568,
+      "altitude": 61,
+      "city": "Hereford"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mpt08",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.1,
+        "dewpointTemperatureC": 6.9,
+        "symbol": "Cloud",
+        "humidityPercent": 66,
+        "pressureHpa": 1026.8,
+        "windDirectionDeg": 66.4,
+        "windSpeedMps": 2.8,
+        "cloudinessPercent": 100,
+        "lowCloudsPercent": 100,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -4.224,
+      "latitude": 57.4791,
+      "altitude": 6,
+      "city": "Inverness"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mr0",
+        "geohash5": "mr0zg",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.2,
+        "dewpointTemperatureC": 4.9,
+        "symbol": "Cloud",
+        "humidityPercent": 65.5,
+        "pressureHpa": 1024.9,
+        "windDirectionDeg": 219.8,
+        "windSpeedMps": 3.1,
+        "cloudinessPercent": 99.2,
+        "lowCloudsPercent": 65.6,
+        "mediumCloudsPercent": 0.8,
+        "highCloudsPercent": 98.4,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -0.3352,
+      "latitude": 53.7446,
+      "altitude": 9,
+      "city": "Kingston upon Hull"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpy",
+        "geohash5": "mpynn",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.7,
+        "dewpointTemperatureC": 6.9,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 72.6,
+        "pressureHpa": 1027.9,
+        "windDirectionDeg": 57.1,
+        "windSpeedMps": 3,
+        "cloudinessPercent": 59.4,
+        "lowCloudsPercent": 59.4,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.7999,
+      "latitude": 54.0465,
+      "altitude": 22,
+      "city": "Lancaster"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpw2j",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.7,
+        "dewpointTemperatureC": 4.5,
+        "symbol": "Sun",
+        "humidityPercent": 61.7,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 65.2,
+        "windSpeedMps": 0.4,
+        "cloudinessPercent": 0.8,
+        "lowCloudsPercent": 0.8,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.5478,
+      "latitude": 53.7965,
+      "altitude": 47,
+      "city": "Leeds"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpwr0",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.8,
+        "dewpointTemperatureC": 3.8,
+        "symbol": "Sun",
+        "humidityPercent": 58.2,
+        "pressureHpa": 1027.7,
+        "windDirectionDeg": 68.9,
+        "windSpeedMps": 1.1,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.1317,
+      "latitude": 52.6386,
+      "altitude": 73,
+      "city": "Leicester"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpv",
+        "geohash5": "mpv3t",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.4,
+        "dewpointTemperatureC": 5,
+        "symbol": "LightCloud",
+        "humidityPercent": 60.7,
+        "pressureHpa": 1027.3,
+        "windDirectionDeg": 59,
+        "windSpeedMps": 2.3,
+        "cloudinessPercent": 34.4,
+        "lowCloudsPercent": 34.4,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.8255,
+      "latitude": 52.6815,
+      "altitude": 84,
+      "city": "Lichfield"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mptmw",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.4,
+        "dewpointTemperatureC": 5.2,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 61.9,
+        "pressureHpa": 1027.3,
+        "windDirectionDeg": 68.9,
+        "windSpeedMps": 2.4,
+        "cloudinessPercent": 44.5,
+        "lowCloudsPercent": 44.5,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -0.5379,
+      "latitude": 53.2268,
+      "altitude": 69,
+      "city": "Lincoln"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpv",
+        "geohash5": "mpvug",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.5,
+        "dewpointTemperatureC": 4.4,
+        "symbol": "LightCloud",
+        "humidityPercent": 58,
+        "pressureHpa": 1027.6,
+        "windDirectionDeg": 52.9,
+        "windSpeedMps": 2.1,
+        "cloudinessPercent": 33.6,
+        "lowCloudsPercent": 33.6,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -6.0353,
+      "latitude": 54.5234,
+      "altitude": 41,
+      "city": "Lisburn"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mny",
+        "geohash5": "mnyv8",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.3,
+        "dewpointTemperatureC": 4.3,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 62.2,
+        "pressureHpa": 1026.6,
+        "windDirectionDeg": 170.6,
+        "windSpeedMps": 2.7,
+        "cloudinessPercent": 56.2,
+        "lowCloudsPercent": 7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 53.1,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.9779,
+      "latitude": 53.4106,
+      "altitude": 8,
+      "city": "Liverpool"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpm",
+        "geohash5": "mpmzp",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.1,
+        "dewpointTemperatureC": 3.8,
+        "symbol": "Sun",
+        "humidityPercent": 57.4,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 61.4,
+        "windSpeedMps": 0.5,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -0.0918,
+      "latitude": 51.5128,
+      "altitude": 23,
+      "city": "London"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpu",
+        "geohash5": "mpuxk",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.7,
+        "dewpointTemperatureC": 7.7,
+        "symbol": "Cloud",
+        "humidityPercent": 62.7,
+        "pressureHpa": 1025.9,
+        "windDirectionDeg": 51.5,
+        "windSpeedMps": 4.4,
+        "cloudinessPercent": 97.7,
+        "lowCloudsPercent": 93,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 73.4,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.2374,
+      "latitude": 53.4809,
+      "altitude": 45,
+      "city": "Manchester"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpw52",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.6,
+        "dewpointTemperatureC": 3.2,
+        "symbol": "Sun",
+        "humidityPercent": 53.2,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 36.7,
+        "windSpeedMps": 0.3,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.614,
+      "latitude": 54.9733,
+      "altitude": 51,
+      "city": "Newcastle upon Tyne"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpx",
+        "geohash5": "mpxnf",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.6,
+        "dewpointTemperatureC": 3.8,
+        "symbol": "Sun",
+        "humidityPercent": 59.1,
+        "pressureHpa": 1027.7,
+        "windDirectionDeg": 143.6,
+        "windSpeedMps": 0.5,
+        "cloudinessPercent": 4.7,
+        "lowCloudsPercent": 4.7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.9983,
+      "latitude": 51.5877,
+      "altitude": 12,
+      "city": "Newport"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpk",
+        "geohash5": "mpkwv",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.5,
+        "dewpointTemperatureC": 7.8,
+        "symbol": "Cloud",
+        "humidityPercent": 68.2,
+        "pressureHpa": 1026.5,
+        "windDirectionDeg": 56.8,
+        "windSpeedMps": 3.7,
+        "cloudinessPercent": 98.4,
+        "lowCloudsPercent": 98.4,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 3.1,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -6.3374,
+      "latitude": 54.1784,
+      "altitude": 331,
+      "city": "Newry"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mny",
+        "geohash5": "mnyeb",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 9,
+        "dewpointTemperatureC": 2.4,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 64.1,
+        "pressureHpa": 1026.7,
+        "windDirectionDeg": 159.2,
+        "windSpeedMps": 3.2,
+        "cloudinessPercent": 39.8,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 39.8,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": 1.2983,
+      "latitude": 52.6278,
+      "altitude": 15,
+      "city": "Norwich"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "t0j",
+        "geohash5": "t0jrm",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.5,
+        "dewpointTemperatureC": 6.7,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 67.8,
+        "pressureHpa": 1027,
+        "windDirectionDeg": 33.2,
+        "windSpeedMps": 3.4,
+        "cloudinessPercent": 61.7,
+        "lowCloudsPercent": 61.7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.1505,
+      "latitude": 52.9536,
+      "altitude": 53,
+      "city": "Nottingham"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpv",
+        "geohash5": "mpv9k",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.4,
+        "dewpointTemperatureC": 4.5,
+        "symbol": "Sun",
+        "humidityPercent": 58.6,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 60.4,
+        "windSpeedMps": 2.2,
+        "cloudinessPercent": 9.4,
+        "lowCloudsPercent": 9.4,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.256,
+      "latitude": 51.7522,
+      "altitude": 71,
+      "city": "Oxford"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpu",
+        "geohash5": "mpubc",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.5,
+        "dewpointTemperatureC": 7.3,
+        "symbol": "Cloud",
+        "humidityPercent": 66.2,
+        "pressureHpa": 1026.5,
+        "windDirectionDeg": 50.4,
+        "windSpeedMps": 3.3,
+        "cloudinessPercent": 100,
+        "lowCloudsPercent": 100,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 72.7,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -3.4314,
+      "latitude": 56.3952,
+      "altitude": 11,
+      "city": "Perth"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mr2",
+        "geohash5": "mr2h7",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.4,
+        "dewpointTemperatureC": 4.7,
+        "symbol": "Cloud",
+        "humidityPercent": 63.7,
+        "pressureHpa": 1026.4,
+        "windDirectionDeg": 244.1,
+        "windSpeedMps": 2.2,
+        "cloudinessPercent": 99.2,
+        "lowCloudsPercent": 85.9,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 93,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -0.2478,
+      "latitude": 52.5736,
+      "altitude": 14,
+      "city": "Peterborough"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpv",
+        "geohash5": "mpvqs",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.9,
+        "dewpointTemperatureC": 6.9,
+        "symbol": "Cloud",
+        "humidityPercent": 67.1,
+        "pressureHpa": 1027.3,
+        "windDirectionDeg": 55.7,
+        "windSpeedMps": 3.9,
+        "cloudinessPercent": 100,
+        "lowCloudsPercent": 100,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -4.1431,
+      "latitude": 50.3715,
+      "altitude": 17,
+      "city": "Plymouth"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mp7",
+        "geohash5": "mp7b6",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 15.4,
+        "dewpointTemperatureC": 9.2,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 66.5,
+        "pressureHpa": 1025,
+        "windDirectionDeg": 75.8,
+        "windSpeedMps": 3.8,
+        "cloudinessPercent": 42.2,
+        "lowCloudsPercent": 7,
+        "mediumCloudsPercent": 2.3,
+        "highCloudsPercent": 37.5,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.0912,
+      "latitude": 50.799,
+      "altitude": 9,
+      "city": "Portsmouth"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpu",
+        "geohash5": "mpu1g",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 15.4,
+        "dewpointTemperatureC": 8.7,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 64.1,
+        "pressureHpa": 1025,
+        "windDirectionDeg": 54.8,
+        "windSpeedMps": 6.4,
+        "cloudinessPercent": 78.1,
+        "lowCloudsPercent": 37.5,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 71.1,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.7045,
+      "latitude": 53.7628,
+      "altitude": 47,
+      "city": "Preston"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpw0x",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12,
+        "dewpointTemperatureC": 3.9,
+        "symbol": "Sun",
+        "humidityPercent": 57.9,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 83.2,
+        "windSpeedMps": 0.9,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.5283,
+      "latitude": 54.1358,
+      "altitude": 41,
+      "city": "Ripon"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpwrr",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.6,
+        "dewpointTemperatureC": 3.5,
+        "symbol": "Sun",
+        "humidityPercent": 58.1,
+        "pressureHpa": 1027.8,
+        "windDirectionDeg": 28.6,
+        "windSpeedMps": 0.5,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -0.3333,
+      "latitude": 51.75,
+      "altitude": 122,
+      "city": "St Albans"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpu",
+        "geohash5": "mpuy1",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.4,
+        "dewpointTemperatureC": 6.8,
+        "symbol": "Cloud",
+        "humidityPercent": 64.5,
+        "pressureHpa": 1026.3,
+        "windDirectionDeg": 56.8,
+        "windSpeedMps": 3.5,
+        "cloudinessPercent": 100,
+        "lowCloudsPercent": 100,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 74.2,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -3.4419,
+      "latitude": 53.2577,
+      "altitude": 114,
+      "city": "St Asaph"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpm",
+        "geohash5": "mpmu7",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.1,
+        "dewpointTemperatureC": 3.1,
+        "symbol": "Sun",
+        "humidityPercent": 58.4,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 54.1,
+        "windSpeedMps": 1.5,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -5.266,
+      "latitude": 51.8812,
+      "altitude": 64,
+      "city": "St Davids"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mph",
+        "geohash5": "mphfh",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.6,
+        "dewpointTemperatureC": 6.5,
+        "symbol": "Sun",
+        "humidityPercent": 66.2,
+        "pressureHpa": 1026.4,
+        "windDirectionDeg": 37.2,
+        "windSpeedMps": 4.2,
+        "cloudinessPercent": 0.8,
+        "lowCloudsPercent": 0.8,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.2904,
+      "latitude": 53.4877,
+      "altitude": 44,
+      "city": "Salford"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpw4c",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.6,
+        "dewpointTemperatureC": 3.2,
+        "symbol": "Sun",
+        "humidityPercent": 53.1,
+        "pressureHpa": 1027.5,
+        "windDirectionDeg": 36.7,
+        "windSpeedMps": 0.3,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.7957,
+      "latitude": 51.0693,
+      "altitude": 54,
+      "city": "Salisbury"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mps",
+        "geohash5": "mpsmf",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.3,
+        "dewpointTemperatureC": 7.6,
+        "symbol": "Cloud",
+        "humidityPercent": 64.2,
+        "pressureHpa": 1025.7,
+        "windDirectionDeg": 58.6,
+        "windSpeedMps": 4.5,
+        "cloudinessPercent": 96.1,
+        "lowCloudsPercent": 89.1,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 66.4,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.4659,
+      "latitude": 53.383,
+      "altitude": 89,
+      "city": "Sheffield"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mptzw",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.5,
+        "dewpointTemperatureC": 3.6,
+        "symbol": "Sun",
+        "humidityPercent": 58.5,
+        "pressureHpa": 1027.7,
+        "windDirectionDeg": 62.3,
+        "windSpeedMps": 1.6,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.4043,
+      "latitude": 50.9039,
+      "altitude": 21,
+      "city": "Southampton"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpu",
+        "geohash5": "mpu0n",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 15.1,
+        "dewpointTemperatureC": 7.4,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 60,
+        "pressureHpa": 1025.2,
+        "windDirectionDeg": 55,
+        "windSpeedMps": 4.7,
+        "cloudinessPercent": 76.6,
+        "lowCloudsPercent": 46.9,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 56.2,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -3.9368,
+      "latitude": 56.119,
+      "altitude": 18,
+      "city": "Stirling"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpr",
+        "geohash5": "mprct",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 11.1,
+        "dewpointTemperatureC": 5.9,
+        "symbol": "Cloud",
+        "humidityPercent": 70.5,
+        "pressureHpa": 1026.6,
+        "windDirectionDeg": 214.3,
+        "windSpeedMps": 2.2,
+        "cloudinessPercent": 99.2,
+        "lowCloudsPercent": 97.7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 83.6,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.1854,
+      "latitude": 53.0042,
+      "altitude": 110,
+      "city": "Stoke-on-Trent"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mptew",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.2,
+        "dewpointTemperatureC": 5.2,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 62.3,
+        "pressureHpa": 1027.3,
+        "windDirectionDeg": 107.5,
+        "windSpeedMps": 1.2,
+        "cloudinessPercent": 44.5,
+        "lowCloudsPercent": 44.5,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.3822,
+      "latitude": 54.9047,
+      "altitude": 43,
+      "city": "Sunderland"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpz",
+        "geohash5": "mpz01",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 10.7,
+        "dewpointTemperatureC": 5.4,
+        "symbol": "Sun",
+        "humidityPercent": 70.4,
+        "pressureHpa": 1027.9,
+        "windDirectionDeg": 112.3,
+        "windSpeedMps": 1.8,
+        "cloudinessPercent": 0.8,
+        "lowCloudsPercent": 0.8,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -3.9432,
+      "latitude": 51.6208,
+      "altitude": 5,
+      "city": "Swansea"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpk",
+        "geohash5": "mpk9w",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.9,
+        "dewpointTemperatureC": 8.4,
+        "symbol": "Cloud",
+        "humidityPercent": 65,
+        "pressureHpa": 1026,
+        "windDirectionDeg": 120,
+        "windSpeedMps": 1.7,
+        "cloudinessPercent": 97.7,
+        "lowCloudsPercent": 97.7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -5.0544,
+      "latitude": 50.2653,
+      "altitude": 31,
+      "city": "Truro"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mp5",
+        "geohash5": "mp5ep",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.9,
+        "dewpointTemperatureC": 10.3,
+        "symbol": "LightCloud",
+        "humidityPercent": 73.7,
+        "pressureHpa": 1025.1,
+        "windDirectionDeg": 111.6,
+        "windSpeedMps": 3.7,
+        "cloudinessPercent": 36.7,
+        "lowCloudsPercent": 28.1,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 10.2,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.4977,
+      "latitude": 53.6833,
+      "altitude": 30,
+      "city": "Wakefield"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpw",
+        "geohash5": "mpwpm",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.1,
+        "dewpointTemperatureC": 4.1,
+        "symbol": "Sun",
+        "humidityPercent": 58.4,
+        "pressureHpa": 1027.7,
+        "windDirectionDeg": 71.1,
+        "windSpeedMps": 1.1,
+        "cloudinessPercent": 0,
+        "lowCloudsPercent": 0,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.649,
+      "latitude": 51.2079,
+      "altitude": 42,
+      "city": "Wells"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mps",
+        "geohash5": "mps2v",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.8,
+        "dewpointTemperatureC": 7.4,
+        "symbol": "PartlyCloud",
+        "humidityPercent": 61.2,
+        "pressureHpa": 1025.7,
+        "windDirectionDeg": 61.2,
+        "windSpeedMps": 4.4,
+        "cloudinessPercent": 81.2,
+        "lowCloudsPercent": 58.6,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 62.5,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -0.1167,
+      "latitude": 51.5,
+      "altitude": 33,
+      "city": "City of Westminster"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpu",
+        "geohash5": "mpux7",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.7,
+        "dewpointTemperatureC": 7.6,
+        "symbol": "Cloud",
+        "humidityPercent": 62.6,
+        "pressureHpa": 1025.9,
+        "windDirectionDeg": 51.5,
+        "windSpeedMps": 4.4,
+        "cloudinessPercent": 97.7,
+        "lowCloudsPercent": 93,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 73.4,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.3187,
+      "latitude": 51.0651,
+      "altitude": 36,
+      "city": "Winchester"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpu",
+        "geohash5": "mpu26",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 14.6,
+        "dewpointTemperatureC": 7.5,
+        "symbol": "Cloud",
+        "humidityPercent": 62.2,
+        "pressureHpa": 1025.6,
+        "windDirectionDeg": 57.7,
+        "windSpeedMps": 4.7,
+        "cloudinessPercent": 90.6,
+        "lowCloudsPercent": 86.7,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 45.3,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.123,
+      "latitude": 52.5855,
+      "altitude": 159,
+      "city": "Wolverhampton"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mpt7u",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.2,
+        "dewpointTemperatureC": 5.3,
+        "symbol": "Cloud",
+        "humidityPercent": 63,
+        "pressureHpa": 1027.2,
+        "windDirectionDeg": 69.2,
+        "windSpeedMps": 1.9,
+        "cloudinessPercent": 100,
+        "lowCloudsPercent": 100,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -2.22,
+      "latitude": 52.1894,
+      "altitude": 26,
+      "city": "Worcester"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpt",
+        "geohash5": "mpt57",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 13.6,
+        "dewpointTemperatureC": 6.5,
+        "symbol": "Cloud",
+        "humidityPercent": 62.1,
+        "pressureHpa": 1026.9,
+        "windDirectionDeg": 62.6,
+        "windSpeedMps": 2.5,
+        "cloudinessPercent": 98.4,
+        "lowCloudsPercent": 98.4,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  },
+  {
+    "location": {
+      "longitude": -1.0827,
+      "latitude": 53.9576,
+      "altitude": 15,
+      "city": "York"
+    },
+    "weather": [
+      {
+        "sourceApi": "https://api.met.no/",
+        "geohash3": "mpy",
+        "geohash5": "mpy3g",
+        "fromHour": "2018-10-18T15:00:00Z",
+        "temperatureC": 12.3,
+        "dewpointTemperatureC": 4.2,
+        "symbol": "Sun",
+        "humidityPercent": 58.1,
+        "pressureHpa": 1027.8,
+        "windDirectionDeg": 129.9,
+        "windSpeedMps": 0.4,
+        "cloudinessPercent": 5.5,
+        "lowCloudsPercent": 5.5,
+        "mediumCloudsPercent": 0,
+        "highCloudsPercent": 0,
+        "fogPercent": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,553 @@
+[
+  {
+    "country": "GB",
+    "name": "Aberdeen",
+    "lat": "57.14369",
+    "lng": "-2.09814",
+    "altitude": 29
+  },
+
+  {
+    "country": "GB",
+    "name": "Armagh",
+    "lat": "54.35",
+    "lng": "-6.66667",
+    "altitude": 54
+  },
+
+  {
+    "country": "GB",
+    "name": "Bangor",
+    "lat": "54.65338",
+    "lng": "-5.66895",
+    "altitude": 18
+  },
+
+  {
+    "country": "GB",
+    "name": "Bath",
+    "lat": "51.3751",
+    "lng": "-2.36172",
+    "altitude": 31
+  },
+
+  {
+    "country": "GB",
+    "name": "Belfast",
+    "lat": "54.59682",
+    "lng": "-5.92541",
+    "altitude": 13
+  },
+
+  {
+    "country": "GB",
+    "name": "Birmingham",
+    "lat": "52.48142",
+    "lng": "-1.89983",
+    "altitude": 129
+  },
+
+  {
+    "country": "GB",
+    "name": "Bradford",
+    "lat": "53.79391",
+    "lng": "-1.75206",
+    "altitude": 108
+  },
+
+  {
+    "country": "GB",
+    "name": "Brighton & Hove",
+    "lat": " 50.827930",
+    "lng": " -0.168749",
+    "altitude": 20
+  },
+
+  {
+    "country": "GB",
+    "name": "Bristol",
+    "lat": "  51.454514",
+    "lng": "-2.587910",
+    "altitude": 15
+  },
+
+  {
+    "country": "GB",
+    "name": "Cambridge",
+    "lat": "52.2",
+    "lng": "0.11667",
+    "altitude": 17
+  },
+
+  {
+    "country": "GB",
+    "name": "Canterbury",
+    "lat": "51.27904",
+    "lng": "1.07992",
+    "altitude": 14
+  },
+
+  {
+    "country": "GB",
+    "name": "Cardiff",
+    "lat": "51.48",
+    "lng": "-3.18",
+    "altitude": 17
+  },
+
+  {
+    "country": "GB",
+    "name": "Carlisle",
+    "lat": "54.8951",
+    "lng": "-2.9382",
+    "altitude": 31
+  },
+
+  {
+    "country": "GB",
+    "name": "Chelmsford",
+    "lat": "51.73575",
+    "lng": "0.46958",
+    "altitude": 31
+  },
+
+  {
+    "country": "GB",
+    "name": "Chester",
+    "lat": "53.1905",
+    "lng": "-2.89189",
+    "altitude": 19
+  },
+
+  {
+    "country": "GB",
+    "name": "Chichester",
+    "lat": "50.83673",
+    "lng": "-0.78003",
+    "altitude": 20
+  },
+
+  {
+    "country": "GB",
+    "name": "Coventry",
+    "lat": "52.40656",
+    "lng": "-1.51217",
+    "altitude": 97
+  },
+
+  {
+    "country": "GB",
+    "name": "Derby",
+    "lat": "52.92277",
+    "lng": "-1.47663",
+    "altitude": 49
+  },
+
+  {
+    "country": "GB",
+    "name": "Derry",
+    "lat": "54.9981",
+    "lng": "-7.30934",
+    "altitude": 30
+  },
+
+  {
+    "country": "GB",
+    "name": "Dundee",
+    "lat": "56.46913",
+    "lng": "-2.97489",
+    "altitude": 21
+  },
+
+  {
+    "country": "GB",
+    "name": "Durham",
+    "lat": "54.77676",
+    "lng": "-1.57566",
+    "altitude": 32
+  },
+
+  {
+    "country": "GB",
+    "name": "Edinburgh",
+    "lat": "55.95206",
+    "lng": "-3.19648",
+    "altitude": 65
+  },
+
+  {
+    "country": "GB",
+    "name": "Ely",
+    "lat": "52.39964",
+    "lng": "0.26196",
+    "altitude": 23
+  },
+
+  {
+    "country": "GB",
+    "name": "Exeter",
+    "lat": "50.7236",
+    "lng": "-3.52751",
+    "altitude": 40
+  },
+
+  {
+    "country": "GB",
+    "name": "Glasgow",
+    "lat": "55.86515",
+    "lng": "-4.25763",
+    "altitude": 30
+  },
+
+  {
+    "country": "GB",
+    "name": "Gloucester",
+    "lat": "51.86568",
+    "lng": "-2.2431",
+    "altitude": 11
+  },
+
+  {
+    "country": "GB",
+    "name": "Hereford",
+    "lat": "52.05684",
+    "lng": "-2.71482",
+    "altitude": 61
+  },
+
+  {
+    "country": "GB",
+    "name": "Inverness",
+    "lat": "57.47908",
+    "lng": "-4.22398",
+    "altitude": 6
+  },
+
+  {
+    "country": "GB",
+    "name": "Kingston upon Hull",
+    "lat": "53.7446",
+    "lng": "-0.33525",
+    "altitude": 9
+  },
+
+  {
+    "country": "GB",
+    "name": "Lancaster",
+    "lat": "54.04649",
+    "lng": "-2.79988",
+    "altitude": 22
+  },
+
+  {
+    "country": "GB",
+    "name": "Leeds",
+    "lat": "53.79648",
+    "lng": "-1.54785",
+    "altitude": 47
+  },
+
+  {
+    "country": "GB",
+    "name": "Leicester",
+    "lat": "52.6386",
+    "lng": "-1.13169",
+    "altitude": 73
+  },
+
+  {
+    "country": "GB",
+    "name": "Lichfield",
+    "lat": "52.68154",
+    "lng": "-1.82549",
+    "altitude": 84
+  },
+
+  {
+    "country": "GB",
+    "name": "Lincoln",
+    "lat": "53.22683",
+    "lng": "-0.53792",
+    "altitude": 69
+  },
+
+  {
+    "country": "GB",
+    "name": "Lisburn",
+    "lat": "54.52337",
+    "lng": "-6.03527",
+    "altitude": 41
+  },
+
+  {
+    "country": "GB",
+    "name": "Liverpool",
+    "lat": "53.41058",
+    "lng": "-2.97794",
+    "altitude": 8
+  },
+
+  {
+    "country": "GB",
+    "name": "London",
+    "lat": "51.51279",
+    "lng": "-0.09184",
+    "altitude": 23
+  },
+
+  {
+    "country": "GB",
+    "name": "Manchester",
+    "lat": "53.48095",
+    "lng": "-2.23743",
+    "altitude": 45
+  },
+
+  {
+    "country": "GB",
+    "name": "Newcastle upon Tyne",
+    "lat": "54.97328",
+    "lng": "-1.61396",
+    "altitude": 51
+  },
+
+  {
+    "country": "GB",
+    "name": "Newport",
+    "lat": "51.58774",
+    "lng": "-2.99835",
+    "altitude": 12
+  },
+
+  {
+    "country": "GB",
+    "name": "Newry",
+    "lat": "54.17841",
+    "lng": "-6.33739",
+    "altitude": 331
+  },
+
+  {
+    "country": "GB",
+    "name": "Norwich",
+    "lat": "52.62783",
+    "lng": "1.29834",
+    "altitude": 15
+  },
+
+  {
+    "country": "GB",
+    "name": "Nottingham",
+    "lat": "52.9536",
+    "lng": "-1.15047",
+    "altitude": 53
+  },
+
+  {
+    "country": "GB",
+    "name": "Oxford",
+    "lat": "51.75222",
+    "lng": "-1.25596",
+    "altitude": 71
+  },
+
+  {
+    "country": "GB",
+    "name": "Perth",
+    "lat": "56.39522",
+    "lng": "-3.43139",
+    "altitude": 11
+  },
+
+  {
+    "country": "GB",
+    "name": "Peterborough",
+    "lat": "52.57364",
+    "lng": "-0.24777",
+    "altitude": 14
+  },
+
+  {
+    "country": "GB",
+    "name": "Plymouth",
+    "lat": "50.37153",
+    "lng": "-4.14305",
+    "altitude": 17
+  },
+
+  {
+    "country": "GB",
+    "name": "Portsmouth",
+    "lat": "50.79899",
+    "lng": "-1.09125",
+    "altitude": 9
+  },
+
+  {
+    "country": "GB",
+    "name": "Preston",
+    "lat": "53.76282",
+    "lng": "-2.70452",
+    "altitude": 47
+  },
+
+  {
+    "country": "GB",
+    "name": "Ripon",
+    "lat": "54.13579",
+    "lng": "-1.52826",
+    "altitude": 41
+  },
+
+  {
+    "country": "GB",
+    "name": "St Albans",
+    "lat": "51.75",
+    "lng": "-0.33333",
+    "altitude": 122
+  },
+
+  {
+    "country": "GB",
+    "name": "St Asaph",
+    "lat": "53.2577125",
+    "lng": "-3.4418762",
+    "altitude": 114
+  },
+
+  {
+    "country": "GB",
+    "name": "St Davids",
+    "lat": "51.881227",
+    "lng": "-5.265994999",
+    "altitude": 64
+  },
+
+  {
+    "country": "GB",
+    "name": "Salford",
+    "lat": "53.48771",
+    "lng": "-2.29042",
+    "altitude": 44
+  },
+
+  {
+    "country": "GB",
+    "name": "Salisbury",
+    "lat": "51.06931",
+    "lng": "-1.79569",
+    "altitude": 54
+  },
+
+  {
+    "country": "GB",
+    "name": "Sheffield",
+    "lat": "53.38297",
+    "lng": "-1.4659",
+    "altitude": 89
+  },
+
+  {
+    "country": "GB",
+    "name": "Southampton",
+    "lat": "50.90395",
+    "lng": "-1.40428",
+    "altitude": 21
+  },
+
+  {
+    "country": "GB",
+    "name": "Stirling",
+    "lat": "56.11903",
+    "lng": "-3.93682",
+    "altitude": 18
+  },
+
+  {
+    "country": "GB",
+    "name": "Stoke-on-Trent",
+    "lat": "53.00415",
+    "lng": "-2.18538",
+    "altitude": 110
+  },
+
+  {
+    "country": "GB",
+    "name": "Sunderland",
+    "lat": "54.90465",
+    "lng": "-1.38222",
+    "altitude": 43
+  },
+
+  {
+    "country": "GB",
+    "name": "Swansea",
+    "lat": "51.62079",
+    "lng": "-3.94323",
+    "altitude": 5
+  },
+
+  {
+    "country": "GB",
+    "name": "Truro",
+    "lat": "50.26526",
+    "lng": "-5.05436",
+    "altitude": 31
+  },
+
+  {
+    "country": "GB",
+    "name": "Wakefield",
+    "lat": "53.68331",
+    "lng": "-1.49768",
+    "altitude": 30
+  },
+
+  {
+    "country": "GB",
+    "name": "Wells",
+    "lat": "51.20794",
+    "lng": "-2.64896",
+    "altitude": 42
+  },
+
+  {
+    "country": "GB",
+    "name": "City of Westminster",
+    "lat": "51.5",
+    "lng": "-0.11667",
+    "altitude": 33
+  },
+
+  {
+    "country": "GB",
+    "name": "Winchester",
+    "lat": "51.06513",
+    "lng": "-1.3187",
+    "altitude": 36
+  },
+
+  {
+    "country": "GB",
+    "name": "Wolverhampton",
+    "lat": "52.58547",
+    "lng": "-2.12296",
+    "altitude": 159
+  },
+
+  {
+    "country": "GB",
+    "name": "Worcester",
+    "lat": "52.18935",
+    "lng": "-2.22001",
+    "altitude": 26
+  },
+
+  {
+    "country": "GB",
+    "name": "York",
+    "lat": "53.95763",
+    "lng": "-1.08271",
+    "altitude": 15
+  }
+]
