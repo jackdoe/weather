@@ -1,0 +1,67 @@
+[
+  {
+    "cityName": "Mendoza",
+    "longitude": "-32.888355",
+    "latitude": "-68.838844"
+  },
+  {
+    "cityName": "Jujuy",
+    "longitude": "-24.184340",
+    "latitude": "-65.302177"
+  },
+  {
+    "cityName": "Tandil",
+    "longitude": "-37.320480",
+    "latitude": "-59.132904"
+  },
+  {
+    "cityName": "Bragado",
+    "longitude": "-35.101933",
+    "latitude": "-60.438538"
+  },
+  {
+    "cityName": "San-Carlos-de-Bariloche",
+    "longitude": "-41.134258",
+    "latitude": "-71.308525"
+  },
+  {
+    "cityName": "San-Miguel-de-Tucumán",
+    "longitude": "-26.808285",
+    "latitude": "-65.217590"
+  },
+  {
+    "cityName": "San-Rafael",
+    "longitude": "-34.587997",
+    "latitude": "-68.285522"
+  },
+  {
+    "cityName": "Salta",
+    "longitude": "-24.782932",
+    "latitude": "-65.412155"
+  },
+  {
+    "cityName": "Cruz-del-Eje",
+    "longitude": "-30.718227",
+    "latitude": "-64.796677"
+  },
+  {
+    "cityName": "Mar-del-Plata",
+    "longitude": "-37.979858",
+    "latitude": "-57.589794"
+  },
+  {
+    "cityName": "Corrientes",
+    "longitude": "-27.471226",
+    "latitude": "-58.839584"
+  },
+  {
+    "cityName": "Buenos-Aires",
+    "longitude": "-34.603722",
+    "latitude": "-58.381592"
+  },
+  {
+    "cityName": "Florencio-Varela",
+    "longitude": "-34.796581",
+    "latitude": "-58.276012"
+  }
+]
