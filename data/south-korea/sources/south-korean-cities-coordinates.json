@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Daegu",
+    "lat": 35.86873,
+    "lng": 128.60502
+  },
+  {
+    "name": "Gunsan",
+    "lat": 35.98177,
+    "lng": 126.71602
+  },
+  {
+    "name": "Cheonan",
+    "lat": 36.80931,
+    "lng": 127.16004
+  },
+  {
+    "name": "Jecheon",
+    "lat": 37.13887,
+    "lng": 128.22134
+  },
+  {
+    "name": "Ulsan",
+    "lat": 35.54868,
+    "lng": 129.31501
+  },
+  {
+    "name": "Mungyeong",
+    "lat": 36.73722,
+    "lng": 128.11034
+  },
+  {
+    "name": "Haenam",
+    "lat": 34.56186,
+    "lng": 126.59908
+  },
+  {
+    "name": "GyeongJu",
+    "lat": 35.84276,
+    "lng": 129.21169
+  },
+  {
+    "name": "Icheon",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Jeongeup",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Incheon",
+    "lat": 37.47809,
+    "lng": 126.64029
+  },
+  {
+    "name": "Gangjin Gun",
+    "lat": 34.62455,
+    "lng": 126.76534
+  },
+  {
+    "name": "Paju",
+    "lat": 58.33545,
+    "lng": 26.3169
+  },
+  {
+    "name": "Sangju",
+    "lat": 36.41558,
+    "lng": 128.15862
+  },
+  {
+    "name": "Yeongcheon",
+    "lat": 35.95806,
+    "lng": 128.93571
+  },
+  {
+    "name": "Pohang",
+    "lat": 36.03074,
+    "lng": 129.37343
+  },
+  {
+    "name": "Hongseong",
+    "lat": 36.59394,
+    "lng": 126.66864
+  },
+  {
+    "name": "Jeonju",
+    "lat": 35.83142,
+    "lng": 127.14039
+  },
+  {
+    "name": "Jangsu",
+    "lat": 35.64244,
+    "lng": 127.521
+  },
+  {
+    "name": "Gwangju",
+    "lat": 35.16244,
+    "lng": 126.91034
+  },
+  {
+    "name": "Daejeon",
+    "lat": 36.3301,
+    "lng": 127.42247
+  },
+  {
+    "name": "Sancheong",
+    "lat": 35.40711,
+    "lng": 127.87728
+  },
+  {
+    "name": "Uiseong",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Jangheung",
+    "lat": 34.66656,
+    "lng": 126.88455
+  },
+  {
+    "name": "Dongducheon",
+    "lat": 37.93965,
+    "lng": 127.06178
+  },
+  {
+    "name": "Namhae",
+    "lat": 34.82472,
+    "lng": 127.90472
+  },
+  {
+    "name": "Boryeong",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Seoul",
+    "lat": 37.56896,
+    "lng": 126.98304
+  },
+  {
+    "name": "Geochang",
+    "lat": 35.68195,
+    "lng": 127.901
+  },
+  {
+    "name": "Geoje",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Hongcheon",
+    "lat": 37.6878,
+    "lng": 127.88853
+  },
+  {
+    "name": "Yeongwol",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Bongwhoa",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Yangpyeong",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Chungju",
+    "lat": 36.97604,
+    "lng": 127.94024
+  },
+  {
+    "name": "Namwon",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Cheongju",
+    "lat": 36.6439,
+    "lng": 127.5012
+  },
+  {
+    "name": "Taebaek",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Gochanggun",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Seongsan",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Cheorwon",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Sokcho",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Jinju",
+    "lat": 35.19219,
+    "lng": 128.083
+  },
+  {
+    "name": "Boeun",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Ganghwa",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Wando",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Seogwipo",
+    "lat": 33.26131,
+    "lng": 126.61884
+  },
+  {
+    "name": "Bukchangwon",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Bukchuncheon",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Gumi",
+    "lat": 36.12372,
+    "lng": 128.37613
+  },
+  {
+    "name": "Gochang",
+    "lat": 35.40844,
+    "lng": 126.55761
+  },
+  {
+    "name": "Yeosu",
+    "lat": 34.73824,
+    "lng": 127.74147
+  },
+  {
+    "name": "Busan",
+    "lat": 35.097,
+    "lng": 129.0081
+  },
+  {
+    "name": "Jeongseon Gun",
+    "lat": 37.37161,
+    "lng": 128.65994
+  },
+  {
+    "name": "Uljin",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Baengnyeongdo",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Geumsan",
+    "lat": 36.0955,
+    "lng": 127.48392
+  },
+  {
+    "name": "Gangneung",
+    "lat": 37.75587,
+    "lng": 128.89615
+  },
+  {
+    "name": "Changwon",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Jindogun",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Jeju",
+    "lat": 33.51014,
+    "lng": 126.52193
+  },
+  {
+    "name": "Daegwallyeong",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Donghae",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Wonju",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Miryang",
+    "lat": 35.49003,
+    "lng": 128.74384
+  },
+  {
+    "name": "Heuksando",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Gosan",
+    "lat": 33.30006,
+    "lng": 126.18814
+  },
+  {
+    "name": "Chupungnyeong",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Buan",
+    "lat": 35.71914,
+    "lng": 126.72928
+  },
+  {
+    "name": "Andong",
+    "lat": 36.56592,
+    "lng": 128.725
+  },
+  {
+    "name": "Buyeo",
+    "lat": 36.27995,
+    "lng": 126.90936
+  },
+  {
+    "name": "Yeongdeok",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Inje",
+    "lat": 38.06525,
+    "lng": 128.17412
+  },
+  {
+    "name": "Suncheon",
+    "lat": 34.94793,
+    "lng": 127.48604
+  },
+  {
+    "name": "Tongyeong",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Suwon",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Bukgangneung",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Goheung",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Imsil",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Seosan",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Ulleungdo",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Hapcheon",
+    "lat": 37.56829,
+    "lng": 126.99778
+  },
+  {
+    "name": "Yeongju",
+    "lat": 36.82297,
+    "lng": 128.63303
+  },
+  {
+    "name": "Mokpo",
+    "lat": 37.56829,
+    "lng": 126.99778
+  }
+]
