@@ -1,0 +1,1662 @@
+[
+  {
+    "location": {
+      "name": "Sokcho",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:07 pm",
+      "timeKorea": "October 10th 2018, 2:21:07 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.5,
+      "cloudsPercent": 100,
+      "humidityPercent": 67,
+      "windSpeedMS": 1,
+      "windDir": "W",
+      "pressureHPA": 1011.3,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Bukchuncheon",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:09 pm",
+      "timeKorea": "October 10th 2018, 2:21:09 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 86,
+      "windSpeedMS": 0.6,
+      "windDir": "SSE",
+      "pressureHPA": 1012.4,
+      "visibilityKM": 6,
+      "description": "rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Cheorwon",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:11 pm",
+      "timeKorea": "October 10th 2018, 2:21:11 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.3,
+      "cloudsPercent": 100,
+      "humidityPercent": 98,
+      "windSpeedMS": 1.6,
+      "windDir": "SSW",
+      "pressureHPA": 1012.3,
+      "visibilityKM": 8.9,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Dongducheon",
+      "lat": 37.93965,
+      "lng": 127.06178
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:13 pm",
+      "timeKorea": "October 10th 2018, 2:21:13 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.4,
+      "cloudsPercent": 100,
+      "humidityPercent": 84,
+      "windSpeedMS": 1.7,
+      "windDir": "SSE",
+      "pressureHPA": 1012.5,
+      "visibilityKM": 6.6,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Paju",
+      "lat": 58.33545,
+      "lng": 26.3169
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:15 pm",
+      "timeKorea": "October 10th 2018, 2:21:15 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 97,
+      "windSpeedMS": 1.9,
+      "windDir": "WSW",
+      "pressureHPA": 1012.6,
+      "visibilityKM": 196,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Daegwallyeong",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:17 pm",
+      "timeKorea": "October 10th 2018, 2:21:17 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 7.2,
+      "cloudsPercent": 80,
+      "humidityPercent": 92,
+      "windSpeedMS": 0.6,
+      "windDir": "W",
+      "pressureHPA": 1014,
+      "visibilityKM": 20,
+      "description": "Most Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Baengnyeongdo",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:19 pm",
+      "timeKorea": "October 10th 2018, 2:21:19 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.1,
+      "cloudsPercent": 80,
+      "humidityPercent": 75,
+      "windSpeedMS": 11.3,
+      "windDir": "NW",
+      "pressureHPA": 1013.2,
+      "visibilityKM": 23.73,
+      "description": "Most Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Bukgangneung",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:21 pm",
+      "timeKorea": "October 10th 2018, 2:21:21 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15.1,
+      "cloudsPercent": 90,
+      "humidityPercent": 63,
+      "windSpeedMS": 1.1,
+      "windDir": "S",
+      "pressureHPA": 1012.2,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Gangneung",
+      "lat": 37.75587,
+      "lng": 128.89615
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:23 pm",
+      "timeKorea": "October 10th 2018, 2:21:23 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.4,
+      "cloudsPercent": 90,
+      "humidityPercent": 69,
+      "windSpeedMS": 2.2,
+      "windDir": "WSW",
+      "pressureHPA": 1012.5,
+      "visibilityKM": 50.1,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Donghae",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:25 pm",
+      "timeKorea": "October 10th 2018, 2:21:25 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 75,
+      "windSpeedMS": 1,
+      "windDir": "SSW",
+      "pressureHPA": 1012.6,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Seoul",
+      "lat": 37.56896,
+      "lng": 126.98304
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:27 pm",
+      "timeKorea": "October 10th 2018, 2:21:27 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.4,
+      "cloudsPercent": 100,
+      "humidityPercent": 91,
+      "windSpeedMS": 0.4,
+      "windDir": "-",
+      "pressureHPA": 1012,
+      "visibilityKM": 42,
+      "description": "rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Incheon",
+      "lat": 37.47809,
+      "lng": 126.64029
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:29 pm",
+      "timeKorea": "October 10th 2018, 2:21:29 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 95,
+      "windSpeedMS": 1.6,
+      "windDir": "SSW",
+      "pressureHPA": 1011.9,
+      "visibilityKM": 69,
+      "description": "preceding thunderstorm"
+    }
+  },
+  {
+    "location": {
+      "name": "Wonju",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:31 pm",
+      "timeKorea": "October 10th 2018, 2:21:31 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.6,
+      "cloudsPercent": 90,
+      "humidityPercent": 57,
+      "windSpeedMS": 1.3,
+      "windDir": "SE",
+      "pressureHPA": 1011.8,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Ulleungdo",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:33 pm",
+      "timeKorea": "October 10th 2018, 2:21:33 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.7,
+      "cloudsPercent": 100,
+      "humidityPercent": 76,
+      "windSpeedMS": 1.7,
+      "windDir": "SW",
+      "pressureHPA": 1013.7,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Suwon",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:35 pm",
+      "timeKorea": "October 10th 2018, 2:21:35 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.7,
+      "cloudsPercent": 100,
+      "humidityPercent": 98,
+      "windSpeedMS": 0.3,
+      "windDir": "-",
+      "pressureHPA": 1012.7,
+      "visibilityKM": 3.26,
+      "description": "rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Yeongwol",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:37 pm",
+      "timeKorea": "October 10th 2018, 2:21:37 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 11.4,
+      "cloudsPercent": 90,
+      "humidityPercent": 97,
+      "windSpeedMS": 0.2,
+      "windDir": "-",
+      "pressureHPA": 1014,
+      "visibilityKM": 15.71,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Chungju",
+      "lat": 36.97604,
+      "lng": 127.94024
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:39 pm",
+      "timeKorea": "October 10th 2018, 2:21:39 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 17.2,
+      "cloudsPercent": 100,
+      "humidityPercent": 58,
+      "windSpeedMS": 2.6,
+      "windDir": "SE",
+      "pressureHPA": 1013,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Seosan",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:41 pm",
+      "timeKorea": "October 10th 2018, 2:21:41 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 91,
+      "windSpeedMS": 2.1,
+      "windDir": "WNW",
+      "pressureHPA": 1013.3,
+      "visibilityKM": 99,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Uljin",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:43 pm",
+      "timeKorea": "October 10th 2018, 2:21:43 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15,
+      "cloudsPercent": 100,
+      "humidityPercent": 77,
+      "windSpeedMS": 2,
+      "windDir": "SW",
+      "pressureHPA": 1014,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Cheongju",
+      "lat": 36.6439,
+      "lng": 127.5012
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:45 pm",
+      "timeKorea": "October 10th 2018, 2:21:45 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.5,
+      "cloudsPercent": 100,
+      "humidityPercent": 61,
+      "windSpeedMS": 1.2,
+      "windDir": "SSW",
+      "pressureHPA": 1012.6,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Daejeon",
+      "lat": 36.3301,
+      "lng": 127.42247
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:47 pm",
+      "timeKorea": "October 10th 2018, 2:21:47 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.5,
+      "cloudsPercent": 100,
+      "humidityPercent": 85,
+      "windSpeedMS": 0.9,
+      "windDir": "SE",
+      "pressureHPA": 1013.3,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Chupungnyeong",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:49 pm",
+      "timeKorea": "October 10th 2018, 2:21:49 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 11.8,
+      "cloudsPercent": 100,
+      "humidityPercent": 91,
+      "windSpeedMS": 0.4,
+      "windDir": "-",
+      "pressureHPA": 1014.2,
+      "visibilityKM": 19.39,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Andong",
+      "lat": 36.56592,
+      "lng": 128.725
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:51 pm",
+      "timeKorea": "October 10th 2018, 2:21:51 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.1,
+      "cloudsPercent": 100,
+      "humidityPercent": 94,
+      "windSpeedMS": 0.6,
+      "windDir": "WNW",
+      "pressureHPA": 1014.6,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Sangju",
+      "lat": 36.41558,
+      "lng": 128.15862
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:53 pm",
+      "timeKorea": "October 10th 2018, 2:21:53 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13,
+      "cloudsPercent": 100,
+      "humidityPercent": 94,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1014.3,
+      "visibilityKM": 19.83,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Pohang",
+      "lat": 36.03074,
+      "lng": 129.37343
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:55 pm",
+      "timeKorea": "October 10th 2018, 2:21:55 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.2,
+      "cloudsPercent": 100,
+      "humidityPercent": 80,
+      "windSpeedMS": 1.8,
+      "windDir": "WSW",
+      "pressureHPA": 1014.3,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Gunsan",
+      "lat": 35.98177,
+      "lng": 126.71602
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:57 pm",
+      "timeKorea": "October 10th 2018, 2:21:57 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.4,
+      "cloudsPercent": 100,
+      "humidityPercent": 78,
+      "windSpeedMS": 3.3,
+      "windDir": "SSE",
+      "pressureHPA": 1013.5,
+      "visibilityKM": 19.43,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Daegu",
+      "lat": 35.86873,
+      "lng": 128.60502
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:21:59 pm",
+      "timeKorea": "October 10th 2018, 2:21:59 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15,
+      "cloudsPercent": 100,
+      "humidityPercent": 84,
+      "windSpeedMS": 1.1,
+      "windDir": "WSW",
+      "pressureHPA": 1014.8,
+      "visibilityKM": 19.55,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Jeonju",
+      "lat": 35.83142,
+      "lng": 127.14039
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:01 pm",
+      "timeKorea": "October 10th 2018, 2:22:01 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 17.4,
+      "cloudsPercent": 100,
+      "humidityPercent": 74,
+      "windSpeedMS": 1.7,
+      "windDir": "S",
+      "pressureHPA": 1013.5,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Ulsan",
+      "lat": 35.54868,
+      "lng": 129.31501
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:03 pm",
+      "timeKorea": "October 10th 2018, 2:22:03 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15.3,
+      "cloudsPercent": 100,
+      "humidityPercent": 90,
+      "windSpeedMS": 0.2,
+      "windDir": "-",
+      "pressureHPA": 1014.4,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Changwon",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:05 pm",
+      "timeKorea": "October 10th 2018, 2:22:05 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15.5,
+      "cloudsPercent": 100,
+      "humidityPercent": 84,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1014.6,
+      "visibilityKM": 20,
+      "description": "preceding rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Gwangju",
+      "lat": 35.16244,
+      "lng": 126.91034
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:08 pm",
+      "timeKorea": "October 10th 2018, 2:22:08 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15.5,
+      "cloudsPercent": 90,
+      "humidityPercent": 88,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1015.1,
+      "visibilityKM": 19.57,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Busan",
+      "lat": 35.097,
+      "lng": 129.0081
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:10 pm",
+      "timeKorea": "October 10th 2018, 2:22:10 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 17.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 73,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1014.7,
+      "visibilityKM": 20,
+      "description": "preceding rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Tongyeong",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:12 pm",
+      "timeKorea": "October 10th 2018, 2:22:12 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.4,
+      "cloudsPercent": 100,
+      "humidityPercent": 83,
+      "windSpeedMS": 0.4,
+      "windDir": "-",
+      "pressureHPA": 1014.9,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Mokpo",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:14 pm",
+      "timeKorea": "October 10th 2018, 2:22:14 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 17.2,
+      "cloudsPercent": 100,
+      "humidityPercent": 77,
+      "windSpeedMS": 2.2,
+      "windDir": "S",
+      "pressureHPA": 1015.2,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Yeosu",
+      "lat": 34.73824,
+      "lng": 127.74147
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:16 pm",
+      "timeKorea": "October 10th 2018, 2:22:16 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 17.1,
+      "cloudsPercent": 100,
+      "humidityPercent": 78,
+      "windSpeedMS": 0.7,
+      "windDir": "ESE",
+      "pressureHPA": 1014.8,
+      "visibilityKM": 20,
+      "description": "preceding rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Heuksando",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:18 pm",
+      "timeKorea": "October 10th 2018, 2:22:18 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 18.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 79,
+      "windSpeedMS": 2.2,
+      "windDir": "WNW",
+      "pressureHPA": 1014.7,
+      "visibilityKM": 15.37,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Wando",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:20 pm",
+      "timeKorea": "October 10th 2018, 2:22:20 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 85,
+      "windSpeedMS": 0.4,
+      "windDir": "-",
+      "pressureHPA": 1015.1,
+      "visibilityKM": 17.94,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Gochang",
+      "lat": 35.40844,
+      "lng": 126.55761
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:22 pm",
+      "timeKorea": "October 10th 2018, 2:22:22 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.5,
+      "cloudsPercent": 100,
+      "humidityPercent": 76,
+      "windSpeedMS": 0.4,
+      "windDir": "-",
+      "pressureHPA": 1014.7,
+      "visibilityKM": 26.64,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Suncheon",
+      "lat": 34.94793,
+      "lng": 127.48604
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:24 pm",
+      "timeKorea": "October 10th 2018, 2:22:24 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.8,
+      "cloudsPercent": 100,
+      "humidityPercent": 100,
+      "windSpeedMS": 0.1,
+      "windDir": "-",
+      "pressureHPA": 1015.1,
+      "visibilityKM": 7.64,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Hongseong",
+      "lat": 36.59394,
+      "lng": 126.66864
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:26 pm",
+      "timeKorea": "October 10th 2018, 2:22:26 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 89,
+      "windSpeedMS": 4.2,
+      "windDir": "SW",
+      "pressureHPA": 1012.4,
+      "visibilityKM": 15.46,
+      "description": "rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Jeju",
+      "lat": 33.51014,
+      "lng": 126.52193
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:28 pm",
+      "timeKorea": "October 10th 2018, 2:22:28 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 19.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 72,
+      "windSpeedMS": 0.5,
+      "windDir": "WSW",
+      "pressureHPA": 1015.4,
+      "visibilityKM": 20,
+      "description": "preceding rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Gosan",
+      "lat": 33.30006,
+      "lng": 126.18814
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:30 pm",
+      "timeKorea": "October 10th 2018, 2:22:30 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 18.8,
+      "cloudsPercent": 100,
+      "humidityPercent": 81,
+      "windSpeedMS": 2.4,
+      "windDir": "NNE",
+      "pressureHPA": 1015.5,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Seongsan",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:32 pm",
+      "timeKorea": "October 10th 2018, 2:22:32 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 17.4,
+      "cloudsPercent": 100,
+      "humidityPercent": 84,
+      "windSpeedMS": 1.9,
+      "windDir": "NNW",
+      "pressureHPA": 1015.4,
+      "visibilityKM": 19.66,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Seogwipo",
+      "lat": 33.26131,
+      "lng": 126.61884
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:34 pm",
+      "timeKorea": "October 10th 2018, 2:22:34 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 18.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 96,
+      "windSpeedMS": 0.5,
+      "windDir": "NNW",
+      "pressureHPA": 1015,
+      "visibilityKM": 16.45,
+      "description": "preceding rain"
+    }
+  },
+  {
+    "location": {
+      "name": "Jinju",
+      "lat": 35.19219,
+      "lng": 128.083
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:36 pm",
+      "timeKorea": "October 10th 2018, 2:22:36 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.7,
+      "cloudsPercent": 100,
+      "humidityPercent": 90,
+      "windSpeedMS": 0.1,
+      "windDir": "-",
+      "pressureHPA": 1015.1,
+      "visibilityKM": 16.81,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Ganghwa",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:38 pm",
+      "timeKorea": "October 10th 2018, 2:22:38 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.7,
+      "cloudsPercent": 100,
+      "humidityPercent": 92,
+      "windSpeedMS": 0.8,
+      "windDir": "NNE",
+      "pressureHPA": 1012.3,
+      "visibilityKM": 4.14,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Yangpyeong",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:40 pm",
+      "timeKorea": "October 10th 2018, 2:22:40 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 81,
+      "windSpeedMS": 2.7,
+      "windDir": "SE",
+      "pressureHPA": 1012.4,
+      "visibilityKM": 19.44,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Icheon",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:42 pm",
+      "timeKorea": "October 10th 2018, 2:22:42 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.4,
+      "cloudsPercent": 100,
+      "humidityPercent": 75,
+      "windSpeedMS": 1.6,
+      "windDir": "SSE",
+      "pressureHPA": 1012.8,
+      "visibilityKM": 18.38,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Inje",
+      "lat": 38.06525,
+      "lng": 128.17412
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:44 pm",
+      "timeKorea": "October 10th 2018, 2:22:44 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 10.8,
+      "cloudsPercent": 90,
+      "humidityPercent": 92,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1012.7,
+      "visibilityKM": 24.49,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Hongcheon",
+      "lat": 37.6878,
+      "lng": 127.88853
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:46 pm",
+      "timeKorea": "October 10th 2018, 2:22:46 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 11.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 87,
+      "windSpeedMS": 1,
+      "windDir": "ESE",
+      "pressureHPA": 1012.4,
+      "visibilityKM": 40.25,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Taebaek",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:48 pm",
+      "timeKorea": "October 10th 2018, 2:22:48 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 9.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 91,
+      "windSpeedMS": 0.7,
+      "windDir": "N",
+      "pressureHPA": 1013.9,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Jeongseon Gun",
+      "lat": 37.37161,
+      "lng": 128.65994
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:50 pm",
+      "timeKorea": "October 10th 2018, 2:22:50 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 9.5,
+      "cloudsPercent": 90,
+      "humidityPercent": 100,
+      "windSpeedMS": 0.1,
+      "windDir": "-",
+      "pressureHPA": 1014.9,
+      "visibilityKM": 12.87,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Jecheon",
+      "lat": 37.13887,
+      "lng": 128.22134
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:52 pm",
+      "timeKorea": "October 10th 2018, 2:22:52 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 11.5,
+      "cloudsPercent": 100,
+      "humidityPercent": 91,
+      "windSpeedMS": 0.3,
+      "windDir": "-",
+      "pressureHPA": 1013.4,
+      "visibilityKM": 18.91,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Boeun",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:54 pm",
+      "timeKorea": "October 10th 2018, 2:22:54 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 11.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 95,
+      "windSpeedMS": 0.5,
+      "windDir": "S",
+      "pressureHPA": 1014.1,
+      "visibilityKM": 8.24,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Cheonan",
+      "lat": 36.80931,
+      "lng": 127.16004
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:56 pm",
+      "timeKorea": "October 10th 2018, 2:22:56 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15.1,
+      "cloudsPercent": 100,
+      "humidityPercent": 64,
+      "windSpeedMS": 0.9,
+      "windDir": "NE",
+      "pressureHPA": 1012.9,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Boryeong",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:22:58 pm",
+      "timeKorea": "October 10th 2018, 2:22:58 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.8,
+      "cloudsPercent": 100,
+      "humidityPercent": 89,
+      "windSpeedMS": 3.6,
+      "windDir": "SW",
+      "pressureHPA": 1013.2,
+      "visibilityKM": 15.11,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Buyeo",
+      "lat": 36.27995,
+      "lng": 126.90936
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:00 pm",
+      "timeKorea": "October 10th 2018, 2:23:00 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.8,
+      "cloudsPercent": 100,
+      "humidityPercent": 83,
+      "windSpeedMS": 0.8,
+      "windDir": "ENE",
+      "pressureHPA": 1013.3,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Geumsan",
+      "lat": 36.0955,
+      "lng": 127.48392
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:02 pm",
+      "timeKorea": "October 10th 2018, 2:23:02 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.1,
+      "cloudsPercent": 90,
+      "humidityPercent": 88,
+      "windSpeedMS": 0.4,
+      "windDir": "-",
+      "pressureHPA": 1013.7,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Buan",
+      "lat": 35.71914,
+      "lng": 126.72928
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:04 pm",
+      "timeKorea": "October 10th 2018, 2:23:04 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.8,
+      "cloudsPercent": 100,
+      "humidityPercent": 76,
+      "windSpeedMS": 4.2,
+      "windDir": "SSE",
+      "pressureHPA": 1013.7,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Imsil",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:06 pm",
+      "timeKorea": "October 10th 2018, 2:23:06 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.8,
+      "cloudsPercent": 100,
+      "humidityPercent": 87,
+      "windSpeedMS": 0.9,
+      "windDir": "ENE",
+      "pressureHPA": 1015.1,
+      "visibilityKM": 10.6,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Jeongeup",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:08 pm",
+      "timeKorea": "October 10th 2018, 2:23:08 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.8,
+      "cloudsPercent": 90,
+      "humidityPercent": 91,
+      "windSpeedMS": 4,
+      "windDir": "SW",
+      "pressureHPA": 1013.9,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Namwon",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:10 pm",
+      "timeKorea": "October 10th 2018, 2:23:10 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.3,
+      "cloudsPercent": 100,
+      "humidityPercent": 86,
+      "windSpeedMS": 0.7,
+      "windDir": "NNW",
+      "pressureHPA": 1015.1,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Jangsu",
+      "lat": 35.64244,
+      "lng": 127.521
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:12 pm",
+      "timeKorea": "October 10th 2018, 2:23:12 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 11.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 87,
+      "windSpeedMS": 0.7,
+      "windDir": "SSW",
+      "pressureHPA": 1015,
+      "visibilityKM": 18.78,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Gochanggun",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:14 pm",
+      "timeKorea": "October 10th 2018, 2:23:14 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 73,
+      "windSpeedMS": 1.9,
+      "windDir": "S",
+      "pressureHPA": 1013.9,
+      "visibilityKM": 50,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Bukchangwon",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:16 pm",
+      "timeKorea": "October 10th 2018, 2:23:16 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15.3,
+      "cloudsPercent": 100,
+      "humidityPercent": 86,
+      "windSpeedMS": 0.6,
+      "windDir": "NW",
+      "pressureHPA": 1014.8,
+      "visibilityKM": 30.11,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Gangjin Gun",
+      "lat": 34.62455,
+      "lng": 126.76534
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:18 pm",
+      "timeKorea": "October 10th 2018, 2:23:18 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 91,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1015.8,
+      "visibilityKM": 149,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Jangheung",
+      "lat": 34.66656,
+      "lng": 126.88455
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:20 pm",
+      "timeKorea": "October 10th 2018, 2:23:20 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.5,
+      "cloudsPercent": 100,
+      "humidityPercent": 95,
+      "windSpeedMS": 0.1,
+      "windDir": "-",
+      "pressureHPA": 1015.4,
+      "visibilityKM": 13.57,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Haenam",
+      "lat": 34.56186,
+      "lng": 126.59908
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:22 pm",
+      "timeKorea": "October 10th 2018, 2:23:22 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.2,
+      "cloudsPercent": 90,
+      "humidityPercent": 99,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1015.3,
+      "visibilityKM": 15.89,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Goheung",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:24 pm",
+      "timeKorea": "October 10th 2018, 2:23:24 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.4,
+      "cloudsPercent": 100,
+      "humidityPercent": 96,
+      "windSpeedMS": 0.1,
+      "windDir": "-",
+      "pressureHPA": 1015,
+      "visibilityKM": 12.72,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Jindogun",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:26 pm",
+      "timeKorea": "October 10th 2018, 2:23:26 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 16.7,
+      "cloudsPercent": 90,
+      "humidityPercent": 87,
+      "windSpeedMS": 0.8,
+      "windDir": "SSW",
+      "pressureHPA": 1014.4,
+      "visibilityKM": 19.53,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Bongwhoa",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:28 pm",
+      "timeKorea": "October 10th 2018, 2:23:28 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 10.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 92,
+      "windSpeedMS": 0.6,
+      "windDir": "S",
+      "pressureHPA": 1014.9,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Yeongju",
+      "lat": 36.82297,
+      "lng": 128.63303
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:30 pm",
+      "timeKorea": "October 10th 2018, 2:23:30 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 11.9,
+      "cloudsPercent": 100,
+      "humidityPercent": 88,
+      "windSpeedMS": 0.4,
+      "windDir": "-",
+      "pressureHPA": 1014.5,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Mungyeong",
+      "lat": 36.73722,
+      "lng": 128.11034
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:32 pm",
+      "timeKorea": "October 10th 2018, 2:23:32 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12,
+      "cloudsPercent": 100,
+      "humidityPercent": 85,
+      "windSpeedMS": 1.1,
+      "windDir": "NW",
+      "pressureHPA": 1014.4,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Yeongdeok",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:34 pm",
+      "timeKorea": "October 10th 2018, 2:23:34 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 85,
+      "windSpeedMS": 1.5,
+      "windDir": "SSW",
+      "pressureHPA": 1014.2,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Uiseong",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:36 pm",
+      "timeKorea": "October 10th 2018, 2:23:36 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.3,
+      "cloudsPercent": 100,
+      "humidityPercent": 89,
+      "windSpeedMS": 0.1,
+      "windDir": "-",
+      "pressureHPA": 1014.8,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Gumi",
+      "lat": 36.12372,
+      "lng": 128.37613
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:38 pm",
+      "timeKorea": "October 10th 2018, 2:23:38 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14,
+      "cloudsPercent": 100,
+      "humidityPercent": 99,
+      "windSpeedMS": 0.1,
+      "windDir": "-",
+      "pressureHPA": 1014.5,
+      "visibilityKM": 123,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Yeongcheon",
+      "lat": 35.95806,
+      "lng": 128.93571
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:40 pm",
+      "timeKorea": "October 10th 2018, 2:23:40 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.1,
+      "cloudsPercent": 100,
+      "humidityPercent": 92,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1014.6,
+      "visibilityKM": 19.87,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Geochang",
+      "lat": 35.68195,
+      "lng": 127.901
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:42 pm",
+      "timeKorea": "October 10th 2018, 2:23:42 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 11.8,
+      "cloudsPercent": 100,
+      "humidityPercent": 99,
+      "windSpeedMS": 0,
+      "windDir": "-",
+      "pressureHPA": 1013.9,
+      "visibilityKM": 5.69,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Hapcheon",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:44 pm",
+      "timeKorea": "October 10th 2018, 2:23:44 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 13.2,
+      "cloudsPercent": 100,
+      "humidityPercent": 100,
+      "windSpeedMS": 1.1,
+      "windDir": "SW",
+      "pressureHPA": 1015.2,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Miryang",
+      "lat": 35.49003,
+      "lng": 128.74384
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:46 pm",
+      "timeKorea": "October 10th 2018, 2:23:46 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 14.7,
+      "cloudsPercent": 100,
+      "humidityPercent": 99,
+      "windSpeedMS": 0.5,
+      "windDir": "N",
+      "pressureHPA": 1014.6,
+      "visibilityKM": 18.3,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Sancheong",
+      "lat": 35.40711,
+      "lng": 127.87728
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:48 pm",
+      "timeKorea": "October 10th 2018, 2:23:48 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 12.7,
+      "cloudsPercent": 100,
+      "humidityPercent": 96,
+      "windSpeedMS": 1.1,
+      "windDir": "SSE",
+      "pressureHPA": 1015.1,
+      "visibilityKM": 13.16,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Geoje",
+      "lat": 37.56829,
+      "lng": 126.99778
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:50 pm",
+      "timeKorea": "October 10th 2018, 2:23:50 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 17.1,
+      "cloudsPercent": 100,
+      "humidityPercent": 98,
+      "windSpeedMS": 1.2,
+      "windDir": "SSE",
+      "pressureHPA": 1014.7,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  },
+  {
+    "location": {
+      "name": "Namhae",
+      "lat": 34.82472,
+      "lng": 127.90472
+    },
+    "weather": {
+      "timeStamp": "October 9th 2018, 7:23:52 pm",
+      "timeKorea": "October 10th 2018, 2:23:52 am",
+      "sourceUpdateTime": "Wed Oct 10 02:00:00 KST 2018",
+      "temperatureC": 15.6,
+      "cloudsPercent": 100,
+      "humidityPercent": 77,
+      "windSpeedMS": 0.7,
+      "windDir": "WSW",
+      "pressureHPA": 1015,
+      "visibilityKM": 20,
+      "description": "Cloudy"
+    }
+  }
+]
