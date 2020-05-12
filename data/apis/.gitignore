@@ -1,0 +1,5 @@
+node_modules/
+archive/
+tmp/
+monitoring/stats/
+config/config.js
