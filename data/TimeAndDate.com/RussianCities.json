@@ -1,0 +1,157 @@
+[
+  {
+    "cityName": "Berdsk",
+    "longitude": "54.766323",
+    "latitude": "83.086037"
+  },
+  {
+    "cityName": "Kaliningrad",
+    "longitude": "54.715424",
+    "latitude": "20.509207"
+  },
+  {
+    "cityName": "Yaroslavl",
+    "longitude": "57.629971",
+    "latitude": "39.872799"
+  },
+  {
+    "cityName": "Blagoveshchensk",
+    "longitude": "50.272778",
+    "latitude": "127.540405"
+  },
+  {
+    "cityName": "Astrakhan",
+    "longitude": "46.358803",
+    "latitude": "48.059937"
+  },
+  {
+    "cityName": "Vorkuta",
+    "longitude": "67.496780",
+    "latitude": "64.060638"
+  },
+  {
+    "cityName": "Krasnodar",
+    "longitude": "45.039268",
+    "latitude": "38.987221"
+  },
+  {
+    "cityName": "Orenburg",
+    "longitude": "51.776272",
+    "latitude": "55.099594"
+  },
+  {
+    "cityName": "Makhachkala",
+    "longitude": "42.966633",
+    "latitude": "47.512630"
+  },
+  {
+    "cityName": "Tambov",
+    "longitude": "52.723598",
+    "latitude": "41.442307"
+  },
+  {
+    "cityName": "Samara",
+    "longitude": "53.241505",
+    "latitude": "50.221245"
+  },
+  {
+    "cityName": "Saratov",
+    "longitude": "51.592365",
+    "latitude": "45.960804"
+  },
+  {
+    "cityName": "Tyumen",
+    "longitude": "57.161297",
+    "latitude": "65.525017"
+  },
+  {
+    "cityName": "Chelyabinsk",
+    "longitude": "55.164440",
+    "latitude": "61.436844"
+  },
+  {
+    "cityName": "Yakutsk",
+    "longitude": "62.035454",
+    "latitude": "129.675476"
+  },
+  {
+    "cityName": "Berezniki",
+    "longitude": "59.410412",
+    "latitude": "56.791721"
+  },
+  {
+    "cityName": "Lyubertsy",
+    "longitude": "55.688713",
+    "latitude": "37.901073"
+  },
+  {
+    "cityName": "Salekhard",
+    "longitude": "66.530426",
+    "latitude": "66.613708"
+  },
+  {
+    "cityName": "Vladimir",
+    "longitude": "56.143063",
+    "latitude": "40.410934"
+  },
+  {
+    "cityName": "Sochi",
+    "longitude": "43.588348",
+    "latitude": "39.729996"
+  },
+  {
+    "cityName": "Magadan",
+    "longitude": "59.560246",
+    "latitude": "150.798599"
+  },
+  {
+    "cityName": "Arkhangelsk",
+    "longitude": "64.542465",
+    "latitude": "40.537319"
+  },
+  {
+    "cityName": "Kostroma",
+    "longitude": "57.767193",
+    "latitude": "40.976257"
+  },
+  {
+    "cityName": "Volgograd",
+    "longitude": "48.700001",
+    "latitude": "44.516666"
+  },
+  {
+    "cityName": "Syktyvkar",
+    "longitude": "61.666668",
+    "latitude": "50.816666"
+  },
+  {
+    "cityName": "Yoshkar-Ola",
+    "longitude": "56.633331",
+    "latitude": "47.866669"
+  },
+  {
+    "cityName": "Magadan",
+    "longitude": "59.566666",
+    "latitude": "150.800003"
+  },
+  {
+    "cityName": "Fryazino",
+    "longitude": "55.950001",
+    "latitude": "38.049999"
+  },
+  {
+    "cityName": "Vologda",
+    "longitude": "59.222340",
+    "latitude": "39.882431"
+  },
+  {
+    "cityName": "Moscow",
+    "longitude": "55.751244",
+    "latitude": "37.618423"
+  },
+  {
+    "cityName": "Novosibirsk",
+    "longitude": "55.018803",
+    "latitude": "82.933952"
+  }
+]

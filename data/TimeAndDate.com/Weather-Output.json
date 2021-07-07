@@ -1,0 +1,477 @@
+[
+  {
+    "location": {
+      "City": "Kaliningrad",
+      "Longitude": "54.715424",
+      "Latitude": "20.509207"
+    },
+    "weather": [
+      {
+        "city": "Kaliningrad",
+        "dateTime": "2018-9-29 22:22:17",
+        "temperatureC": 9,
+        "feelsLikeC": 7,
+        "description": "Clear.",
+        "pressureMBAR": 1022,
+        "humidityPercent": 71,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Yaroslavl",
+      "Longitude": "57.629971",
+      "Latitude": "39.872799"
+    },
+    "weather": [
+      {
+        "city": "Yaroslavl",
+        "dateTime": "2018-9-29 22:22:19",
+        "temperatureC": 3,
+        "feelsLikeC": 3,
+        "description": "Overcast.",
+        "pressureMBAR": 1018,
+        "humidityPercent": 82,
+        "windKmh": 2
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Blagoveshchensk",
+      "Longitude": "50.272778",
+      "Latitude": "127.540405"
+    },
+    "weather": [
+      {
+        "city": "Blagoveshchensk",
+        "dateTime": "2018-9-29 22:22:21",
+        "temperatureC": 7,
+        "feelsLikeC": 6,
+        "description": "Haze.",
+        "pressureMBAR": 1013,
+        "humidityPercent": 78,
+        "windKmh": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Astrakhan",
+      "Longitude": "46.358803",
+      "Latitude": "48.059937"
+    },
+    "weather": [
+      {
+        "city": "Astrakhan",
+        "dateTime": "2018-9-29 22:22:24",
+        "temperatureC": 9,
+        "feelsLikeC": 9,
+        "description": "Clear.",
+        "pressureMBAR": 1018,
+        "humidityPercent": 82,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Vorkuta",
+      "Longitude": "67.496780",
+      "Latitude": "64.060638"
+    },
+    "weather": [
+      {
+        "city": "Vorkuta",
+        "dateTime": "2018-9-29 22:22:25",
+        "temperatureC": 2,
+        "feelsLikeC": -1,
+        "description": "Light rain. Low clouds.",
+        "pressureMBAR": 989,
+        "humidityPercent": 97,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Krasnodar",
+      "Longitude": "45.039268",
+      "Latitude": "38.987221"
+    },
+    "weather": [
+      {
+        "city": "Krasnodar",
+        "dateTime": "2018-9-29 22:22:27",
+        "temperatureC": 16,
+        "feelsLikeC": 16,
+        "description": "Clear.",
+        "pressureMBAR": 1016,
+        "humidityPercent": 77,
+        "windKmh": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Orenburg",
+      "Longitude": "51.776272",
+      "Latitude": "55.099594"
+    },
+    "weather": [
+      {
+        "city": "Orenburg",
+        "dateTime": "2018-9-29 22:22:29",
+        "temperatureC": 9,
+        "feelsLikeC": 8,
+        "description": "Clear.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 76,
+        "windKmh": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Makhachkala",
+      "Longitude": "42.966633",
+      "Latitude": "47.512630"
+    },
+    "weather": [
+      {
+        "city": "Makhachkala",
+        "dateTime": "2018-9-29 22:22:31",
+        "temperatureC": 16,
+        "feelsLikeC": 16,
+        "description": "Clear.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 84,
+        "windKmh": null
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Samara",
+      "Longitude": "53.241505",
+      "Latitude": "50.221245"
+    },
+    "weather": [
+      {
+        "city": "Samara",
+        "dateTime": "2018-9-29 22:22:35",
+        "temperatureC": 9,
+        "feelsLikeC": 7,
+        "description": "Light rain. Low clouds.",
+        "pressureMBAR": 1014,
+        "humidityPercent": 94,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Saratov",
+      "Longitude": "51.592365",
+      "Latitude": "45.960804"
+    },
+    "weather": [
+      {
+        "city": "Saratov",
+        "dateTime": "2018-9-29 22:22:37",
+        "temperatureC": 14,
+        "feelsLikeC": 14,
+        "description": "Partly cloudy.",
+        "pressureMBAR": 1013,
+        "humidityPercent": 72,
+        "windKmh": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Tyumen",
+      "Longitude": "57.161297",
+      "Latitude": "65.525017"
+    },
+    "weather": [
+      {
+        "city": "Tyumen",
+        "dateTime": "2018-9-29 22:22:39",
+        "temperatureC": 12,
+        "feelsLikeC": 12,
+        "description": "Overcast.",
+        "pressureMBAR": 1015,
+        "humidityPercent": 71,
+        "windKmh": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Chelyabinsk",
+      "Longitude": "55.164440",
+      "Latitude": "61.436844"
+    },
+    "weather": [
+      {
+        "city": "Chelyabinsk",
+        "dateTime": "2018-9-29 22:22:41",
+        "temperatureC": 9,
+        "feelsLikeC": 7,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1015,
+        "humidityPercent": 94,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Yakutsk",
+      "Longitude": "62.035454",
+      "Latitude": "129.675476"
+    },
+    "weather": [
+      {
+        "city": "Yakutsk",
+        "dateTime": "2018-9-29 22:22:43",
+        "temperatureC": -1,
+        "feelsLikeC": -4,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1013,
+        "humidityPercent": 93,
+        "windKmh": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Salekhard",
+      "Longitude": "66.530426",
+      "Latitude": "66.613708"
+    },
+    "weather": [
+      {
+        "city": "Salekhard",
+        "dateTime": "2018-9-29 22:22:49",
+        "temperatureC": 5,
+        "feelsLikeC": 5,
+        "description": "Sprinkles. Overcast.",
+        "pressureMBAR": 992,
+        "humidityPercent": 92,
+        "windKmh": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Vladimir",
+      "Longitude": "56.143063",
+      "Latitude": "40.410934"
+    },
+    "weather": [
+      {
+        "city": "Vladimir",
+        "dateTime": "2018-9-29 22:22:51",
+        "temperatureC": 2,
+        "feelsLikeC": 2,
+        "description": "Overcast.",
+        "pressureMBAR": 1019,
+        "humidityPercent": 81,
+        "windKmh": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Sochi",
+      "Longitude": "43.588348",
+      "Latitude": "39.729996"
+    },
+    "weather": [
+      {
+        "city": "Sochi",
+        "dateTime": "2018-9-29 22:22:53",
+        "temperatureC": 17,
+        "feelsLikeC": 17,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1015,
+        "humidityPercent": 94,
+        "windKmh": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Magadan",
+      "Longitude": "59.560246",
+      "Latitude": "150.798599"
+    },
+    "weather": [
+      {
+        "city": "Magadan",
+        "dateTime": "2018-9-29 22:22:55",
+        "temperatureC": 1,
+        "feelsLikeC": 1,
+        "description": "Passing clouds.",
+        "pressureMBAR": 994,
+        "humidityPercent": 80,
+        "windKmh": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Arkhangelsk",
+      "Longitude": "64.542465",
+      "Latitude": "40.537319"
+    },
+    "weather": [
+      {
+        "city": "Arkhangelsk",
+        "dateTime": "2018-9-29 22:22:57",
+        "temperatureC": 3,
+        "feelsLikeC": 2,
+        "description": "Overcast.",
+        "pressureMBAR": 1009,
+        "humidityPercent": 83,
+        "windKmh": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Kostroma",
+      "Longitude": "57.767193",
+      "Latitude": "40.976257"
+    },
+    "weather": [
+      {
+        "city": "Kostroma",
+        "dateTime": "2018-9-29 22:22:59",
+        "temperatureC": 4,
+        "feelsLikeC": 4,
+        "description": "Overcast.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 81,
+        "windKmh": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Volgograd",
+      "Longitude": "48.700001",
+      "Latitude": "44.516666"
+    },
+    "weather": [
+      {
+        "city": "Volgograd",
+        "dateTime": "2018-9-29 22:23:01",
+        "temperatureC": 12,
+        "feelsLikeC": 11,
+        "description": "Clear.",
+        "pressureMBAR": 1016,
+        "humidityPercent": 72,
+        "windKmh": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Syktyvkar",
+      "Longitude": "61.666668",
+      "Latitude": "50.816666"
+    },
+    "weather": [
+      {
+        "city": "Syktyvkar",
+        "dateTime": "2018-9-29 22:23:03",
+        "temperatureC": 5,
+        "feelsLikeC": 2,
+        "description": "Sprinkles. Mostly cloudy.",
+        "pressureMBAR": 1007,
+        "humidityPercent": 93,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Yoshkar-Ola",
+      "Longitude": "56.633331",
+      "Latitude": "47.866669"
+    },
+    "weather": [
+      {
+        "city": "Yoshkar-Ola",
+        "dateTime": "2018-9-29 22:23:05",
+        "temperatureC": 5,
+        "feelsLikeC": 5,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1014,
+        "humidityPercent": 81,
+        "windKmh": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Magadan",
+      "Longitude": "59.566666",
+      "Latitude": "150.800003"
+    },
+    "weather": [
+      {
+        "city": "Magadan",
+        "dateTime": "2018-9-29 22:23:07",
+        "temperatureC": 1,
+        "feelsLikeC": 1,
+        "description": "Passing clouds.",
+        "pressureMBAR": 994,
+        "humidityPercent": 80,
+        "windKmh": 4
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Moscow",
+      "Longitude": "55.751244",
+      "Latitude": "37.618423"
+    },
+    "weather": [
+      {
+        "city": "Moscow",
+        "dateTime": "2018-9-29 22:23:13",
+        "temperatureC": 5,
+        "feelsLikeC": 5,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1020,
+        "humidityPercent": 64,
+        "windKmh": 2
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Novosibirsk",
+      "Longitude": "55.018803",
+      "Latitude": "82.933952"
+    },
+    "weather": [
+      {
+        "city": "Novosibirsk",
+        "dateTime": "2018-9-29 22:23:15",
+        "temperatureC": 8,
+        "feelsLikeC": 7,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1024,
+        "humidityPercent": 61,
+        "windKmh": 6
+      }
+    ]
+  }
+]
