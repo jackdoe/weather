@@ -1,0 +1,249 @@
+[
+  {
+    "location": {
+      "City": "Campo-Grande",
+      "Longitude": "-22.900925",
+      "Latitude": "-43.556404"
+    },
+    "weather": [
+      {
+        "city": "Campo-Grande",
+        "dateTime": "2018-9-29 22:53:51",
+        "temperatureC": 26,
+        "feelsLikeC": 27,
+        "description": "Thundershowers. Scattered clouds.",
+        "pressureMBAR": 1011,
+        "humidityPercent": 74,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Joinville",
+      "Longitude": "-26.304516",
+      "Latitude": "-48.843380"
+    },
+    "weather": [
+      {
+        "city": "Joinville",
+        "dateTime": "2018-9-29 22:54:03",
+        "temperatureC": 18,
+        "feelsLikeC": 18,
+        "description": "Scattered clouds.",
+        "pressureMBAR": 1016,
+        "humidityPercent": 88,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Curitiba",
+      "Longitude": "-25.441105",
+      "Latitude": "-49.276855"
+    },
+    "weather": [
+      {
+        "city": "Curitiba",
+        "dateTime": "2018-9-29 22:54:16",
+        "temperatureC": 18,
+        "feelsLikeC": 18,
+        "description": "Scattered clouds.",
+        "pressureMBAR": 1016,
+        "humidityPercent": 88,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Itabuna",
+      "Longitude": "-14.788033",
+      "Latitude": "-39.278419"
+    },
+    "weather": [
+      {
+        "city": "Itabuna",
+        "dateTime": "2018-9-29 22:54:29",
+        "temperatureC": 27,
+        "feelsLikeC": 30,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1013,
+        "humidityPercent": 79,
+        "windKmh": 20
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Guarulhos",
+      "Longitude": "-23.454163",
+      "Latitude": "-46.534096"
+    },
+    "weather": [
+      {
+        "city": "Guarulhos",
+        "dateTime": "2018-9-29 22:54:34",
+        "temperatureC": 22,
+        "feelsLikeC": 21,
+        "description": "Partly sunny.",
+        "pressureMBAR": 1016,
+        "humidityPercent": 88,
+        "windKmh": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Ipatinga",
+      "Longitude": "-19.467613",
+      "Latitude": "-42.548409"
+    },
+    "weather": [
+      {
+        "city": "Ipatinga",
+        "dateTime": "2018-9-29 22:54:34",
+        "temperatureC": 28,
+        "feelsLikeC": 29,
+        "description": "Partly sunny.",
+        "pressureMBAR": 1012,
+        "humidityPercent": 64,
+        "windKmh": 7
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Belo-Horizonte",
+      "Longitude": "-19.841644",
+      "Latitude": "-43.986511"
+    },
+    "weather": [
+      {
+        "city": "Belo-Horizonte",
+        "dateTime": "2018-9-29 22:54:53",
+        "temperatureC": 23,
+        "feelsLikeC": 24,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 69,
+        "windKmh": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Natal",
+      "Longitude": "-5.812757",
+      "Latitude": "-35.255127"
+    },
+    "weather": [
+      {
+        "city": "Natal",
+        "dateTime": "2018-9-29 22:55:00",
+        "temperatureC": 27,
+        "feelsLikeC": 29,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1012,
+        "humidityPercent": 72,
+        "windKmh": 26
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Sao-Paulo",
+      "Longitude": "-23.533773",
+      "Latitude": "-46.625290"
+    },
+    "weather": [
+      {
+        "city": "Sao-Paulo",
+        "dateTime": "2018-9-29 22:55:09",
+        "temperatureC": 20,
+        "feelsLikeC": 20,
+        "description": "Fog.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 88,
+        "windKmh": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Bauru",
+      "Longitude": "-22.303074",
+      "Latitude": "-49.065628"
+    },
+    "weather": [
+      {
+        "city": "Bauru",
+        "dateTime": "2018-9-29 22:55:15",
+        "temperatureC": 26,
+        "feelsLikeC": 27,
+        "description": "Sunny.",
+        "pressureMBAR": 1012,
+        "humidityPercent": 65,
+        "windKmh": 6
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Campinas",
+      "Longitude": "-22.907104",
+      "Latitude": "-47.063240"
+    },
+    "weather": [
+      {
+        "city": "Campinas",
+        "dateTime": "2018-9-29 22:55:15",
+        "temperatureC": 29,
+        "feelsLikeC": 29,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1013,
+        "humidityPercent": 43,
+        "windKmh": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Manaus",
+      "Longitude": "-3.117034",
+      "Latitude": "-60.025780"
+    },
+    "weather": [
+      {
+        "city": "Manaus",
+        "dateTime": "2018-9-29 22:55:23",
+        "temperatureC": 32,
+        "feelsLikeC": 38,
+        "description": "Thundershowers. Passing clouds.",
+        "pressureMBAR": 1006,
+        "humidityPercent": 63,
+        "windKmh": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Belo-Horizonte",
+      "Longitude": "-19.912998",
+      "Latitude": "-43.940933"
+    },
+    "weather": [
+      {
+        "city": "Belo-Horizonte",
+        "dateTime": "2018-9-29 22:55:24",
+        "temperatureC": 23,
+        "feelsLikeC": 24,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 69,
+        "windKmh": 17
+      }
+    ]
+  }
+]
