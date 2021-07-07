@@ -1,0 +1,182 @@
+[
+  {
+    "cityName": "Bloemfontein",
+    "longitude": "-29.087217",
+    "latitude": "26.154898"
+  },
+  {
+    "cityName": "Port-Elizabeth",
+    "longitude": "-33.958252",
+    "latitude": "25.619022"
+  },
+  {
+    "cityName": "Sebokeng",
+    "longitude": "-26.563404",
+    "latitude": "27.844164"
+  },
+  {
+    "cityName": "George",
+    "longitude": "-33.977074",
+    "latitude": "22.457581"
+  },
+  {
+    "cityName": "Roodepoort",
+    "longitude": "-26.120134",
+    "latitude": "27.901464"
+  },
+  {
+    "cityName": "Emalahleni",
+    "longitude": "-25.872782",
+    "latitude": "29.255323"
+  },
+  {
+    "cityName": "Carlton-Centre",
+    "longitude": "-26.205681",
+    "latitude": "28.046822"
+  },
+  {
+    "cityName": "Vryburg",
+    "longitude": "-26.958405",
+    "latitude": "24.729860"
+  },
+  {
+    "cityName": "Robertsham",
+    "longitude": "-26.245167",
+    "latitude": "28.015680"
+  },
+  {
+    "cityName": "Hermanus",
+    "longitude": "-34.414272",
+    "latitude": "19.248734"
+  },
+  {
+    "cityName": "Klerksdorp",
+    "longitude": "-26.859823",
+    "latitude": "26.631750"
+  },
+  {
+    "cityName": "Boksburg",
+    "longitude": "-26.232590",
+    "latitude": "28.240967"
+  },
+  {
+    "cityName": "Mahikeng",
+    "longitude": "-25.853161",
+    "latitude": "25.640181"
+  },
+  {
+    "cityName": "Vanderbijlpark",
+    "longitude": "-26.703421",
+    "latitude": "27.807695"
+  },
+  {
+    "cityName": "Berea",
+    "longitude": "-29.851847",
+    "latitude": "30.993368"
+  },
+  {
+    "cityName": "Kimberley",
+    "longitude": "-28.741943",
+    "latitude": "24.771944"
+  },
+  {
+    "cityName": "Centurion",
+    "longitude": "-25.850187",
+    "latitude": "28.198042"
+  },
+  {
+    "cityName": "Summerstrand",
+    "longitude": "-33.991360",
+    "latitude": "25.656912"
+  },
+  {
+    "cityName": "Kraaifontein",
+    "longitude": "-33.844166",
+    "latitude": "18.698610"
+  },
+  {
+    "cityName": "Sasolburg",
+    "longitude": "-26.810190",
+    "latitude": "27.827724"
+  },
+  {
+    "cityName": "Umlazi",
+    "longitude": "-29.967422",
+    "latitude": "30.882959"
+  },
+  {
+    "cityName": "Milnerton",
+    "longitude": "-33.866669",
+    "latitude": "18.500000"
+  },
+  {
+    "cityName": "Stellenbosch",
+    "longitude": "-33.932106",
+    "latitude": "18.860151"
+  },
+  {
+    "cityName": "Rustenburg",
+    "longitude": "-25.654448",
+    "latitude": "27.255854"
+  },
+  {
+    "cityName": "Vereeniging",
+    "longitude": "-26.673611",
+    "latitude": "27.931944"
+  },
+  {
+    "cityName": "Kroonstad",
+    "longitude": "-27.644606",
+    "latitude": "27.250900"
+  },
+  {
+    "cityName": "Randburg",
+    "longitude": "-26.093611",
+    "latitude": "28.006390"
+  },
+  {
+    "cityName": "Kwa-Nobuhle",
+    "longitude": "-33.811775",
+    "latitude": "25.384497"
+  },
+  {
+    "cityName": "Pretoria",
+    "longitude": "-25.731340",
+    "latitude": "28.218370"
+  },
+  {
+    "cityName": "Sandton",
+    "longitude": "-26.107567",
+    "latitude": "28.056702"
+  },
+  {
+    "cityName": "Kempton-Park",
+    "longitude": "-26.100000",
+    "latitude": "28.233334"
+  },
+  {
+    "cityName": "Knysna",
+    "longitude": "-34.035088",
+    "latitude": "23.046469"
+  },
+  {
+    "cityName": "Paarl",
+    "longitude": "-33.715546",
+    "latitude": "18.966248"
+  },
+  {
+    "cityName": "Johannesburg",
+    "longitude": "-26.195246",
+    "latitude": "28.034088"
+  },
+  {
+    "cityName": "Cape-Town",
+    "longitude": "-33.918861",
+    "latitude": "18.423300"
+  },
+  {
+    "cityName": "Pinetown",
+    "longitude": "-29.806988",
+    "latitude": "30.853558"
+  }
+]
